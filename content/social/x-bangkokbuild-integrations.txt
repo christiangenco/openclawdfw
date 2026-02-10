@@ -1,0 +1,83 @@
+  - text: Don’t miss what’s happening People on X are the first to know.
+  - link "Log in" [ref=e1]:
+    - /url: /login
+  - link "Sign up" [ref=e2]:
+    - /url: /i/flow/signup
+  - button "Skip to home timeline" [ref=e3]
+  - button "Skip to trending" [ref=e4]
+  - banner:
+    - heading "X" [ref=e5] [level=1]:
+      - link "X" [ref=e6]:
+        - /url: /
+    - navigation "Primary" [ref=e7]
+  - main:
+    - button "Back" [ref=e8]
+    - heading "Post" [ref=e9] [level=2]
+    - region "Conversation" [ref=e10]:
+      - heading "Conversation" [ref=e11] [level=1]
+      - 'article "Max Reid Verified account @bangkokbuild Gave Clawd access to: • Garmin Watch • Obsidian Vault • GitHub repos • VPS • Telegram + Whatsapp • X Now it: • Logs my sleep/health/exercise data and tells me when I stay up too late • Writes code and deploys it • Writes Ralph loop markdown files that I deploy later • Updates Obsidian daily notes • Tracks who visits MenuCapture and where they came from • Monitors earthquakes in Tokyo • Researches stuff online and saves files to my desktop • Manage memory across sessions by remembering my projects, patterns and preferences • Reminds me of my schedule, including holidays/accommodation • Checks on me (on Telegram!) if I''m quiet too long Next up: • Reading my blood test results • Making a morning brief with weather, health stats and calendar • Doing a weekly review from my notes @openclaw 😃 31 replies, 15 reposts, 322 likes, 364 bookmarks, 30248 views"':
+        - link "Max Reid Verified account" [ref=e12]:
+          - /url: /bangkokbuild
+          - text: Max Reid
+        - link "@bangkokbuild" [ref=e13]:
+          - /url: /bangkokbuild
+        - button "More" [ref=e14]
+        - text: "Gave Clawd access to: • Garmin Watch • Obsidian Vault • GitHub repos • VPS • Telegram + Whatsapp • X Now it: • Logs my sleep/health/exercise data and tells me when I stay up too late • Writes code and deploys it • Writes Ralph loop markdown files that I deploy later • Updates Obsidian daily notes • Tracks who visits MenuCapture and where they came from • Monitors earthquakes in Tokyo • Researches stuff online and saves files to my desktop • Manage memory across sessions by remembering my projects, patterns and preferences • Reminds me of my schedule, including holidays/accommodation • Checks on me (on Telegram!) if I'm quiet too long Next up: • Reading my blood test results • Making a morning brief with weather, health stats and calendar • Doing a weekly review from my notes"
+        - link "@openclaw" [ref=e15]:
+          - /url: /openclaw
+        - link "5:05 PM · Jan 18, 2026" [ref=e16]:
+          - /url: /bangkokbuild/status/2013024865393975718
+          - time: 5:05 PM · Jan 18, 2026
+        - link "30.2K Views" [ref=e17]:
+          - /url: /bangkokbuild/status/2013024865393975718/analytics
+        - group "31 replies, 15 reposts, 322 likes, 364 bookmarks, 30248 views":
+          - button "31 Replies. Reply" [ref=e18]: "31"
+          - button "15 reposts. Repost" [ref=e19]: "15"
+          - button "322 Likes. Like" [ref=e20]: "322"
+          - button "364 Bookmarks. Bookmark" [ref=e21]: "364"
+          - button "Share post" [ref=e22]
+        - button "Read 31 replies" [ref=e23]
+    - region "Sign up" [ref=e24]:
+      - heading "New to X?" [ref=e25] [level=2]
+      - text: Sign up now to get your own personalized timeline!
+      - button "Sign up with Apple" [ref=e26]
+      - link "Create account" [ref=e27]:
+        - /url: /i/flow/signup
+      - text: By signing up, you agree to the
+      - link "Terms of Service" [ref=e28]:
+        - /url: https://x.com/tos
+      - text: and
+      - link "Privacy Policy" [ref=e29]:
+        - /url: https://x.com/privacy
+      - text: ", including"
+      - link "Cookie Use." [ref=e30]:
+        - /url: https://help.x.com/rules-and-policies/twitter-cookies
+    - region "Trending now" [ref=e31]:
+      - heading "Trending now" [ref=e32] [level=1]
+      - heading "What’s happening" [ref=e33] [level=2]
+      - link "Sports · Trending Verlander" [ref=e34]
+      - link "Trending in United States Noah Kahan" [ref=e35]
+      - link "Politics · Trending Nancy Guthrie Trending with The FBI" [ref=e36]:
+        - text: Politics · Trending Nancy Guthrie Trending with
+        - link "The FBI" [ref=e37]:
+          - /url: /search?q=The%20FBI&src=trend_click&vertical=trends
+      - link "Show more" [ref=e38]:
+        - /url: /explore/tabs/for-you
+    - navigation "Footer" [ref=e39]:
+      - link "Terms of Service" [ref=e40] [nth=1]:
+        - /url: https://x.com/tos
+      - text: "|"
+      - link "Privacy Policy" [ref=e41] [nth=1]:
+        - /url: https://x.com/privacy
+      - text: "|"
+      - link "Cookie Policy" [ref=e42]:
+        - /url: https://support.x.com/articles/20170514
+      - text: "|"
+      - link "Accessibility" [ref=e43]:
+        - /url: https://help.x.com/resources/accessibility
+      - text: "|"
+      - link "Ads info" [ref=e44]:
+        - /url: https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo
+      - text: "|"
+      - button "More" [ref=e45] [nth=1]
+      - text: © 2026 X Corp.

@@ -1,0 +1,524 @@
+  - link "Skip to main content" [ref=e1]:
+    - /url: "#content-area"
+  - link "OpenClaw home page light logo" [ref=e2]:
+    - /url: /
+    - text: OpenClaw home page
+  - button "US English" [ref=e3]:
+    - text: English
+  - button "Open search" [ref=e4]:
+    - text: Search... Ctrl K
+  - navigation:
+      - listitem:
+        - link "GitHub" [ref=e5]:
+          - /url: https://github.com/openclaw/openclaw
+          - text: GitHub
+      - listitem:
+        - link "Releases" [ref=e6]:
+          - /url: https://github.com/openclaw/openclaw/releases
+          - text: Releases
+  - button "Toggle dark mode" [ref=e7]:
+  - link "Get started" [ref=e8]:
+    - /url: /
+  - link "Install" [ref=e9]:
+    - /url: /install
+  - link "Channels" [ref=e10]:
+    - /url: /channels
+  - link "Agents" [ref=e11]:
+    - /url: /concepts/architecture
+  - link "Tools" [ref=e12]:
+    - /url: /tools
+  - link "Models" [ref=e13]:
+    - /url: /providers
+  - link "Platforms" [ref=e14]:
+    - /url: /platforms
+  - link "Gateway & Ops" [ref=e15]:
+    - /url: /gateway
+  - link "Reference" [ref=e16]:
+    - /url: /cli
+  - link "Help" [ref=e17]:
+    - /url: /help
+  - heading "Fundamentals" [ref=e18] [level=5]
+    - listitem:
+      - link "Gateway Architecture" [ref=e19]:
+        - /url: /concepts/architecture
+    - listitem:
+      - link "Agent Runtime" [ref=e20]:
+        - /url: /concepts/agent
+    - listitem:
+      - link "Agent Loop" [ref=e21]:
+        - /url: /concepts/agent-loop
+    - listitem:
+      - link "System Prompt" [ref=e22]:
+        - /url: /concepts/system-prompt
+    - listitem:
+      - link "Context" [ref=e23]:
+        - /url: /concepts/context
+    - listitem:
+      - link "Agent Workspace" [ref=e24]:
+        - /url: /concepts/agent-workspace
+    - listitem:
+      - link "OAuth" [ref=e25]:
+        - /url: /concepts/oauth
+  - heading "Bootstrapping" [ref=e26] [level=5]
+    - listitem:
+      - link "Bootstrapping" [ref=e27]:
+        - /url: /start/bootstrapping
+  - heading "Sessions and memory" [ref=e28] [level=5]
+    - listitem:
+      - link "Session Management" [ref=e29]:
+        - /url: /concepts/session
+    - listitem:
+      - link "Sessions" [ref=e30]:
+        - /url: /concepts/sessions
+    - listitem:
+      - link "Session Pruning" [ref=e31]:
+        - /url: /concepts/session-pruning
+    - listitem:
+      - link "Session Tools" [ref=e32]:
+        - /url: /concepts/session-tool
+    - listitem:
+      - link "Memory" [ref=e33]:
+        - /url: /concepts/memory
+    - listitem:
+      - link "Compaction" [ref=e34]:
+        - /url: /concepts/compaction
+  - heading "Multi-agent" [ref=e35] [level=5]
+    - listitem:
+      - link "Multi-Agent Routing" [ref=e36]:
+        - /url: /concepts/multi-agent
+    - listitem:
+      - link "Presence" [ref=e37]:
+        - /url: /concepts/presence
+  - heading "Messages and delivery" [ref=e38] [level=5]
+    - listitem:
+      - link "Messages" [ref=e39]:
+        - /url: /concepts/messages
+    - listitem:
+      - link "Streaming and Chunking" [ref=e40]:
+        - /url: /concepts/streaming
+    - listitem:
+      - link "Retry Policy" [ref=e41]:
+        - /url: /concepts/retry
+    - listitem:
+      - link "Command Queue" [ref=e42]:
+        - /url: /concepts/queue
+  - button "On this page" [ref=e43]:
+    - text: On this page
+    - listitem:
+      - link "Session Management" [ref=e44] [nth=1]:
+        - /url: "#session-management"
+    - listitem:
+      - link "Secure DM mode (recommended for multi-user setups)" [ref=e45]:
+        - /url: "#secure-dm-mode-recommended-for-multi-user-setups"
+    - listitem:
+      - link "Gateway is the source of truth" [ref=e46]:
+        - /url: "#gateway-is-the-source-of-truth"
+    - listitem:
+      - link "Where state lives" [ref=e47]:
+        - /url: "#where-state-lives"
+    - listitem:
+      - link "Session pruning" [ref=e48]:
+        - /url: "#session-pruning"
+    - listitem:
+      - link "Pre-compaction memory flush" [ref=e49]:
+        - /url: "#pre-compaction-memory-flush"
+    - listitem:
+      - link "Mapping transports → session keys" [ref=e50]:
+        - /url: "#mapping-transports-%E2%86%92-session-keys"
+    - listitem:
+      - link "Lifecycle" [ref=e51]:
+        - /url: "#lifecycle"
+    - listitem:
+      - link "Send policy (optional)" [ref=e52]:
+        - /url: "#send-policy-optional"
+    - listitem:
+      - link "Configuration (optional rename example)" [ref=e53]:
+        - /url: "#configuration-optional-rename-example"
+    - listitem:
+      - link "Inspecting" [ref=e54]:
+        - /url: "#inspecting"
+    - listitem:
+      - link "Tips" [ref=e55]:
+        - /url: "#tips"
+    - listitem:
+      - link "Session origin metadata" [ref=e56]:
+        - /url: "#session-origin-metadata"
+  - banner:
+    - text: Sessions and memory
+    - heading "Session Management" [ref=e57] [level=1]
+  - text: OpenClaw treats
+  - strong: one direct-chat session per agent
+  - text: as primary. Direct chats collapse to
+  - code: agent:<agentId>:<mainKey>
+  - text: (default
+  - code: main
+  - text: ), while group/channel chats get their own keys.
+  - code: session.mainKey
+  - text: is honored. Use
+  - code: session.dmScope
+  - text: to control how
+  - strong: direct messages
+  - text: "are grouped:"
+      - code: main
+      - text: "(default): all DMs share the main session for continuity."
+      - code: per-peer
+      - text: ": isolate by sender id across channels."
+      - code: per-channel-peer
+      - text: ": isolate by channel + sender (recommended for multi-user inboxes)."
+      - code: per-account-channel-peer
+      - text: ": isolate by account + channel + sender (recommended for multi-account inboxes). Use"
+      - code: session.identityLinks
+      - text: to map provider-prefixed peer ids to a canonical identity so the same person shares a DM session across channels when using
+      - code: per-peer
+      - text: ","
+      - code: per-channel-peer
+      - text: ", or"
+      - code: per-account-channel-peer
+      - text: .
+  - heading "Navigate to header Secure DM mode (recommended for multi-user setups)" [ref=e58] [level=2]:
+    - link "Navigate to header" [ref=e59]:
+      - /url: "#secure-dm-mode-recommended-for-multi-user-setups"
+    - text: Secure DM mode (recommended for multi-user setups)
+    - strong: "Security Warning:"
+    - text: If your agent can receive DMs from
+    - strong: multiple people
+    - text: ", you should strongly consider enabling secure DM mode. Without it, all users share the same conversation context, which can leak private information between users."
+  - strong: "Example of the problem with default settings:"
+      - text: Alice (
+      - code: <SENDER_A>
+      - text: ) messages your agent about a private topic (for example, a medical appointment)
+      - text: Bob (
+      - code: <SENDER_B>
+      - text: ) messages your agent asking “What were we talking about?”
+    - listitem: Because both DMs share the same session, the model may answer Bob using Alice’s prior context.
+  - strong: "The fix:"
+  - text: Set
+  - code: dmScope
+  - text: "to isolate sessions per user:"
+  - button "Copy the contents from the code block" [ref=e60]:
+  - code: "// ~/.openclaw/openclaw.json { session: { // Secure DM mode: isolate DM context per channel + sender. dmScope: \"per-channel-peer\", }, }"
+  - strong: "When to enable this:"
+    - listitem: You have pairing approvals for more than one sender
+    - listitem: You use a DM allowlist with multiple entries
+      - text: You set
+      - code: "dmPolicy: \"open\""
+    - listitem: Multiple phone numbers or accounts can message your agent
+  - text: "Notes:"
+      - text: Default is
+      - code: "dmScope: \"main\""
+      - text: for continuity (all DMs share the main session). This is fine for single-user setups.
+      - text: For multi-account inboxes on the same channel, prefer
+      - code: per-account-channel-peer
+      - text: .
+      - text: If the same person contacts you on multiple channels, use
+      - code: session.identityLinks
+      - text: to collapse their DM sessions into one canonical identity.
+    - listitem:
+      - text: You can verify your DM settings with
+      - code: openclaw security audit
+      - text: (see
+      - link "security" [ref=e61]:
+        - /url: /cli/security
+      - text: ).
+  - heading "Navigate to header Gateway is the source of truth" [ref=e62] [level=2]:
+    - link "Navigate to header" [ref=e63] [nth=1]:
+      - /url: "#gateway-is-the-source-of-truth"
+    - text: Gateway is the source of truth
+  - text: All session state is
+  - strong: owned by the gateway
+  - text: (the “master” OpenClaw). UI clients (macOS app, WebChat, etc.) must query the gateway for session lists and token counts instead of reading local files.
+      - text: In
+      - strong: remote mode
+      - text: ", the session store you care about lives on the remote gateway host, not your Mac."
+      - text: Token counts shown in UIs come from the gateway’s store fields (
+      - code: inputTokens
+      - text: ","
+      - code: outputTokens
+      - text: ","
+      - code: totalTokens
+      - text: ","
+      - code: contextTokens
+      - text: ). Clients do not parse JSONL transcripts to “fix up” totals.
+  - heading "Navigate to header Where state lives" [ref=e64] [level=2]:
+    - link "Navigate to header" [ref=e65] [nth=2]:
+      - /url: "#where-state-lives"
+    - text: Where state lives
+      - text: On the
+      - strong: gateway host
+      - text: ":"
+          - text: "Store file:"
+          - code: ~/.openclaw/agents/<agentId>/sessions/sessions.json
+          - text: (per agent).
+      - text: "Transcripts:"
+      - code: ~/.openclaw/agents/<agentId>/sessions/<SessionId>.jsonl
+      - text: (Telegram topic sessions use
+      - code: .../<SessionId>-topic-<threadId>.jsonl
+      - text: ).
+      - text: The store is a map
+      - code: "sessionKey -> { sessionId, updatedAt, ... }"
+      - text: . Deleting entries is safe; they are recreated on demand.
+      - text: Group entries may include
+      - code: displayName
+      - text: ","
+      - code: channel
+      - text: ","
+      - code: subject
+      - text: ","
+      - code: room
+      - text: ", and"
+      - code: space
+      - text: to label sessions in UIs.
+      - text: Session entries include
+      - code: origin
+      - text: metadata (label + routing hints) so UIs can explain where a session came from.
+      - text: OpenClaw does
+      - strong: not
+      - text: read legacy Pi/Tau session folders.
+  - heading "Navigate to header Session pruning" [ref=e66] [level=2]:
+    - link "Navigate to header" [ref=e67] [nth=3]:
+      - /url: "#session-pruning"
+    - text: Session pruning
+  - text: OpenClaw trims
+  - strong: old tool results
+  - text: from the in-memory context right before LLM calls by default. This does
+  - strong: not
+  - text: rewrite JSONL history. See
+  - link "/concepts/session-pruning" [ref=e68]:
+    - /url: /concepts/session-pruning
+  - text: .
+  - heading "Navigate to header Pre-compaction memory flush" [ref=e69] [level=2]:
+    - link "Navigate to header" [ref=e70] [nth=4]:
+      - /url: "#pre-compaction-memory-flush"
+    - text: Pre-compaction memory flush
+  - text: When a session nears auto-compaction, OpenClaw can run a
+  - strong: silent memory flush
+  - text: turn that reminds the model to write durable notes to disk. This only runs when the workspace is writable. See
+  - link "Memory" [ref=e71] [nth=1]:
+    - /url: /concepts/memory
+  - text: and
+  - link "Compaction" [ref=e72] [nth=1]:
+    - /url: /concepts/compaction
+  - text: .
+  - heading "Navigate to header Mapping transports → session keys" [ref=e73] [level=2]:
+    - link "Navigate to header" [ref=e74] [nth=5]:
+      - /url: "#mapping-transports-→-session-keys"
+    - text: Mapping transports → session keys
+      - text: Direct chats follow
+      - code: session.dmScope
+      - text: (default
+      - code: main
+      - text: ).
+          - code: main
+          - text: ":"
+          - code: agent:<agentId>:<mainKey>
+          - text: (continuity across devices/channels).
+            - listitem: Multiple phone numbers and channels can map to the same agent main key; they act as transports into one conversation.
+          - code: per-peer
+          - text: ":"
+          - code: agent:<agentId>:dm:<peerId>
+          - text: .
+          - code: per-channel-peer
+          - text: ":"
+          - code: agent:<agentId>:<channel>:dm:<peerId>
+          - text: .
+          - code: per-account-channel-peer
+          - text: ":"
+          - code: agent:<agentId>:<channel>:<accountId>:dm:<peerId>
+          - text: (accountId defaults to
+          - code: default
+          - text: ).
+          - text: If
+          - code: session.identityLinks
+          - text: matches a provider-prefixed peer id (for example
+          - code: telegram:123
+          - text: ), the canonical key replaces
+          - code: <peerId>
+          - text: so the same person shares a session across channels.
+      - text: "Group chats isolate state:"
+      - code: agent:<agentId>:<channel>:group:<id>
+      - text: (rooms/channels use
+      - code: agent:<agentId>:<channel>:channel:<id>
+      - text: ).
+          - text: Telegram forum topics append
+          - code: :topic:<threadId>
+          - text: to the group id for isolation.
+          - text: Legacy
+          - code: group:<id>
+          - text: keys are still recognized for migration.
+      - text: Inbound contexts may still use
+      - code: group:<id>
+      - text: ; the channel is inferred from
+      - code: Provider
+      - text: and normalized to the canonical
+      - code: agent:<agentId>:<channel>:group:<id>
+      - text: form.
+      - text: "Other sources:"
+          - text: "Cron jobs:"
+          - code: cron:<job.id>
+          - text: "Webhooks:"
+          - code: hook:<uuid>
+          - text: (unless explicitly set by the hook)
+          - text: "Node runs:"
+          - code: node-<nodeId>
+  - heading "Navigate to header Lifecycle" [ref=e75] [level=2]:
+    - link "Navigate to header" [ref=e76] [nth=6]:
+      - /url: "#lifecycle"
+    - text: Lifecycle
+    - listitem: "Reset policy: sessions are reused until they expire, and expiry is evaluated on the next inbound message."
+      - text: "Daily reset: defaults to"
+      - strong: 4:00 AM local time on the gateway host
+      - text: . A session is stale once its last update is earlier than the most recent daily reset time.
+      - text: "Idle reset (optional):"
+      - code: idleMinutes
+      - text: adds a sliding idle window. When both daily and idle resets are configured,
+      - strong: whichever expires first
+      - text: forces a new session.
+      - text: "Legacy idle-only: if you set"
+      - code: session.idleMinutes
+      - text: without any
+      - code: session.reset
+      - text: /
+      - code: resetByType
+      - text: config, OpenClaw stays in idle-only mode for backward compatibility.
+      - text: "Per-type overrides (optional):"
+      - code: resetByType
+      - text: lets you override the policy for
+      - code: direct
+      - text: ","
+      - code: group
+      - text: ", and"
+      - code: thread
+      - text: sessions (thread = Slack/Discord threads, Telegram topics, Matrix threads when provided by the connector).
+      - text: "Per-channel overrides (optional):"
+      - code: resetByChannel
+      - text: overrides the reset policy for a channel (applies to all session types for that channel and takes precedence over
+      - code: reset
+      - text: /
+      - code: resetByType
+      - text: ).
+      - text: "Reset triggers: exact"
+      - code: /new
+      - text: or
+      - code: /reset
+      - text: (plus any extras in
+      - code: resetTriggers
+      - text: ) start a fresh session id and pass the remainder of the message through.
+      - code: /new <model>
+      - text: accepts a model alias,
+      - code: provider/model
+      - text: ", or provider name (fuzzy match) to set the new session model. If"
+      - code: /new
+      - text: or
+      - code: /reset
+      - text: is sent alone, OpenClaw runs a short “hello” greeting turn to confirm the reset.
+    - listitem: "Manual reset: delete specific keys from the store or remove the JSONL transcript; the next message recreates them."
+      - text: Isolated cron jobs always mint a fresh
+      - code: sessionId
+      - text: per run (no idle reuse).
+  - heading "Navigate to header Send policy (optional)" [ref=e77] [level=2]:
+    - link "Navigate to header" [ref=e78] [nth=7]:
+      - /url: "#send-policy-optional"
+    - text: Send policy (optional)
+  - text: Block delivery for specific session types without listing individual ids.
+  - button "Copy the contents from the code block" [ref=e79] [nth=1]:
+  - code: "{ session: { sendPolicy: { rules: [ { action: \"deny\", match: { channel: \"discord\", chatType: \"group\" } }, { action: \"deny\", match: { keyPrefix: \"cron:\" } }, ], default: \"allow\", }, }, }"
+  - text: "Runtime override (owner only):"
+      - code: /send on
+      - text: → allow for this session
+      - code: /send off
+      - text: → deny for this session
+      - code: /send inherit
+      - text: → clear override and use config rules Send these as standalone messages so they register.
+  - heading "Navigate to header Configuration (optional rename example)" [ref=e80] [level=2]:
+    - link "Navigate to header" [ref=e81] [nth=8]:
+      - /url: "#configuration-optional-rename-example"
+    - text: Configuration (optional rename example)
+  - button "Copy the contents from the code block" [ref=e82] [nth=2]:
+  - code: "// ~/.openclaw/openclaw.json { session: { scope: \"per-sender\", // keep group keys separate dmScope: \"main\", // DM continuity (set per-channel-peer/per-account-channel-peer for shared inboxes) identityLinks: { alice: [\"telegram:123456789\", \"discord:987654321012345678\"], }, reset: { // Defaults: mode=daily, atHour=4 (gateway host local time). // If you also set idleMinutes, whichever expires first wins. mode: \"daily\", atHour: 4, idleMinutes: 120, }, resetByType: { thread: { mode: \"daily\", atHour: 4 }, direct: { mode: \"idle\", idleMinutes: 240 }, group: { mode: \"idle\", idleMinutes: 120 }, }, resetByChannel: { discord: { mode: \"idle\", idleMinutes: 10080 }, }, resetTriggers: [\"/new\", \"/reset\"], store: \"~/.openclaw/agents/{agentId}/sessions/sessions.json\", mainKey: \"main\", }, }"
+  - heading "Navigate to header Inspecting" [ref=e83] [level=2]:
+    - link "Navigate to header" [ref=e84] [nth=9]:
+      - /url: "#inspecting"
+    - text: Inspecting
+      - code: openclaw status
+      - text: — shows store path and recent sessions.
+      - code: openclaw sessions --json
+      - text: — dumps every entry (filter with
+      - code: "--active <minutes>"
+      - text: ).
+      - code: "openclaw gateway call sessions.list --params '{}'"
+      - text: — fetch sessions from the running gateway (use
+      - code: "--url"
+      - text: /
+      - code: "--token"
+      - text: for remote gateway access).
+      - text: Send
+      - code: /status
+      - text: as a standalone message in chat to see whether the agent is reachable, how much of the session context is used, current thinking/verbose toggles, and when your WhatsApp web creds were last refreshed (helps spot relink needs).
+      - text: Send
+      - code: /context list
+      - text: or
+      - code: /context detail
+      - text: to see what’s in the system prompt and injected workspace files (and the biggest context contributors).
+      - text: Send
+      - code: /stop
+      - text: as a standalone message to abort the current run, clear queued followups for that session, and stop any sub-agent runs spawned from it (the reply includes the stopped count).
+    - listitem:
+      - text: Send
+      - code: /compact
+      - text: (optional instructions) as a standalone message to summarize older context and free up window space. See
+      - link "/concepts/compaction" [ref=e85]:
+        - /url: /concepts/compaction
+      - text: .
+    - listitem: JSONL transcripts can be opened directly to review full turns.
+  - heading "Navigate to header Tips" [ref=e86] [level=2]:
+    - link "Navigate to header" [ref=e87] [nth=10]:
+      - /url: "#tips"
+    - text: Tips
+    - listitem: Keep the primary key dedicated to 1:1 traffic; let groups keep their own keys.
+    - listitem: When automating cleanup, delete individual keys instead of the whole store to preserve context elsewhere.
+  - heading "Navigate to header Session origin metadata" [ref=e88] [level=2]:
+    - link "Navigate to header" [ref=e89] [nth=11]:
+      - /url: "#session-origin-metadata"
+    - text: Session origin metadata
+  - text: Each session entry records where it came from (best-effort) in
+  - code: origin
+  - text: ":"
+      - code: label
+      - text: ": human label (resolved from conversation label + group subject/channel)"
+      - code: provider
+      - text: ": normalized channel id (including extensions)"
+      - code: from
+      - text: /
+      - code: to
+      - text: ": raw routing ids from the inbound envelope"
+      - code: accountId
+      - text: ": provider account id (when multi-account)"
+      - code: threadId
+      - text: ": thread/topic id when the channel supports it The origin fields are populated for direct messages, channels, and groups. If a connector only updates delivery routing (for example, to keep a DM main session fresh), it should still provide inbound context so the session keeps its explainer metadata. Extensions can do this by sending"
+      - code: ConversationLabel
+      - text: ","
+      - code: GroupSubject
+      - text: ","
+      - code: GroupChannel
+      - text: ","
+      - code: GroupSpace
+      - text: ", and"
+      - code: SenderName
+      - text: in the inbound context and calling
+      - code: recordSessionMetaFromInbound
+      - text: (or passing the same context to
+      - code: updateLastRoute
+      - text: ).
+  - link "Bootstrapping" [ref=e90] [nth=1]:
+    - /url: /start/bootstrapping
+    - text: Bootstrapping
+  - link "Sessions" [ref=e91] [nth=1]:
+    - /url: /concepts/sessions
+    - text: Sessions
+  - textbox "Ask a question..." [ref=e92]
+  - text: Ctrl+I
+  - button "Send message" [ref=e93] [disabled]:
+  - contentinfo:
+    - link "Powered by" [ref=e94]:
+      - /url: https://www.mintlify.com?utm_campaign=poweredBy&utm_medium=referral&utm_source=clawdhub
+      - text: Powered by

@@ -1,0 +1,782 @@
+  - link "Skip to main content" [ref=e1]:
+    - /url: "#content-area"
+  - link "OpenClaw home page light logo" [ref=e2]:
+    - /url: /
+    - text: OpenClaw home page
+  - button "US English" [ref=e3]:
+    - text: English
+  - button "Open search" [ref=e4]:
+    - text: Search... Ctrl K
+  - navigation:
+      - listitem:
+        - link "GitHub" [ref=e5]:
+          - /url: https://github.com/openclaw/openclaw
+          - text: GitHub
+      - listitem:
+        - link "Releases" [ref=e6]:
+          - /url: https://github.com/openclaw/openclaw/releases
+          - text: Releases
+  - button "Toggle dark mode" [ref=e7]:
+  - link "Get started" [ref=e8]:
+    - /url: /
+  - link "Install" [ref=e9]:
+    - /url: /install
+  - link "Channels" [ref=e10]:
+    - /url: /channels
+  - link "Agents" [ref=e11]:
+    - /url: /concepts/architecture
+  - link "Tools" [ref=e12]:
+    - /url: /tools
+  - link "Models" [ref=e13]:
+    - /url: /providers
+  - link "Platforms" [ref=e14]:
+    - /url: /platforms
+  - link "Gateway & Ops" [ref=e15]:
+    - /url: /gateway
+  - link "Reference" [ref=e16]:
+    - /url: /cli
+  - link "Help" [ref=e17]:
+    - /url: /help
+  - heading "Gateway" [ref=e18] [level=5]
+    - listitem:
+      - link "Gateway Runbook" [ref=e19]:
+        - /url: /gateway
+    - listitem:
+      - button "Toggle Configuration and operations section" [ref=e20]:
+        - text: Configuration and operations
+    - listitem:
+      - button "Toggle Security and sandboxing section" [ref=e21]:
+        - text: Security and sandboxing
+    - listitem:
+      - button "Toggle Protocols and APIs section" [ref=e22]:
+        - text: Protocols and APIs
+    - listitem:
+      - button "Toggle Networking and discovery section" [ref=e23]:
+        - text: Networking and discovery
+  - heading "Remote access" [ref=e24] [level=5]
+    - listitem:
+      - link "Remote Access" [ref=e25]:
+        - /url: /gateway/remote
+    - listitem:
+      - link "Remote Gateway Setup" [ref=e26]:
+        - /url: /gateway/remote-gateway-readme
+    - listitem:
+      - link "Tailscale" [ref=e27]:
+        - /url: /gateway/tailscale
+  - heading "Security" [ref=e28] [level=5]
+    - listitem:
+      - link "Formal Verification (Security Models)" [ref=e29]:
+        - /url: /security/formal-verification
+  - heading "Web interfaces" [ref=e30] [level=5]
+    - listitem:
+      - link "Web" [ref=e31]:
+        - /url: /web
+    - listitem:
+      - link "Control UI" [ref=e32]:
+        - /url: /web/control-ui
+    - listitem:
+      - link "Dashboard" [ref=e33]:
+        - /url: /web/dashboard
+    - listitem:
+      - link "WebChat" [ref=e34]:
+        - /url: /web/webchat
+    - listitem:
+      - link "TUI" [ref=e35]:
+        - /url: /web/tui
+  - button "On this page" [ref=e36]:
+    - text: On this page
+    - listitem:
+      - link "Gateway service runbook" [ref=e37]:
+        - /url: "#gateway-service-runbook"
+    - listitem:
+      - link "What it is" [ref=e38]:
+        - /url: "#what-it-is"
+    - listitem:
+      - link "How to run (local)" [ref=e39]:
+        - /url: "#how-to-run-local"
+    - listitem:
+      - link "Remote access" [ref=e40]:
+        - /url: "#remote-access"
+    - listitem:
+      - link "Multiple gateways (same host)" [ref=e41]:
+        - /url: "#multiple-gateways-same-host"
+    - listitem:
+      - link "Dev profile (--dev)" [ref=e42]:
+        - /url: "#dev-profile-dev"
+    - listitem:
+      - link "Protocol (operator view)" [ref=e43]:
+        - /url: "#protocol-operator-view"
+    - listitem:
+      - link "Methods (initial set)" [ref=e44]:
+        - /url: "#methods-initial-set"
+    - listitem:
+      - link "Events" [ref=e45]:
+        - /url: "#events"
+    - listitem:
+      - link "WebChat integration" [ref=e46]:
+        - /url: "#webchat-integration"
+    - listitem:
+      - link "Typing and validation" [ref=e47]:
+        - /url: "#typing-and-validation"
+    - listitem:
+      - link "Connection snapshot" [ref=e48]:
+        - /url: "#connection-snapshot"
+    - listitem:
+      - link "Error codes (res.error shape)" [ref=e49]:
+        - /url: "#error-codes-res-error-shape"
+    - listitem:
+      - link "Keepalive behavior" [ref=e50]:
+        - /url: "#keepalive-behavior"
+    - listitem:
+      - link "Replay / gaps" [ref=e51]:
+        - /url: "#replay-%2F-gaps"
+    - listitem:
+      - link "Supervision (macOS example)" [ref=e52]:
+        - /url: "#supervision-macos-example"
+    - listitem:
+      - link "Gateway service management (CLI)" [ref=e53]:
+        - /url: "#gateway-service-management-cli"
+    - listitem:
+      - link "Supervision (systemd user unit)" [ref=e54]:
+        - /url: "#supervision-systemd-user-unit"
+    - listitem:
+      - link "Windows (WSL2)" [ref=e55]:
+        - /url: "#windows-wsl2"
+    - listitem:
+      - link "Operational checks" [ref=e56]:
+        - /url: "#operational-checks"
+    - listitem:
+      - link "Safety guarantees" [ref=e57]:
+        - /url: "#safety-guarantees"
+    - listitem:
+      - link "CLI helpers" [ref=e58]:
+        - /url: "#cli-helpers"
+    - listitem:
+      - link "Migration guidance" [ref=e59]:
+        - /url: "#migration-guidance"
+  - banner:
+    - text: Gateway
+    - heading "Gateway Runbook" [ref=e60] [level=1]
+  - text: "Last updated: 2025-12-09"
+  - heading "Navigate to header What it is" [ref=e61] [level=2]:
+    - link "Navigate to header" [ref=e62]:
+      - /url: "#what-it-is"
+    - text: What it is
+    - listitem: The always-on process that owns the single Baileys/Telegram connection and the control/event plane.
+      - text: Replaces the legacy
+      - code: gateway
+      - text: "command. CLI entry point:"
+      - code: openclaw gateway
+      - text: .
+    - listitem: Runs until stopped; exits non-zero on fatal errors so the supervisor restarts it.
+  - heading "Navigate to header How to run (local)" [ref=e63] [level=2]:
+    - link "Navigate to header" [ref=e64] [nth=1]:
+      - /url: "#how-to-run-local"
+    - text: How to run (local)
+  - button "Copy the contents from the code block" [ref=e65]:
+  - code: "openclaw gateway --port 18789 # for full debug/trace logs in stdio: openclaw gateway --port 18789 --verbose # if the port is busy, terminate listeners then start: openclaw gateway --force # dev loop (auto-reload on TS changes): pnpm gateway:watch"
+      - text: Config hot reload watches
+      - code: ~/.openclaw/openclaw.json
+      - text: (or
+      - code: OPENCLAW_CONFIG_PATH
+      - text: ).
+          - text: "Default mode:"
+          - code: gateway.reload.mode="hybrid"
+          - text: (hot-apply safe changes, restart on critical).
+          - text: Hot reload uses in-process restart via
+          - strong: SIGUSR1
+          - text: when needed.
+          - text: Disable with
+          - code: gateway.reload.mode="off"
+          - text: .
+      - text: Binds WebSocket control plane to
+      - code: 127.0.0.1:<port>
+      - text: (default 18789).
+    - listitem:
+      - text: The same port also serves HTTP (control UI, hooks, A2UI). Single-port multiplex.
+        - listitem:
+          - text: "OpenAI Chat Completions (HTTP):"
+          - link "/v1/chat/completions" [ref=e66]:
+            - /url: /gateway/openai-http-api
+            - code: /v1/chat/completions
+          - text: .
+        - listitem:
+          - text: "OpenResponses (HTTP):"
+          - link "/v1/responses" [ref=e67]:
+            - /url: /gateway/openresponses-http-api
+            - code: /v1/responses
+          - text: .
+        - listitem:
+          - text: "Tools Invoke (HTTP):"
+          - link "/tools/invoke" [ref=e68]:
+            - /url: /gateway/tools-invoke-http-api
+            - code: /tools/invoke
+          - text: .
+      - text: Starts a Canvas file server by default on
+      - code: canvasHost.port
+      - text: (default
+      - code: "18793"
+      - text: ), serving
+      - code: http://<gateway-host>:18793/__openclaw__/canvas/
+      - text: from
+      - code: ~/.openclaw/workspace/canvas
+      - text: . Disable with
+      - code: canvasHost.enabled=false
+      - text: or
+      - code: OPENCLAW_SKIP_CANVAS_HOST=1
+      - text: .
+    - listitem: Logs to stdout; use launchd/systemd to keep it alive and rotate logs.
+      - text: Pass
+      - code: "--verbose"
+      - text: to mirror debug logging (handshakes, req/res, events) from the log file into stdio when troubleshooting.
+      - code: "--force"
+      - text: uses
+      - code: lsof
+      - text: to find listeners on the chosen port, sends SIGTERM, logs what it killed, then starts the gateway (fails fast if
+      - code: lsof
+      - text: is missing).
+      - text: If you run under a supervisor (launchd/systemd/mac app child-process mode), a stop/restart typically sends
+      - strong: SIGTERM
+      - text: ; older builds may surface this as
+      - code: pnpm
+      - code: ELIFECYCLE
+      - text: exit code
+      - strong: "143"
+      - text: (SIGTERM), which is a normal shutdown, not a crash.
+      - strong: SIGUSR1
+      - text: triggers an in-process restart when authorized (gateway tool/config apply/update, or enable
+      - code: commands.restart
+      - text: for manual restarts).
+      - text: "Gateway auth is required by default: set"
+      - code: gateway.auth.token
+      - text: (or
+      - code: OPENCLAW_GATEWAY_TOKEN
+      - text: ) or
+      - code: gateway.auth.password
+      - text: . Clients must send
+      - code: connect.params.auth.token/password
+      - text: unless using Tailscale Serve identity.
+    - listitem: The wizard now generates a token by default, even on loopback.
+      - text: "Port precedence:"
+      - code: "--port"
+      - text: ">"
+      - code: OPENCLAW_GATEWAY_PORT
+      - text: ">"
+      - code: gateway.port
+      - text: "> default"
+      - code: "18789"
+      - text: .
+  - heading "Navigate to header Remote access" [ref=e69] [level=2]:
+    - link "Navigate to header" [ref=e70] [nth=2]:
+      - /url: "#remote-access"
+    - text: Remote access
+    - listitem:
+      - text: "Tailscale/VPN preferred; otherwise SSH tunnel:"
+      - button "Copy the contents from the code block" [ref=e71] [nth=1]:
+      - code: ssh -N -L 18789:127.0.0.1:18789 user@host
+      - text: Clients then connect to
+      - code: ws://127.0.0.1:18789
+      - text: through the tunnel.
+      - text: If a token is configured, clients must include it in
+      - code: connect.params.auth.token
+      - text: even over the tunnel.
+  - heading "Navigate to header Multiple gateways (same host)" [ref=e72] [level=2]:
+    - link "Navigate to header" [ref=e73] [nth=3]:
+      - /url: "#multiple-gateways-same-host"
+    - text: Multiple gateways (same host)
+  - text: "Usually unnecessary: one Gateway can serve multiple messaging channels and agents. Use multiple Gateways only for redundancy or strict isolation (ex: rescue bot). Supported if you isolate state + config and use unique ports. Full guide:"
+  - link "Multiple gateways" [ref=e74]:
+    - /url: /gateway/multiple-gateways
+  - text: ". Service names are profile-aware:"
+      - text: "macOS:"
+      - code: bot.molt.<profile>
+      - text: (legacy
+      - code: com.openclaw.*
+      - text: may still exist)
+      - text: "Linux:"
+      - code: openclaw-gateway-<profile>.service
+      - text: "Windows:"
+      - code: OpenClaw Gateway (<profile>)
+  - text: "Install metadata is embedded in the service config:"
+      - code: OPENCLAW_SERVICE_MARKER=openclaw
+      - code: OPENCLAW_SERVICE_KIND=gateway
+      - code: OPENCLAW_SERVICE_VERSION=<version>
+  - text: "Rescue-Bot Pattern: keep a second Gateway isolated with its own profile, state dir, workspace, and base port spacing. Full guide:"
+  - link "Rescue-bot guide" [ref=e75]:
+    - /url: /gateway/multiple-gateways#rescue-bot-guide
+  - text: .
+  - heading "Navigate to header Dev profile (--dev)" [ref=e76] [level=3]:
+    - link "Navigate to header" [ref=e77] [nth=4]:
+      - /url: "#dev-profile-dev"
+    - text: Dev profile (
+    - code: "--dev"
+    - text: )
+  - text: "Fast path: run a fully-isolated dev instance (config/state/workspace) without touching your primary setup."
+  - button "Copy the contents from the code block" [ref=e78] [nth=2]:
+  - code: "openclaw --dev setup openclaw --dev gateway --allow-unconfigured # then target the dev instance: openclaw --dev status openclaw --dev health"
+  - text: "Defaults (can be overridden via env/flags/config):"
+      - code: OPENCLAW_STATE_DIR=~/.openclaw-dev
+      - code: OPENCLAW_CONFIG_PATH=~/.openclaw-dev/openclaw.json
+      - code: OPENCLAW_GATEWAY_PORT=19001
+      - text: (Gateway WS + HTTP)
+      - text: browser control service port =
+      - code: "19003"
+      - text: "(derived:"
+      - code: gateway.port+2
+      - text: ", loopback only)"
+      - code: canvasHost.port=19005
+      - text: "(derived:"
+      - code: gateway.port+4
+      - text: )
+      - code: agents.defaults.workspace
+      - text: default becomes
+      - code: ~/.openclaw/workspace-dev
+      - text: when you run
+      - code: setup
+      - text: /
+      - code: onboard
+      - text: under
+      - code: "--dev"
+      - text: .
+  - text: "Derived ports (rules of thumb):"
+      - text: Base port =
+      - code: gateway.port
+      - text: (or
+      - code: OPENCLAW_GATEWAY_PORT
+      - text: /
+      - code: "--port"
+      - text: )
+    - listitem: browser control service port = base + 2 (loopback only)
+      - code: canvasHost.port = base + 4
+      - text: (or
+      - code: OPENCLAW_CANVAS_HOST_PORT
+      - text: / config override)
+      - text: Browser profile CDP ports auto-allocate from
+      - code: browser.controlPort + 9 .. + 108
+      - text: (persisted per profile).
+  - text: "Checklist per instance:"
+      - text: unique
+      - code: gateway.port
+      - text: unique
+      - code: OPENCLAW_CONFIG_PATH
+      - text: unique
+      - code: OPENCLAW_STATE_DIR
+      - text: unique
+      - code: agents.defaults.workspace
+    - listitem: separate WhatsApp numbers (if using WA)
+  - text: "Service install per profile:"
+  - button "Copy the contents from the code block" [ref=e79] [nth=3]:
+  - code: openclaw --profile main gateway install openclaw --profile rescue gateway install
+  - text: "Example:"
+  - button "Copy the contents from the code block" [ref=e80] [nth=4]:
+  - code: OPENCLAW_CONFIG_PATH=~/.openclaw/a.json OPENCLAW_STATE_DIR=~/.openclaw-a openclaw gateway --port 19001 OPENCLAW_CONFIG_PATH=~/.openclaw/b.json OPENCLAW_STATE_DIR=~/.openclaw-b openclaw gateway --port 19002
+  - heading "Navigate to header Protocol (operator view)" [ref=e81] [level=2]:
+    - link "Navigate to header" [ref=e82] [nth=5]:
+      - /url: "#protocol-operator-view"
+    - text: Protocol (operator view)
+    - listitem:
+      - text: "Full docs:"
+      - link "Gateway protocol" [ref=e83]:
+        - /url: /gateway/protocol
+      - text: and
+      - link "Bridge protocol (legacy)" [ref=e84]:
+        - /url: /gateway/bridge-protocol
+      - text: .
+      - text: "Mandatory first frame from client:"
+      - code: "req {type:\"req\", id, method:\"connect\", params:{minProtocol,maxProtocol,client:{id,displayName?,version,platform,deviceFamily?,modelIdentifier?,mode,instanceId?}, caps, auth?, locale?, userAgent? } }"
+      - text: .
+      - text: Gateway replies
+      - code: "res {type:\"res\", id, ok:true, payload:hello-ok }"
+      - text: (or
+      - code: ok:false
+      - text: with an error, then closes).
+      - text: "After handshake:"
+          - text: "Requests:"
+          - code: "{type:\"req\", id, method, params}"
+          - text: →
+          - code: "{type:\"res\", id, ok, payload|error}"
+          - text: "Events:"
+          - code: "{type:\"event\", event, payload, seq?, stateVersion?}"
+      - text: "Structured presence entries:"
+      - code: "{host, ip, version, platform?, deviceFamily?, modelIdentifier?, mode, lastInputSeconds?, ts, reason?, tags?[], instanceId? }"
+      - text: (for WS clients,
+      - code: instanceId
+      - text: comes from
+      - code: connect.client.instanceId
+      - text: ).
+      - code: agent
+      - text: "responses are two-stage: first"
+      - code: res
+      - text: ack
+      - code: "{runId,status:\"accepted\"}"
+      - text: ", then a final"
+      - code: res
+      - code: "{runId,status:\"ok\"|\"error\",summary}"
+      - text: after the run finishes; streamed output arrives as
+      - code: event:"agent"
+      - text: .
+  - heading "Navigate to header Methods (initial set)" [ref=e85] [level=2]:
+    - link "Navigate to header" [ref=e86] [nth=6]:
+      - /url: "#methods-initial-set"
+    - text: Methods (initial set)
+      - code: health
+      - text: — full health snapshot (same shape as
+      - code: openclaw health --json
+      - text: ).
+      - code: status
+      - text: — short summary.
+      - code: system-presence
+      - text: — current presence list.
+      - code: system-event
+      - text: — post a presence/system note (structured).
+      - code: send
+      - text: — send a message via the active channel(s).
+      - code: agent
+      - text: — run an agent turn (streams events back on same connection).
+      - code: node.list
+      - text: — list paired + currently-connected nodes (includes
+      - code: caps
+      - text: ","
+      - code: deviceFamily
+      - text: ","
+      - code: modelIdentifier
+      - text: ","
+      - code: paired
+      - text: ","
+      - code: connected
+      - text: ", and advertised"
+      - code: commands
+      - text: ).
+      - code: node.describe
+      - text: — describe a node (capabilities + supported
+      - code: node.invoke
+      - text: commands; works for paired nodes and for currently-connected unpaired nodes).
+      - code: node.invoke
+      - text: — invoke a command on a node (e.g.
+      - code: canvas.*
+      - text: ","
+      - code: camera.*
+      - text: ).
+      - code: node.pair.*
+      - text: — pairing lifecycle (
+      - code: request
+      - text: ","
+      - code: list
+      - text: ","
+      - code: approve
+      - text: ","
+      - code: reject
+      - text: ","
+      - code: verify
+      - text: ).
+  - text: "See also:"
+  - link "Presence" [ref=e87]:
+    - /url: /concepts/presence
+  - text: for how presence is produced/deduped and why a stable
+  - code: client.instanceId
+  - text: matters.
+  - heading "Navigate to header Events" [ref=e88] [level=2]:
+    - link "Navigate to header" [ref=e89] [nth=7]:
+      - /url: "#events"
+    - text: Events
+      - code: agent
+      - text: — streamed tool/output events from the agent run (seq-tagged).
+      - code: presence
+      - text: — presence updates (deltas with stateVersion) pushed to all connected clients.
+      - code: tick
+      - text: — periodic keepalive/no-op to confirm liveness.
+      - code: shutdown
+      - text: — Gateway is exiting; payload includes
+      - code: reason
+      - text: and optional
+      - code: restartExpectedMs
+      - text: . Clients should reconnect.
+  - heading "Navigate to header WebChat integration" [ref=e90] [level=2]:
+    - link "Navigate to header" [ref=e91] [nth=8]:
+      - /url: "#webchat-integration"
+    - text: WebChat integration
+    - listitem: WebChat is a native SwiftUI UI that talks directly to the Gateway WebSocket for history, sends, abort, and events.
+      - text: Remote use goes through the same SSH/Tailscale tunnel; if a gateway token is configured, the client includes it during
+      - code: connect
+      - text: .
+      - text: macOS app connects via a single WS (shared connection); it hydrates presence from the initial snapshot and listens for
+      - code: presence
+      - text: events to update the UI.
+  - heading "Navigate to header Typing and validation" [ref=e92] [level=2]:
+    - link "Navigate to header" [ref=e93] [nth=9]:
+      - /url: "#typing-and-validation"
+    - text: Typing and validation
+    - listitem: Server validates every inbound frame with AJV against JSON Schema emitted from the protocol definitions.
+    - listitem: Clients (TS/Swift) consume generated types (TS directly; Swift via the repo’s generator).
+      - text: "Protocol definitions are the source of truth; regenerate schema/models with:"
+          - code: pnpm protocol:gen
+          - code: pnpm protocol:gen:swift
+  - heading "Navigate to header Connection snapshot" [ref=e94] [level=2]:
+    - link "Navigate to header" [ref=e95] [nth=10]:
+      - /url: "#connection-snapshot"
+    - text: Connection snapshot
+      - code: hello-ok
+      - text: includes a
+      - code: snapshot
+      - text: with
+      - code: presence
+      - text: ","
+      - code: health
+      - text: ","
+      - code: stateVersion
+      - text: ", and"
+      - code: uptimeMs
+      - text: plus
+      - code: "policy {maxPayload,maxBufferedBytes,tickIntervalMs}"
+      - text: so clients can render immediately without extra requests.
+      - code: health
+      - text: /
+      - code: system-presence
+      - text: remain available for manual refresh, but are not required at connect time.
+  - heading "Navigate to header Error codes (res.error shape)" [ref=e96] [level=2]:
+    - link "Navigate to header" [ref=e97] [nth=11]:
+      - /url: "#error-codes-res-error-shape"
+    - text: Error codes (res.error shape)
+      - text: Errors use
+      - code: "{ code, message, details?, retryable?, retryAfterMs? }"
+      - text: .
+      - text: "Standard codes:"
+          - code: NOT_LINKED
+          - text: — WhatsApp not authenticated.
+          - code: AGENT_TIMEOUT
+          - text: — agent did not respond within the configured deadline.
+          - code: INVALID_REQUEST
+          - text: — schema/param validation failed.
+          - code: UNAVAILABLE
+          - text: — Gateway is shutting down or a dependency is unavailable.
+  - heading "Navigate to header Keepalive behavior" [ref=e98] [level=2]:
+    - link "Navigate to header" [ref=e99] [nth=12]:
+      - /url: "#keepalive-behavior"
+    - text: Keepalive behavior
+      - code: tick
+      - text: events (or WS ping/pong) are emitted periodically so clients know the Gateway is alive even when no traffic occurs.
+    - listitem: Send/agent acknowledgements remain separate responses; do not overload ticks for sends.
+  - heading "Navigate to header Replay / gaps" [ref=e100] [level=2]:
+    - link "Navigate to header" [ref=e101] [nth=13]:
+      - /url: "#replay-/-gaps"
+    - text: Replay / gaps
+      - text: Events are not replayed. Clients detect seq gaps and should refresh (
+      - code: health
+      - text: +
+      - code: system-presence
+      - text: ) before continuing. WebChat and macOS clients now auto-refresh on gap.
+  - heading "Navigate to header Supervision (macOS example)" [ref=e102] [level=2]:
+    - link "Navigate to header" [ref=e103] [nth=14]:
+      - /url: "#supervision-macos-example"
+    - text: Supervision (macOS example)
+      - text: "Use launchd to keep the service alive:"
+          - text: "Program: path to"
+          - code: openclaw
+          - text: "Arguments:"
+          - code: gateway
+        - listitem: "KeepAlive: true"
+          - text: "StandardOut/Err: file paths or"
+          - code: syslog
+    - listitem: On failure, launchd restarts; fatal misconfig should keep exiting so the operator notices.
+      - text: LaunchAgents are per-user and require a logged-in session; for headless setups use a custom LaunchDaemon (not shipped).
+          - code: openclaw gateway install
+          - text: writes
+          - code: ~/Library/LaunchAgents/bot.molt.gateway.plist
+          - text: (or
+          - code: bot.molt.<profile>.plist
+          - text: ; legacy
+          - code: com.openclaw.*
+          - text: is cleaned up).
+          - code: openclaw doctor
+          - text: audits the LaunchAgent config and can update it to current defaults.
+  - heading "Navigate to header Gateway service management (CLI)" [ref=e104] [level=2]:
+    - link "Navigate to header" [ref=e105] [nth=15]:
+      - /url: "#gateway-service-management-cli"
+    - text: Gateway service management (CLI)
+  - text: "Use the Gateway CLI for install/start/stop/restart/status:"
+  - button "Copy the contents from the code block" [ref=e106] [nth=5]:
+  - code: openclaw gateway status openclaw gateway install openclaw gateway stop openclaw gateway restart openclaw logs --follow
+  - text: "Notes:"
+      - code: gateway status
+      - text: probes the Gateway RPC by default using the service’s resolved port/config (override with
+      - code: "--url"
+      - text: ).
+      - code: gateway status --deep
+      - text: adds system-level scans (LaunchDaemons/system units).
+      - code: gateway status --no-probe
+      - text: skips the RPC probe (useful when networking is down).
+      - code: gateway status --json
+      - text: is stable for scripts.
+      - code: gateway status
+      - text: reports
+      - strong: supervisor runtime
+      - text: (launchd/systemd running) separately from
+      - strong: RPC reachability
+      - text: (WS connect + status RPC).
+      - code: gateway status
+      - text: prints config path + probe target to avoid “localhost vs LAN bind” confusion and profile mismatches.
+      - code: gateway status
+      - text: includes the last gateway error line when the service looks running but the port is closed.
+      - code: logs
+      - text: tails the Gateway file log via RPC (no manual
+      - code: tail
+      - text: /
+      - code: grep
+      - text: needed).
+    - listitem:
+      - text: If other gateway-like services are detected, the CLI warns unless they are OpenClaw profile services. We still recommend
+      - strong: one gateway per machine
+      - text: for most setups; use isolated profiles/ports for redundancy or a rescue bot. See
+      - link "Multiple gateways" [ref=e107] [nth=1]:
+        - /url: /gateway/multiple-gateways
+      - text: .
+          - text: "Cleanup:"
+          - code: openclaw gateway uninstall
+          - text: (current service) and
+          - code: openclaw doctor
+          - text: (legacy migrations).
+      - code: gateway install
+      - text: is a no-op when already installed; use
+      - code: openclaw gateway install --force
+      - text: to reinstall (profile/env/path changes).
+  - text: "Bundled mac app:"
+      - text: OpenClaw.app can bundle a Node-based gateway relay and install a per-user LaunchAgent labeled
+      - code: bot.molt.gateway
+      - text: (or
+      - code: bot.molt.<profile>
+      - text: ; legacy
+      - code: com.openclaw.*
+      - text: labels still unload cleanly).
+      - text: To stop it cleanly, use
+      - code: openclaw gateway stop
+      - text: (or
+      - code: launchctl bootout gui/$UID/bot.molt.gateway
+      - text: ).
+      - text: To restart, use
+      - code: openclaw gateway restart
+      - text: (or
+      - code: launchctl kickstart -k gui/$UID/bot.molt.gateway
+      - text: ).
+          - code: launchctl
+          - text: only works if the LaunchAgent is installed; otherwise use
+          - code: openclaw gateway install
+          - text: first.
+          - text: Replace the label with
+          - code: bot.molt.<profile>
+          - text: when running a named profile.
+  - heading "Navigate to header Supervision (systemd user unit)" [ref=e108] [level=2]:
+    - link "Navigate to header" [ref=e109] [nth=16]:
+      - /url: "#supervision-systemd-user-unit"
+    - text: Supervision (systemd user unit)
+  - text: OpenClaw installs a
+  - strong: systemd user service
+  - text: by default on Linux/WSL2. We recommend user services for single-user machines (simpler env, per-user config). Use a
+  - strong: system service
+  - text: for multi-user or always-on servers (no lingering required, shared supervision).
+  - code: openclaw gateway install
+  - text: writes the user unit.
+  - code: openclaw doctor
+  - text: audits the unit and can update it to match the current recommended defaults. Create
+  - code: ~/.config/systemd/user/openclaw-gateway[-<profile>].service
+  - text: ":"
+  - button "Copy the contents from the code block" [ref=e110] [nth=6]:
+  - code: "[Unit] Description=OpenClaw Gateway (profile: <profile>, v<version>) After=network-online.target Wants=network-online.target [Service] ExecStart=/usr/local/bin/openclaw gateway --port 18789 Restart=always RestartSec=5 Environment=OPENCLAW_GATEWAY_TOKEN= WorkingDirectory=/home/youruser [Install] WantedBy=default.target"
+  - text: "Enable lingering (required so the user service survives logout/idle):"
+  - button "Copy the contents from the code block" [ref=e111] [nth=7]:
+  - code: sudo loginctl enable-linger youruser
+  - text: Onboarding runs this on Linux/WSL2 (may prompt for sudo; writes
+  - code: /var/lib/systemd/linger
+  - text: "). Then enable the service:"
+  - button "Copy the contents from the code block" [ref=e112] [nth=8]:
+  - code: systemctl --user enable --now openclaw-gateway[-<profile>].service
+  - strong: Alternative (system service)
+  - text: "- for always-on or multi-user servers, you can install a systemd"
+  - strong: system
+  - text: unit instead of a user unit (no lingering needed). Create
+  - code: /etc/systemd/system/openclaw-gateway[-<profile>].service
+  - text: (copy the unit above, switch
+  - code: WantedBy=multi-user.target
+  - text: ", set"
+  - code: User=
+  - text: +
+  - code: WorkingDirectory=
+  - text: "), then:"
+  - button "Copy the contents from the code block" [ref=e113] [nth=9]:
+  - code: sudo systemctl daemon-reload sudo systemctl enable --now openclaw-gateway[-<profile>].service
+  - heading "Navigate to header Windows (WSL2)" [ref=e114] [level=2]:
+    - link "Navigate to header" [ref=e115] [nth=17]:
+      - /url: "#windows-wsl2"
+    - text: Windows (WSL2)
+  - text: Windows installs should use
+  - strong: WSL2
+  - text: and follow the Linux systemd section above.
+  - heading "Navigate to header Operational checks" [ref=e116] [level=2]:
+    - link "Navigate to header" [ref=e117] [nth=18]:
+      - /url: "#operational-checks"
+    - text: Operational checks
+      - text: "Liveness: open WS and send"
+      - code: req:connect
+      - text: → expect
+      - code: res
+      - text: with
+      - code: payload.type="hello-ok"
+      - text: (with snapshot).
+      - text: "Readiness: call"
+      - code: health
+      - text: → expect
+      - code: "ok: true"
+      - text: and a linked channel in
+      - code: linkChannel
+      - text: (when applicable).
+      - text: "Debug: subscribe to"
+      - code: tick
+      - text: and
+      - code: presence
+      - text: events; ensure
+      - code: status
+      - text: shows linked/auth age; presence entries show Gateway host and connected clients.
+  - heading "Navigate to header Safety guarantees" [ref=e118] [level=2]:
+    - link "Navigate to header" [ref=e119] [nth=19]:
+      - /url: "#safety-guarantees"
+    - text: Safety guarantees
+    - listitem: Assume one Gateway per host by default; if you run multiple profiles, isolate ports/state and target the right instance.
+    - listitem: No fallback to direct Baileys connections; if the Gateway is down, sends fail fast.
+    - listitem: Non-connect first frames or malformed JSON are rejected and the socket is closed.
+      - text: "Graceful shutdown: emit"
+      - code: shutdown
+      - text: event before closing; clients must handle close + reconnect.
+  - heading "Navigate to header CLI helpers" [ref=e120] [level=2]:
+    - link "Navigate to header" [ref=e121] [nth=20]:
+      - /url: "#cli-helpers"
+    - text: CLI helpers
+      - code: openclaw gateway health|status
+      - text: — request health/status over the Gateway WS.
+      - code: openclaw message send --target <num> --message "hi" [--media ...]
+      - text: — send via Gateway (idempotent for WhatsApp).
+      - code: openclaw agent --message "hi" --to <num>
+      - text: — run an agent turn (waits for final by default).
+      - code: "openclaw gateway call <method> --params '{\"k\":\"v\"}'"
+      - text: — raw method invoker for debugging.
+      - code: openclaw gateway stop|restart
+      - text: — stop/restart the supervised gateway service (launchd/systemd).
+      - text: Gateway helper subcommands assume a running gateway on
+      - code: "--url"
+      - text: ; they no longer auto-spawn one.
+  - heading "Navigate to header Migration guidance" [ref=e122] [level=2]:
+    - link "Navigate to header" [ref=e123] [nth=21]:
+      - /url: "#migration-guidance"
+    - text: Migration guidance
+      - text: Retire uses of
+      - code: openclaw gateway
+      - text: and the legacy TCP control port.
+    - listitem: Update clients to speak the WS protocol with mandatory connect and structured presence.
+  - link "Configuration" [ref=e124]:
+    - /url: /gateway/configuration
+    - text: Configuration
+  - textbox "Ask a question..." [ref=e125]
+  - text: Ctrl+I
+  - button "Send message" [ref=e126] [disabled]:
+  - contentinfo:
+    - link "Powered by" [ref=e127]:
+      - /url: https://www.mintlify.com?utm_campaign=poweredBy&utm_medium=referral&utm_source=clawdhub
+      - text: Powered by

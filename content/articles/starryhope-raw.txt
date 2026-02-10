@@ -1,0 +1,281 @@
+  - link "Starry Hope Starry Hope" [ref=e1]:
+    - /url: /
+    - text: Starry Hope
+  - navigation:
+    - link "Chromebooks" [ref=e2]:
+      - /url: /chromebooks/
+    - link "Mini PCs" [ref=e3]:
+      - /url: /minipcs/
+    - link "Linux" [ref=e4]:
+      - /url: /linux/
+    - link "Notes" [ref=e5]:
+      - /url: /notes/
+  - main:
+    - navigation "Breadcrumb" [ref=e6]:
+        - listitem:
+          - link "Home" [ref=e7]:
+            - /url: /
+            - text: Home
+        - listitem:
+          - link "Mini PCs" [ref=e8] [nth=1]:
+            - /url: /minipcs/
+    - article:
+      - 'heading "The Lobster Takeover: Why Developers Are Buying Mac Minis to Run Their Own AI Agents" [level=1]'
+        - text: Published on
+        - time: January 24, 2026,
+        - text: by Jim Mendenhall
+      - paragraph: "Listen to this article:"
+      - text: Your browser does not support audio playback.
+      - blockquote:
+        - paragraph:
+          - strong: "Editor’s Note (February 2026):"
+          - text: The project has been renamed again, this time to
+          - strong: OpenClaw
+          - text: . The new site is
+          - link "openclaw.ai" [ref=e9]:
+            - /url: https://openclaw.ai/
+          - text: .
+      - blockquote:
+        - paragraph:
+          - strong: "Editor’s Note (January 2026):"
+          - text: Since this article was published, Clawdbot has been renamed to
+          - strong: Molt
+          - text: . The project is now available at
+          - link "molt.bot" [ref=e10]:
+            - /url: https://www.molt.bot/
+          - text: .
+      - paragraph: What if Siri actually worked? Not the “set a timer” version of worked, but genuinely understood your life, remembered your preferences, and could actually do things on your computer while you’re away? That’s the promise that has developers on X losing their minds over a project called Clawdbot, and it’s triggering a run on Apple’s smallest computer.
+      - paragraph: "The creator, Peter Steinberger, puts it bluntly: “Apps will melt away. The prompt is your new interface.” Steinberger isn’t some random tinkerer. He’s the former CEO of PSPDFKit, who built that company over 13 years before selling it. Now he’s come out of retirement to help a cartoon lobster take over the world of personal computing."
+      - heading "The Developer Hive Mind Has Spoken" [ref=e11] [level=2]
+      - paragraph: "Scroll through the #clawdbot hashtag on X and you’ll find a level of enthusiasm that feels almost cult-like. Developers aren’t just impressed. They’re calling it an “iPhone moment,” comparing it to early AGI, and in some cases, letting it run their entire companies."
+      - blockquote:
+        - text: Dave Morin
+        - link "@davemorin" [ref=e12]:
+          - /url: https://x.com/davemorin
+        - paragraph: At this point I don’t even know what to call @clawdbot. It is something new. After a few weeks in with it, this is the first time I have felt like I am living in the future since the launch of ChatGPT.
+        - link "Jan 2026 View on X" [ref=e13]:
+          - /url: https://x.com/davemorin/status/2013723700668096605
+          - time: Jan 2026
+          - text: View on X
+      - paragraph: "The comparison to ChatGPT’s launch is telling. When ChatGPT dropped in late 2022, it felt like magic because you could suddenly have intelligent conversations with a computer. Clawdbot represents the next step: those conversations can now result in actual actions on your machine."
+      - blockquote:
+        - text: Nathan Clark
+        - link "@nathanclark_" [ref=e14]:
+          - /url: https://x.com/nathanclark_
+        - paragraph: A smart model with eyes and hands at a desk with keyboard and mouse. You message it like a coworker and it does everything a person could do with that Mac mini. That’s what you have now.
+        - link "Jan 2026 View on X" [ref=e15] [nth=1]:
+          - /url: https://x.com/nathanclark_/status/2014647048612773912
+          - time: Jan 2026
+          - text: View on X
+      - paragraph: That description captures something important. This isn’t a chatbot. It’s closer to a remote employee who happens to live inside a small aluminum box on your desk. One that works 24 hours a day, never takes breaks, and can be reached through WhatsApp while you’re walking your dog.
+      - heading "What Exactly Is Clawdbot?" [ref=e16] [level=2]
+      - paragraph:
+        - text: At its core,
+        - link "Clawdbot" [ref=e17]:
+          - /url: https://openclaw.ai/
+        - text: is an open-source AI agent that runs on your own hardware. Unlike ChatGPT or Claude’s web interfaces, which process everything on remote servers, Clawdbot operates locally with a “gateway” that connects AI models to the apps and services you already use. It can talk to you through WhatsApp, Telegram, Discord, Slack, Signal, or even iMessage.
+      - paragraph:
+        - text: But the real magic is what it can do once it’s running. Given the right permissions, Clawdbot can browse the web, execute terminal commands, write and run scripts, manage your email, check your calendar, and interact with any software on your machine. Federico Viticci of MacStories
+        - link "burned through 180 million tokens" [ref=e18]:
+          - /url: https://www.macstories.net/stories/clawdbot-showed-me-what-the-future-of-personal-ai-assistants-looks-like/
+        - text: on the Anthropic API using it, calling it “a tinkerer’s laboratory” that hints at an exciting future.
+      - paragraph: Perhaps the most compelling feature is that Clawdbot is self-improving. Tell it you want a new capability, and it can often write its own “skill” (plugin) to make it happen. One user wanted access to university course assignments. He asked Clawdbot to build a skill for it. Clawdbot did, and then started using it on its own.
+      - blockquote:
+        - text: Christian Dietrich
+        - link "@chrisdietr" [ref=e19]:
+          - /url: https://x.com/chrisdietr
+        - paragraph: 2026 is already the year of personal agents.
+        - link "Jan 2026 View on X" [ref=e20] [nth=2]:
+          - /url: https://x.com/chrisdietr/status/2010555854613803198
+          - time: Jan 2026
+          - text: View on X
+      - paragraph: The lobster branding, by the way, isn’t random. When Steinberger was developing the project with Claude, the AI suggested naming its persona “Clawdis” as a joke about a space lobster in a TARDIS. The name evolved into Clawdbot, and the crustacean theme stuck. There’s even a “Lobster Mode” where the bot becomes intentionally opinionated and cranky.
+      - heading "Why Everyone’s Buying Mac Minis" [ref=e21] [level=2]
+      - paragraph: Here’s where hardware enters the picture. While Clawdbot can run on any computer, Mac Minis have emerged as the preferred choice, and for good reasons that go beyond Apple fandom.
+      - paragraph: Apple Silicon’s unified memory architecture is exceptionally efficient for AI workloads. Instead of the CPU and GPU communicating over a slower connection, the memory sits directly on the chip package. This means the full memory bandwidth is instantly available to AI models, making local inference significantly faster than on traditional x86 systems with equivalent specs.
+      - blockquote:
+        - text: Kitze
+        - link "@thekitze" [ref=e22]:
+          - /url: https://x.com/thekitze
+        - paragraph: create your own clawdbot, go in debt if you have to. I love the idea of this nerdy crab chilling in my attic on my mac studio just giving me shit lmao
+        - link "Jan 2026 View on X" [ref=e23] [nth=3]:
+          - /url: https://x.com/thekitze/status/2008289167625863379
+          - time: Jan 2026
+          - text: View on X
+      - paragraph:
+        - text: The economics also make sense. A one-time investment of $599 for a base
+        - link "Mac Mini M4" [ref=e24]:
+          - /url: /minipcs/models/mac-mini-with-m4-chip/
+        - text: gets you a silent, low-power machine that can run continuously without racking up cloud GPU bills. Compare this to paying for API tokens or cloud compute, and the math quickly favors dedicated hardware for anyone using AI agents heavily.
+      - paragraph: Privacy is another major driver. Your agent needs to index your emails, files, and personal data to be truly useful. Many developers are uncomfortable sending all that information to cloud providers. With Clawdbot on a Mac Mini at home, your data never leaves your physical control.
+      - paragraph:
+        - text: The form factor helps too. At just 5 by 5 inches, the
+        - link "Mac Mini M4" [ref=e25] [nth=1]:
+          - /url: /minipcs/mac-mini-m4-worth-it/
+        - text: is small enough to tuck away anywhere. It runs virtually silent during normal operation, making it unobtrusive as an always-on home server. One user runs it on a 2013 iMac and reports it works flawlessly, though newer Apple Silicon provides meaningful performance improvements for local model inference.
+      - heading "The Wild Things People Are Actually Doing" [ref=e26] [level=2]
+      - paragraph: The use cases emerging from the Clawdbot community range from practical to absurd. Someone asked their bot to unsubscribe from unwanted emails. It did, systematically working through the inbox. Another user set up automated health reimbursement submissions. The agent finds the right documents on the hard drive and handles the paperwork.
+      - blockquote:
+        - text: Nat Eliason
+        - link "@nateliason" [ref=e27]:
+          - /url: https://x.com/nateliason
+        - paragraph: Yeah this was 1,000% worth it. Separate Claude subscription + Clawd, managing Claude Code / Codex sessions I can kick off anywhere, autonomously running tests on my app and capturing errors through a sentry webhook then resolving them and opening PRs… The future is here.
+        - link "Jan 2026 View on X" [ref=e28] [nth=4]:
+          - /url: https://x.com/nateliason/status/2013725082850414592
+          - time: Jan 2026
+          - text: View on X
+      - paragraph: Developers are integrating Clawdbot with their coding workflows. The agent can kick off test suites, monitor for errors via webhooks, and even open pull requests to fix issues it finds. One user has it controlling smart home devices, adjusting air purifier settings based on health metrics from their wearable.
+      - paragraph: Perhaps the most amusing story involves an agent that “accidentally started a fight” with an insurance company. The user’s Clawdbot misinterpreted a response and sent an email that caused the insurer to reinvestigate a claim that had been rejected. The agent’s assertiveness worked in the user’s favor, but it highlights both the power and the risks of autonomous AI agents.
+      - blockquote:
+        - text: Conrad Sasheen
+        - link "@conradsagewiz" [ref=e29]:
+          - /url: https://x.com/conradsagewiz
+        - paragraph: I’m literally on my phone in a telegram chat and it’s communicating with codex cli on my computer creating detailed spec files while out on a walk with my dog.
+        - link "Jan 2026 View on X" [ref=e30] [nth=5]:
+          - /url: https://x.com/conradsagewiz/status/2012954824631898300
+          - time: Jan 2026
+          - text: View on X
+      - paragraph: The mobile control angle is compelling. Because Clawdbot communicates through messaging apps you already use, you can direct your home computer from anywhere. Walking the dog? Send a Telegram message and your Mac Mini starts generating code. Putting the baby to sleep? One user built an entire website from their phone using voice messages.
+      - heading "The Best Hardware for Running Clawdbot" [ref=e31] [level=2]
+      - paragraph:
+        - text: If you’re ready to join the lobster revolution, here are the hardware options worth considering. The
+        - link "Mac Mini M4" [ref=e32] [nth=2]:
+          - /url: /minipcs/models/mac-mini-with-m4-chip/
+        - text: has become the default recommendation, and for good reason.
+      - article:
+        - text: Best Value
+        - heading "Mac mini with M4 chip" [ref=e33] [level=3]
+        - text: MSRP $599.99 Current Amazon Price
+        - button "View price information" [ref=e34]:
+        - link "$549.00 New" [ref=e35]:
+          - /url: https://www.amazon.com/dp/B0DLBTPDCS?tag=starryhope-20&linkCode=ogi&th=1&psc=1
+        - text: 16GB RAM
+        - text: 256GB
+        - text: 3x TB4 USB-C x2 Processor:Apple M4 Dimensions:5" x 5" x 1.5" Display Outputs:1x HDMI, 3x Thunderbolt
+        - text: Pros
+          - listitem: + Perfect for Clawdbot at $599
+          - listitem: + silent operation
+          - listitem: + tiny footprint
+          - listitem: + 16GB unified memory standard
+        - text: Cons
+          - listitem: "- No USB-A ports"
+          - listitem: "- non-upgradeable RAM and storage"
+          - listitem: "- limited to macOS"
+        - text: The base Mac Mini M4 is the sweet spot for most Clawdbot users. With 16GB of unified memory and the efficient M4 chip, it handles AI agent workloads smoothly while running virtually silent. The compact 5x5-inch design makes it easy to tuck away as a dedicated agent server.
+        - link "View Full Specs & Details" [ref=e36]:
+          - /url: /minipcs/models/mac-mini-with-m4-chip/
+          - text: View Full Specs & Details
+      - paragraph: For users who want to run larger local models alongside Clawdbot, the 24GB configuration at $999 provides headroom. The M4 Pro variant at $1,399 supports up to 64GB of unified memory, which becomes relevant if you’re running quantized versions of models like Llama locally while still using cloud APIs for heavier reasoning tasks.
+      - paragraph: Since Clawdbot can run on a Raspberry Pi, you don’t need a powerhouse. If you prefer Linux (which Clawdbot actually supports better than Windows), these budget x86 mini PCs get the job done for a fraction of the Mac Mini’s price. Both ship with Windows but run Linux beautifully.
+      - article:
+        - text: Best Value
+        - heading "GMKtec G3 Plus" [ref=e37] [level=3]
+        - text: MSRP $209.99 Current Amazon Price
+        - button "View price information" [ref=e38] [nth=1]:
+        - link "$279.98 New" [ref=e39]:
+          - /url: https://www.amazon.com/dp/B0DN51KD9D?tag=starryhope-20&linkCode=ogi&th=1&psc=1
+        - text: 16GB RAM
+        - text: 512GB Processor:Intel Processor N150 Dimensions:3.94" x 3.94" x 1.57" Display Outputs:2x HDMI
+        - text: Pros
+          - listitem: + Just $209
+          - listitem: + incredibly tiny 3.94-inch form factor
+          - listitem: + 16GB RAM
+          - listitem: + 2.5Gb Ethernet
+          - listitem: + VESA mountable
+        - text: Cons
+          - listitem: "- Intel N150 is modest"
+          - listitem: "- no USB-C"
+          - listitem: "- limited upgrade path"
+        - text: At $209, the GMKtec G3 Plus is the budget king for Clawdbot. The Intel N150 handles the gateway workload fine since heavy lifting happens on cloud APIs. Wipe Windows, install Ubuntu, and you have a dedicated AI agent server for less than half the price of a Mac Mini.
+        - link "View Full Specs & Details" [ref=e40] [nth=1]:
+          - /url: /minipcs/models/gmktec-g3-plus/
+          - text: View Full Specs & Details
+      - paragraph: If you want USB-C with video output and faster networking, the BOSGAME B100 adds those features while staying under $200.
+      - article:
+        - heading "BOSGAME B100" [ref=e41] [level=3]
+        - text: MSRP $199.00 Current Amazon Price
+        - button "View price information" [ref=e42] [nth=2]:
+        - link "$239.99 New" [ref=e43]:
+          - /url: https://www.amazon.com/dp/B0CPLT3HFH?tag=starryhope-20&linkCode=ogi&th=1&psc=1
+        - text: 16GB RAM
+        - text: 512GB USB-C x1 Processor:Intel Processor N100 Dimensions:4.96" x 4.41" x 1.61" Display Outputs:2x HDMI
+        - text: Pros
+          - listitem: + Just $199
+          - listitem: + USB-C with video/data/power delivery
+          - listitem: + 2.5Gb Ethernet
+          - listitem: + 16GB RAM standard
+          - listitem: + VESA mountable
+        - text: Cons
+          - listitem: "- WiFi 5 and Bluetooth 4.2 are dated"
+          - listitem: "- single RAM slot"
+        - text: The BOSGAME B100 packs 16GB RAM and a 512GB NVMe drive into a sub-$200 package. The USB-C port supports video output, and the 2.5Gb Ethernet is faster than the Mac Mini's base model. Install Linux and you have a capable Clawdbot server that costs less than two months of cloud compute.
+        - link "View Full Specs & Details" [ref=e44] [nth=2]:
+          - /url: /minipcs/models/bosgame-b100/
+          - text: View Full Specs & Details
+      - paragraph: If you’re on a tighter budget or want to experiment before committing, Clawdbot also runs on Raspberry Pi (one user set it up with Cloudflare and was building websites from their phone within minutes) and even older Intel Macs. The experience won’t be as smooth, but it works.
+      - paragraph:
+        - text: For more options, check our
+        - link "Mini PC comparison chart" [ref=e45]:
+          - /url: /minipcs/minipc-comparison-chart/
+        - text: to filter by specs that matter for AI workloads.
+      - heading "A Word of Caution" [ref=e46] [level=2]
+      - paragraph: The enthusiasm is warranted, but so is some skepticism. Giving an AI agent keyboard and mouse access to your computer is, as one commenter noted, “hilarious, troubling, and awesome” all at once. The potential for “accidental, incorrect actions” is real.
+      - paragraph: Steinberger has built in safeguards, and you can configure exactly what permissions your agent has. But the fundamental premise of letting an LLM execute commands on your machine requires trust in both the underlying AI models and the Clawdbot codebase. It’s open source, which helps, but most users won’t be auditing the code themselves.
+      - paragraph: The security model for personal AI agents is still evolving. What happens when your agent has your credentials, can access your email, and is prompted by a carefully crafted message that looks innocent but contains adversarial instructions? These aren’t solved problems.
+      - paragraph: That said, the same could be said of any powerful tool. Early internet users faced similar trust questions. The benefits often outweigh the risks for those who proceed thoughtfully.
+      - heading "Getting Started" [ref=e47] [level=2]
+      - paragraph: "Installation is remarkably simple. A one-liner gets you running:"
+      - code: curl -fsSL https://clawd.bot/install.sh | bash
+      - paragraph:
+        - text: From there, the onboarding process walks you through connecting your preferred chat applications and configuring permissions. The
+        - link "Clawdbot documentation" [ref=e48]:
+          - /url: https://docs.clawd.bot/
+        - text: is comprehensive, and the Discord community is active with users sharing skills and troubleshooting issues.
+      - paragraph:
+        - text: The
+        - link "GitHub repository" [ref=e49]:
+          - /url: https://github.com/clawdbot/clawdbot
+        - text: is where development happens, and the pace of updates has been aggressive. At just three weeks old at the time of writing, Clawdbot is already on the cusp of feeling production-ready.
+      - heading "The Lobster Is Just Getting Started" [ref=e50] [level=2]
+      - paragraph: "Steinberger’s vision extends beyond personal assistants. He talks about agents communicating with each other: your agent negotiating with someone else’s agent, handling scheduling conflicts and task coordination without human involvement. The prompt becomes the new interface not just for controlling your computer, but for interacting with the digital world at large."
+      - blockquote:
+        - text: Andrej Karpathy
+        - link "@karpathy" [ref=e51]:
+          - /url: https://x.com/karpathy
+        - paragraph: Excellent reading thank you. Love oracle and Clawd.
+        - link "Jan 2026 View on X" [ref=e52] [nth=6]:
+          - /url: https://x.com/karpathy/status/2005692186470514904
+          - time: Jan 2026
+          - text: View on X
+      - paragraph: When Andrej Karpathy (former Tesla AI director, OpenAI founding member) is praising your project, you’re probably onto something.
+      - paragraph: Whether Clawdbot specifically becomes the dominant paradigm or gets absorbed into larger platforms remains to be seen. But the trend it represents feels inevitable. The question isn’t whether we’ll all have AI agents running on dedicated hardware at home. The question is how soon, and which lobster-themed mascot will lead the way.
+      - paragraph: For now, if you’ve been looking for an excuse to buy a Mac Mini, the crustacean overlords have provided one.
+    - link "Best Chromebooks for Kids" [ref=e53]:
+      - /url: /chromebooks/top/best-chromebook-for-kids/
+    - heading "Related Articles" [ref=e54] [level=3]
+          - /url: /minipcs/strix-halo-local-llm-inference-2026/
+          - 'heading "Strix Halo Mini PCs for Local LLM Inference: A Practical Guide to Running Large Models at Home" [level=4]'
+          - paragraph: Feb 2026
+  - contentinfo:
+    - navigation "Footer" [ref=e55]:
+      - link "Chromebooks" [ref=e56] [nth=1]:
+        - /url: /chromebooks/
+      - link "Mini PCs" [ref=e57] [nth=2]:
+        - /url: /minipcs/
+      - link "Linux" [ref=e58] [nth=1]:
+        - /url: /linux/
+      - link "Mac" [ref=e59]:
+        - /url: /mac/
+      - link "Notes" [ref=e60] [nth=1]:
+        - /url: /notes/
+      - link "FTC Disclosure" [ref=e61]:
+        - /url: /ftc/
+      - link "Privacy Policy" [ref=e62]:
+        - /url: https://www.iubenda.com/privacy-policy/265740
+      - link "Cookie Policy" [ref=e63]:
+        - /url: https://www.iubenda.com/privacy-policy/265740/cookie-policy
+      - link "Credits" [ref=e64]:
+        - /url: /credits/
+      - link "RSS" [ref=e65]:
+        - /url: /rss.xml
+    - paragraph: Copyright © 1998 - 2026 Starry Hope, LLC.

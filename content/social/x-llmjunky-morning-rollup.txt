@@ -1,0 +1,84 @@
+  - text: Don’t miss what’s happening People on X are the first to know.
+  - link "Log in" [ref=e1]:
+    - /url: /login
+  - link "Sign up" [ref=e2]:
+    - /url: /i/flow/signup
+  - button "Skip to home timeline" [ref=e3]
+  - button "Skip to trending" [ref=e4]
+  - banner:
+    - heading "X" [ref=e5] [level=1]:
+      - link "X" [ref=e6]:
+        - /url: /
+    - navigation "Primary" [ref=e7]
+  - main:
+    - button "Back" [ref=e8]
+    - heading "Post" [ref=e9] [level=2]
+    - region "Conversation" [ref=e10]:
+      - heading "Conversation" [ref=e11] [level=1]
+      - article "am.will Verified account @LLMJunky If you're using gog for Gmail and Calendar in @openclaw , I created a simple skill that provides you a rollup in the morning so you can get an overview of any calendar events or emails you received overnight. You can add as many accounts as you like, and you can set how often it runs You can configure how many events or emails it shows as well. Let me know if you like it, or if any improvements can be made. clawdhub.com/am-will/mornin Image 4 replies, 3 reposts, 37 likes, 53 bookmarks, 5844 views" [ref=e12]:
+        - link "am.will Verified account" [ref=e13]:
+          - /url: /LLMJunky
+          - text: am.will
+        - link "@LLMJunky" [ref=e14]:
+          - /url: /LLMJunky
+        - button "More" [ref=e15]
+        - text: If you're using gog for Gmail and Calendar in
+        - link "@openclaw" [ref=e16]:
+          - /url: /openclaw
+        - text: ", I created a simple skill that provides you a rollup in the morning so you can get an overview of any calendar events or emails you received overnight. You can add as many accounts as you like, and you can set how often it runs You can configure how many events or emails it shows as well. Let me know if you like it, or if any improvements can be made."
+        - link "clawdhub.com/am-will/mornin" [ref=e17]:
+          - /url: https://t.co/J8XtLftsdk
+        - link "Image" [ref=e18]:
+          - /url: /LLMJunky/status/2012081542567280964/photo/1
+        - link "2:36 AM · Jan 16, 2026" [ref=e19]:
+          - /url: /LLMJunky/status/2012081542567280964
+          - time: 2:36 AM · Jan 16, 2026
+        - link "5,844 Views" [ref=e20]:
+          - /url: /LLMJunky/status/2012081542567280964/analytics
+        - group "4 replies, 3 reposts, 37 likes, 53 bookmarks, 5844 views":
+          - button "4 Replies. Reply" [ref=e21]: "4"
+          - button "3 reposts. Repost" [ref=e22]: "3"
+          - button "37 Likes. Like" [ref=e23]: "37"
+          - button "53 Bookmarks. Bookmark" [ref=e24]: "53"
+          - button "Share post" [ref=e25]
+    - region "Sign up" [ref=e26]:
+      - heading "New to X?" [ref=e27] [level=2]
+      - text: Sign up now to get your own personalized timeline!
+      - button "Sign up with Apple" [ref=e28]
+      - link "Create account" [ref=e29]:
+        - /url: /i/flow/signup
+      - text: By signing up, you agree to the
+      - link "Terms of Service" [ref=e30]:
+        - /url: https://x.com/tos
+      - text: and
+      - link "Privacy Policy" [ref=e31]:
+        - /url: https://x.com/privacy
+      - text: ", including"
+      - link "Cookie Use." [ref=e32]:
+        - /url: https://help.x.com/rules-and-policies/twitter-cookies
+    - region "Trending now" [ref=e33]:
+      - heading "Trending now" [ref=e34] [level=1]
+      - heading "What’s happening" [ref=e35] [level=2]
+      - link "Sports · Trending Justin Verlander" [ref=e36]
+      - link "Trending in United States Noah Kahan" [ref=e37]
+      - link "Trending in United States Flashlight" [ref=e38]
+      - link "Show more" [ref=e39]:
+        - /url: /explore/tabs/for-you
+    - navigation "Footer" [ref=e40]:
+      - link "Terms of Service" [ref=e41] [nth=1]:
+        - /url: https://x.com/tos
+      - text: "|"
+      - link "Privacy Policy" [ref=e42] [nth=1]:
+        - /url: https://x.com/privacy
+      - text: "|"
+      - link "Cookie Policy" [ref=e43]:
+        - /url: https://support.x.com/articles/20170514
+      - text: "|"
+      - link "Accessibility" [ref=e44]:
+        - /url: https://help.x.com/resources/accessibility
+      - text: "|"
+      - link "Ads info" [ref=e45]:
+        - /url: https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo
+      - text: "|"
+      - button "More" [ref=e46] [nth=1]
+      - text: © 2026 X Corp.

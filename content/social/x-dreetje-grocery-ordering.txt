@@ -1,0 +1,91 @@
+  - text: Don’t miss what’s happening People on X are the first to know.
+  - link "Log in" [ref=e1]:
+    - /url: /login
+  - link "Sign up" [ref=e2]:
+    - /url: /i/flow/signup
+  - button "Skip to home timeline" [ref=e3]
+  - button "Skip to trending" [ref=e4]
+  - banner:
+    - heading "X" [ref=e5] [level=1]:
+      - link "X" [ref=e6]:
+        - /url: /
+    - navigation "Primary" [ref=e7]
+  - main:
+    - button "Back" [ref=e8]
+    - heading "Post" [ref=e9] [level=2]
+    - region "Conversation" [ref=e10]:
+      - heading "Conversation" [ref=e11] [level=1]
+      - article "André Foeken Verified account @dreetje Perfect. My @openclaw has managed to order things itself from @albertheijn (our supermarket) when our cleaning lady sent me a message. It logged in using shared credentials in my @1Password , then waited for the old style text message MFA (read it through @beeper iMessage bridge using MCP). And placed the items in my basket! So helpful. 11 replies, 5 reposts, 148 likes, 78 bookmarks, 11034 views" [ref=e12]:
+        - link "André Foeken Verified account" [ref=e13]:
+          - /url: /dreetje
+          - text: André Foeken
+        - link "@dreetje" [ref=e14]:
+          - /url: /dreetje
+        - button "More" [ref=e15]
+        - text: Perfect. My
+        - link "@openclaw" [ref=e16]:
+          - /url: /openclaw
+        - text: has managed to order things itself from
+        - link "@albertheijn" [ref=e17]:
+          - /url: /albertheijn
+        - text: (our supermarket) when our cleaning lady sent me a message. It logged in using shared credentials in my
+        - link "@1Password" [ref=e18]:
+          - /url: /1Password
+        - text: ", then waited for the old style text message MFA (read it through"
+        - link "@beeper" [ref=e19]:
+          - /url: /beeper
+        - text: iMessage bridge using MCP). And placed the items in my basket! So helpful.
+        - link "10:09 AM · Jan 20, 2026" [ref=e20]:
+          - /url: /dreetje/status/2013645067441844697
+          - time: 10:09 AM · Jan 20, 2026
+        - link "11K Views" [ref=e21]:
+          - /url: /dreetje/status/2013645067441844697/analytics
+        - group "11 replies, 5 reposts, 148 likes, 78 bookmarks, 11034 views":
+          - button "11 Replies. Reply" [ref=e22]: "11"
+          - button "5 reposts. Repost" [ref=e23]: "5"
+          - button "148 Likes. Like" [ref=e24]: "148"
+          - button "78 Bookmarks. Bookmark" [ref=e25]: "78"
+          - button "Share post" [ref=e26]
+        - button "Read 11 replies" [ref=e27]
+    - region "Sign up" [ref=e28]:
+      - heading "New to X?" [ref=e29] [level=2]
+      - text: Sign up now to get your own personalized timeline!
+      - button "Sign up with Apple" [ref=e30]
+      - link "Create account" [ref=e31]:
+        - /url: /i/flow/signup
+      - text: By signing up, you agree to the
+      - link "Terms of Service" [ref=e32]:
+        - /url: https://x.com/tos
+      - text: and
+      - link "Privacy Policy" [ref=e33]:
+        - /url: https://x.com/privacy
+      - text: ", including"
+      - link "Cookie Use." [ref=e34]:
+        - /url: https://help.x.com/rules-and-policies/twitter-cookies
+    - region "Trending now" [ref=e35]:
+      - heading "Trending now" [ref=e36] [level=1]
+      - heading "What’s happening" [ref=e37] [level=2]
+      - link "Trending in United States Noah Kahan" [ref=e38]
+      - link "Trending in United States Nancy Guthrie" [ref=e39]
+      - link "Music · Trending Jack Harlow" [ref=e40]
+      - link "Politics · Trending She's a Democrat" [ref=e41]
+      - link "Show more" [ref=e42]:
+        - /url: /explore/tabs/for-you
+    - navigation "Footer" [ref=e43]:
+      - link "Terms of Service" [ref=e44] [nth=1]:
+        - /url: https://x.com/tos
+      - text: "|"
+      - link "Privacy Policy" [ref=e45] [nth=1]:
+        - /url: https://x.com/privacy
+      - text: "|"
+      - link "Cookie Policy" [ref=e46]:
+        - /url: https://support.x.com/articles/20170514
+      - text: "|"
+      - link "Accessibility" [ref=e47]:
+        - /url: https://help.x.com/resources/accessibility
+      - text: "|"
+      - link "Ads info" [ref=e48]:
+        - /url: https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo
+      - text: "|"
+      - button "More" [ref=e49] [nth=1]
+      - text: © 2026 X Corp.

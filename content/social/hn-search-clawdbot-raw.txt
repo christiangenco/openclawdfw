@@ -1,0 +1,676 @@
+  - main:
+    - link [ref=e1]:
+      - /url: https://news.ycombinator.com
+    - link "Search Hacker News" [ref=e2]:
+      - /url: /
+    - searchbox "Search stories by title, url or author" [ref=e3]: clawdbot
+    - text: Search by
+    - link "Algolia Logo" [ref=e4]:
+      - /url: https://www.algolia.com/developers/?utm_source=hackernews&utm_medium=referral
+    - link [ref=e5] [nth=1]:
+      - /url: /settings
+    - text: Search
+    - combobox "Stories" [ref=e6]:
+      - text: Stories
+    - text: by
+    - combobox "Popularity" [ref=e7]:
+      - text: Popularity
+    - text: for
+    - combobox "All time" [ref=e8]:
+      - text: All time
+    - paragraph: 135 results (0.009 seconds)
+    - combobox [ref=e9]:
+    - article:
+        - /url: https://news.ycombinator.com/item?id=46850205
+        - text: "Show HN: NanoClaw – “"
+        - emphasis: Clawdbot
+        - text: ” in 500 lines of TS with Apple container isolation
+      - link "(https://github.com/gavrielc/nanoclaw)" [ref=e10]:
+        - /url: https://github.com/gavrielc/nanoclaw
+      - link "528 points" [ref=e11]:
+        - /url: https://news.ycombinator.com/item?id=46850205
+      - text: "|"
+      - link "jimminyx" [ref=e12]:
+        - /url: https://news.ycombinator.com/user?id=jimminyx
+      - text: "|"
+      - link "9 days ago" [ref=e13]:
+        - /url: https://news.ycombinator.com/item?id=46850205
+      - text: "|"
+      - link "224 comments" [ref=e14]:
+        - /url: https://news.ycombinator.com/item?id=46850205
+      - text: I’ve been running
+      - emphasis: Clawdbot
+      - text: for the last couple weeks and have genuinely found it useful but running it scares the crap out of me.
+      - paragraph: OpenClaw has 52+ modules and runs agents with near-unlimited permissions in a single Node process. NanoClaw is ~500 lines of core code, agents run in actual Apple containers with filesystem isolation. Each chat gets its own sandboxed context.
+      - paragraph: This is not a swiss army knife. It’s built to match my exact needs. Fork it and make it yours.
+    - article:
+      - link "Clawdbot - open source personal AI assistant" [ref=e15]:
+        - /url: https://news.ycombinator.com/item?id=46760237
+        - emphasis: Clawdbot
+        - text: "- open source personal AI assistant"
+      - link "(https://github.com/clawdbot/clawdbot)" [ref=e16]:
+        - /url: https://github.com/clawdbot/clawdbot
+        - text: (https://github.com/
+        - emphasis: clawdbot
+        - text: /
+        - emphasis: clawdbot
+        - text: )
+      - link "405 points" [ref=e17]:
+        - /url: https://news.ycombinator.com/item?id=46760237
+      - text: "|"
+      - link "KuzeyAbi" [ref=e18]:
+        - /url: https://news.ycombinator.com/user?id=KuzeyAbi
+      - text: "|"
+      - link "16 days ago" [ref=e19]:
+        - /url: https://news.ycombinator.com/item?id=46760237
+      - text: "|"
+      - link "261 comments" [ref=e20]:
+        - /url: https://news.ycombinator.com/item?id=46760237
+    - article:
+      - link "A sane but bull case on Clawdbot / OpenClaw" [ref=e21]:
+        - /url: https://news.ycombinator.com/item?id=46872465
+        - text: A sane but bull case on
+        - emphasis: Clawdbot
+        - text: / OpenClaw
+      - link "(https://brandon.wang/2026/clawdbot)" [ref=e22]:
+        - /url: https://brandon.wang/2026/clawdbot
+        - text: (https://brandon.wang/2026/
+        - emphasis: clawdbot
+        - text: )
+      - link "298 points" [ref=e23]:
+        - /url: https://news.ycombinator.com/item?id=46872465
+      - text: "|"
+      - link "brdd" [ref=e24]:
+        - /url: https://news.ycombinator.com/user?id=brdd
+      - text: "|"
+      - link "7 days ago" [ref=e25]:
+        - /url: https://news.ycombinator.com/item?id=46872465
+      - text: "|"
+      - link "481 comments" [ref=e26]:
+        - /url: https://news.ycombinator.com/item?id=46872465
+    - article:
+      - link "Clawdbot Renames to Moltbot" [ref=e27]:
+        - /url: https://news.ycombinator.com/item?id=46783863
+        - emphasis: Clawdbot
+        - text: Renames to Moltbot
+      - link "(https://github.com/moltbot/moltbot/commit/6d16a658e5ebe6ce15856565a47090d5b9d5dfb6)" [ref=e28]:
+        - /url: https://github.com/moltbot/moltbot/commit/6d16a658e5ebe6ce15856565a47090d5b9d5dfb6
+      - link "249 points" [ref=e29]:
+        - /url: https://news.ycombinator.com/item?id=46783863
+      - text: "|"
+      - link "philip1209" [ref=e30]:
+        - /url: https://news.ycombinator.com/user?id=philip1209
+      - text: "|"
+      - link "14 days ago" [ref=e31]:
+        - /url: https://news.ycombinator.com/item?id=46783863
+      - text: "|"
+      - link "227 comments" [ref=e32]:
+        - /url: https://news.ycombinator.com/item?id=46783863
+    - article:
+        - /url: https://news.ycombinator.com/item?id=46838946
+        - text: "Ask HN: Any real OpenClaw ("
+        - emphasis: Clawd Bot
+        - text: /Molt Bot) users? What's your experience?
+      - link "121 points" [ref=e33]:
+        - /url: https://news.ycombinator.com/item?id=46838946
+      - text: "|"
+      - link "cvhc" [ref=e34]:
+        - /url: https://news.ycombinator.com/user?id=cvhc
+      - text: "|"
+      - link "10 days ago" [ref=e35]:
+        - /url: https://news.ycombinator.com/item?id=46838946
+      - text: "|"
+      - link "185 comments" [ref=e36]:
+        - /url: https://news.ycombinator.com/item?id=46838946
+      - text: I've read many mind-boggling stories from those appeared to be genuine OpenClaw users, like how their assistants (from useful to dramatic) (1) plan a travel and book everything; (2) started a company and build things; (3) entered stock market and lost all the money... Moltbook added more funs.
+      - paragraph: Interestingly, I cannot find a single user of OpenClaw in my familiar communities, presumbly because it takes some effort to setup and the concept of AI taking control of everything is too scary for average tech enthusiasts.
+      - paragraph: "I scan through comments on HN, many of which were discussing about the ideas, but not sharing first-hand user experiences. A few HN users who did try it gave up / failed for various reasons:"
+      - paragraph:
+        - text: "-"
+        - link "https://news.ycombinator.com/item?id=46822562" [ref=e37]:
+          - /url: https://news.ycombinator.com/item?id=46822562
+        - text: (burning too many tokens)
+      - paragraph:
+        - text: "-"
+        - link "https://news.ycombinator.com/item?id=46786628" [ref=e38]:
+          - /url: https://news.ycombinator.com/item?id=46786628
+        - text: (ditto + security implication)
+      - paragraph:
+        - text: "-"
+        - link "https://news.ycombinator.com/item?id=46762521" [ref=e39]:
+          - /url: https://news.ycombinator.com/item?id=46762521
+        - text: (installation failed due to sandboxing)
+      - paragraph:
+        - text: "-"
+        - link "https://news.ycombinator.com/item?id=46831031" [ref=e40]:
+          - /url: https://news.ycombinator.com/item?id=46831031
+        - text: (moltbook didn't work)
+      - paragraph: I smell hype in the air... HN users, have any of you actually run OpenClaw and let it do any things useful or interesting? Can you share your experience?
+    - article:
+      - link "Clawdbot Bought Me a Car" [ref=e41]:
+        - /url: https://news.ycombinator.com/item?id=46755123
+        - emphasis: Clawdbot
+        - text: Bought Me a Car
+      - link "(https://aaronstuyvenberg.com/posts/clawd-bought-a-car)" [ref=e42]:
+        - /url: https://aaronstuyvenberg.com/posts/clawd-bought-a-car
+      - link "33 points" [ref=e43]:
+        - /url: https://news.ycombinator.com/item?id=46755123
+      - text: "|"
+      - link "theapache64" [ref=e44]:
+        - /url: https://news.ycombinator.com/user?id=theapache64
+      - text: "|"
+      - link "16 days ago" [ref=e45] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46755123
+      - text: "|"
+      - link "14 comments" [ref=e46]:
+        - /url: https://news.ycombinator.com/item?id=46755123
+    - article:
+        - /url: https://news.ycombinator.com/item?id=46764139
+        - emphasis: Clawdbot
+        - text: ": Personal AI Assistant"
+      - link "(https://clawd.bot/)" [ref=e47]:
+        - /url: https://clawd.bot/
+      - link "32 points" [ref=e48]:
+        - /url: https://news.ycombinator.com/item?id=46764139
+      - text: "|"
+      - link "puppion" [ref=e49]:
+        - /url: https://news.ycombinator.com/user?id=puppion
+      - text: "|"
+      - link "15 days ago" [ref=e50]:
+        - /url: https://news.ycombinator.com/item?id=46764139
+      - text: "|"
+      - link "2 comments" [ref=e51]:
+        - /url: https://news.ycombinator.com/item?id=46764139
+    - article:
+      - link "Clawdbot is a security nightmare [video]" [ref=e52]:
+        - /url: https://news.ycombinator.com/item?id=46783574
+        - emphasis: Clawdbot
+        - text: is a security nightmare [video]
+      - link "(https://www.youtube.com/watch?v=kSno1-xOjwI)" [ref=e53]:
+        - /url: https://www.youtube.com/watch?v=kSno1-xOjwI
+      - link "23 points" [ref=e54]:
+        - /url: https://news.ycombinator.com/item?id=46783574
+      - text: "|"
+      - link "carlos-menezes" [ref=e55]:
+        - /url: https://news.ycombinator.com/user?id=carlos-menezes
+      - text: "|"
+      - link "14 days ago" [ref=e56] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46783574
+      - text: "|"
+      - link "6 comments" [ref=e57]:
+        - /url: https://news.ycombinator.com/item?id=46783574
+    - article:
+      - link "Clawdbot Showed Me What the Future of Personal AI Assistants Looks Like" [ref=e58]:
+        - /url: https://news.ycombinator.com/item?id=46713437
+        - emphasis: Clawdbot
+        - text: Showed Me What the Future of Personal AI Assistants Looks Like
+      - link "(https://www.macstories.net/stories/clawdbot-showed-me-what-the-future-of-personal-ai-assistants-looks-like/)" [ref=e59]:
+        - /url: https://www.macstories.net/stories/clawdbot-showed-me-what-the-future-of-personal-ai-assistants-looks-like/
+        - text: (https://www.macstories.net/stories/
+        - emphasis: clawdbot
+        - text: "-showed-me-what-the-future-of-personal-ai-assistants-looks-like/)"
+      - link "11 points" [ref=e60]:
+        - /url: https://news.ycombinator.com/item?id=46713437
+      - text: "|"
+      - link "janpio" [ref=e61]:
+        - /url: https://news.ycombinator.com/user?id=janpio
+      - text: "|"
+      - link "20 days ago" [ref=e62]:
+        - /url: https://news.ycombinator.com/item?id=46713437
+      - text: "|"
+      - link "1 comments" [ref=e63]:
+        - /url: https://news.ycombinator.com/item?id=46713437
+    - article:
+      - link "One-Click Clawdbot/Moltbot on Security-Hardened DigitalOcean Droplets" [ref=e64]:
+        - /url: https://news.ycombinator.com/item?id=46813400
+        - text: One-Click
+        - emphasis: Clawdbot
+        - text: /Moltbot on Security-Hardened DigitalOcean Droplets
+      - link "(https://www.digitalocean.com/blog/moltbot-on-digitalocean)" [ref=e65]:
+        - /url: https://www.digitalocean.com/blog/moltbot-on-digitalocean
+      - link "9 points" [ref=e66]:
+        - /url: https://news.ycombinator.com/item?id=46813400
+      - text: "|"
+      - link "makaimc" [ref=e67]:
+        - /url: https://news.ycombinator.com/user?id=makaimc
+      - text: "|"
+      - link "12 days ago" [ref=e68]:
+        - /url: https://news.ycombinator.com/item?id=46813400
+      - text: "|"
+      - link "0 comments" [ref=e69]:
+        - /url: https://news.ycombinator.com/item?id=46813400
+    - article:
+      - link "What Is Clawdbot? (and Why People Are Losing Their Minds over It)" [ref=e70]:
+        - /url: https://news.ycombinator.com/item?id=46751505
+        - text: What Is
+        - emphasis: Clawdbot
+        - text: "? (and Why People Are Losing Their Minds over It)"
+      - link "(https://twitter.com/noahepstein_/status/2015073824799371370)" [ref=e71]:
+        - /url: https://twitter.com/noahepstein_/status/2015073824799371370
+      - link "8 points" [ref=e72]:
+        - /url: https://news.ycombinator.com/item?id=46751505
+      - text: "|"
+      - link "taubek" [ref=e73]:
+        - /url: https://news.ycombinator.com/user?id=taubek
+      - text: "|"
+      - link "16 days ago" [ref=e74] [nth=2]:
+        - /url: https://news.ycombinator.com/item?id=46751505
+      - text: "|"
+      - link "4 comments" [ref=e75]:
+        - /url: https://news.ycombinator.com/item?id=46751505
+    - article:
+      - link "How I built my own secure version of Clawdbot" [ref=e76]:
+        - /url: https://news.ycombinator.com/item?id=46830013
+        - text: How I built my own secure version of
+        - emphasis: Clawdbot
+      - link "(https://medium.com/ai-native-enterprise/how-i-built-my-own-enterprise-grade-clawdbot-without-the-security-nightmares-00ae01193280)" [ref=e77]:
+        - /url: https://medium.com/ai-native-enterprise/how-i-built-my-own-enterprise-grade-clawdbot-without-the-security-nightmares-00ae01193280
+        - text: (https://medium.com/ai-native-enterprise/how-i-built-my-own-enterprise-grade-
+        - emphasis: clawdbot
+        - text: "-without-the-security-nightmares-00ae01193280)"
+      - link "7 points" [ref=e78]:
+        - /url: https://news.ycombinator.com/item?id=46830013
+      - text: "|"
+      - link "cliffly" [ref=e79]:
+        - /url: https://news.ycombinator.com/user?id=cliffly
+      - text: "|"
+      - link "11 days ago" [ref=e80]:
+        - /url: https://news.ycombinator.com/item?id=46830013
+      - text: "|"
+      - link "3 comments" [ref=e81]:
+        - /url: https://news.ycombinator.com/item?id=46830013
+    - article:
+      - link "Three thoughts on AI inspired by Clawdbot" [ref=e82]:
+        - /url: https://news.ycombinator.com/item?id=46829473
+        - text: Three thoughts on AI inspired by
+        - emphasis: Clawdbot
+      - link "(https://aistudycamp.com/three-thoughts-on-ai/)" [ref=e83]:
+        - /url: https://aistudycamp.com/three-thoughts-on-ai/
+      - link "7 points" [ref=e84] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46829473
+      - text: "|"
+      - link "flreln" [ref=e85]:
+        - /url: https://news.ycombinator.com/user?id=flreln
+      - text: "|"
+      - link "11 days ago" [ref=e86] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46829473
+      - text: "|"
+      - link "0 comments" [ref=e87] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46829473
+    - article:
+      - link "The Rise, Fall, and Rebirth of Clawdbot in 72 Hours" [ref=e88]:
+        - /url: https://news.ycombinator.com/item?id=46791380
+        - text: The Rise, Fall, and Rebirth of
+        - emphasis: Clawdbot
+        - text: in 72 Hours
+      - link "(https://www.everydev.ai/p/the-rise-fall-and-rebirth-of-clawdbot-in-72-hours)" [ref=e89]:
+        - /url: https://www.everydev.ai/p/the-rise-fall-and-rebirth-of-clawdbot-in-72-hours
+        - text: (https://www.everydev.ai/p/the-rise-fall-and-rebirth-of-
+        - emphasis: clawdbot
+        - text: "-in-72-hours)"
+      - link "6 points" [ref=e90]:
+        - /url: https://news.ycombinator.com/item?id=46791380
+      - text: "|"
+      - link "devhouse" [ref=e91]:
+        - /url: https://news.ycombinator.com/user?id=devhouse
+      - text: "|"
+      - link "14 days ago" [ref=e92] [nth=2]:
+        - /url: https://news.ycombinator.com/item?id=46791380
+      - text: "|"
+      - link "2 comments" [ref=e93] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46791380
+    - article:
+      - link "Clawdbot Is Now Moltbot" [ref=e94]:
+        - /url: https://news.ycombinator.com/item?id=46776904
+        - emphasis: Clawdbot
+        - text: Is Now Moltbot
+      - link "(https://twitter.com/moltbot/status/2016058924403753024)" [ref=e95]:
+        - /url: https://twitter.com/moltbot/status/2016058924403753024
+      - link "6 points" [ref=e96] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46776904
+      - text: "|"
+      - link "chl" [ref=e97]:
+        - /url: https://news.ycombinator.com/user?id=chl
+      - text: "|"
+      - link "14 days ago" [ref=e98] [nth=3]:
+        - /url: https://news.ycombinator.com/item?id=46776904
+      - text: "|"
+      - link "1 comments" [ref=e99] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46776904
+    - article:
+      - link "Clawdbot Control Vulnerability Exposes AI System to Remote Code Execution" [ref=e100]:
+        - /url: https://news.ycombinator.com/item?id=46773144
+        - emphasis: Clawdbot
+        - text: Control Vulnerability Exposes AI System to Remote Code Execution
+      - link "(https://thecyberedition.com/clawdbot-control-vulnerability-exposes-ai-system-to-remote-code-execution/)" [ref=e101]:
+        - /url: https://thecyberedition.com/clawdbot-control-vulnerability-exposes-ai-system-to-remote-code-execution/
+        - text: (https://thecyberedition.com/
+        - emphasis: clawdbot
+        - text: "-control-vulnerability-exposes-ai-system-to-remote-code-execution/)"
+      - link "6 points" [ref=e102] [nth=2]:
+        - /url: https://news.ycombinator.com/item?id=46773144
+      - text: "|"
+      - link "thehacknews" [ref=e103]:
+        - /url: https://news.ycombinator.com/user?id=thehacknews
+      - text: "|"
+      - link "15 days ago" [ref=e104] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46773144
+      - text: "|"
+      - link "1 comments" [ref=e105] [nth=2]:
+        - /url: https://news.ycombinator.com/item?id=46773144
+    - article:
+      - link "Clawdbot Bought Me a Car" [ref=e106] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46747448
+        - emphasis: Clawdbot
+        - text: Bought Me a Car
+      - link "(https://aaronstuyvenberg.com/posts/clawd-bought-a-car)" [ref=e107] [nth=1]:
+        - /url: https://aaronstuyvenberg.com/posts/clawd-bought-a-car
+      - link "6 points" [ref=e108] [nth=3]:
+        - /url: https://news.ycombinator.com/item?id=46747448
+      - text: "|"
+      - link "sathyabhat" [ref=e109]:
+        - /url: https://news.ycombinator.com/user?id=sathyabhat
+      - text: "|"
+      - link "17 days ago" [ref=e110]:
+        - /url: https://news.ycombinator.com/item?id=46747448
+      - text: "|"
+      - link "0 comments" [ref=e111] [nth=2]:
+        - /url: https://news.ycombinator.com/item?id=46747448
+    - article:
+      - link "Clawdbot's Capacity Is Less a Triumph of AI and More a Triumph of Desktop OS" [ref=e112]:
+        - /url: https://news.ycombinator.com/item?id=46841978
+        - emphasis: Clawdbot
+        - text: "'s Capacity Is Less a Triumph of AI and More a Triumph of Desktop OS"
+      - link "(https://hsu.cy/2026/01/clawding-around/)" [ref=e113]:
+        - /url: https://hsu.cy/2026/01/clawding-around/
+      - link "5 points" [ref=e114]:
+        - /url: https://news.ycombinator.com/item?id=46841978
+      - text: "|"
+      - link "firexcy" [ref=e115]:
+        - /url: https://news.ycombinator.com/user?id=firexcy
+      - text: "|"
+      - link "10 days ago" [ref=e116] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46841978
+      - text: "|"
+      - link "0 comments" [ref=e117] [nth=3]:
+        - /url: https://news.ycombinator.com/item?id=46841978
+    - article:
+      - link "Clawdbot exposing full Signal accounts on the public internet" [ref=e118]:
+        - /url: https://news.ycombinator.com/item?id=46767267
+        - emphasis: Clawdbot
+        - text: exposing full Signal accounts on the public internet
+      - link "(https://xcancel.com/theonejvo/status/2015608677898899646)" [ref=e119]:
+        - /url: https://xcancel.com/theonejvo/status/2015608677898899646
+      - link "5 points" [ref=e120] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46767267
+      - text: "|"
+      - link "m-hodges" [ref=e121]:
+        - /url: https://news.ycombinator.com/user?id=m-hodges
+      - text: "|"
+      - link "15 days ago" [ref=e122] [nth=2]:
+        - /url: https://news.ycombinator.com/item?id=46767267
+      - text: "|"
+      - link "0 comments" [ref=e123] [nth=4]:
+        - /url: https://news.ycombinator.com/item?id=46767267
+    - article:
+      - link "Clawdbot – Personal AI Assistant" [ref=e124]:
+        - /url: https://news.ycombinator.com/item?id=46753740
+        - emphasis: Clawdbot
+        - text: – Personal AI Assistant
+      - link "(https://clawd.bot/)" [ref=e125] [nth=1]:
+        - /url: https://clawd.bot/
+      - link "5 points" [ref=e126] [nth=2]:
+        - /url: https://news.ycombinator.com/item?id=46753740
+      - text: "|"
+      - link "tilt" [ref=e127]:
+        - /url: https://news.ycombinator.com/user?id=tilt
+      - text: "|"
+      - link "16 days ago" [ref=e128] [nth=3]:
+        - /url: https://news.ycombinator.com/item?id=46753740
+      - text: "|"
+      - link "0 comments" [ref=e129] [nth=5]:
+        - /url: https://news.ycombinator.com/item?id=46753740
+    - article:
+        - /url: https://news.ycombinator.com/item?id=46952243
+        - text: "Show HN: I Built a Dating Chat App Using"
+        - emphasis: ClawdBot
+      - link "(https://14.israelfirew.co)" [ref=e130]:
+        - /url: https://14.israelfirew.co
+      - link "4 points" [ref=e131]:
+        - /url: https://news.ycombinator.com/item?id=46952243
+      - text: "|"
+      - link "IsruAlpha" [ref=e132]:
+        - /url: https://news.ycombinator.com/user?id=IsruAlpha
+      - text: "|"
+      - link "20 hours ago" [ref=e133]:
+        - /url: https://news.ycombinator.com/item?id=46952243
+      - text: "|"
+      - link "3 comments" [ref=e134] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46952243
+      - text: Hey HN, We built 14Clawd to let AI agents date humans. Most dating apps optimize for matches, not interaction. You swipe, match, send “hey,” and the conversation dies. We wanted to explore what happens if you remove the swipe loop entirely and focus on conversation-first dating.
+      - paragraph: 14Clawd creates a real conversation between humans to actually help you text your crush, and shoot your shot. ( Safely )
+      - paragraph: The interesting challenge was building something that feels natural and fast. Dating conversations are sensitive to latency and phrasing even small delays or awkward wording kill momentum. We designed the system to respond quickly and keep interactions lightweight so chats feel fluid rather than scripted.
+    - article:
+      - link "ClawdBot Ordered Me Lunch" [ref=e135]:
+        - /url: https://news.ycombinator.com/item?id=46925854
+        - emphasis: ClawdBot
+        - text: Ordered Me Lunch
+      - link "(https://nickalexander.org/drafts/auto-sandwich.html)" [ref=e136]:
+        - /url: https://nickalexander.org/drafts/auto-sandwich.html
+      - link "4 points" [ref=e137] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46925854
+      - text: "|"
+      - link "nick007" [ref=e138]:
+        - /url: https://news.ycombinator.com/user?id=nick007
+      - text: "|"
+      - link "3 days ago" [ref=e139]:
+        - /url: https://news.ycombinator.com/item?id=46925854
+      - text: "|"
+      - link "1 comments" [ref=e140] [nth=3]:
+        - /url: https://news.ycombinator.com/item?id=46925854
+    - article:
+      - link "Clawdbot sheds skin to become Moltbot, can't slough off security issues" [ref=e141]:
+        - /url: https://news.ycombinator.com/item?id=46815512
+        - emphasis: Clawdbot
+        - text: sheds skin to become Moltbot, can't slough off security issues
+      - link "(https://www.theregister.com/2026/01/27/clawdbot_moltbot_security_concerns/)" [ref=e142]:
+        - /url: https://www.theregister.com/2026/01/27/clawdbot_moltbot_security_concerns/
+        - text: (https://www.theregister.com/2026/01/27/
+        - emphasis: clawdbot
+        - text: _moltbot_security_concerns/)
+      - link "4 points" [ref=e143] [nth=2]:
+        - /url: https://news.ycombinator.com/item?id=46815512
+      - text: "|"
+      - link "thoughtpeddler" [ref=e144]:
+        - /url: https://news.ycombinator.com/user?id=thoughtpeddler
+      - text: "|"
+      - link "12 days ago" [ref=e145] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46815512
+      - text: "|"
+      - link "1 comments" [ref=e146] [nth=4]:
+        - /url: https://news.ycombinator.com/item?id=46815512
+    - article:
+        - /url: https://news.ycombinator.com/item?id=46847830
+        - text: "Show HN: Harmony AI –"
+        - emphasis: Clawdbot
+        - text: for the rest of us
+      - link "(https://getharmony.ai/)" [ref=e147]:
+        - /url: https://getharmony.ai/
+      - link "4 points" [ref=e148] [nth=3]:
+        - /url: https://news.ycombinator.com/item?id=46847830
+      - text: "|"
+      - link "Vishal19111999" [ref=e149]:
+        - /url: https://news.ycombinator.com/user?id=Vishal19111999
+      - text: "|"
+      - link "9 days ago" [ref=e150] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46847830
+      - text: "|"
+      - link "0 comments" [ref=e151] [nth=6]:
+        - /url: https://news.ycombinator.com/item?id=46847830
+      - text: Hey all,
+      - paragraph: I am building Harmony AI.
+      - paragraph: A proactive AI assistant that is one click to setup, predictable costs, super reliable and safe.
+      - paragraph: Currently starting with G suite, Slack, Jira and GitHub integrations.
+      - paragraph: Do let me know your views and opinion.
+      - paragraph: Thanks
+    - article:
+      - link "Infostealers added Clawdbot to their target lists before security teams knew" [ref=e152]:
+        - /url: https://news.ycombinator.com/item?id=46820350
+        - text: Infostealers added
+        - emphasis: Clawdbot
+        - text: to their target lists before security teams knew
+      - link "(https://venturebeat.com/security/clawdbot-exploits-48-hours-what-broke)" [ref=e153]:
+        - /url: https://venturebeat.com/security/clawdbot-exploits-48-hours-what-broke
+        - text: (https://venturebeat.com/security/
+        - emphasis: clawdbot
+        - text: "-exploits-48-hours-what-broke)"
+      - link "4 points" [ref=e154] [nth=4]:
+        - /url: https://news.ycombinator.com/item?id=46820350
+      - text: "|"
+      - link "vismit2000" [ref=e155]:
+        - /url: https://news.ycombinator.com/user?id=vismit2000
+      - text: "|"
+      - link "12 days ago" [ref=e156] [nth=2]:
+        - /url: https://news.ycombinator.com/item?id=46820350
+      - text: "|"
+      - link "0 comments" [ref=e157] [nth=7]:
+        - /url: https://news.ycombinator.com/item?id=46820350
+    - article:
+      - link "Clawdbot farming up 100 Google Local Guide Accounts" [ref=e158]:
+        - /url: https://news.ycombinator.com/item?id=46785886
+        - emphasis: Clawdbot
+        - text: farming up 100 Google Local Guide Accounts
+      - link "(https://twitter.com/indexsy/status/2016039982113132818)" [ref=e159]:
+        - /url: https://twitter.com/indexsy/status/2016039982113132818
+      - link "4 points" [ref=e160] [nth=5]:
+        - /url: https://news.ycombinator.com/item?id=46785886
+      - text: "|"
+      - link "bhartzer" [ref=e161]:
+        - /url: https://news.ycombinator.com/user?id=bhartzer
+      - text: "|"
+      - link "14 days ago" [ref=e162] [nth=4]:
+        - /url: https://news.ycombinator.com/item?id=46785886
+      - text: "|"
+      - link "0 comments" [ref=e163] [nth=8]:
+        - /url: https://news.ycombinator.com/item?id=46785886
+    - article:
+      - link "How Clawdbot Remembers Everything" [ref=e164]:
+        - /url: https://news.ycombinator.com/item?id=46775242
+        - text: How
+        - emphasis: Clawdbot
+        - text: Remembers Everything
+      - link "(https://twitter.com/manthanguptaa/status/2015780646770323543)" [ref=e165]:
+        - /url: https://twitter.com/manthanguptaa/status/2015780646770323543
+      - link "4 points" [ref=e166] [nth=6]:
+        - /url: https://news.ycombinator.com/item?id=46775242
+      - text: "|"
+      - link "Anon84" [ref=e167]:
+        - /url: https://news.ycombinator.com/user?id=Anon84
+      - text: "|"
+      - link "15 days ago" [ref=e168] [nth=3]:
+        - /url: https://news.ycombinator.com/item?id=46775242
+      - text: "|"
+      - link "0 comments" [ref=e169] [nth=9]:
+        - /url: https://news.ycombinator.com/item?id=46775242
+    - article:
+        - /url: https://news.ycombinator.com/item?id=46747644
+        - text: "Ask HN: Are you using"
+        - emphasis: Clawdbot
+        - text: "? What are your use cases?"
+      - link "4 points" [ref=e170] [nth=7]:
+        - /url: https://news.ycombinator.com/item?id=46747644
+      - text: "|"
+      - link "amrrs" [ref=e171]:
+        - /url: https://news.ycombinator.com/user?id=amrrs
+      - text: "|"
+      - link "17 days ago" [ref=e172] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46747644
+      - text: "|"
+      - link "0 comments" [ref=e173] [nth=10]:
+        - /url: https://news.ycombinator.com/item?id=46747644
+    - article:
+      - link "What's the Point of Clawdbot?" [ref=e174]:
+        - /url: https://news.ycombinator.com/item?id=46780322
+        - text: What's the Point of
+        - emphasis: Clawdbot
+        - text: "?"
+      - link "3 points" [ref=e175]:
+        - /url: https://news.ycombinator.com/item?id=46780322
+      - text: "|"
+      - link "benjaminwootton" [ref=e176]:
+        - /url: https://news.ycombinator.com/user?id=benjaminwootton
+      - text: "|"
+      - link "14 days ago" [ref=e177] [nth=5]:
+        - /url: https://news.ycombinator.com/item?id=46780322
+      - text: "|"
+      - link "3 comments" [ref=e178] [nth=2]:
+        - /url: https://news.ycombinator.com/item?id=46780322
+      - text: I personally don't get it.
+      - paragraph: I can interact with ChatGPT and Claude directly using apps on my phone.
+      - paragraph: I can already upload pictures and files from my phone to both the above.
+      - paragraph: Before long those apps will be able to access other data sources on my phone directly such as email, Google Drive with better integration.
+      - paragraph: I never need to work with files stored on my Mac mini remotely when I'm out and about. Most of my stuff is in the cloud anyway.
+      - paragraph: We already have Cowork, computer use, addons for Chrome for trying to connect AI to a browser.
+      - paragraph: All of these options are quite janky and unreliable even with the most useful use case for AI - email management and calendar management.
+      - paragraph: I personally see zero value or real use cases in this outside of a fun hack but the influencers are going wild.
+    - article:
+      - link "Anthropic raised trademark concerns, so Clawdbot ended up renaming" [ref=e179]:
+        - /url: https://news.ycombinator.com/item?id=46778307
+        - text: Anthropic raised trademark concerns, so
+        - emphasis: Clawdbot
+        - text: ended up renaming
+      - link "3 points" [ref=e180] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46778307
+      - text: "|"
+      - link "necatiozmen" [ref=e181]:
+        - /url: https://news.ycombinator.com/user?id=necatiozmen
+      - text: "|"
+      - link "14 days ago" [ref=e182] [nth=6]:
+        - /url: https://news.ycombinator.com/item?id=46778307
+      - text: "|"
+      - link "3 comments" [ref=e183] [nth=3]:
+        - /url: https://news.ycombinator.com/item?id=46778307
+      - emphasis: Clawdbot
+      - text: got renamed to Moltbot after trademark concerns from Anthropic.
+        - emphasis: Clawdbot
+        - text: → Moltbot Clawd → Molty
+        - text: As explained by
+        - emphasis: Clawdbot
+        - text: "’s creator, Peter Steinberger: same product, new name. https://x.com/steipete/status/2016068265391354181"
+      - listitem:
+        - button "1" [ref=e184]
+      - listitem:
+        - button "2" [ref=e185]
+      - listitem:
+        - button "3" [ref=e186]
+      - listitem:
+        - button "4" [ref=e187]
+      - listitem:
+        - button "5" [ref=e188]
+      - listitem:
+        - link "About" [ref=e189]:
+          - /url: /about
+      - listitem: •
+      - listitem:
+        - link "Setting" [ref=e190]:
+          - /url: /settings
+      - listitem: •
+      - listitem:
+        - link "Help" [ref=e191]:
+          - /url: /help
+      - listitem: •
+      - listitem:
+        - link "API Documentation" [ref=e192]:
+          - /url: /api
+      - listitem: •
+      - listitem:
+        - link "Hacker News" [ref=e193]:
+          - /url: https://news.ycombinator.com
+      - listitem: •
+      - listitem:
+        - link "Fork/Contribute" [ref=e194]:
+          - /url: https://github.com/algolia/hn-search
+      - listitem: •
+      - listitem:
+        - link "Cool Apps" [ref=e195]:
+          - /url: /cool_apps

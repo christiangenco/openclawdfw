@@ -1,0 +1,87 @@
+  - text: Don’t miss what’s happening People on X are the first to know.
+  - link "Log in" [ref=e1]:
+    - /url: /login
+  - link "Sign up" [ref=e2]:
+    - /url: /i/flow/signup
+  - button "Skip to home timeline" [ref=e3]
+  - button "Skip to trending" [ref=e4]
+  - banner:
+    - heading "X" [ref=e5] [level=1]:
+      - link "X" [ref=e6]:
+        - /url: /
+    - navigation "Primary" [ref=e7]
+  - main:
+    - button "Back" [ref=e8]
+    - heading "Post" [ref=e9] [level=2]
+    - region "Conversation" [ref=e10]:
+      - heading "Conversation" [ref=e11] [level=1]
+      - article "Andy Torres @andytorres_a . @openclaw on NAS x PC x Mac Studio is undefeated. Never had a better second brain! Latest productivity app we made is a daily agenda that auto refreshes based on actions per project. @steipete is a magician Image 1 reply, 2 reposts, 12 likes, 12 bookmarks, 4207 views" [ref=e12]:
+        - link "Andy Torres" [ref=e13]:
+          - /url: /andytorres_a
+        - link "@andytorres_a" [ref=e14]:
+          - /url: /andytorres_a
+        - button "More" [ref=e15]
+        - text: .
+        - link "@openclaw" [ref=e16]:
+          - /url: /openclaw
+        - text: on NAS x PC x Mac Studio is undefeated. Never had a better second brain! Latest productivity app we made is a daily agenda that auto refreshes based on actions per project.
+        - link "@steipete" [ref=e17]:
+          - /url: /steipete
+        - text: is a magician
+        - link "Image" [ref=e18]:
+          - /url: /andytorres_a/status/2012265108697923809/photo/1
+        - link "2:46 PM · Jan 16, 2026" [ref=e19]:
+          - /url: /andytorres_a/status/2012265108697923809
+          - time: 2:46 PM · Jan 16, 2026
+        - link "4,207 Views" [ref=e20]:
+          - /url: /andytorres_a/status/2012265108697923809/analytics
+        - group "1 reply, 2 reposts, 12 likes, 12 bookmarks, 4207 views":
+          - button "1 Reply. Reply" [ref=e21]: "1"
+          - button "2 reposts. Repost" [ref=e22]: "2"
+          - button "12 Likes. Like" [ref=e23]: "12"
+          - button "12 Bookmarks. Bookmark" [ref=e24]: "12"
+          - button "Share post" [ref=e25]
+    - region "Sign up" [ref=e26]:
+      - heading "New to X?" [ref=e27] [level=2]
+      - text: Sign up now to get your own personalized timeline!
+      - button "Sign up with Apple" [ref=e28]
+      - link "Create account" [ref=e29]:
+        - /url: /i/flow/signup
+      - text: By signing up, you agree to the
+      - link "Terms of Service" [ref=e30]:
+        - /url: https://x.com/tos
+      - text: and
+      - link "Privacy Policy" [ref=e31]:
+        - /url: https://x.com/privacy
+      - text: ", including"
+      - link "Cookie Use." [ref=e32]:
+        - /url: https://help.x.com/rules-and-policies/twitter-cookies
+    - region "Trending now" [ref=e33]:
+      - heading "Trending now" [ref=e34] [level=1]
+      - heading "What’s happening" [ref=e35] [level=2]
+      - link "Sports · Trending Verlander" [ref=e36]
+      - link "Trending in United States Noah Kahan" [ref=e37]
+      - link "Politics · Trending Nancy Guthrie Trending with The FBI" [ref=e38]:
+        - text: Politics · Trending Nancy Guthrie Trending with
+        - link "The FBI" [ref=e39]:
+          - /url: /search?q=The%20FBI&src=trend_click&vertical=trends
+      - link "Show more" [ref=e40]:
+        - /url: /explore/tabs/for-you
+    - navigation "Footer" [ref=e41]:
+      - link "Terms of Service" [ref=e42] [nth=1]:
+        - /url: https://x.com/tos
+      - text: "|"
+      - link "Privacy Policy" [ref=e43] [nth=1]:
+        - /url: https://x.com/privacy
+      - text: "|"
+      - link "Cookie Policy" [ref=e44]:
+        - /url: https://support.x.com/articles/20170514
+      - text: "|"
+      - link "Accessibility" [ref=e45]:
+        - /url: https://help.x.com/resources/accessibility
+      - text: "|"
+      - link "Ads info" [ref=e46]:
+        - /url: https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo
+      - text: "|"
+      - button "More" [ref=e47] [nth=1]
+      - text: © 2026 X Corp.

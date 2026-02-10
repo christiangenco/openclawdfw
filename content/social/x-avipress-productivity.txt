@@ -1,0 +1,82 @@
+  - text: Don’t miss what’s happening People on X are the first to know.
+  - link "Log in" [ref=e1]:
+    - /url: /login
+  - link "Sign up" [ref=e2]:
+    - /url: /i/flow/signup
+  - button "Skip to home timeline" [ref=e3]
+  - button "Skip to trending" [ref=e4]
+  - banner:
+    - heading "X" [ref=e5] [level=1]:
+      - link "X" [ref=e6]:
+        - /url: /
+    - navigation "Primary" [ref=e7]
+  - main:
+    - button "Back" [ref=e8]
+    - heading "Post" [ref=e9] [level=2]
+    - region "Conversation" [ref=e10]:
+      - heading "Conversation" [ref=e11] [level=1]
+      - 'article "Avi Press Verified account @avi_press I''ve had @openclaw going for less than 24 hours now, so far it has: - cleaned up our Linear issues - Wrote several decent email follow-ups. - Opened 3 PRs - Sent thousands of messages in a loop to an innocent and unsuspecting person who happened to message me on WhatsApp. - Prospected our new signups for the day, now scheduled daily. 7 replies, 5 reposts, 96 likes, 51 bookmarks, 12136 views"':
+        - link "Avi Press Verified account" [ref=e12]:
+          - /url: /avi_press
+          - text: Avi Press
+        - link "@avi_press" [ref=e13]:
+          - /url: /avi_press
+        - button "More" [ref=e14]
+        - text: I've had
+        - link "@openclaw" [ref=e15]:
+          - /url: /openclaw
+        - text: "going for less than 24 hours now, so far it has: - cleaned up our Linear issues - Wrote several decent email follow-ups. - Opened 3 PRs - Sent thousands of messages in a loop to an innocent and unsuspecting person who happened to message me on WhatsApp. - Prospected our new signups for the day, now scheduled daily."
+        - link "7:11 PM · Jan 7, 2026" [ref=e16]:
+          - /url: /avi_press/status/2009070459065913806
+          - time: 7:11 PM · Jan 7, 2026
+        - link "12.1K Views" [ref=e17]:
+          - /url: /avi_press/status/2009070459065913806/analytics
+        - group "7 replies, 5 reposts, 96 likes, 51 bookmarks, 12136 views":
+          - button "7 Replies. Reply" [ref=e18]: "7"
+          - button "5 reposts. Repost" [ref=e19]: "5"
+          - button "96 Likes. Like" [ref=e20]: "96"
+          - button "51 Bookmarks. Bookmark" [ref=e21]: "51"
+          - button "Share post" [ref=e22]
+        - button "Read 7 replies" [ref=e23]
+    - region "Sign up" [ref=e24]:
+      - heading "New to X?" [ref=e25] [level=2]
+      - text: Sign up now to get your own personalized timeline!
+      - button "Sign up with Apple" [ref=e26]
+      - link "Create account" [ref=e27]:
+        - /url: /i/flow/signup
+      - text: By signing up, you agree to the
+      - link "Terms of Service" [ref=e28]:
+        - /url: https://x.com/tos
+      - text: and
+      - link "Privacy Policy" [ref=e29]:
+        - /url: https://x.com/privacy
+      - text: ", including"
+      - link "Cookie Use." [ref=e30]:
+        - /url: https://help.x.com/rules-and-policies/twitter-cookies
+    - region "Trending now" [ref=e31]:
+      - heading "Trending now" [ref=e32] [level=1]
+      - heading "What’s happening" [ref=e33] [level=2]
+      - link "Trending in United States Noah Kahan" [ref=e34]
+      - link "Trending in United States Nancy Guthrie" [ref=e35]
+      - link "Music · Trending Jack Harlow" [ref=e36]
+      - link "Politics · Trending She's a Democrat" [ref=e37]
+      - link "Show more" [ref=e38]:
+        - /url: /explore/tabs/for-you
+    - navigation "Footer" [ref=e39]:
+      - link "Terms of Service" [ref=e40] [nth=1]:
+        - /url: https://x.com/tos
+      - text: "|"
+      - link "Privacy Policy" [ref=e41] [nth=1]:
+        - /url: https://x.com/privacy
+      - text: "|"
+      - link "Cookie Policy" [ref=e42]:
+        - /url: https://support.x.com/articles/20170514
+      - text: "|"
+      - link "Accessibility" [ref=e43]:
+        - /url: https://help.x.com/resources/accessibility
+      - text: "|"
+      - link "Ads info" [ref=e44]:
+        - /url: https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo
+      - text: "|"
+      - button "More" [ref=e45] [nth=1]
+      - text: © 2026 X Corp.

@@ -1,0 +1,65 @@
+{
+  "keywords": [
+    "ai assistant for business",
+    "openclaw"
+  ],
+  "response": {
+    "version": "0.1.20260209",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.1222 sec.",
+    "cost": 0.0102,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02102345-1046-0392-0000-2e7d99ee6f90",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.0256 sec.",
+        "cost": 0.0102,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "bulk_keyword_difficulty",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "bulk_keyword_difficulty",
+          "se_type": "google",
+          "keywords": [
+            "ai assistant for business",
+            "openclaw"
+          ],
+          "language_code": "en",
+          "location_code": 2840
+        },
+        "result": [
+          {
+            "se_type": "google",
+            "location_code": 2840,
+            "language_code": "en",
+            "total_count": 2,
+            "items_count": 2,
+            "items": [
+              {
+                "se_type": "google",
+                "keyword": "ai assistant for business",
+                "keyword_difficulty": 73
+              },
+              {
+                "se_type": "google",
+                "keyword": "openclaw",
+                "keyword_difficulty": 11
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "fetched_at": "2026-02-10 15:45:24 -0600"
+}

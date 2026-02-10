@@ -1,0 +1,1943 @@
+{
+  "keywords": [
+    "how to automate my inbox",
+    "how to use ai at work",
+    "how to implement ai in small business",
+    "getting started with ai business",
+    "ai workflow automation",
+    "how to automate business tasks with ai",
+    "how to delegate to ai",
+    "best ai assistant for business 2025",
+    "best ai assistant for business 2026",
+    "ai assistant comparison",
+    "openclaw alternatives",
+    "ai personal assistant vs virtual assistant",
+    "chatgpt vs ai executive assistant",
+    "openclaw vs chatgpt",
+    "best ai for email management",
+    "best ai for scheduling",
+    "ai assistant tools for business",
+    "top ai assistants for executives",
+    "claude ai vs chatgpt for business",
+    "ai assistant for business comparison",
+    "is ai assistant safe",
+    "ai assistant security",
+    "ai reading my email safe",
+    "ai data privacy business",
+    "ai security for business",
+    "is it safe to give ai access to email",
+    "ai assistant data protection",
+    "on premise ai vs cloud ai security",
+    "self hosted ai security",
+    "ai compliance business",
+    "ai hipaa compliance",
+    "ai for business security risks",
+    "ai tools for business owners",
+    "best ai tools 2025",
+    "best ai tools 2026",
+    "ai productivity tips",
+    "ai use cases for small business",
+    "tasks to automate with ai",
+    "ai executive assistant use cases",
+    "ai for ceo",
+    "ai for founders",
+    "ai implementation checklist",
+    "ai readiness assessment",
+    "ai roi calculator",
+    "ai automation ideas for business",
+    "ai time saving tips",
+    "things ai can do for business",
+    "ai business workflow ideas",
+    "business tasks to give to ai",
+    "ai assistant prompt templates",
+    "how to talk to ai assistant",
+    "ai onboarding checklist",
+    "ai productivity hacks",
+    "business ai checklist"
+  ],
+  "response": {
+    "version": "0.1.20260209",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "1.5668 sec.",
+    "cost": 0.075,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02102354-1046-0367-0000-8813a8f49e25",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "1.5115 sec.",
+        "cost": 0.075,
+        "result_count": 54,
+        "path": [
+          "v3",
+          "keywords_data",
+          "google_ads",
+          "search_volume",
+          "live"
+        ],
+        "data": {
+          "api": "keywords_data",
+          "function": "search_volume",
+          "se": "google_ads",
+          "keywords": [
+            "how to automate my inbox",
+            "how to use ai at work",
+            "how to implement ai in small business",
+            "getting started with ai business",
+            "ai workflow automation",
+            "how to automate business tasks with ai",
+            "how to delegate to ai",
+            "best ai assistant for business 2025",
+            "best ai assistant for business 2026",
+            "ai assistant comparison",
+            "openclaw alternatives",
+            "ai personal assistant vs virtual assistant",
+            "chatgpt vs ai executive assistant",
+            "openclaw vs chatgpt",
+            "best ai for email management",
+            "best ai for scheduling",
+            "ai assistant tools for business",
+            "top ai assistants for executives",
+            "claude ai vs chatgpt for business",
+            "ai assistant for business comparison",
+            "is ai assistant safe",
+            "ai assistant security",
+            "ai reading my email safe",
+            "ai data privacy business",
+            "ai security for business",
+            "is it safe to give ai access to email",
+            "ai assistant data protection",
+            "on premise ai vs cloud ai security",
+            "self hosted ai security",
+            "ai compliance business",
+            "ai hipaa compliance",
+            "ai for business security risks",
+            "ai tools for business owners",
+            "best ai tools 2025",
+            "best ai tools 2026",
+            "ai productivity tips",
+            "ai use cases for small business",
+            "tasks to automate with ai",
+            "ai executive assistant use cases",
+            "ai for ceo",
+            "ai for founders",
+            "ai implementation checklist",
+            "ai readiness assessment",
+            "ai roi calculator",
+            "ai automation ideas for business",
+            "ai time saving tips",
+            "things ai can do for business",
+            "ai business workflow ideas",
+            "business tasks to give to ai",
+            "ai assistant prompt templates",
+            "how to talk to ai assistant",
+            "ai onboarding checklist",
+            "ai productivity hacks",
+            "business ai checklist"
+          ],
+          "language_code": "en",
+          "location_code": 2840
+        },
+        "result": [
+          {
+            "keyword": "how to automate my inbox",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "how to use ai at work",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 79,
+            "search_volume": 320,
+            "low_top_of_page_bid": 2.53,
+            "high_top_of_page_bid": 7.34,
+            "cpc": 6.68,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 320
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 320
+              }
+            ]
+          },
+          {
+            "keyword": "how to implement ai in small business",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 31,
+            "search_volume": 10,
+            "low_top_of_page_bid": 6.78,
+            "high_top_of_page_bid": 22.42,
+            "cpc": 19.41,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 10
+              }
+            ]
+          },
+          {
+            "keyword": "getting started with ai business",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai workflow automation",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 57,
+            "search_volume": 880,
+            "low_top_of_page_bid": 8.76,
+            "high_top_of_page_bid": 25.17,
+            "cpc": 26.23,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 590
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 1300
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 1300
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 590
+              }
+            ]
+          },
+          {
+            "keyword": "how to automate business tasks with ai",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "how to delegate to ai",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "best ai assistant for business 2025",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "best ai assistant for business 2026",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai assistant comparison",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 12,
+            "search_volume": 30,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": 26.54,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 20
+              }
+            ]
+          },
+          {
+            "keyword": "openclaw alternatives",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai personal assistant vs virtual assistant",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "chatgpt vs ai executive assistant",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "openclaw vs chatgpt",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "best ai for email management",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 87,
+            "search_volume": 30,
+            "low_top_of_page_bid": 3.33,
+            "high_top_of_page_bid": 24.48,
+            "cpc": 15.01,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 10
+              }
+            ]
+          },
+          {
+            "keyword": "best ai for scheduling",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 83,
+            "search_volume": 40,
+            "low_top_of_page_bid": 4.25,
+            "high_top_of_page_bid": 18.86,
+            "cpc": 17.05,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 20
+              }
+            ]
+          },
+          {
+            "keyword": "ai assistant tools for business",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "top ai assistants for executives",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "claude ai vs chatgpt for business",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai assistant for business comparison",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "is ai assistant safe",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 0,
+            "search_volume": 10,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 10
+              }
+            ]
+          },
+          {
+            "keyword": "ai assistant security",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai reading my email safe",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai data privacy business",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai security for business",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "is it safe to give ai access to email",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai assistant data protection",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "on premise ai vs cloud ai security",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "self hosted ai security",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai compliance business",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai hipaa compliance",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 81,
+            "search_volume": 140,
+            "low_top_of_page_bid": 8.02,
+            "high_top_of_page_bid": 29.48,
+            "cpc": 27.67,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 110
+              }
+            ]
+          },
+          {
+            "keyword": "ai for business security risks",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai tools for business owners",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 76,
+            "search_volume": 20,
+            "low_top_of_page_bid": 8.18,
+            "high_top_of_page_bid": 35.61,
+            "cpc": 14.2,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 20
+              }
+            ]
+          },
+          {
+            "keyword": "best ai tools 2025",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 42,
+            "search_volume": 480,
+            "low_top_of_page_bid": 2.26,
+            "high_top_of_page_bid": 9.64,
+            "cpc": 9.07,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 1300
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 320
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 480
+              }
+            ]
+          },
+          {
+            "keyword": "best ai tools 2026",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 39,
+            "search_volume": 10,
+            "low_top_of_page_bid": 3.02,
+            "high_top_of_page_bid": 11.52,
+            "cpc": 8.18,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 0
+              }
+            ]
+          },
+          {
+            "keyword": "ai productivity tips",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai use cases for small business",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 89,
+            "search_volume": 10,
+            "low_top_of_page_bid": 5.31,
+            "high_top_of_page_bid": 24.53,
+            "cpc": 23.07,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 20
+              }
+            ]
+          },
+          {
+            "keyword": "tasks to automate with ai",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai executive assistant use cases",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai for ceo",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 59,
+            "search_volume": 50,
+            "low_top_of_page_bid": 6.45,
+            "high_top_of_page_bid": 20.14,
+            "cpc": 22.73,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 40
+              }
+            ]
+          },
+          {
+            "keyword": "ai for founders",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 92,
+            "search_volume": 10,
+            "low_top_of_page_bid": 8.31,
+            "high_top_of_page_bid": 20.05,
+            "cpc": 10.09,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 10
+              }
+            ]
+          },
+          {
+            "keyword": "ai implementation checklist",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai readiness assessment",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 23,
+            "search_volume": 480,
+            "low_top_of_page_bid": 10.73,
+            "high_top_of_page_bid": 39.61,
+            "cpc": 33.63,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 320
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 320
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 210
+              }
+            ]
+          },
+          {
+            "keyword": "ai roi calculator",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 46,
+            "search_volume": 70,
+            "low_top_of_page_bid": 4.88,
+            "high_top_of_page_bid": 17.01,
+            "cpc": 14.41,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 30
+              }
+            ]
+          },
+          {
+            "keyword": "ai automation ideas for business",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai time saving tips",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "things ai can do for business",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai business workflow ideas",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "business tasks to give to ai",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai assistant prompt templates",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "how to talk to ai assistant",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai onboarding checklist",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai productivity hacks",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 42,
+            "search_volume": 30,
+            "low_top_of_page_bid": 2.85,
+            "high_top_of_page_bid": 19.09,
+            "cpc": null,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 10
+              }
+            ]
+          },
+          {
+            "keyword": "business ai checklist",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          }
+        ]
+      }
+    ]
+  },
+  "fetched_at": "2026-02-10 15:54:57 -0600"
+}

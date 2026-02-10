@@ -1,0 +1,47 @@
+  - main:
+    - search "Search": openclaw
+    - button "Clear search query" [ref=e1]:
+    - 'button "Filter search by language (currently: All languages)"':
+      - text: All languages
+      - tab "Top" [ref=e2]
+      - tab "Latest" [ref=e3]
+      - tab "People" [ref=e4]
+      - tab "Feeds" [ref=e5]
+    - text: Search is currently unavailable when logged out
+    - link "Sign in" [ref=e6]:
+      - /url: "#"
+    - text: or
+    - link "Create an account" [ref=e7]:
+      - /url: "#"
+      - text: create an account
+    - text: to search for news, sports, politics, and everything else happening on Bluesky.
+  - navigation:
+    - button "Create account" [ref=e8]
+    - button "Sign in" [ref=e9]
+  - text: Trending
+  - button "Trending options" [ref=e10]:
+  - link "Browse topic Epstein Scandal" [ref=e11]:
+    - /url: /profile/trending.bsky.app/feed/601446862
+    - text: 1. Epstein Scandal
+  - link "Browse topic ICE and DHS" [ref=e12]:
+    - /url: /profile/trending.bsky.app/feed/601354122
+    - text: 2. ICE and DHS
+  - link "Browse topic X-Files" [ref=e13]:
+    - /url: /profile/trending.bsky.app/feed/600786763
+    - text: 3. X-Files
+  - link "Browse topic Antiques Roadshow" [ref=e14]:
+    - /url: /profile/trending.bsky.app/feed/600689957
+    - text: 4. Antiques Roadshow
+  - link "Browse topic Olympic Hockey" [ref=e15]:
+    - /url: /profile/trending.bsky.app/feed/600412904
+    - text: 5. Olympic Hockey
+  - link "Privacy" [ref=e16]:
+    - /url: https://bsky.social/about/support/privacy-policy
+  - text: ∙
+  - link "Terms" [ref=e17]:
+    - /url: https://bsky.social/about/support/tos
+  - text: ∙
+  - link "Help" [ref=e18]:
+    - /url: https://blueskyweb.zendesk.com/hc/en-us
+  - combobox "Change app language" [ref=e19]: English
+  - region "Notifications alt+T" [ref=e20]

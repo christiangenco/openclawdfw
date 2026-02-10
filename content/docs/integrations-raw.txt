@@ -1,0 +1,318 @@
+  - main:
+    - link "← Back to home" [ref=e1]:
+      - /url: /
+    - heading "Integrations" [ref=e2] [level=1]
+    - paragraph: 50+ integrations with the apps and services you already use. Chat from your phone, control from your desktop, automate everything.
+    - heading "⟩ Chat Providers" [ref=e3] [level=2]
+    - paragraph: Message OpenClaw from any chat app — it responds right where you are.
+    - link "WhatsApp QR pairing via Baileys" [ref=e4]:
+      - /url: https://clawhub.com/skills/wacli
+      - heading "WhatsApp" [ref=e5] [level=3]
+      - paragraph: QR pairing via Baileys
+    - link "Telegram Bot API via grammY" [ref=e6]:
+      - /url: https://docs.openclaw.ai/telegram
+      - heading "Telegram" [ref=e7] [level=3]
+      - paragraph: Bot API via grammY
+    - link "Discord Servers, channels & DMs" [ref=e8]:
+      - /url: https://clawhub.com/skills/discord
+      - heading "Discord" [ref=e9] [level=3]
+      - paragraph: Servers, channels & DMs
+    - link "Slack Workspace apps via Bolt" [ref=e10]:
+      - /url: https://clawhub.com/skills/slack
+      - heading "Slack" [ref=e11] [level=3]
+      - paragraph: Workspace apps via Bolt
+    - link "Signal Privacy-focused via signal-cli" [ref=e12]:
+      - /url: https://clawhub.com/skills/sag
+      - heading "Signal" [ref=e13] [level=3]
+      - paragraph: Privacy-focused via signal-cli
+    - link "iMessage iMessage via imsg (AppleScript bridge)" [ref=e14]:
+      - /url: https://github.com/steipete/imsg
+      - heading "iMessage" [ref=e15] [level=3]
+      - paragraph: iMessage via imsg (AppleScript bridge)
+    - link "iMessage iMessage via BlueBubbles server" [ref=e16]:
+      - /url: https://docs.openclaw.ai/channels/bluebubbles
+      - heading "iMessage" [ref=e17] [nth=1] [level=3]
+      - paragraph: iMessage via BlueBubbles server
+    - link "Microsoft Teams Enterprise support" [ref=e18]:
+      - /url: https://docs.openclaw.ai/msteams
+      - heading "Microsoft Teams" [ref=e19] [level=3]
+      - paragraph: Enterprise support
+    - link "Nextcloud Talk Self-hosted Nextcloud chat" [ref=e20]:
+      - /url: https://docs.openclaw.ai/channels/nextcloud-talk
+      - heading "Nextcloud Talk" [ref=e21] [level=3]
+      - paragraph: Self-hosted Nextcloud chat
+    - link "Matrix Matrix protocol" [ref=e22]:
+      - /url: https://docs.openclaw.ai/channels/matrix
+      - heading "Matrix" [ref=e23] [level=3]
+      - paragraph: Matrix protocol
+    - link "Nostr Decentralized DMs via NIP-04" [ref=e24]:
+      - /url: https://docs.openclaw.ai/channels/nostr
+      - heading "Nostr" [ref=e25] [level=3]
+      - paragraph: Decentralized DMs via NIP-04
+    - link "Tlon Messenger P2P ownership-first chat" [ref=e26]:
+      - /url: https://docs.urbit.org
+      - heading "Tlon Messenger" [ref=e27] [level=3]
+      - paragraph: P2P ownership-first chat
+    - link "Zalo Zalo Bot API" [ref=e28]:
+      - /url: https://docs.openclaw.ai/channels/zalo
+      - heading "Zalo" [ref=e29] [level=3]
+      - paragraph: Zalo Bot API
+    - link "Zalo Personal Personal account via QR login" [ref=e30]:
+      - /url: https://docs.openclaw.ai/channels/zalouser
+      - heading "Zalo Personal" [ref=e31] [level=3]
+      - paragraph: Personal account via QR login
+    - link "WebChat Browser-based UI" [ref=e32]:
+      - /url: https://docs.openclaw.ai/webchat
+      - heading "WebChat" [ref=e33] [level=3]
+      - paragraph: Browser-based UI
+    - heading "⟩ AI Models" [ref=e34] [level=2]
+    - paragraph: Use any model you want — cloud or local. Your keys, your choice.
+    - link "Anthropic Claude Pro/Max + Opus 4.5" [ref=e35]:
+      - /url: https://docs.openclaw.ai/models
+      - heading "Anthropic" [ref=e36] [level=3]
+      - paragraph: Claude Pro/Max + Opus 4.5
+    - link "OpenAI GPT-4, GPT-5, o1" [ref=e37]:
+      - /url: https://docs.openclaw.ai/models
+      - heading "OpenAI" [ref=e38] [level=3]
+      - paragraph: GPT-4, GPT-5, o1
+    - link "Google Gemini 2.5 Pro/Flash" [ref=e39]:
+      - /url: https://docs.openclaw.ai/models
+      - heading "Google" [ref=e40] [level=3]
+      - paragraph: Gemini 2.5 Pro/Flash
+    - link "xAI Grok 3 & 4" [ref=e41]:
+      - /url: https://docs.openclaw.ai/models
+      - heading "xAI" [ref=e42] [level=3]
+      - paragraph: Grok 3 & 4
+    - link "OpenRouter Unified API gateway" [ref=e43]:
+      - /url: https://docs.openclaw.ai/models
+      - heading "OpenRouter" [ref=e44] [level=3]
+      - paragraph: Unified API gateway
+    - link "Mistral Mistral Large & Codestral" [ref=e45]:
+      - /url: https://docs.openclaw.ai/models
+      - heading "Mistral" [ref=e46] [level=3]
+      - paragraph: Mistral Large & Codestral
+    - link "DeepSeek DeepSeek V3 & R1" [ref=e47]:
+      - /url: https://docs.openclaw.ai/models
+      - heading "DeepSeek" [ref=e48] [level=3]
+      - paragraph: DeepSeek V3 & R1
+    - link "GLM ChatGLM models" [ref=e49]:
+      - /url: https://docs.openclaw.ai/models
+      - heading "GLM" [ref=e50] [level=3]
+      - paragraph: ChatGLM models
+    - link "Perplexity Search-augmented AI" [ref=e51]:
+      - /url: https://docs.openclaw.ai/models
+      - heading "Perplexity" [ref=e52] [level=3]
+      - paragraph: Search-augmented AI
+    - link "Hugging Face Open-source models" [ref=e53]:
+      - /url: https://docs.openclaw.ai/models
+      - heading "Hugging Face" [ref=e54] [level=3]
+      - paragraph: Open-source models
+    - link "Local Models Ollama, LM Studio" [ref=e55]:
+      - /url: https://docs.openclaw.ai/models
+      - heading "Local Models" [ref=e56] [level=3]
+      - paragraph: Ollama, LM Studio
+    - heading "⟩ Productivity" [ref=e57] [level=2]
+    - paragraph: Notes, tasks, wikis, and code — OpenClaw works with your favorite tools.
+    - link "Apple Notes Native macOS/iOS notes" [ref=e58]:
+      - /url: https://clawhub.com/skills/apple-notes
+      - heading "Apple Notes" [ref=e59] [level=3]
+      - paragraph: Native macOS/iOS notes
+    - link "Apple Reminders Task management" [ref=e60]:
+      - /url: https://clawhub.com/skills/apple-reminders
+      - heading "Apple Reminders" [ref=e61] [level=3]
+      - paragraph: Task management
+    - link "Things 3 GTD task manager" [ref=e62]:
+      - /url: https://clawhub.com/skills/things-mac
+      - heading "Things 3" [ref=e63] [level=3]
+      - paragraph: GTD task manager
+    - link "Notion Workspace & databases" [ref=e64]:
+      - /url: https://clawhub.com/skills
+      - heading "Notion" [ref=e65] [level=3]
+      - paragraph: Workspace & databases
+    - link "Obsidian Knowledge graph notes" [ref=e66]:
+      - /url: https://clawhub.com/skills/obsidian
+      - heading "Obsidian" [ref=e67] [level=3]
+      - paragraph: Knowledge graph notes
+    - link "Bear Notes Markdown notes" [ref=e68]:
+      - /url: https://clawhub.com/skills
+      - heading "Bear Notes" [ref=e69] [level=3]
+      - paragraph: Markdown notes
+    - link "Trello Kanban boards" [ref=e70]:
+      - /url: https://clawhub.com/skills/trello
+      - heading "Trello" [ref=e71] [level=3]
+      - paragraph: Kanban boards
+    - link "GitHub Code, issues, PRs" [ref=e72]:
+      - /url: https://clawhub.com/skills
+      - heading "GitHub" [ref=e73] [level=3]
+      - paragraph: Code, issues, PRs
+    - heading "⟩ Music & Audio" [ref=e74] [level=2]
+    - paragraph: Control playback, identify songs, and manage multi-room audio.
+    - link "Spotify Music playback control" [ref=e75]:
+      - /url: https://clawhub.com/skills/spotify-player
+      - heading "Spotify" [ref=e76] [level=3]
+      - paragraph: Music playback control
+    - link "Sonos Multi-room audio" [ref=e77]:
+      - /url: https://clawhub.com/skills/sonoscli
+      - heading "Sonos" [ref=e78] [level=3]
+      - paragraph: Multi-room audio
+    - link "Shazam Song recognition" [ref=e79]:
+      - /url: https://clawhub.com/skills/songsee
+      - heading "Shazam" [ref=e80] [level=3]
+      - paragraph: Song recognition
+    - heading "⟩ Smart Home" [ref=e81] [level=2]
+    - paragraph: Lights, thermostats, and IoT devices — all voice-controllable.
+    - link "Philips Hue Smart lighting" [ref=e82]:
+      - /url: https://clawhub.com/skills/openhue
+      - heading "Philips Hue" [ref=e83] [level=3]
+      - paragraph: Smart lighting
+    - link "8Sleep Smart mattress" [ref=e84]:
+      - /url: https://clawhub.com/skills/eightctl
+      - heading "8Sleep" [ref=e85] [level=3]
+      - paragraph: Smart mattress
+    - link "Home Assistant Home automation hub" [ref=e86]:
+      - /url: https://clawhub.com/skills/homeassistant
+      - heading "Home Assistant" [ref=e87] [level=3]
+      - paragraph: Home automation hub
+    - heading "⟩ Tools & Automation" [ref=e88] [level=2]
+    - paragraph: Browser control, scheduled tasks, email triggers, and more.
+    - link "Browser Chrome/Chromium control" [ref=e89]:
+      - /url: https://clawhub.com/skills/verify-on-browser
+      - heading "Browser" [ref=e90] [level=3]
+      - paragraph: Chrome/Chromium control
+    - link "Canvas Visual workspace + A2UI" [ref=e91]:
+      - /url: https://docs.openclaw.ai/mac/canvas
+      - heading "Canvas" [ref=e92] [level=3]
+      - paragraph: Visual workspace + A2UI
+    - link "Voice Voice Wake + Talk Mode" [ref=e93]:
+      - /url: https://clawhub.com/skills/voice-transcribe
+      - heading "Voice" [ref=e94] [level=3]
+      - paragraph: Voice Wake + Talk Mode
+    - link "Gmail Pub/Sub email triggers" [ref=e95]:
+      - /url: https://docs.openclaw.ai/gmail-pubsub
+      - heading "Gmail" [ref=e96] [level=3]
+      - paragraph: Pub/Sub email triggers
+    - link "Cron Scheduled tasks" [ref=e97]:
+      - /url: https://docs.openclaw.ai/cron
+      - heading "Cron" [ref=e98] [level=3]
+      - paragraph: Scheduled tasks
+    - link "Webhooks External triggers" [ref=e99]:
+      - /url: https://docs.openclaw.ai/webhook
+      - heading "Webhooks" [ref=e100] [level=3]
+      - paragraph: External triggers
+    - link "1Password Secure credentials" [ref=e101]:
+      - /url: https://clawhub.com/skills/1password
+      - heading "1Password" [ref=e102] [level=3]
+      - paragraph: Secure credentials
+    - link "Weather Forecasts & conditions" [ref=e103]:
+      - /url: https://clawhub.com/skills/weather
+      - heading "Weather" [ref=e104] [level=3]
+      - paragraph: Forecasts & conditions
+    - heading "⟩ Media & Creative" [ref=e105] [level=2]
+    - paragraph: Generate images, capture screens, and find the perfect GIF.
+    - link "Image Gen AI image generation" [ref=e106]:
+      - /url: https://clawhub.com/skills
+      - heading "Image Gen" [ref=e107] [level=3]
+      - paragraph: AI image generation
+    - link "GIF Search Find the perfect GIF" [ref=e108]:
+      - /url: https://clawhub.com/skills/gifgrep
+      - heading "GIF Search" [ref=e109] [level=3]
+      - paragraph: Find the perfect GIF
+    - link "Peekaboo Screen capture & control" [ref=e110]:
+      - /url: https://clawhub.com/skills/peekaboo
+      - heading "Peekaboo" [ref=e111] [level=3]
+      - paragraph: Screen capture & control
+    - link "Camera Photo/video capture" [ref=e112]:
+      - /url: https://clawhub.com/skills
+      - heading "Camera" [ref=e113] [level=3]
+      - paragraph: Photo/video capture
+    - heading "⟩ Social" [ref=e114] [level=2]
+    - paragraph: Post tweets, manage email, and stay connected.
+    - link "Twitter/X Tweet, reply, search" [ref=e115]:
+      - /url: https://clawhub.com/skills/bird
+      - heading "Twitter/X" [ref=e116] [level=3]
+      - paragraph: Tweet, reply, search
+    - link "Email Send & read emails" [ref=e117]:
+      - /url: https://clawhub.com/skills/himalaya
+      - heading "Email" [ref=e118] [level=3]
+      - paragraph: Send & read emails
+    - heading "⟩ Platforms" [ref=e119] [level=2]
+      - text: Run the Gateway anywhere. Use companion apps for voice, camera, and native features.
+      - strong: "Mobile access:"
+      - text: Chat via WhatsApp/Telegram from your phone — no app install needed.
+    - link "macOS Menu bar app + Voice Wake" [ref=e120]:
+      - /url: https://docs.openclaw.ai/macos
+      - heading "macOS" [ref=e121] [level=3]
+      - paragraph: Menu bar app + Voice Wake
+    - link "iOS Canvas, camera, Voice Wake" [ref=e122]:
+      - /url: https://docs.openclaw.ai/ios
+      - heading "iOS" [ref=e123] [level=3]
+      - paragraph: Canvas, camera, Voice Wake
+    - link "Android Canvas, camera, screen" [ref=e124]:
+      - /url: https://docs.openclaw.ai/android
+      - heading "Android" [ref=e125] [level=3]
+      - paragraph: Canvas, camera, screen
+    - link "Windows WSL2 recommended" [ref=e126]:
+      - /url: https://docs.openclaw.ai/windows
+      - heading "Windows" [ref=e127] [level=3]
+      - paragraph: WSL2 recommended
+    - link "Linux Native support" [ref=e128]:
+      - /url: https://docs.openclaw.ai/linux
+      - heading "Linux" [ref=e129] [level=3]
+      - paragraph: Native support
+    - heading "⟩ Community Showcase" [ref=e130] [level=2]
+    - paragraph: Impressive integrations built by the community.
+    - link "Tesco Autopilot Automated grocery shopping" [ref=e131]:
+      - /url: https://docs.openclaw.ai/start/showcase
+      - heading "Tesco Autopilot" [ref=e132] [level=3]
+      - paragraph: Automated grocery shopping
+    - link "Bambu Control 3D printer management" [ref=e133]:
+      - /url: https://docs.openclaw.ai/start/showcase
+      - heading "Bambu Control" [ref=e134] [level=3]
+      - paragraph: 3D printer management
+    - link "Oura Ring Health data insights" [ref=e135]:
+      - /url: https://docs.openclaw.ai/start/showcase
+      - heading "Oura Ring" [ref=e136] [level=3]
+      - paragraph: Health data insights
+    - link "Food Ordering Foodora integration" [ref=e137]:
+      - /url: https://docs.openclaw.ai/start/showcase
+      - heading "Food Ordering" [ref=e138] [level=3]
+      - paragraph: Foodora integration
+    - link "View all showcase projects →" [ref=e139]:
+      - /url: https://docs.openclaw.ai/start/showcase
+    - heading "Ready to get started?" [ref=e140] [level=2]
+    - paragraph: Install OpenClaw and connect your first provider in minutes.
+    - link "Get Started" [ref=e141]:
+      - /url: /
+    - heading "Want More Skills?" [ref=e142] [level=2]
+    - paragraph: Discover 100+ community-built skills on ClawHub — the public registry for sharing and discovering agent capabilities.
+    - link "Browse ClawHub →" [ref=e143]:
+      - /url: https://clawhub.com
+    - navigation:
+      - link "Home" [ref=e144]:
+        - /url: /
+      - text: ·
+      - link "Blog" [ref=e145]:
+        - /url: /blog
+      - text: ·
+      - link "Showcase" [ref=e146]:
+        - /url: /showcase
+      - text: ·
+      - link "Shoutouts" [ref=e147]:
+        - /url: /shoutouts
+      - text: ·
+      - link "Trust" [ref=e148]:
+        - /url: https://trust.openclaw.ai/
+    - paragraph:
+      - text: Built by
+      - link "Molty" [ref=e149]:
+        - /url: https://molty.me
+      - text: 🦞, a space lobster AI with a
+      - link "soul" [ref=e150]:
+        - /url: https://soul.md
+      - text: ", by"
+      - link "Peter Steinberger" [ref=e151]:
+        - /url: https://steipete.me
+      - text: "&"
+      - link "community" [ref=e152]:
+        - /url: https://github.com/openclaw/openclaw#community
+      - text: .

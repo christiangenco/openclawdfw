@@ -1,0 +1,76 @@
+  - text: Don’t miss what’s happening People on X are the first to know.
+  - link "Log in" [ref=e1]:
+    - /url: /login
+  - link "Sign up" [ref=e2]:
+    - /url: /i/flow/signup
+  - button "Skip to home timeline" [ref=e3]
+  - button "Skip to trending" [ref=e4]
+  - banner:
+    - heading "X" [ref=e5] [level=1]:
+      - link "X" [ref=e6]:
+        - /url: /
+    - navigation "Primary" [ref=e7]
+  - main:
+    - button "Back" [ref=e8]
+    - heading "Post" [ref=e9] [level=2]
+    - region "Conversation" [ref=e10]:
+      - heading "Conversation" [ref=e11] [level=1]
+      - article "Dan Peguine ⌐◨-◨ Verified account @danpeguine today I asked @openclaw to organize all my bloodworks lab results into a neat notion database Image 4 replies, 2 reposts, 52 likes, 32 bookmarks, 7131 views" [ref=e12]:
+        - link "Dan Peguine ⌐◨-◨ Verified account" [ref=e13]:
+          - /url: /danpeguine
+          - text: Dan Peguine ⌐◨-◨
+        - link "@danpeguine" [ref=e14]:
+          - /url: /danpeguine
+        - button "More" [ref=e15]
+        - text: today I asked
+        - link "@openclaw" [ref=e16]:
+          - /url: /openclaw
+        - text: to organize all my bloodworks lab results into a neat notion database
+        - link "Image" [ref=e17]:
+          - /url: /danpeguine/status/2013388700479058068/photo/1
+        - link "5:10 PM · Jan 19, 2026" [ref=e18]:
+          - /url: /danpeguine/status/2013388700479058068
+          - time: 5:10 PM · Jan 19, 2026
+        - link "7,131 Views" [ref=e19]:
+          - /url: /danpeguine/status/2013388700479058068/analytics
+        - group "4 replies, 2 reposts, 52 likes, 32 bookmarks, 7131 views":
+          - button "4 Replies. Reply" [ref=e20]: "4"
+          - button "2 reposts. Repost" [ref=e21]: "2"
+          - button "52 Likes. Like" [ref=e22]: "52"
+          - button "32 Bookmarks. Bookmark" [ref=e23]: "32"
+          - button "Share post" [ref=e24]
+    - region "Sign up" [ref=e25]:
+      - heading "New to X?" [ref=e26] [level=2]
+      - text: Sign up now to get your own personalized timeline!
+      - button "Sign up with Apple" [ref=e27]
+      - link "Create account" [ref=e28]:
+        - /url: /i/flow/signup
+      - text: By signing up, you agree to the
+      - link "Terms of Service" [ref=e29]:
+        - /url: https://x.com/tos
+      - text: and
+      - link "Privacy Policy" [ref=e30]:
+        - /url: https://x.com/privacy
+      - text: ", including"
+      - link "Cookie Use." [ref=e31]:
+        - /url: https://help.x.com/rules-and-policies/twitter-cookies
+    - text: Something went wrong. Try reloading.
+    - button "Retry" [ref=e32]
+    - navigation "Footer" [ref=e33]:
+      - link "Terms of Service" [ref=e34] [nth=1]:
+        - /url: https://x.com/tos
+      - text: "|"
+      - link "Privacy Policy" [ref=e35] [nth=1]:
+        - /url: https://x.com/privacy
+      - text: "|"
+      - link "Cookie Policy" [ref=e36]:
+        - /url: https://support.x.com/articles/20170514
+      - text: "|"
+      - link "Accessibility" [ref=e37]:
+        - /url: https://help.x.com/resources/accessibility
+      - text: "|"
+      - link "Ads info" [ref=e38]:
+        - /url: https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo
+      - text: "|"
+      - button "More" [ref=e39] [nth=1]
+      - text: © 2026 X Corp.

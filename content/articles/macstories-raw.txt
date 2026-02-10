@@ -1,0 +1,472 @@
+  - banner:
+    - link "MacStories" [ref=e1]:
+      - /url: https://www.macstories.net/
+    - navigation:
+        - listitem:
+          - link [ref=e2]:
+            - /url: https://mastodon.macstories.net/@macstories
+        - listitem:
+          - link [ref=e3] [nth=1]:
+            - /url: https://bsky.app/profile/macstories.net
+        - listitem:
+          - link [ref=e4] [nth=2]:
+            - /url: https://www.macstories.net/feed/
+    - link "Club MacStories Become a Club MacStories Member Exclusive stories and features, weekly newsletters, Discord, and more" [ref=e5]:
+      - /url: https://www.macstories.net/club/?utm_source=ms&utm_medium=header
+      - text: Become a Club MacStories Member Exclusive stories and features, weekly newsletters, Discord, and more
+    - navigation:
+        - listitem:
+          - link "ABOUT" [ref=e6]:
+            - /url: https://www.macstories.net/about/
+        - listitem:
+          - link "CLUB" [ref=e7]:
+            - /url: /club/
+        - listitem:
+          - link "PODCASTS" [ref=e8]:
+            - /url: /podcasts/
+        - listitem:
+          - link "SHORTCUTS" [ref=e9]:
+            - /url: https://www.macstories.net/shortcuts/
+        - listitem:
+          - link "SETUPS" [ref=e10]:
+            - /url: https://www.macstories.net/setups/
+    - text: SECTIONS
+    - navigation:
+        - listitem:
+          - link "iOS 26" [ref=e11]:
+            - /url: https://www.macstories.net/tag/ios-26/
+          - link [ref=e12] [nth=3]:
+            - /url: https://www.macstories.net/tag/ios-26/feed
+        - listitem:
+          - link "APPS" [ref=e13]:
+            - /url: https://www.macstories.net/category/reviews/
+          - link [ref=e14] [nth=4]:
+            - /url: https://www.macstories.net/category/reviews/feed
+        - listitem:
+          - link "STORIES" [ref=e15]:
+            - /url: https://www.macstories.net/category/stories/
+          - link [ref=e16] [nth=5]:
+            - /url: https://www.macstories.net/category/stories/feed
+    - navigation:
+        - listitem:
+          - link "SIGN IN" [ref=e17]:
+            - /url: https://www.macstories.net/?memberful_endpoint=auth
+          - link [ref=e18] [nth=6]:
+            - /url: https://www.macstories.net/?memberful_endpoint=auth/feed
+    - navigation:
+        - listitem:
+          - link "DARK" [ref=e19]:
+            - /url: "#"
+        - listitem:
+          - link "LIGHT" [ref=e20]:
+            - /url: "#"
+        - listitem:
+          - link "AUTOMATIC" [ref=e21]:
+            - /url: "#"
+    - search:
+      - searchbox "Search for" [ref=e22]
+  - article:
+    - link [ref=e23] [nth=7]:
+      - /url: https://www.macstories.net/club/advanced-tips-for-openclaw-credentials-proactive-work-automating-tasks-memories-and-more/
+        - /url: https://www.macstories.net/club/advanced-tips-for-openclaw-credentials-proactive-work-automating-tasks-memories-and-more/
+  - article:
+    - link [ref=e24] [nth=8]:
+      - /url: https://www.macstories.net/club/how-i-use-claude-code-running-on-my-mac-mini-from-the-iphone-and-ipad/
+    - heading "How I Use Claude Code Running on My Mac mini From the iPhone and iPad" [ref=e25] [level=1]:
+      - link "How I Use Claude Code Running on My Mac mini From the iPhone and iPad" [ref=e26]:
+        - /url: https://www.macstories.net/club/how-i-use-claude-code-running-on-my-mac-mini-from-the-iphone-and-ipad/
+  - article:
+    - link [ref=e27] [nth=9]:
+      - /url: https://www.macstories.net/reviews/creator-studio-review-redefining-pro-for-the-modern-era/
+        - /url: https://www.macstories.net/reviews/creator-studio-review-redefining-pro-for-the-modern-era/
+  - main:
+    - article:
+      - time: Jan 20, 2026 — 10:45 CST
+      - heading "OpenClaw Showed Me What the Future of Personal AI Assistants Looks Like" [ref=e28] [level=1]
+      - link "By Federico Viticci" [ref=e29]:
+        - /url: https://www.macstories.net/author/viticci/
+      - paragraph:
+        - text: Using OpenClaw via Telegram.
+        - link [ref=e30] [nth=10]:
+          - /url: https://cdn.macstories.net/tuesday-20-jan-2026-16-19-34-1768922388759.png
+      - paragraph:
+        - strong: "Update, February 6:"
+        - text: I’ve published an in-depth guide with advanced tips for secure credentials, memory management, automations, and proactive work with OpenClaw
+        - link "for our Club members here" [ref=e31]:
+          - /url: https://www.macstories.net/club/advanced-tips-for-openclaw-credentials-proactive-work-automating-tasks-memories-and-more/
+        - text: .
+      - paragraph:
+        - text: For the past week or so, I’ve been working with a digital assistant that knows my name, my preferences for my morning routine, how I like to use
+        - link "Notion" [ref=e32]:
+          - /url: https://www.notion.so/
+        - text: and
+        - link "Todoist" [ref=e33]:
+          - /url: https://todoist.com/
+        - text: ", but which also knows how to control Spotify and my Sonos speaker, my Philips Hue lights, as well as my Gmail. It runs on Anthropic’s"
+        - link "Claude Opus 4.5 model" [ref=e34]:
+          - /url: https://www.anthropic.com/news/claude-opus-4-5
+        - text: ", but I chat with it using Telegram. I called the assistant Navi (inspired by the"
+        - link "fairy companion of Ocarina of Time" [ref=e35]:
+          - /url: https://en.wikipedia.org/wiki/Navi_(The_Legend_of_Zelda)
+        - text: ", not the"
+        - link "besieged alien race" [ref=e36]:
+          - /url: https://en.wikipedia.org/wiki/Fictional_universe_of_Avatar#Na%27vi
+        - text: in James Cameron’s sci-fi film
+        - link "saga" [ref=e37]:
+          - /url: https://en.wikipedia.org/wiki/Avatar_(2009_film)
+        - text: ), and Navi can even receive audio messages from me and respond with other audio messages generated with the
+        - link "latest ElevenLabs text-to-speech model" [ref=e38]:
+          - /url: https://elevenlabs.io/blog/eleven-v3
+        - text: . Oh, and did I mention that Navi can improve itself with new features and that it’s running on my own
+        - link "M4 Mac mini" [ref=e39]:
+          - /url: https://amzn.to/3M3Z8LL
+        - text: server?
+      - paragraph:
+        - text: If this intro just gave you whiplash, imagine my reaction when I first started playing around with
+        - link "OpenClaw" [ref=e40]:
+          - /url: https://openclaw.ai/
+        - text: ", the incredible"
+        - link "open-source project" [ref=e41]:
+          - /url: https://github.com/OpenClaw/OpenClaw
+        - text: by
+        - link "Peter Steinberger" [ref=e42]:
+          - /url: https://steipete.me/
+        - text: (a name that should be
+        - link "familiar to longtime MacStories readers" [ref=e43]:
+          - /url: https://www.macstories.net/linked/ios-10-3-beta-re-introduces-warning-for-old-32-bit-apps-suggests-future-incompatibility/
+        - text: ) that’s become
+        - emphasis: very
+        - text: popular in certain AI communities over the past few weeks. I kept seeing OpenClaw being mentioned by people I follow; eventually, I gave in to peer pressure, followed the instructions provided by the funny crustacean mascot on the app’s
+        - link "website" [ref=e44]:
+          - /url: https://docs.clawd.bot/start/getting-started
+        - text: ", installed OpenClaw on my new M4 Mac mini (which is not my main production machine), and"
+        - link "connected it to Telegram" [ref=e45]:
+          - /url: https://docs.clawd.bot/channels/telegram
+        - text: .
+        - text: To say that OpenClaw has fundamentally altered my perspective of what it means to have an intelligent, personal AI assistant in 2026 would be an understatement. I’ve been playing around with OpenClaw so much, I’ve burned through 180 million tokens on the Anthropic API (
+        - emphasis: yikes
+        - text: "), and I’ve had fewer and fewer conversations with the “regular” Claude and ChatGPT apps in the process. Don’t get me wrong: OpenClaw is a nerdy project, a tinkerer’s laboratory that is not poised to overtake the popularity of consumer LLMs any time soon. Still, OpenClaw points at a fascinating future for digital assistants, and it’s exactly the kind of bleeding-edge project that MacStories readers will appreciate."
+      - complementary:
+        - heading "Want to Get More Out of OpenClaw?" [ref=e46] [level=2]
+        - paragraph:
+          - link [ref=e47] [nth=11]:
+            - /url: https://cdn.macstories.net/friday-06-feb-2026-17-58-27-1770397132404.png
+        - paragraph:
+          - text: If you’ve been playing around with OpenClaw after reading this article (or if you’re seriously considering it), I wrote an
+          - link "advanced guide" [ref=e48]:
+            - /url: https://www.macstories.net/club/advanced-tips-for-openclaw-credentials-proactive-work-automating-tasks-memories-and-more/
+          - text: exclusively for
+          - link "Club MacStories" [ref=e49]:
+            - /url: https://www.macstories.net/plans/
+          - text: members that covers the stuff I wish I’d known from day one.
+        - paragraph:
+          - text: You
+          - link "can find the guide here" [ref=e50]:
+            - /url: https://www.macstories.net/club/advanced-tips-for-openclaw-credentials-proactive-work-automating-tasks-memories-and-more/
+          - text: .
+        - link "Join Annual $50/year" [ref=e51]:
+          - /url: https://macstories.memberful.com/checkout?plan=7878
+        - link "Join Monthly $5/month" [ref=e52]:
+          - /url: https://macstories.memberful.com/checkout?plan=7189
+          - text: In the guide, I go deep on giving OpenClaw its own 1Password vault for secure credential storage, setting up heartbeats and cron jobs to make it genuinely autonomous, building a memory system that actually sticks across sessions, and – the part I’m most excited about – making OpenClaw
+          - emphasis: proactive
+          - text: ", so it builds things for you overnight based on your own context. (I woke up to a fully functional Terminal PWA for my iPad one morning."
+          - emphasis: That
+          - text: kind of proactive.)
+        - paragraph: "It’s the kind of detailed, nerdy, practical walkthrough you’d expect from MacStories: no sensationalist hype, just real tips I’ve picked up from weeks of daily use."
+        - paragraph:
+          - link "Join Club MacStories" [ref=e53]:
+            - /url: https://www.macstories.net/plans/
+          - text: to read the full advanced guide and get access to our entire library of members-only content.
+      - paragraph: "OpenClaw can be overwhelming at first, so I’ll try my best to explain what it is and why it’s so exciting and fun to play around with. OpenClaw is, at a high level, two things:"
+        - listitem:
+          - text: An LLM-powered
+          - link "agent" [ref=e54]:
+            - /url: https://docs.clawd.bot/concepts/agent-workspace
+          - text: that runs on your computer and can use
+          - link "many of the popular models" [ref=e55]:
+            - /url: https://docs.clawd.bot/concepts/model-providers
+          - text: such as Claude, Gemini, etc.
+        - listitem:
+          - text: A “
+          - link "gateway" [ref=e56]:
+            - /url: https://docs.clawd.bot/gateway#gateway-daemon-runbook
+          - text: ” that lets you talk to the agent using the messaging app of your choice, including iMessage, Telegram, WhatsApp and others.
+      - paragraph: "The second aspect was immediately fascinating to me: instead of having to install yet another app, OpenClaw’s integration with multiple messaging services meant I could use it in an app I was already familiar with. Plus, having an assistant live in Messages or Telegram further contributes to the feeling that you’re sending requests to an actual assistant."
+      - paragraph:
+        - text: The “agent” part of OpenClaw is key, however. OpenClaw runs entirely on your computer, locally, and keeps its settings, preferences, user memories, and other instructions as literal
+        - strong: folders and Markdown documents
+        - text: on your machine. Think of it as the equivalent of
+        - link "Obsidian" [ref=e57]:
+          - /url: https://obsidian.md/
+        - text: ": while there is a cloud service behind it (for Obsidian, it’s"
+        - link "Sync" [ref=e58]:
+          - /url: https://obsidian.md/sync
+        - text: ; for OpenClaw, it’s the LLM provider you choose), everything else runs locally, on-device, and can be directly controlled and infinitely tweaked by you, either manually, or by asking OpenClaw to change a specific aspect of itself to suit your needs.
+      - paragraph:
+        - text: My local OpenClaw setup. It’s just folders and some Markdown files.
+        - link [ref=e59] [nth=12]:
+          - /url: https://cdn.macstories.net/screenshot-2026-01-20-at-3-26-13-pm-1768919205018.png
+      - paragraph:
+        - text: "Which brings me to the most important – and powerful – trait of OpenClaw: because the agent is running on your computer, it has access to a shell and your filesystem. Given the right permissions, OpenClaw can execute Terminal commands, write scripts on the fly and execute them, install skills to gain new capabilities, and set up MCP servers to give itself new external integrations. Combine all this with"
+        - link "a vibrant community" [ref=e60]:
+          - /url: https://clawdhub.com/
+        - text: that is contributing skills and plugins for OpenClaw, plus Steinberger’s
+        - link "own collection of command-line utilities" [ref=e61]:
+          - /url: https://github.com/steipete
+        - text: ", and you have yourself a recipe for a self-improving, steerable, and open personal agent that knows you, can access the web, runs on your local machine, and can do just about anything you can think of. All of this while communicating with it using text messages. It’s an AI nerd’s dream come true, and it’s a lot to wrap your head around at first."
+      - paragraph:
+        - text: "To give you a sense of what’s possible: I asked OpenClaw to give itself support for generating images with Google’s"
+        - link "Nano Banana Pro model" [ref=e62]:
+          - /url: https://deepmind.google/models/gemini-image/pro/
+        - text: . After it did that (OpenClaw even told me how to securely store my Gemini credentials in the native macOS Keychain), I asked Navi to give itself a profile picture that combined its original crustacean character with Navi from The Legend of Zelda. The result was a fairy crab featuring the popular “
+        - emphasis: Hey, Listen!
+        - text: "” phrase from the videogame, which it preemptively found on the web via a Google search:"
+      - paragraph:
+        - text: Meet Navi, my favorite fairy crustacean.
+        - link [ref=e63] [nth=13]:
+          - /url: https://cdn.macstories.net/5a71e0ac-6150-4401-a682-51d8ac5204d4_1_105_c-1768919488134.jpeg
+        - text: "I then went a step beyond: I asked Navi to assess the state of its features and use Nano Banana to create an infographic that described its structure. Since OpenClaw is running on my computer and its features are contained in folders, OpenClaw scanned its own"
+        - code: /clawd
+        - text: "directory in Finder, went to Nano Banana, and produced the following image:"
+      - paragraph:
+        - text: It’s pure AI slop, but it also shows how OpenClaw is aware of its configuration and how it is structured in Finder.
+        - link [ref=e64] [nth=14]:
+          - /url: https://cdn.macstories.net/info-1768919666395.png
+      - paragraph:
+        - text: As you can tell from the image, I’m barely scraping the surface of OpenClaw’s abilities here. “Memory files” are, effectively,
+        - link "daily notes formatted in Markdown" [ref=e65]:
+          - /url: https://docs.clawd.bot/concepts/memory
+        - text: that OpenClaw auto-generates each day to keep a plain text log of our interactions. This is its memory system based on Markdown which, if I wanted, I could plug into Obsidian, search with
+        - link "Raycast" [ref=e66]:
+          - /url: https://www.raycast.com/
+        - text: ", or automate with"
+        - link "Hazel" [ref=e67]:
+          - /url: https://www.noodlesoft.com/
+        - text: in some other way.
+      - paragraph:
+        - text: A daily memory note automatically created by OpenClaw.
+        - link [ref=e68] [nth=15]:
+          - /url: https://cdn.macstories.net/screenshot-2026-01-20-at-4-30-43-pm-1768923064960.png
+      - paragraph:
+        - text: The integrations are, by far, the most fun I’ve had with an LLM in recent years. In keeping with the “
+        - link "you can just do things" [ref=e69]:
+          - /url: https://www.youtube.com/watch?v=z2IDQbNOS5s
+        - text: ” philosophy
+        - link "we’ve discussed on AppStories lately" [ref=e70]:
+          - /url: https://www.macstories.net/podcasts/appstories/episodes/468
+        - text: ", if you want OpenClaw to give itself a piece of functionality that it doesn’t have by default, you can just ask it to do so, and it’ll do it for you. Case in point: a while back"
+        - link "I shared a shortcut for Club MacStories members" [ref=e71]:
+          - /url: https://www.macstories.net/club/posts/whisperscribe-a-simple-shortcut-for-really-fast-audio-transcription
+        - text: that quickly transcribes audio messages using the
+        - link "Whisper model hosted on Groq" [ref=e72]:
+          - /url: https://console.groq.com/docs/model/whisper-large-v3
+        - text: . I grabbed a link to the article, gave it to Clawd, and told it that I wanted it to give itself support for transcribing Telegram’s audio messages with that system. Two minutes later, it created a skill that adapted my shortcut for Clawd running on my Mac mini.
+      - paragraph:
+        - text: A skill created by Clawd.
+        - link [ref=e73] [nth=16]:
+          - /url: https://cdn.macstories.net/screenshot-2026-01-20-at-3-43-12-pm-1768922133391.png
+      - paragraph:
+        - text: "Then, I went a step beyond: like any good assistant, I wanted to make sure that if I issued a request with voice, Navi would also respond with voice, and if I sent a written request, Navi would reply with text. At that point, OpenClaw went off to do some research, found the ElevenLabs"
+        - link "documentation for their new TTS model" [ref=e74]:
+          - /url: https://elevenlabs.io/blog/eleven-v3-alpha-now-available-in-the-api
+        - text: ", asked me for ElevenLabs credentials, and created three test voices with different personalities for me to choose from. I chose one, fine-tuned it a little bit, and a few minutes later, Navi had a “voice” to use for future audio replies. Now, when I want to ask my assistant something but I’m busy doing something else and can’t type, I just send it a brain dump as an audio message on Telegram and, a few seconds later, I have a reply ready for me to listen to."
+      - paragraph:
+        - text: Every morning, OpenClaw sends me a daily report based on my calendar, Notion, Todoist, and more. It also sends me an audio version of the report that features silly artwork created by Nano Banana each day.
+        - link [ref=e75] [nth=17]:
+          - /url: https://cdn.macstories.net/tuesday-20-jan-2026-16-26-41-1768922826819.png
+      - paragraph: Being able to dictate messages in either Italian or English – or a mix of both! – for my assistant running in Telegram has been amazing – especially when you consider how the iPhone’s own Siri is still not multilingual today, let alone capable of understanding user context or performing long-running tasks in the background.
+      - paragraph: "Still not impressed? How about this:"
+      - paragraph:
+        - text: Last night, I wondered if I could replace some automations I had configured years ago on Zapier with equivalent actions running on my Mac mini via Clawd, to save some extra money each month. One of them, for instance, was a “zap” that created a project for the next issue of MacStories Weekly in my Todoist soon after we send the newsletter each Friday. It does so by checking an RSS feed, adding
+        - code: "1"
+        - text: to the issue number, and creating a new project via the
+        - link "Todoist API" [ref=e76]:
+          - /url: https://developer.todoist.com/api/v1/
+        - text: ". I asked Clawd if it was possible to replicate it and, surely enough, it outlined a plan: we could set up a"
+        - link "cron" [ref=e77]:
+          - /url: https://en.wikipedia.org/wiki/Cron
+          - code: cron
+        - text: job on the Mac mini, check the RSS feed every few hours, and create a new project whenever a new issue appears in the feed. Five minutes of back and forth later, Clawd created everything on my Mac, with no cloud dependency, no subscription required – just the task I asked for, pieced together by an LLM with existing shell tools and Internet access. It makes me wonder how many automation layers and services I could replace by giving Clawd some prompts and shell access.
+      - paragraph:
+        - text: Another skill created by Clawd, which is triggered by an automation.
+        - link [ref=e78] [nth=18]:
+          - /url: https://cdn.macstories.net/screenshot-2026-01-20-at-3-42-58-pm-1768922183437.png
+      - paragraph:
+        - text: All of this is exhilarating and scary at the same time. More so than using the latest flavors of Claude or ChatGPT, using OpenClaw and the process of continuously shaping it for my needs and preferences has been the closest I’ve felt to a higher degree of digital intelligence in a while. I understand now why Fidji Simo, CEO of Applications at OpenAI,
+        - link "wrote" [ref=e79]:
+          - /url: https://fidjisimo.substack.com/p/closing-the-capability-gap
+        - text: "that AI labs should do much more to leverage the capabilities of models (address the “capability overhang”) to build personal super-assistants. When I’m using ChatGPT or Claude, the models are constrained by the features that their developers give them and we, the users, can’t do much to tweak the experience. Conversely, OpenClaw is the ultimate expression of a new generation of malleable software that is personalized and adaptive:"
+        - emphasis: I
+        - text: get to choose what OpenClaw should be capable of, and I can always inspect what’s going on behind the scenes and, if I don’t like it, ask for changes. Being able to make my computer do things –
+        - emphasis: anything
+        - text: "– by just talking to an agent running inside it is incredibly fun, addictive, and educational: I’ve learned more about SSH, cron, web APIs, and"
+        - link "Tailscale" [ref=e80]:
+          - /url: https://tailscale.com/
+        - text: in the past week than I ever did in almost two decades of tinkering with computers.
+          - paragraph: OpenClaw is the ultimate expression of a new generation of malleable software that is personalized and adaptive.
+      - paragraph:
+        - text: Working with OpenClaw on my MacBook Pro. The assistant has access to my Notion and can even control Spotify playback via a Spotify integration.
+        - link [ref=e81] [nth=19]:
+          - /url: https://cdn.macstories.net/cleanshot-2026-01-20-at-16-23-12-2x-1768922620018.png
+      - paragraph:
+        - text: OpenClaw also serves as a shining example of what happens when you give modern agents (with the right
+        - link "harness" [ref=e82]:
+          - /url: https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents
+        - text: ") access to a computer: they can just build things and become smarter for specific users (but not more intelligent in general) via quasi-"
+        - link "recursive improvement" [ref=e83]:
+          - /url: https://en.wikipedia.org/wiki/Recursive_self-improvement
+        - text: . It’s no wonder that all AI companies have noticed, and every major feature launch these days is about a
+        - link "virtual filesystem sandbox" [ref=e84]:
+          - /url: https://simonwillison.net/2026/Jan/12/claude-cowork/
+        - text: or
+        - link "CLI access" [ref=e85]:
+          - /url: https://developers.openai.com/codex/cli/
+        - text: .
+      - paragraph:
+        - text: As I argued on
+        - link "AppStories" [ref=e86]:
+          - /url: https://www.macstories.net/podcasts/appstories/episodes/468
+        - text: ", I believe that the repercussions of all this will soon ripple through the various app stores, and we’ll need to have serious conversations about the role of app developers going forward. OpenClaw is a boutique, nerdy project right now, but consider it as an underlying trend going forward: when the major consumer LLMs become smart and intuitive enough to adapt to you on-demand for any given functionality – when you’ll eventually be able to ask Claude or ChatGPT to do or create anything on your computer with no Terminal UI – what will become of “apps” created by professional developers? I especially worry about standalone utility apps: if OpenClaw can create a virtual remote for my LG television (something I did) or give me a personalized report with voice every morning (another"
+        - code: cron
+        - text: job I set up) that work exactly the way I want, why should I even bother going to the App Store to look for pre-built solutions made by someone else? What happens to Shortcuts when any “automation” I may want to carefully create is actually just a text message to a digital assistant away?
+      - paragraph: I don’t know the answers to these questions right now, but we’re going to try and unpack all of them on AppStories and MacStories this year.
+      - paragraph:
+        - text: "For now, I’ll stop here:"
+        - link "OpenClaw" [ref=e87] [nth=1]:
+          - /url: https://openclaw.ai/
+        - text: is an outstanding project that I can’t recommend tinkering with enough if you find the idea even remotely interesting. OpenClaw has shown me that we’ve barely begun to tap into the potential of LLMs as personal assistants. There’s no going back after wielding this kind of superpower.
+      - text: "Tags:"
+      - link "AI" [ref=e88]:
+        - /url: https://www.macstories.net/tag/ai/
+      - text: ","
+      - link "ai experiments" [ref=e89]:
+        - /url: https://www.macstories.net/tag/ai-experiments/
+      - text: ","
+      - link "artificial intelligence" [ref=e90]:
+        - /url: https://www.macstories.net/tag/artificial-intelligence/
+      - text: ","
+      - link "clawd" [ref=e91]:
+        - /url: https://www.macstories.net/tag/clawd/
+      - text: ","
+      - link "featured" [ref=e92]:
+        - /url: https://www.macstories.net/tag/featured-2/
+      - text: ","
+      - link "LLMs" [ref=e93]:
+        - /url: https://www.macstories.net/tag/llms/
+      - link "Join" [ref=e94]:
+        - /url: https://www.macstories.net/club/?utm_source=ms&utm_medium=web
+      - heading "Access Extra Content and Perks" [ref=e95] [level=3]
+      - paragraph:
+        - text: Founded in 2015,
+        - link "Club MacStories" [ref=e96] [nth=1]:
+          - /url: https://www.macstories.net/plans?utm_source=ms&utm_medium=web-inline
+        - text: has delivered exclusive content every week for nearly a decade.
+      - paragraph:
+        - text: What started with weekly and monthly email newsletters has blossomed into
+        - link "a family of memberships" [ref=e97]:
+          - /url: https://www.macstories.net/plans?utm_source=ms&utm_medium=web-inline
+        - text: designed for every MacStories fan.
+      - paragraph:
+        - text: Learn more
+        - link "here" [ref=e98]:
+          - /url: https://www.macstories.net/plans?utm_source=ms&utm_medium=web-inline
+        - text: and from our
+        - link "Club FAQs" [ref=e99]:
+          - /url: https://www.macstories.net/club-faq
+        - text: .
+      - paragraph:
+        - strong:
+          - link "Club MacStories" [ref=e100] [nth=2]:
+            - /url: https://www.macstories.net/club/plans/club
+        - text: ": Weekly and monthly newsletters via email and the web that are brimming with apps, tips, automation workflows, longform writ"
+      - paragraph:
+        - strong:
+          - link "Club MacStories" [ref=e101] [nth=3]:
+            - /url: https://www.macstories.net/plans/club
+        - text: ": Weekly and monthly newsletters via email and the web that are brimming with apps, tips, automation workflows, longform writing, early access to the"
+        - link "MacStories Unwind podcast" [ref=e102]:
+          - /url: https://www.macstories.net/unwind/
+        - text: ", periodic giveaways, and more;"
+      - paragraph:
+        - strong:
+          - link "Club MacStories+" [ref=e103]:
+            - /url: https://www.macstories.net/plans/plus
+        - text: ": Everything that Club MacStories offers, plus an active Discord community, advanced search and custom RSS features for exploring the Club’s entire back catalog, bonus columns, and dozens of app discounts;"
+      - paragraph:
+        - strong:
+          - link "Club Premier" [ref=e104]:
+            - /url: https://www.macstories.net/plans/premier
+        - text: ": All of the above"
+        - emphasis: and
+        - text: AppStories+, an extended version of our flagship podcast that’s delivered early, ad-free, and in high-bitrate audio.
+      - paragraph:
+        - text: ing, early access to the
+        - link "MacStories Unwind podcast" [ref=e105] [nth=1]:
+          - /url: https://www.macstories.net/unwind/
+        - text: ", periodic giveaways, and more;"
+      - paragraph:
+        - strong:
+          - link "Club MacStories+" [ref=e106] [nth=1]:
+            - /url: https://www.macstories.net/club/plans/plus
+        - text: ": Everything that Club MacStories offers, plus an active Discord community, advanced search and custom RSS features for exploring the Club’s entire back catalog, bonus columns, and dozens of app discounts;"
+      - paragraph:
+        - strong:
+          - link "Club Premier" [ref=e107] [nth=1]:
+            - /url: https://www.macstories.net/club/plans/premier
+        - text: ": All of the above"
+        - emphasis: and
+        - text: AppStories+, an extended version of our flagship podcast that’s delivered early, ad-free, and in high-bitrate audio.
+    - link "Federico Viticci" [ref=e108]:
+      - /url: https://www.macstories.net/author/viticci/
+    - text: Federico is the founder and Editor-in-Chief of MacStories, where he writes about Apple with a focus on apps, developers, iPad, and iOS productivity. He founded MacStories in April 2009 and has been writing about Apple since. Federico is also the co-host of
+    - link "AppStories" [ref=e109] [nth=1]:
+      - /url: https://www.macstories.net/
+    - text: ", a weekly podcast exploring the world of apps,"
+    - link "Unwind" [ref=e110]:
+      - /url: https://www.macstories.net/unwind/
+    - text: ", a fun exploration of media and more, and"
+      - /url: https://www.macstories.net/npc/
+    - text: ", a show about portable gaming and the handheld revolution."
+    - link "@viticci@macstories.net" [ref=e111]:
+      - /url: https://mastodon.macstories.net/@viticci
+    - link "@viticci.macstories.net" [ref=e112]:
+      - /url: https://bsky.app/profile/viticci.macstories.net
+    - link "viticci@macstories.net" [ref=e113]:
+      - /url: mailto:viticci@macstories.net
+  - contentinfo:
+    - navigation:
+        - listitem:
+          - link "ABOUT" [ref=e114] [nth=1]:
+            - /url: https://www.macstories.net/about/
+        - listitem:
+          - link "CLUB" [ref=e115] [nth=1]:
+            - /url: https://www.macstories.net/club/
+        - listitem:
+          - link "ADVERTISE" [ref=e116]:
+            - /url: https://www.macstories.net/advertise/
+        - listitem:
+          - link "PRIVACY POLICY" [ref=e117]:
+            - /url: https://www.macstories.net/privacy-policy/
+        - listitem:
+          - link "TERMS OF SERVICE" [ref=e118]:
+            - /url: https://www.macstories.net/terms-of-service/
+    - navigation:
+        - listitem:
+          - link [ref=e119] [nth=20]:
+            - /url: https://mastodon.macstories.net/@macstories
+        - listitem:
+          - link [ref=e120] [nth=21]:
+            - /url: https://bsky.app/profile/macstories.net
+        - listitem:
+          - link [ref=e121] [nth=22]:
+            - /url: https://www.macstories.net/feed/
+    - paragraph:
+      - link "Web Dev by Made with Fuel" [ref=e122]:
+        - /url: https://madewithfuel.com/
+      - text: "| Design by Silvia Gatta"
+    - paragraph: Copyright © 2026 MacStories, Inc. All rights reserved.
+    - paragraph: v4.6
+    - paragraph:
+      - link "MacStories" [ref=e123] [nth=1]:
+        - /url: https://www.macstories.net/

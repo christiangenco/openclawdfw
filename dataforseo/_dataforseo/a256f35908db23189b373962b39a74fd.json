@@ -1,0 +1,751 @@
+{
+  "keywords": [
+    "openclaw",
+    "openclaw ai",
+    "openclaw setup",
+    "setup openclaw",
+    "openclaw for business",
+    "openclaw consultant",
+    "openclaw dallas",
+    "openclaw dfw",
+    "openclaw pricing",
+    "openclaw review",
+    "openclaw install",
+    "ai executive assistant",
+    "ai assistant for business",
+    "hire ai assistant",
+    "ai personal assistant for work",
+    "ai email assistant",
+    "ai calendar assistant",
+    "ai assistant setup service",
+    "ai assistant for ceo",
+    "ai assistant for executives",
+    "ai powered executive assistant",
+    "ai secretary",
+    "ai chief of staff",
+    "automated executive assistant",
+    "ai business assistant",
+    "ai office assistant",
+    "ai scheduling assistant",
+    "ai assistant that reads email",
+    "ai that manages my inbox",
+    "ai that schedules meetings",
+    "ai consultant dallas",
+    "ai automation dallas",
+    "ai assistant dallas",
+    "ai for business dallas",
+    "ai consultant fort worth",
+    "business automation dfw",
+    "ai services dallas",
+    "ai setup dallas",
+    "ai consultant dfw",
+    "ai implementation dallas",
+    "ai agency dallas",
+    "dallas ai company",
+    "ai solutions dallas tx",
+    "ai consulting fort worth",
+    "ai automation fort worth",
+    "managed ai services dallas",
+    "automate email management",
+    "ai email triage",
+    "ai meeting scheduling",
+    "ai inbox management",
+    "virtual assistant alternative",
+    "ai vs virtual assistant",
+    "replace virtual assistant with ai",
+    "too many emails",
+    "email overload solution",
+    "inbox zero ai",
+    "ai email sorting",
+    "ai email drafting",
+    "automated email responses business",
+    "ai follow up emails",
+    "ai meeting prep",
+    "automate calendar management",
+    "ai for law firms",
+    "ai assistant for lawyers",
+    "ai for real estate agents",
+    "ai for insurance agency",
+    "ai for mortgage company",
+    "law firm automation",
+    "legal ai assistant",
+    "legal ai assistant dallas",
+    "ai for personal injury lawyers",
+    "ai for law firm management",
+    "real estate ai assistant",
+    "real estate automation ai",
+    "insurance agency automation",
+    "mortgage automation ai",
+    "ai for small business owners",
+    "ai for managing partner",
+    "ai for business owner",
+    "ai staffing agency",
+    "ai employee",
+    "ai worker",
+    "what is openclaw",
+    "what is an ai executive assistant",
+    "can ai manage my email",
+    "ai assistant for small business owners",
+    "how does ai executive assistant work",
+    "what can ai assistant do",
+    "ai assistant capabilities",
+    "ai automation explained",
+    "ai for business explained",
+    "open source ai assistant",
+    "self hosted ai assistant",
+    "on premise ai assistant",
+    "private ai assistant",
+    "how to automate email with ai",
+    "how to use ai in my business",
+    "how to set up ai assistant",
+    "ai automation for beginners",
+    "how to save time with ai"
+  ],
+  "response": {
+    "version": "0.1.20260209",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.1721 sec.",
+    "cost": 0.02,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02102354-1046-0392-0000-3c94690c5e49",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.1225 sec.",
+        "cost": 0.02,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "bulk_keyword_difficulty",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "bulk_keyword_difficulty",
+          "se_type": "google",
+          "keywords": [
+            "openclaw",
+            "openclaw ai",
+            "openclaw setup",
+            "setup openclaw",
+            "openclaw for business",
+            "openclaw consultant",
+            "openclaw dallas",
+            "openclaw dfw",
+            "openclaw pricing",
+            "openclaw review",
+            "openclaw install",
+            "ai executive assistant",
+            "ai assistant for business",
+            "hire ai assistant",
+            "ai personal assistant for work",
+            "ai email assistant",
+            "ai calendar assistant",
+            "ai assistant setup service",
+            "ai assistant for ceo",
+            "ai assistant for executives",
+            "ai powered executive assistant",
+            "ai secretary",
+            "ai chief of staff",
+            "automated executive assistant",
+            "ai business assistant",
+            "ai office assistant",
+            "ai scheduling assistant",
+            "ai assistant that reads email",
+            "ai that manages my inbox",
+            "ai that schedules meetings",
+            "ai consultant dallas",
+            "ai automation dallas",
+            "ai assistant dallas",
+            "ai for business dallas",
+            "ai consultant fort worth",
+            "business automation dfw",
+            "ai services dallas",
+            "ai setup dallas",
+            "ai consultant dfw",
+            "ai implementation dallas",
+            "ai agency dallas",
+            "dallas ai company",
+            "ai solutions dallas tx",
+            "ai consulting fort worth",
+            "ai automation fort worth",
+            "managed ai services dallas",
+            "automate email management",
+            "ai email triage",
+            "ai meeting scheduling",
+            "ai inbox management",
+            "virtual assistant alternative",
+            "ai vs virtual assistant",
+            "replace virtual assistant with ai",
+            "too many emails",
+            "email overload solution",
+            "inbox zero ai",
+            "ai email sorting",
+            "ai email drafting",
+            "automated email responses business",
+            "ai follow up emails",
+            "ai meeting prep",
+            "automate calendar management",
+            "ai for law firms",
+            "ai assistant for lawyers",
+            "ai for real estate agents",
+            "ai for insurance agency",
+            "ai for mortgage company",
+            "law firm automation",
+            "legal ai assistant",
+            "legal ai assistant dallas",
+            "ai for personal injury lawyers",
+            "ai for law firm management",
+            "real estate ai assistant",
+            "real estate automation ai",
+            "insurance agency automation",
+            "mortgage automation ai",
+            "ai for small business owners",
+            "ai for managing partner",
+            "ai for business owner",
+            "ai staffing agency",
+            "ai employee",
+            "ai worker",
+            "what is openclaw",
+            "what is an ai executive assistant",
+            "can ai manage my email",
+            "ai assistant for small business owners",
+            "how does ai executive assistant work",
+            "what can ai assistant do",
+            "ai assistant capabilities",
+            "ai automation explained",
+            "ai for business explained",
+            "open source ai assistant",
+            "self hosted ai assistant",
+            "on premise ai assistant",
+            "private ai assistant",
+            "how to automate email with ai",
+            "how to use ai in my business",
+            "how to set up ai assistant",
+            "ai automation for beginners",
+            "how to save time with ai"
+          ],
+          "language_code": "en",
+          "location_code": 2840
+        },
+        "result": [
+          {
+            "se_type": "google",
+            "location_code": 2840,
+            "language_code": "en",
+            "total_count": 100,
+            "items_count": 100,
+            "items": [
+              {
+                "se_type": "google",
+                "keyword": "ai agency dallas",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai assistant for business",
+                "keyword_difficulty": 73
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai assistant for ceo",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai assistant for lawyers",
+                "keyword_difficulty": 62
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai assistant for small business owners",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai automation explained",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai automation for beginners",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai business assistant",
+                "keyword_difficulty": 44
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai calendar assistant",
+                "keyword_difficulty": 53
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai chief of staff",
+                "keyword_difficulty": 0
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai email assistant",
+                "keyword_difficulty": 35
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai email sorting",
+                "keyword_difficulty": 20
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai email triage",
+                "keyword_difficulty": 0
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai employee",
+                "keyword_difficulty": 55
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai executive assistant",
+                "keyword_difficulty": 5
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai for law firms",
+                "keyword_difficulty": 41
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai for personal injury lawyers",
+                "keyword_difficulty": 13
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai for real estate agents",
+                "keyword_difficulty": 42
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai for small business owners",
+                "keyword_difficulty": 36
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai inbox management",
+                "keyword_difficulty": 44
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai meeting scheduling",
+                "keyword_difficulty": 40
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai office assistant",
+                "keyword_difficulty": 42
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai personal assistant for work",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai powered executive assistant",
+                "keyword_difficulty": 16
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai scheduling assistant",
+                "keyword_difficulty": 30
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai secretary",
+                "keyword_difficulty": 23
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai staffing agency",
+                "keyword_difficulty": 22
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai worker",
+                "keyword_difficulty": 34
+              },
+              {
+                "se_type": "google",
+                "keyword": "automated executive assistant",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "hire ai assistant",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "how to use ai in my business",
+                "keyword_difficulty": 40
+              },
+              {
+                "se_type": "google",
+                "keyword": "inbox zero ai",
+                "keyword_difficulty": 28
+              },
+              {
+                "se_type": "google",
+                "keyword": "insurance agency automation",
+                "keyword_difficulty": 13
+              },
+              {
+                "se_type": "google",
+                "keyword": "law firm automation",
+                "keyword_difficulty": 0
+              },
+              {
+                "se_type": "google",
+                "keyword": "legal ai assistant",
+                "keyword_difficulty": 63
+              },
+              {
+                "se_type": "google",
+                "keyword": "open source ai assistant",
+                "keyword_difficulty": 49
+              },
+              {
+                "se_type": "google",
+                "keyword": "openclaw",
+                "keyword_difficulty": 11
+              },
+              {
+                "se_type": "google",
+                "keyword": "private ai assistant",
+                "keyword_difficulty": 35
+              },
+              {
+                "se_type": "google",
+                "keyword": "real estate ai assistant",
+                "keyword_difficulty": 28
+              },
+              {
+                "se_type": "google",
+                "keyword": "self hosted ai assistant",
+                "keyword_difficulty": 48
+              },
+              {
+                "se_type": "google",
+                "keyword": "too many emails",
+                "keyword_difficulty": 0
+              },
+              {
+                "se_type": "google",
+                "keyword": "openclaw ai",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "openclaw setup",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "setup openclaw",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "openclaw for business",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "openclaw consultant",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "openclaw dallas",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "openclaw dfw",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "openclaw pricing",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "openclaw review",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "openclaw install",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai assistant setup service",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai assistant for executives",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai assistant that reads email",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai that manages my inbox",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai that schedules meetings",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai consultant dallas",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai automation dallas",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai assistant dallas",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai for business dallas",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai consultant fort worth",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "business automation dfw",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai services dallas",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai setup dallas",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai consultant dfw",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai implementation dallas",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "dallas ai company",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai solutions dallas tx",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai consulting fort worth",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai automation fort worth",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "managed ai services dallas",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "automate email management",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "virtual assistant alternative",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai vs virtual assistant",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "replace virtual assistant with ai",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "email overload solution",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai email drafting",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "automated email responses business",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai follow up emails",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai meeting prep",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "automate calendar management",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai for insurance agency",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai for mortgage company",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "legal ai assistant dallas",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai for law firm management",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "real estate automation ai",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "mortgage automation ai",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai for managing partner",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai for business owner",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "what is openclaw",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "what is an ai executive assistant",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "can ai manage my email",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "how does ai executive assistant work",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "what can ai assistant do",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai assistant capabilities",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai for business explained",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "on premise ai assistant",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "how to automate email with ai",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "how to set up ai assistant",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "how to save time with ai",
+                "keyword_difficulty": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "fetched_at": "2026-02-10 15:54:53 -0600"
+}

@@ -1,0 +1,4204 @@
+{
+  "keywords": [
+    "openclaw",
+    "openclaw ai",
+    "openclaw setup",
+    "setup openclaw",
+    "openclaw for business",
+    "openclaw consultant",
+    "openclaw dallas",
+    "openclaw dfw",
+    "openclaw pricing",
+    "openclaw review",
+    "openclaw install",
+    "ai executive assistant",
+    "ai assistant for business",
+    "hire ai assistant",
+    "ai personal assistant for work",
+    "ai email assistant",
+    "ai calendar assistant",
+    "ai assistant setup service",
+    "ai assistant for ceo",
+    "ai assistant for executives",
+    "ai powered executive assistant",
+    "ai secretary",
+    "ai chief of staff",
+    "automated executive assistant",
+    "ai business assistant",
+    "ai office assistant",
+    "ai scheduling assistant",
+    "ai assistant that reads email",
+    "ai that manages my inbox",
+    "ai that schedules meetings",
+    "ai consultant dallas",
+    "ai automation dallas",
+    "ai assistant dallas",
+    "ai for business dallas",
+    "ai consultant fort worth",
+    "business automation dfw",
+    "ai services dallas",
+    "ai setup dallas",
+    "ai consultant dfw",
+    "ai implementation dallas",
+    "ai agency dallas",
+    "dallas ai company",
+    "ai solutions dallas tx",
+    "ai consulting fort worth",
+    "ai automation fort worth",
+    "managed ai services dallas",
+    "automate email management",
+    "ai email triage",
+    "ai meeting scheduling",
+    "ai inbox management",
+    "virtual assistant alternative",
+    "ai vs virtual assistant",
+    "replace virtual assistant with ai",
+    "too many emails",
+    "email overload solution",
+    "inbox zero ai",
+    "ai email sorting",
+    "ai email drafting",
+    "automated email responses business",
+    "ai follow up emails",
+    "ai meeting prep",
+    "automate calendar management",
+    "ai for law firms",
+    "ai assistant for lawyers",
+    "ai for real estate agents",
+    "ai for insurance agency",
+    "ai for mortgage company",
+    "law firm automation",
+    "legal ai assistant",
+    "legal ai assistant dallas",
+    "ai for personal injury lawyers",
+    "ai for law firm management",
+    "real estate ai assistant",
+    "real estate automation ai",
+    "insurance agency automation",
+    "mortgage automation ai",
+    "ai for small business owners",
+    "ai for managing partner",
+    "ai for business owner",
+    "ai staffing agency",
+    "ai employee",
+    "ai worker",
+    "what is openclaw",
+    "what is an ai executive assistant",
+    "can ai manage my email",
+    "ai assistant for small business owners",
+    "how does ai executive assistant work",
+    "what can ai assistant do",
+    "ai assistant capabilities",
+    "ai automation explained",
+    "ai for business explained",
+    "open source ai assistant",
+    "self hosted ai assistant",
+    "on premise ai assistant",
+    "private ai assistant",
+    "how to automate email with ai",
+    "how to use ai in my business",
+    "how to set up ai assistant",
+    "ai automation for beginners",
+    "how to save time with ai"
+  ],
+  "response": {
+    "version": "0.1.20260209",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "2.1991 sec.",
+    "cost": 0.075,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02102354-1046-0367-0000-7bac9cdf72a4",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "2.1311 sec.",
+        "cost": 0.075,
+        "result_count": 100,
+        "path": [
+          "v3",
+          "keywords_data",
+          "google_ads",
+          "search_volume",
+          "live"
+        ],
+        "data": {
+          "api": "keywords_data",
+          "function": "search_volume",
+          "se": "google_ads",
+          "keywords": [
+            "openclaw",
+            "openclaw ai",
+            "openclaw setup",
+            "setup openclaw",
+            "openclaw for business",
+            "openclaw consultant",
+            "openclaw dallas",
+            "openclaw dfw",
+            "openclaw pricing",
+            "openclaw review",
+            "openclaw install",
+            "ai executive assistant",
+            "ai assistant for business",
+            "hire ai assistant",
+            "ai personal assistant for work",
+            "ai email assistant",
+            "ai calendar assistant",
+            "ai assistant setup service",
+            "ai assistant for ceo",
+            "ai assistant for executives",
+            "ai powered executive assistant",
+            "ai secretary",
+            "ai chief of staff",
+            "automated executive assistant",
+            "ai business assistant",
+            "ai office assistant",
+            "ai scheduling assistant",
+            "ai assistant that reads email",
+            "ai that manages my inbox",
+            "ai that schedules meetings",
+            "ai consultant dallas",
+            "ai automation dallas",
+            "ai assistant dallas",
+            "ai for business dallas",
+            "ai consultant fort worth",
+            "business automation dfw",
+            "ai services dallas",
+            "ai setup dallas",
+            "ai consultant dfw",
+            "ai implementation dallas",
+            "ai agency dallas",
+            "dallas ai company",
+            "ai solutions dallas tx",
+            "ai consulting fort worth",
+            "ai automation fort worth",
+            "managed ai services dallas",
+            "automate email management",
+            "ai email triage",
+            "ai meeting scheduling",
+            "ai inbox management",
+            "virtual assistant alternative",
+            "ai vs virtual assistant",
+            "replace virtual assistant with ai",
+            "too many emails",
+            "email overload solution",
+            "inbox zero ai",
+            "ai email sorting",
+            "ai email drafting",
+            "automated email responses business",
+            "ai follow up emails",
+            "ai meeting prep",
+            "automate calendar management",
+            "ai for law firms",
+            "ai assistant for lawyers",
+            "ai for real estate agents",
+            "ai for insurance agency",
+            "ai for mortgage company",
+            "law firm automation",
+            "legal ai assistant",
+            "legal ai assistant dallas",
+            "ai for personal injury lawyers",
+            "ai for law firm management",
+            "real estate ai assistant",
+            "real estate automation ai",
+            "insurance agency automation",
+            "mortgage automation ai",
+            "ai for small business owners",
+            "ai for managing partner",
+            "ai for business owner",
+            "ai staffing agency",
+            "ai employee",
+            "ai worker",
+            "what is openclaw",
+            "what is an ai executive assistant",
+            "can ai manage my email",
+            "ai assistant for small business owners",
+            "how does ai executive assistant work",
+            "what can ai assistant do",
+            "ai assistant capabilities",
+            "ai automation explained",
+            "ai for business explained",
+            "open source ai assistant",
+            "self hosted ai assistant",
+            "on premise ai assistant",
+            "private ai assistant",
+            "how to automate email with ai",
+            "how to use ai in my business",
+            "how to set up ai assistant",
+            "ai automation for beginners",
+            "how to save time with ai"
+          ],
+          "language_code": "en",
+          "location_code": 2840
+        },
+        "result": [
+          {
+            "keyword": "openclaw",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 0,
+            "search_volume": 10,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 10
+              }
+            ]
+          },
+          {
+            "keyword": "openclaw ai",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "openclaw setup",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "setup openclaw",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "openclaw for business",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "openclaw consultant",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "openclaw dallas",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "openclaw dfw",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "openclaw pricing",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "openclaw review",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "openclaw install",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai executive assistant",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 27,
+            "search_volume": 1000,
+            "low_top_of_page_bid": 3.56,
+            "high_top_of_page_bid": 17.99,
+            "cpc": 15.95,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 1300
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 880
+              }
+            ]
+          },
+          {
+            "keyword": "ai assistant for business",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 23,
+            "search_volume": 1300,
+            "low_top_of_page_bid": 8.25,
+            "high_top_of_page_bid": 28.29,
+            "cpc": 26.36,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 3600
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 5400
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 390
+              }
+            ]
+          },
+          {
+            "keyword": "hire ai assistant",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 37,
+            "search_volume": 10,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": 17.52,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 10
+              }
+            ]
+          },
+          {
+            "keyword": "ai personal assistant for work",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 41,
+            "search_volume": 20,
+            "low_top_of_page_bid": 2.32,
+            "high_top_of_page_bid": 6.12,
+            "cpc": null,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 40
+              }
+            ]
+          },
+          {
+            "keyword": "ai email assistant",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 65,
+            "search_volume": 2400,
+            "low_top_of_page_bid": 3.06,
+            "high_top_of_page_bid": 16.27,
+            "cpc": 12.26,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 2400
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 2400
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 2900
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 2900
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 2400
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 2400
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 2900
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 2400
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 2400
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 2400
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 1900
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 2400
+              }
+            ]
+          },
+          {
+            "keyword": "ai calendar assistant",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 83,
+            "search_volume": 590,
+            "low_top_of_page_bid": 3.17,
+            "high_top_of_page_bid": 13.57,
+            "cpc": 13.95,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 590
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 590
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 590
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 1300
+              }
+            ]
+          },
+          {
+            "keyword": "ai assistant setup service",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai assistant for ceo",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 90,
+            "search_volume": 10,
+            "low_top_of_page_bid": 7.92,
+            "high_top_of_page_bid": 15.24,
+            "cpc": 11.47,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 0
+              }
+            ]
+          },
+          {
+            "keyword": "ai assistant for executives",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai powered executive assistant",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 0,
+            "search_volume": 1300,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 2400
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 5400
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 4400
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 0
+              }
+            ]
+          },
+          {
+            "keyword": "ai secretary",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 72,
+            "search_volume": 720,
+            "low_top_of_page_bid": 2.74,
+            "high_top_of_page_bid": 13.03,
+            "cpc": 13.89,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 590
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 590
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 590
+              }
+            ]
+          },
+          {
+            "keyword": "ai chief of staff",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 42,
+            "search_volume": 170,
+            "low_top_of_page_bid": 2.94,
+            "high_top_of_page_bid": 9.26,
+            "cpc": 7.46,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 70
+              }
+            ]
+          },
+          {
+            "keyword": "automated executive assistant",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai business assistant",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 71,
+            "search_volume": 210,
+            "low_top_of_page_bid": 6.82,
+            "high_top_of_page_bid": 28.94,
+            "cpc": 25.66,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 260
+              }
+            ]
+          },
+          {
+            "keyword": "ai office assistant",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 91,
+            "search_volume": 260,
+            "low_top_of_page_bid": 5.14,
+            "high_top_of_page_bid": 24,
+            "cpc": 18.64,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 1300
+              }
+            ]
+          },
+          {
+            "keyword": "ai scheduling assistant",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 74,
+            "search_volume": 1600,
+            "low_top_of_page_bid": 4.03,
+            "high_top_of_page_bid": 17.27,
+            "cpc": 17.57,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 1900
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 1300
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 1900
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 1900
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 2400
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 1900
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 1900
+              }
+            ]
+          },
+          {
+            "keyword": "ai assistant that reads email",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai that manages my inbox",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai that schedules meetings",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai consultant dallas",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai automation dallas",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai assistant dallas",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai for business dallas",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai consultant fort worth",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "business automation dfw",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai services dallas",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai setup dallas",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai consultant dfw",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai implementation dallas",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai agency dallas",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "dallas ai company",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai solutions dallas tx",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai consulting fort worth",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai automation fort worth",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "managed ai services dallas",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "automate email management",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai email triage",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 67,
+            "search_volume": 20,
+            "low_top_of_page_bid": 5.85,
+            "high_top_of_page_bid": 35.07,
+            "cpc": null,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 30
+              }
+            ]
+          },
+          {
+            "keyword": "ai meeting scheduling",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 66,
+            "search_volume": 50,
+            "low_top_of_page_bid": 3.87,
+            "high_top_of_page_bid": 22.93,
+            "cpc": 16.41,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 70
+              }
+            ]
+          },
+          {
+            "keyword": "ai inbox management",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 68,
+            "search_volume": 110,
+            "low_top_of_page_bid": 5.74,
+            "high_top_of_page_bid": 29.17,
+            "cpc": 18.32,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 140
+              }
+            ]
+          },
+          {
+            "keyword": "virtual assistant alternative",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai vs virtual assistant",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "replace virtual assistant with ai",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "too many emails",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 5,
+            "search_volume": 210,
+            "low_top_of_page_bid": 1.18,
+            "high_top_of_page_bid": 7.28,
+            "cpc": 3.31,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 320
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 320
+              }
+            ]
+          },
+          {
+            "keyword": "email overload solution",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "inbox zero ai",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 59,
+            "search_volume": 40,
+            "low_top_of_page_bid": 2.01,
+            "high_top_of_page_bid": 7.58,
+            "cpc": 4.82,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 20
+              }
+            ]
+          },
+          {
+            "keyword": "ai email sorting",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 80,
+            "search_volume": 110,
+            "low_top_of_page_bid": 4,
+            "high_top_of_page_bid": 33.12,
+            "cpc": 33.93,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 170
+              }
+            ]
+          },
+          {
+            "keyword": "ai email drafting",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 63,
+            "search_volume": 40,
+            "low_top_of_page_bid": 2.97,
+            "high_top_of_page_bid": 9.8,
+            "cpc": 4.72,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 50
+              }
+            ]
+          },
+          {
+            "keyword": "automated email responses business",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai follow up emails",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai meeting prep",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 46,
+            "search_volume": 10,
+            "low_top_of_page_bid": 4.1,
+            "high_top_of_page_bid": 12.33,
+            "cpc": 4.4,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 0
+              }
+            ]
+          },
+          {
+            "keyword": "automate calendar management",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai for law firms",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 56,
+            "search_volume": 1300,
+            "low_top_of_page_bid": 6.71,
+            "high_top_of_page_bid": 29.52,
+            "cpc": 33.5,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 1300
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 1300
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 1300
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 1300
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 1000
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 2400
+              }
+            ]
+          },
+          {
+            "keyword": "ai assistant for lawyers",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 69,
+            "search_volume": 20,
+            "low_top_of_page_bid": 7.6,
+            "high_top_of_page_bid": 44.42,
+            "cpc": 36.68,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 10
+              }
+            ]
+          },
+          {
+            "keyword": "ai for real estate agents",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 66,
+            "search_volume": 480,
+            "low_top_of_page_bid": 3.82,
+            "high_top_of_page_bid": 17.24,
+            "cpc": 12.24,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 320
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 590
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 590
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 590
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 720
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 480
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 480
+              }
+            ]
+          },
+          {
+            "keyword": "ai for insurance agency",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai for mortgage company",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "law firm automation",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 49,
+            "search_volume": 70,
+            "low_top_of_page_bid": 15.31,
+            "high_top_of_page_bid": 148.57,
+            "cpc": 81.67,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 90
+              }
+            ]
+          },
+          {
+            "keyword": "legal ai assistant",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 43,
+            "search_volume": 260,
+            "low_top_of_page_bid": 7.39,
+            "high_top_of_page_bid": 29.4,
+            "cpc": 47,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 880
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 390
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 320
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 140
+              }
+            ]
+          },
+          {
+            "keyword": "legal ai assistant dallas",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai for personal injury lawyers",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 23,
+            "search_volume": 70,
+            "low_top_of_page_bid": 16.19,
+            "high_top_of_page_bid": 82.86,
+            "cpc": 103.33,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 140
+              }
+            ]
+          },
+          {
+            "keyword": "ai for law firm management",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "real estate ai assistant",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 69,
+            "search_volume": 90,
+            "low_top_of_page_bid": 4.31,
+            "high_top_of_page_bid": 18,
+            "cpc": 12.35,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 90
+              }
+            ]
+          },
+          {
+            "keyword": "real estate automation ai",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "insurance agency automation",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 51,
+            "search_volume": 40,
+            "low_top_of_page_bid": 16.05,
+            "high_top_of_page_bid": 27.08,
+            "cpc": 53.34,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 50
+              }
+            ]
+          },
+          {
+            "keyword": "mortgage automation ai",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai for small business owners",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 87,
+            "search_volume": 90,
+            "low_top_of_page_bid": 5.53,
+            "high_top_of_page_bid": 21.98,
+            "cpc": 22.59,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 50
+              }
+            ]
+          },
+          {
+            "keyword": "ai for managing partner",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai for business owner",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai staffing agency",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 54,
+            "search_volume": 110,
+            "low_top_of_page_bid": 3.95,
+            "high_top_of_page_bid": 13.11,
+            "cpc": 10.31,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 260
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 140
+              }
+            ]
+          },
+          {
+            "keyword": "ai employee",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 74,
+            "search_volume": 2400,
+            "low_top_of_page_bid": 4.06,
+            "high_top_of_page_bid": 12,
+            "cpc": 14.28,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 1900
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 2900
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 2400
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 2900
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 2900
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 2400
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 1900
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 2400
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 2400
+              }
+            ]
+          },
+          {
+            "keyword": "ai worker",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 34,
+            "search_volume": 2400,
+            "low_top_of_page_bid": 2.62,
+            "high_top_of_page_bid": 9.26,
+            "cpc": 9.72,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 2400
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 2400
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 2900
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 3600
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 2400
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 2400
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 1900
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 1600
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 1900
+              }
+            ]
+          },
+          {
+            "keyword": "what is openclaw",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "what is an ai executive assistant",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "can ai manage my email",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai assistant for small business owners",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 78,
+            "search_volume": 10,
+            "low_top_of_page_bid": 5.94,
+            "high_top_of_page_bid": 39.71,
+            "cpc": 21.11,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 0
+              }
+            ]
+          },
+          {
+            "keyword": "how does ai executive assistant work",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "what can ai assistant do",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai assistant capabilities",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "ai automation explained",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 50,
+            "search_volume": 10,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 10
+              }
+            ]
+          },
+          {
+            "keyword": "ai for business explained",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "open source ai assistant",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 26,
+            "search_volume": 140,
+            "low_top_of_page_bid": 2.3,
+            "high_top_of_page_bid": 6,
+            "cpc": 13.05,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 90
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 210
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 140
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 170
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 110
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 140
+              }
+            ]
+          },
+          {
+            "keyword": "self hosted ai assistant",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 10,
+            "search_volume": 50,
+            "low_top_of_page_bid": 2.05,
+            "high_top_of_page_bid": 3.66,
+            "cpc": null,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 70
+              }
+            ]
+          },
+          {
+            "keyword": "on premise ai assistant",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "private ai assistant",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "LOW",
+            "competition_index": 18,
+            "search_volume": 30,
+            "low_top_of_page_bid": 2.1,
+            "high_top_of_page_bid": 10.17,
+            "cpc": 9.17,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 70
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 20
+              }
+            ]
+          },
+          {
+            "keyword": "how to automate email with ai",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          },
+          {
+            "keyword": "how to use ai in my business",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 91,
+            "search_volume": 40,
+            "low_top_of_page_bid": 6.56,
+            "high_top_of_page_bid": 20.92,
+            "cpc": 23.35,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 50
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 30
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 40
+              }
+            ]
+          },
+          {
+            "keyword": "how to set up ai assistant",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "MEDIUM",
+            "competition_index": 33,
+            "search_volume": 10,
+            "low_top_of_page_bid": 1.19,
+            "high_top_of_page_bid": 4.95,
+            "cpc": null,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 0
+              }
+            ]
+          },
+          {
+            "keyword": "ai automation for beginners",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": "HIGH",
+            "competition_index": 67,
+            "search_volume": 10,
+            "low_top_of_page_bid": 3.72,
+            "high_top_of_page_bid": 9.7,
+            "cpc": 10.65,
+            "monthly_searches": [
+              {
+                "year": 2025,
+                "month": 12,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "search_volume": 40
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 7,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 6,
+                "search_volume": 20
+              },
+              {
+                "year": 2025,
+                "month": 5,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 4,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 3,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 2,
+                "search_volume": 10
+              },
+              {
+                "year": 2025,
+                "month": 1,
+                "search_volume": 10
+              }
+            ]
+          },
+          {
+            "keyword": "how to save time with ai",
+            "spell": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "search_partners": false,
+            "competition": null,
+            "competition_index": null,
+            "search_volume": null,
+            "low_top_of_page_bid": null,
+            "high_top_of_page_bid": null,
+            "cpc": null,
+            "monthly_searches": null
+          }
+        ]
+      }
+    ]
+  },
+  "fetched_at": "2026-02-10 15:54:50 -0600"
+}

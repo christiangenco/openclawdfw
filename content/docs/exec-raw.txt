@@ -1,0 +1,526 @@
+  - link "Skip to main content" [ref=e1]:
+    - /url: "#content-area"
+  - link "OpenClaw home page light logo" [ref=e2]:
+    - /url: /
+    - text: OpenClaw home page
+  - button "US English" [ref=e3]:
+    - text: English
+  - button "Open search" [ref=e4]:
+    - text: Search... Ctrl K
+  - navigation:
+      - listitem:
+        - link "GitHub" [ref=e5]:
+          - /url: https://github.com/openclaw/openclaw
+          - text: GitHub
+      - listitem:
+        - link "Releases" [ref=e6]:
+          - /url: https://github.com/openclaw/openclaw/releases
+          - text: Releases
+  - button "Toggle dark mode" [ref=e7]:
+  - link "Get started" [ref=e8]:
+    - /url: /
+  - link "Install" [ref=e9]:
+    - /url: /install
+  - link "Channels" [ref=e10]:
+    - /url: /channels
+  - link "Agents" [ref=e11]:
+    - /url: /concepts/architecture
+  - link "Tools" [ref=e12]:
+    - /url: /tools
+  - link "Models" [ref=e13]:
+    - /url: /providers
+  - link "Platforms" [ref=e14]:
+    - /url: /platforms
+  - link "Gateway & Ops" [ref=e15]:
+    - /url: /gateway
+  - link "Reference" [ref=e16]:
+    - /url: /cli
+  - link "Help" [ref=e17]:
+    - /url: /help
+  - heading "Overview" [ref=e18] [level=5]
+    - listitem:
+      - link "Tools" [ref=e19] [nth=1]:
+        - /url: /tools
+  - heading "Built-in tools" [ref=e20] [level=5]
+    - listitem:
+      - link "Lobster" [ref=e21]:
+        - /url: /tools/lobster
+    - listitem:
+      - link "LLM Task" [ref=e22]:
+        - /url: /tools/llm-task
+    - listitem:
+      - link "Exec Tool" [ref=e23]:
+        - /url: /tools/exec
+    - listitem:
+      - link "Web Tools" [ref=e24]:
+        - /url: /tools/web
+    - listitem:
+      - link "apply_patch Tool" [ref=e25]:
+        - /url: /tools/apply-patch
+    - listitem:
+      - link "Elevated Mode" [ref=e26]:
+        - /url: /tools/elevated
+    - listitem:
+      - link "Thinking Levels" [ref=e27]:
+        - /url: /tools/thinking
+    - listitem:
+      - link "Reactions" [ref=e28]:
+        - /url: /tools/reactions
+  - heading "Browser" [ref=e29] [level=5]
+    - listitem:
+      - link "Browser (OpenClaw-managed)" [ref=e30]:
+        - /url: /tools/browser
+    - listitem:
+      - link "Browser Login" [ref=e31]:
+        - /url: /tools/browser-login
+    - listitem:
+      - link "Chrome Extension" [ref=e32]:
+        - /url: /tools/chrome-extension
+    - listitem:
+      - link "Browser Troubleshooting" [ref=e33]:
+        - /url: /tools/browser-linux-troubleshooting
+  - heading "Agent coordination" [ref=e34] [level=5]
+    - listitem:
+      - link "Agent Send" [ref=e35]:
+        - /url: /tools/agent-send
+    - listitem:
+      - link "Sub-Agents" [ref=e36]:
+        - /url: /tools/subagents
+    - listitem:
+      - link "Multi-Agent Sandbox & Tools" [ref=e37]:
+        - /url: /tools/multi-agent-sandbox-tools
+  - heading "Skills" [ref=e38] [level=5]
+    - listitem:
+      - link "Slash Commands" [ref=e39]:
+        - /url: /tools/slash-commands
+    - listitem:
+      - link "Skills" [ref=e40]:
+        - /url: /tools/skills
+    - listitem:
+      - link "Skills Config" [ref=e41]:
+        - /url: /tools/skills-config
+    - listitem:
+      - link "ClawHub" [ref=e42]:
+        - /url: /tools/clawhub
+    - listitem:
+      - link "Plugins" [ref=e43]:
+        - /url: /tools/plugin
+  - heading "Extensions" [ref=e44] [level=5]
+    - listitem:
+      - link "Voice Call Plugin" [ref=e45]:
+        - /url: /plugins/voice-call
+    - listitem:
+      - link "Zalo Personal Plugin" [ref=e46]:
+        - /url: /plugins/zalouser
+  - heading "Automation" [ref=e47] [level=5]
+    - listitem:
+      - link "Hooks" [ref=e48]:
+        - /url: /automation/hooks
+    - listitem:
+      - link "Cron Jobs" [ref=e49]:
+        - /url: /automation/cron-jobs
+    - listitem:
+      - link "Cron vs Heartbeat" [ref=e50]:
+        - /url: /automation/cron-vs-heartbeat
+    - listitem:
+      - link "Automation Troubleshooting" [ref=e51]:
+        - /url: /automation/troubleshooting
+    - listitem:
+      - link "Webhooks" [ref=e52]:
+        - /url: /automation/webhook
+    - listitem:
+      - link "Gmail PubSub" [ref=e53]:
+        - /url: /automation/gmail-pubsub
+    - listitem:
+      - link "Polls" [ref=e54]:
+        - /url: /automation/poll
+    - listitem:
+      - link "Auth Monitoring" [ref=e55]:
+        - /url: /automation/auth-monitoring
+  - heading "Hooks" [ref=e56] [level=5]
+    - listitem:
+      - link "SOUL Evil Hook" [ref=e57]:
+        - /url: /hooks/soul-evil
+  - heading "Media and devices" [ref=e58] [level=5]
+    - listitem:
+      - link "Nodes" [ref=e59]:
+        - /url: /nodes
+    - listitem:
+      - link "Node Troubleshooting" [ref=e60]:
+        - /url: /nodes/troubleshooting
+    - listitem:
+      - link "Image and Media Support" [ref=e61]:
+        - /url: /nodes/images
+    - listitem:
+      - link "Audio and Voice Notes" [ref=e62]:
+        - /url: /nodes/audio
+    - listitem:
+      - link "Camera Capture" [ref=e63]:
+        - /url: /nodes/camera
+    - listitem:
+      - link "Talk Mode" [ref=e64]:
+        - /url: /nodes/talk
+    - listitem:
+      - link "Voice Wake" [ref=e65]:
+        - /url: /nodes/voicewake
+    - listitem:
+      - link "Location Command" [ref=e66]:
+        - /url: /nodes/location-command
+  - button "On this page" [ref=e67]:
+    - text: On this page
+    - listitem:
+      - link "Exec tool" [ref=e68]:
+        - /url: "#exec-tool"
+    - listitem:
+      - link "Parameters" [ref=e69]:
+        - /url: "#parameters"
+    - listitem:
+      - link "Config" [ref=e70]:
+        - /url: "#config"
+    - listitem:
+      - link "PATH handling" [ref=e71]:
+        - /url: "#path-handling"
+    - listitem:
+      - link "Session overrides (/exec)" [ref=e72]:
+        - /url: "#session-overrides-%2Fexec"
+    - listitem:
+      - link "Authorization model" [ref=e73]:
+        - /url: "#authorization-model"
+    - listitem:
+      - link "Exec approvals (companion app / node host)" [ref=e74]:
+        - /url: "#exec-approvals-companion-app-%2F-node-host"
+    - listitem:
+      - link "Allowlist + safe bins" [ref=e75]:
+        - /url: "#allowlist-%2B-safe-bins"
+    - listitem:
+      - link "Examples" [ref=e76]:
+        - /url: "#examples"
+    - listitem:
+      - link "apply_patch (experimental)" [ref=e77]:
+        - /url: "#apply_patch-experimental"
+  - banner:
+    - text: Built-in tools
+    - heading "Exec Tool" [ref=e78] [level=1]
+  - text: Run shell commands in the workspace. Supports foreground + background execution via
+  - code: process
+  - text: . If
+  - code: process
+  - text: is disallowed,
+  - code: exec
+  - text: runs synchronously and ignores
+  - code: yieldMs
+  - text: /
+  - code: background
+  - text: . Background sessions are scoped per agent;
+  - code: process
+  - text: only sees sessions from the same agent.
+  - heading "Navigate to header Parameters" [ref=e79] [level=2]:
+    - link "Navigate to header" [ref=e80]:
+      - /url: "#parameters"
+    - text: Parameters
+      - code: command
+      - text: (required)
+      - code: workdir
+      - text: (defaults to cwd)
+      - code: env
+      - text: (key/value overrides)
+      - code: yieldMs
+      - text: "(default 10000): auto-background after delay"
+      - code: background
+      - text: "(bool): background immediately"
+      - code: timeout
+      - text: "(seconds, default 1800): kill on expiry"
+      - code: pty
+      - text: "(bool): run in a pseudo-terminal when available (TTY-only CLIs, coding agents, terminal UIs)"
+      - code: host
+      - text: (
+      - code: sandbox | gateway | node
+      - text: "): where to execute"
+      - code: security
+      - text: (
+      - code: deny | allowlist | full
+      - text: "): enforcement mode for"
+      - code: gateway
+      - text: /
+      - code: node
+      - code: ask
+      - text: (
+      - code: off | on-miss | always
+      - text: "): approval prompts for"
+      - code: gateway
+      - text: /
+      - code: node
+      - code: node
+      - text: "(string): node id/name for"
+      - code: host=node
+      - code: elevated
+      - text: "(bool): request elevated mode (gateway host);"
+      - code: security=full
+      - text: is only forced when elevated resolves to
+      - code: full
+  - text: "Notes:"
+      - code: host
+      - text: defaults to
+      - code: sandbox
+      - text: .
+      - code: elevated
+      - text: is ignored when sandboxing is off (exec already runs on the host).
+      - code: gateway
+      - text: /
+      - code: node
+      - text: approvals are controlled by
+      - code: ~/.openclaw/exec-approvals.json
+      - text: .
+      - code: node
+      - text: requires a paired node (companion app or headless node host).
+      - text: If multiple nodes are available, set
+      - code: exec.node
+      - text: or
+      - code: tools.exec.node
+      - text: to select one.
+      - text: On non-Windows hosts, exec uses
+      - code: SHELL
+      - text: when set; if
+      - code: SHELL
+      - text: is
+      - code: fish
+      - text: ", it prefers"
+      - code: bash
+      - text: (or
+      - code: sh
+      - text: ) from
+      - code: PATH
+      - text: to avoid fish-incompatible scripts, then falls back to
+      - code: SHELL
+      - text: if neither exists.
+      - text: Host execution (
+      - code: gateway
+      - text: /
+      - code: node
+      - text: ) rejects
+      - code: env.PATH
+      - text: and loader overrides (
+      - code: LD_*
+      - text: /
+      - code: DYLD_*
+      - text: ) to prevent binary hijacking or injected code.
+      - text: "Important: sandboxing is"
+      - strong: off by default
+      - text: . If sandboxing is off,
+      - code: host=sandbox
+      - text: runs directly on the gateway host (no container) and
+      - strong: does not require approvals
+      - text: . To require approvals, run with
+      - code: host=gateway
+      - text: and configure exec approvals (or enable sandboxing).
+  - heading "Navigate to header Config" [ref=e81] [level=2]:
+    - link "Navigate to header" [ref=e82] [nth=1]:
+      - /url: "#config"
+    - text: Config
+      - code: tools.exec.notifyOnExit
+      - text: "(default: true): when true, backgrounded exec sessions enqueue a system event and request a heartbeat on exit."
+      - code: tools.exec.approvalRunningNoticeMs
+      - text: "(default: 10000): emit a single “running” notice when an approval-gated exec runs longer than this (0 disables)."
+      - code: tools.exec.host
+      - text: "(default:"
+      - code: sandbox
+      - text: )
+      - code: tools.exec.security
+      - text: "(default:"
+      - code: deny
+      - text: for sandbox,
+      - code: allowlist
+      - text: for gateway + node when unset)
+      - code: tools.exec.ask
+      - text: "(default:"
+      - code: on-miss
+      - text: )
+      - code: tools.exec.node
+      - text: "(default: unset)"
+      - code: tools.exec.pathPrepend
+      - text: ": list of directories to prepend to"
+      - code: PATH
+      - text: for exec runs.
+      - code: tools.exec.safeBins
+      - text: ": stdin-only safe binaries that can run without explicit allowlist entries."
+  - text: "Example:"
+  - button "Copy the contents from the code block" [ref=e83]:
+  - code: "{ tools: { exec: { pathPrepend: [\"~/bin\", \"/opt/oss/bin\"], }, }, }"
+  - heading "Navigate to header PATH handling" [ref=e84] [level=3]:
+    - link "Navigate to header" [ref=e85] [nth=2]:
+      - /url: "#path-handling"
+    - text: PATH handling
+      - code: host=gateway
+      - text: ": merges your login-shell"
+      - code: PATH
+      - text: into the exec environment.
+      - code: env.PATH
+      - text: overrides are rejected for host execution. The daemon itself still runs with a minimal
+      - code: PATH
+      - text: ":"
+          - text: "macOS:"
+          - code: /opt/homebrew/bin
+          - text: ","
+          - code: /usr/local/bin
+          - text: ","
+          - code: /usr/bin
+          - text: ","
+          - code: /bin
+          - text: "Linux:"
+          - code: /usr/local/bin
+          - text: ","
+          - code: /usr/bin
+          - text: ","
+          - code: /bin
+      - code: host=sandbox
+      - text: ": runs"
+      - code: sh -lc
+      - text: (login shell) inside the container, so
+      - code: /etc/profile
+      - text: may reset
+      - code: PATH
+      - text: . OpenClaw prepends
+      - code: env.PATH
+      - text: after profile sourcing via an internal env var (no shell interpolation);
+      - code: tools.exec.pathPrepend
+      - text: applies here too.
+      - code: host=node
+      - text: ": only non-blocked env overrides you pass are sent to the node."
+      - code: env.PATH
+      - text: overrides are rejected for host execution. Headless node hosts accept
+      - code: PATH
+      - text: only when it prepends the node host PATH (no replacement). macOS nodes drop
+      - code: PATH
+      - text: overrides entirely.
+  - text: "Per-agent node binding (use the agent list index in config):"
+  - button "Copy the contents from the code block" [ref=e86] [nth=1]:
+  - code: openclaw config get agents.list openclaw config set agents.list[0].tools.exec.node "node-id-or-name"
+  - text: "Control UI: the Nodes tab includes a small “Exec node binding” panel for the same settings."
+  - heading "Navigate to header Session overrides (/exec)" [ref=e87] [level=2]:
+    - link "Navigate to header" [ref=e88] [nth=3]:
+      - /url: "#session-overrides-/exec"
+    - text: Session overrides (
+    - code: /exec
+    - text: )
+  - text: Use
+  - code: /exec
+  - text: to set
+  - strong: per-session
+  - text: defaults for
+  - code: host
+  - text: ","
+  - code: security
+  - text: ","
+  - code: ask
+  - text: ", and"
+  - code: node
+  - text: . Send
+  - code: /exec
+  - text: "with no arguments to show the current values. Example:"
+  - button "Copy the contents from the code block" [ref=e89] [nth=2]:
+  - code: /exec host=gateway security=allowlist ask=on-miss node=mac-1
+  - heading "Navigate to header Authorization model" [ref=e90] [level=2]:
+    - link "Navigate to header" [ref=e91] [nth=4]:
+      - /url: "#authorization-model"
+    - text: Authorization model
+  - code: /exec
+  - text: is only honored for
+  - strong: authorized senders
+  - text: (channel allowlists/pairing plus
+  - code: commands.useAccessGroups
+  - text: ). It updates
+  - strong: session state only
+  - text: and does not write config. To hard-disable exec, deny it via tool policy (
+  - code: "tools.deny: [\"exec\"]"
+  - text: or per-agent). Host approvals still apply unless you explicitly set
+  - code: security=full
+  - text: and
+  - code: ask=off
+  - text: .
+  - heading "Navigate to header Exec approvals (companion app / node host)" [ref=e92] [level=2]:
+    - link "Navigate to header" [ref=e93] [nth=5]:
+      - /url: "#exec-approvals-companion-app-/-node-host"
+    - text: Exec approvals (companion app / node host)
+  - text: Sandboxed agents can require per-request approval before
+  - code: exec
+  - text: runs on the gateway or node host. See
+  - link "Exec approvals" [ref=e94]:
+    - /url: /tools/exec-approvals
+  - text: for the policy, allowlist, and UI flow. When approvals are required, the exec tool returns immediately with
+  - code: "status: \"approval-pending\""
+  - text: and an approval id. Once approved (or denied / timed out), the Gateway emits system events (
+  - code: Exec finished
+  - text: /
+  - code: Exec denied
+  - text: ). If the command is still running after
+  - code: tools.exec.approvalRunningNoticeMs
+  - text: ", a single"
+  - code: Exec running
+  - text: notice is emitted.
+  - heading "Navigate to header Allowlist + safe bins" [ref=e95] [level=2]:
+    - link "Navigate to header" [ref=e96] [nth=6]:
+      - /url: "#allowlist-+-safe-bins"
+    - text: Allowlist + safe bins
+  - text: Allowlist enforcement matches
+  - strong: resolved binary paths only
+  - text: (no basename matches). When
+  - code: security=allowlist
+  - text: ", shell commands are auto-allowed only if every pipeline segment is allowlisted or a safe bin. Chaining ("
+  - code: ;
+  - text: ","
+  - code: "&&"
+  - text: ","
+  - code: "||"
+  - text: ) and redirections are rejected in allowlist mode.
+  - heading "Navigate to header Examples" [ref=e97] [level=2]:
+    - link "Navigate to header" [ref=e98] [nth=7]:
+      - /url: "#examples"
+    - text: Examples
+  - text: "Foreground:"
+  - button "Copy the contents from the code block" [ref=e99] [nth=3]:
+  - code: "{ \"tool\": \"exec\", \"command\": \"ls -la\" }"
+  - text: "Background + poll:"
+  - button "Copy the contents from the code block" [ref=e100] [nth=4]:
+  - code: "{\"tool\":\"exec\",\"command\":\"npm run build\",\"yieldMs\":1000} {\"tool\":\"process\",\"action\":\"poll\",\"sessionId\":\"<id>\"}"
+  - text: "Send keys (tmux-style):"
+  - button "Copy the contents from the code block" [ref=e101] [nth=5]:
+  - code: "{\"tool\":\"process\",\"action\":\"send-keys\",\"sessionId\":\"<id>\",\"keys\":[\"Enter\"]} {\"tool\":\"process\",\"action\":\"send-keys\",\"sessionId\":\"<id>\",\"keys\":[\"C-c\"]} {\"tool\":\"process\",\"action\":\"send-keys\",\"sessionId\":\"<id>\",\"keys\":[\"Up\",\"Up\",\"Enter\"]}"
+  - text: "Submit (send CR only):"
+  - button "Copy the contents from the code block" [ref=e102] [nth=6]:
+  - code: "{ \"tool\": \"process\", \"action\": \"submit\", \"sessionId\": \"<id>\" }"
+  - text: "Paste (bracketed by default):"
+  - button "Copy the contents from the code block" [ref=e103] [nth=7]:
+  - code: "{ \"tool\": \"process\", \"action\": \"paste\", \"sessionId\": \"<id>\", \"text\": \"line1\\nline2\\n\" }"
+  - heading "Navigate to header apply_patch (experimental)" [ref=e104] [level=2]:
+    - link "Navigate to header" [ref=e105] [nth=8]:
+      - /url: "#apply_patch-experimental"
+    - text: apply_patch (experimental)
+  - code: apply_patch
+  - text: is a subtool of
+  - code: exec
+  - text: "for structured multi-file edits. Enable it explicitly:"
+  - button "Copy the contents from the code block" [ref=e106] [nth=8]:
+  - code: "{ tools: { exec: { applyPatch: { enabled: true, allowModels: [\"gpt-5.2\"] }, }, }, }"
+  - text: "Notes:"
+    - listitem: Only available for OpenAI/OpenAI Codex models.
+      - text: Tool policy still applies;
+      - code: "allow: [\"exec\"]"
+      - text: implicitly allows
+      - code: apply_patch
+      - text: .
+      - text: Config lives under
+      - code: tools.exec.applyPatch
+      - text: .
+  - link "LLM Task" [ref=e107] [nth=1]:
+    - /url: /tools/llm-task
+    - text: LLM Task
+  - link "Web Tools" [ref=e108] [nth=1]:
+    - /url: /tools/web
+    - text: Web Tools
+  - textbox "Ask a question..." [ref=e109]
+  - text: Ctrl+I
+  - button "Send message" [ref=e110] [disabled]:
+  - contentinfo:
+    - link "Powered by" [ref=e111]:
+      - /url: https://www.mintlify.com?utm_campaign=poweredBy&utm_medium=referral&utm_source=clawdhub
+      - text: Powered by

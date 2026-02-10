@@ -1,0 +1,87 @@
+  - text: Don’t miss what’s happening People on X are the first to know.
+  - link "Log in" [ref=e1]:
+    - /url: /login
+  - link "Sign up" [ref=e2]:
+    - /url: /i/flow/signup
+  - button "Skip to home timeline" [ref=e3]
+  - button "Skip to trending" [ref=e4]
+  - banner:
+    - heading "X" [ref=e5] [level=1]:
+      - link "X" [ref=e6]:
+        - /url: /
+    - navigation "Primary" [ref=e7]
+  - main:
+    - button "Back" [ref=e8]
+    - heading "Post" [ref=e9] [level=2]
+    - region "Conversation" [ref=e10]:
+      - heading "Conversation" [ref=e11] [level=1]
+      - 'article "adi Verified account @IamAdiG my personal bot has replaced atleast half the apps i used to operate myself it lives in my personal whatsapp and on groups with my friends and family. it has so much context though, its absolutely unhealthy the amount of time i spend talking to my bot 😅 Quote Peter Steinberger 🦞 Verified account @steipete Jan 14 Prediction: personal assistants will eat up lots of apps. Why bother if AI can consume your API and integrate it with all my other data. x.com/imrane/status/… 2 replies, 1 repost, 16 likes, 10 bookmarks, 5858 views"':
+        - link "adi Verified account" [ref=e12]:
+          - /url: /IamAdiG
+          - text: adi
+        - link "@IamAdiG" [ref=e13]:
+          - /url: /IamAdiG
+        - button "More" [ref=e14]
+        - text: my personal bot has replaced atleast half the apps i used to operate myself it lives in my personal whatsapp and on groups with my friends and family. it has so much context though, its absolutely unhealthy the amount of time i spend talking to my bot
+        - text: Quote
+        - 'link "Peter Steinberger 🦞 Verified account @steipete Jan 14 Prediction: personal assistants will eat up lots of apps. Why bother if AI can consume your API and integrate it with all my other data. x.com/imrane/status/…"':
+          - text: Peter Steinberger
+          - link [ref=e15]
+          - text: "@steipete"
+          - time: Jan 14
+          - text: "Prediction: personal assistants will eat up lots of apps. Why bother if AI can consume your API and integrate it with all my other data. x.com/imrane/status/…"
+        - link "11:01 PM · Jan 15, 2026" [ref=e16]:
+          - /url: /IamAdiG/status/2012027310074171550
+          - time: 11:01 PM · Jan 15, 2026
+        - link "5,858 Views" [ref=e17]:
+          - /url: /IamAdiG/status/2012027310074171550/analytics
+        - group "2 replies, 1 repost, 16 likes, 10 bookmarks, 5858 views":
+          - button "2 Replies. Reply" [ref=e18]: "2"
+          - button "1 repost. Repost" [ref=e19]: "1"
+          - button "16 Likes. Like" [ref=e20]: "16"
+          - button "10 Bookmarks. Bookmark" [ref=e21]: "10"
+          - button "Share post" [ref=e22]
+    - region "Sign up" [ref=e23]:
+      - heading "New to X?" [ref=e24] [level=2]
+      - text: Sign up now to get your own personalized timeline!
+      - button "Sign up with Apple" [ref=e25]
+      - link "Create account" [ref=e26]:
+        - /url: /i/flow/signup
+      - text: By signing up, you agree to the
+      - link "Terms of Service" [ref=e27]:
+        - /url: https://x.com/tos
+      - text: and
+      - link "Privacy Policy" [ref=e28]:
+        - /url: https://x.com/privacy
+      - text: ", including"
+      - link "Cookie Use." [ref=e29]:
+        - /url: https://help.x.com/rules-and-policies/twitter-cookies
+    - region "Trending now" [ref=e30]:
+      - heading "Trending now" [ref=e31] [level=1]
+      - heading "What’s happening" [ref=e32] [level=2]
+      - link "Sports · Trending Verlander" [ref=e33]
+      - link "Trending in United States Noah Kahan" [ref=e34]
+      - link "Politics · Trending Nancy Guthrie Trending with The FBI" [ref=e35]:
+        - text: Politics · Trending Nancy Guthrie Trending with
+        - link "The FBI" [ref=e36]:
+          - /url: /search?q=The%20FBI&src=trend_click&vertical=trends
+      - link "Show more" [ref=e37]:
+        - /url: /explore/tabs/for-you
+    - navigation "Footer" [ref=e38]:
+      - link "Terms of Service" [ref=e39] [nth=1]:
+        - /url: https://x.com/tos
+      - text: "|"
+      - link "Privacy Policy" [ref=e40] [nth=1]:
+        - /url: https://x.com/privacy
+      - text: "|"
+      - link "Cookie Policy" [ref=e41]:
+        - /url: https://support.x.com/articles/20170514
+      - text: "|"
+      - link "Accessibility" [ref=e42]:
+        - /url: https://help.x.com/resources/accessibility
+      - text: "|"
+      - link "Ads info" [ref=e43]:
+        - /url: https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo
+      - text: "|"
+      - button "More" [ref=e44] [nth=1]
+      - text: © 2026 X Corp.

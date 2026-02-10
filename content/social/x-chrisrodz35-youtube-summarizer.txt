@@ -1,0 +1,82 @@
+  - text: Don’t miss what’s happening People on X are the first to know.
+  - link "Log in" [ref=e1]:
+    - /url: /login
+  - link "Sign up" [ref=e2]:
+    - /url: /i/flow/signup
+  - button "Skip to home timeline" [ref=e3]
+  - button "Skip to trending" [ref=e4]
+  - banner:
+    - heading "X" [ref=e5] [level=1]:
+      - link "X" [ref=e6]:
+        - /url: /
+    - navigation "Primary" [ref=e7]
+  - main:
+    - button "Back" [ref=e8]
+    - heading "Post" [ref=e9] [level=2]
+    - region "Conversation" [ref=e10]:
+      - heading "Conversation" [ref=e11] [level=1]
+      - article "Christian A. Rodríguez Encarnación @chrisrodz35 Kicking bad habits with @openclaw . I like watching youtube videos but it’s time I could spend producing instead of consuming. Setup a daily cron that summarizes new videos with key takeaways and actionable insights. Now I can get the learnings without the time sink! 1 reply, 2 reposts, 28 likes, 17 bookmarks, 4524 views" [ref=e12]:
+        - link "Christian A. Rodríguez Encarnación" [ref=e13]:
+          - /url: /chrisrodz35
+        - link "@chrisrodz35" [ref=e14]:
+          - /url: /chrisrodz35
+        - button "More" [ref=e15]
+        - text: Kicking bad habits with
+        - link "@openclaw" [ref=e16]:
+          - /url: /openclaw
+        - text: . I like watching youtube videos but it’s time I could spend producing instead of consuming. Setup a daily cron that summarizes new videos with key takeaways and actionable insights. Now I can get the learnings without the time sink!
+        - link "8:30 AM · Jan 19, 2026" [ref=e17]:
+          - /url: /chrisrodz35/status/2013257743004545257
+          - time: 8:30 AM · Jan 19, 2026
+        - link "4,524 Views" [ref=e18]:
+          - /url: /chrisrodz35/status/2013257743004545257/analytics
+        - group "1 reply, 2 reposts, 28 likes, 17 bookmarks, 4524 views":
+          - button "1 Reply. Reply" [ref=e19]: "1"
+          - button "2 reposts. Repost" [ref=e20]: "2"
+          - button "28 Likes. Like" [ref=e21]: "28"
+          - button "17 Bookmarks. Bookmark" [ref=e22]: "17"
+          - button "Share post" [ref=e23]
+    - region "Sign up" [ref=e24]:
+      - heading "New to X?" [ref=e25] [level=2]
+      - text: Sign up now to get your own personalized timeline!
+      - button "Sign up with Apple" [ref=e26]
+      - link "Create account" [ref=e27]:
+        - /url: /i/flow/signup
+      - text: By signing up, you agree to the
+      - link "Terms of Service" [ref=e28]:
+        - /url: https://x.com/tos
+      - text: and
+      - link "Privacy Policy" [ref=e29]:
+        - /url: https://x.com/privacy
+      - text: ", including"
+      - link "Cookie Use." [ref=e30]:
+        - /url: https://help.x.com/rules-and-policies/twitter-cookies
+    - region "Trending now" [ref=e31]:
+      - heading "Trending now" [ref=e32] [level=1]
+      - heading "What’s happening" [ref=e33] [level=2]
+      - link "Sports · Trending Verlander" [ref=e34]
+      - link "Trending in United States Noah Kahan" [ref=e35]
+      - link "Politics · Trending Nancy Guthrie Trending with The FBI" [ref=e36]:
+        - text: Politics · Trending Nancy Guthrie Trending with
+        - link "The FBI" [ref=e37]:
+          - /url: /search?q=The%20FBI&src=trend_click&vertical=trends
+      - link "Show more" [ref=e38]:
+        - /url: /explore/tabs/for-you
+    - navigation "Footer" [ref=e39]:
+      - link "Terms of Service" [ref=e40] [nth=1]:
+        - /url: https://x.com/tos
+      - text: "|"
+      - link "Privacy Policy" [ref=e41] [nth=1]:
+        - /url: https://x.com/privacy
+      - text: "|"
+      - link "Cookie Policy" [ref=e42]:
+        - /url: https://support.x.com/articles/20170514
+      - text: "|"
+      - link "Accessibility" [ref=e43]:
+        - /url: https://help.x.com/resources/accessibility
+      - text: "|"
+      - link "Ads info" [ref=e44]:
+        - /url: https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo
+      - text: "|"
+      - button "More" [ref=e45] [nth=1]
+      - text: © 2026 X Corp.

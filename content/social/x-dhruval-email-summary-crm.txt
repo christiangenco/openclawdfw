@@ -1,0 +1,103 @@
+  - text: Don’t miss what’s happening People on X are the first to know.
+  - link "Log in" [ref=e1]:
+    - /url: /login
+  - link "Sign up" [ref=e2]:
+    - /url: /i/flow/signup
+  - button "Skip to home timeline" [ref=e3]
+  - button "Skip to trending" [ref=e4]
+  - banner:
+    - heading "X" [ref=e5] [level=1]:
+      - link "X" [ref=e6]:
+        - /url: /
+    - navigation "Primary" [ref=e7]
+  - main:
+    - button "Back" [ref=e8]
+    - heading "Community post" [ref=e9] [level=2]
+    - link "Build in Public" [ref=e10]:
+      - /url: /i/communities/1493446837214187523
+    - region "Conversation" [ref=e11]:
+      - heading "Conversation" [ref=e12] [level=1]
+      - article "Dhruval Verified account @DhruvalGolakiya Member It just keeps getting better. Added supabase + mail-reader tools and set a daily cron. every morning it reads my unread emails, sends me a summary on WhatsApp, and auto-creates todos in the DB (which syncs with our team CRM) Thank you @thekitze and now I can see why you talking about @openclaw :) Image Quote Dhruval Verified account @DhruvalGolakiya Jan 9 so i built this ui completely from whatsApp using @openclaw and cc. generated, and sent the final output back to me as a screenshot and I can now add new skills + integrations the same way. Image Image Image 3 replies, 1 repost, 11 likes, 7 bookmarks, 2416 views" [ref=e13]:
+        - link "Dhruval Verified account" [ref=e14]:
+          - /url: /DhruvalGolakiya
+          - text: Dhruval
+        - link "@DhruvalGolakiya" [ref=e15]:
+          - /url: /DhruvalGolakiya
+        - text: Member
+        - button "More" [ref=e16]
+        - text: It just keeps getting better. Added supabase + mail-reader tools and set a daily cron. every morning it reads my unread emails, sends me a summary on WhatsApp, and auto-creates todos in the DB (which syncs with our team CRM) Thank you
+        - link "@thekitze" [ref=e17]:
+          - /url: /thekitze
+        - text: and now I can see why you talking about
+        - link "@openclaw" [ref=e18]:
+          - /url: /openclaw
+        - text: :)
+        - link "Image" [ref=e19]:
+          - /url: /DhruvalGolakiya/status/2009688047747764575/photo/1
+        - text: Quote
+        - link "Dhruval Verified account @DhruvalGolakiya Jan 9 so i built this ui completely from whatsApp using @openclaw and cc. generated, and sent the final output back to me as a screenshot and I can now add new skills + integrations the same way. Image Image Image" [ref=e20]:
+          - text: Dhruval
+          - text: "@DhruvalGolakiya"
+          - time: Jan 9
+          - text: so i built this ui completely from whatsApp using @openclaw and cc. generated, and sent the final output back to me as a screenshot and I can now add new skills + integrations the same way.
+          - link "Image" [ref=e21] [nth=1]:
+            - /url: /DhruvalGolakiya/status/2009577664018018425/photo/1
+          - link "Image" [ref=e22] [nth=2]:
+            - /url: /DhruvalGolakiya/status/2009577664018018425/photo/2
+          - link "Image" [ref=e23] [nth=3]:
+            - /url: /DhruvalGolakiya/status/2009577664018018425/photo/3
+        - link "12:05 PM · Jan 9, 2026" [ref=e24]:
+          - /url: /DhruvalGolakiya/status/2009688047747764575
+          - time: 12:05 PM · Jan 9, 2026
+        - link "2,416 Views" [ref=e25]:
+          - /url: /DhruvalGolakiya/status/2009688047747764575/analytics
+        - group "3 replies, 1 repost, 11 likes, 7 bookmarks, 2416 views":
+          - button "3 Replies. Reply" [ref=e26]: "3"
+          - button "1 repost. Repost" [ref=e27]: "1"
+          - button "11 Likes. Like" [ref=e28]: "11"
+          - button "7 Bookmarks. Bookmark" [ref=e29]: "7"
+          - button "Share post" [ref=e30]
+    - region "Sign up" [ref=e31]:
+      - heading "New to X?" [ref=e32] [level=2]
+      - text: Sign up now to get your own personalized timeline!
+      - button "Sign up with Apple" [ref=e33]
+      - link "Create account" [ref=e34]:
+        - /url: /i/flow/signup
+      - text: By signing up, you agree to the
+      - link "Terms of Service" [ref=e35]:
+        - /url: https://x.com/tos
+      - text: and
+      - link "Privacy Policy" [ref=e36]:
+        - /url: https://x.com/privacy
+      - text: ", including"
+      - link "Cookie Use." [ref=e37]:
+        - /url: https://help.x.com/rules-and-policies/twitter-cookies
+    - region "Trending now" [ref=e38]:
+      - heading "Trending now" [ref=e39] [level=1]
+      - heading "What’s happening" [ref=e40] [level=2]
+      - link "Sports · Trending Verlander" [ref=e41]
+      - link "Trending in United States Noah Kahan" [ref=e42]
+      - link "Politics · Trending Nancy Guthrie Trending with The FBI" [ref=e43]:
+        - text: Politics · Trending Nancy Guthrie Trending with
+        - link "The FBI" [ref=e44]:
+          - /url: /search?q=The%20FBI&src=trend_click&vertical=trends
+      - link "Show more" [ref=e45]:
+        - /url: /explore/tabs/for-you
+    - navigation "Footer" [ref=e46]:
+      - link "Terms of Service" [ref=e47] [nth=1]:
+        - /url: https://x.com/tos
+      - text: "|"
+      - link "Privacy Policy" [ref=e48] [nth=1]:
+        - /url: https://x.com/privacy
+      - text: "|"
+      - link "Cookie Policy" [ref=e49]:
+        - /url: https://support.x.com/articles/20170514
+      - text: "|"
+      - link "Accessibility" [ref=e50]:
+        - /url: https://help.x.com/resources/accessibility
+      - text: "|"
+      - link "Ads info" [ref=e51]:
+        - /url: https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo
+      - text: "|"
+      - button "More" [ref=e52] [nth=1]
+      - text: © 2026 X Corp.

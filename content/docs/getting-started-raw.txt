@@ -1,0 +1,229 @@
+  - link "Skip to main content" [ref=e1]:
+    - /url: "#content-area"
+  - link "OpenClaw home page light logo" [ref=e2]:
+    - /url: /
+    - text: OpenClaw home page
+  - button "US English" [ref=e3]:
+    - text: English
+  - button "Open search" [ref=e4]:
+    - text: Search... Ctrl K
+  - navigation:
+      - listitem:
+        - link "GitHub" [ref=e5]:
+          - /url: https://github.com/openclaw/openclaw
+          - text: GitHub
+      - listitem:
+        - link "Releases" [ref=e6]:
+          - /url: https://github.com/openclaw/openclaw/releases
+          - text: Releases
+  - button "Toggle dark mode" [ref=e7]:
+  - link "Get started" [ref=e8]:
+    - /url: /
+  - link "Install" [ref=e9]:
+    - /url: /install
+  - link "Channels" [ref=e10]:
+    - /url: /channels
+  - link "Agents" [ref=e11]:
+    - /url: /concepts/architecture
+  - link "Tools" [ref=e12]:
+    - /url: /tools
+  - link "Models" [ref=e13]:
+    - /url: /providers
+  - link "Platforms" [ref=e14]:
+    - /url: /platforms
+  - link "Gateway & Ops" [ref=e15]:
+    - /url: /gateway
+  - link "Reference" [ref=e16]:
+    - /url: /cli
+  - link "Help" [ref=e17]:
+    - /url: /help
+  - heading "Home" [ref=e18] [level=5]
+    - listitem:
+      - link "OpenClaw" [ref=e19]:
+        - /url: /
+  - heading "Overview" [ref=e20] [level=5]
+    - listitem:
+      - link "Showcase" [ref=e21]:
+        - /url: /start/showcase
+  - heading "Core concepts" [ref=e22] [level=5]
+    - listitem:
+      - link "Features" [ref=e23]:
+        - /url: /concepts/features
+  - heading "First steps" [ref=e24] [level=5]
+    - listitem:
+      - link "Getting Started" [ref=e25]:
+        - /url: /start/getting-started
+    - listitem:
+      - link "Onboarding Overview" [ref=e26]:
+        - /url: /start/onboarding-overview
+        - /url: /start/wizard
+        - /url: /start/onboarding
+  - heading "Guides" [ref=e27] [level=5]
+    - listitem:
+      - link "Personal Assistant Setup" [ref=e28]:
+        - /url: /start/openclaw
+  - button "On this page" [ref=e29]:
+    - text: On this page
+    - listitem:
+      - link "Getting Started" [ref=e30] [nth=1]:
+        - /url: "#getting-started"
+    - listitem:
+      - link "Prereqs" [ref=e31]:
+        - /url: "#prereqs"
+    - listitem:
+      - link "Quick setup (CLI)" [ref=e32]:
+        - /url: "#quick-setup-cli"
+    - listitem:
+      - link "Optional checks and extras" [ref=e33]:
+        - /url: "#optional-checks-and-extras"
+    - listitem:
+      - link "Useful environment variables" [ref=e34]:
+        - /url: "#useful-environment-variables"
+    - listitem:
+      - link "Go deeper" [ref=e35]:
+        - /url: "#go-deeper"
+    - listitem:
+      - link "What you will have" [ref=e36]:
+        - /url: "#what-you-will-have"
+    - listitem:
+      - link "Next steps" [ref=e37]:
+        - /url: "#next-steps"
+  - banner:
+    - text: First steps
+    - heading "Getting Started" [ref=e38] [level=1]
+  - text: "Goal: go from zero to a first working chat with minimal setup."
+  - text: "Fastest chat: open the Control UI (no channel setup needed). Run"
+  - code: openclaw dashboard
+  - text: and chat in the browser, or open
+  - code: http://127.0.0.1:18789/
+  - text: on the
+  - 'button "Gateway host: The machine running the OpenClaw gateway service."': gateway host
+  - text: ". Docs:"
+  - link "Dashboard" [ref=e39]:
+    - /url: /web/dashboard
+  - text: and
+  - link "Control UI" [ref=e40]:
+    - /url: /web/control-ui
+  - text: .
+  - heading "Navigate to header Prereqs" [ref=e41] [level=2]:
+    - link "Navigate to header" [ref=e42]:
+      - /url: "#prereqs"
+    - text: Prereqs
+    - listitem: Node 22 or newer
+  - text: Check your Node version with
+  - code: node --version
+  - text: if you are unsure.
+  - heading "Navigate to header Quick setup (CLI)" [ref=e43] [level=2]:
+    - link "Navigate to header" [ref=e44] [nth=1]:
+      - /url: "#quick-setup-cli"
+    - text: Quick setup (CLI)
+    - listitem:
+      - text: "1"
+      - link "Navigate to header" [ref=e45] [nth=2]:
+        - /url: "#"
+      - paragraph: Install OpenClaw (recommended)
+        - tab "macOS/Linux" [ref=e46] [selected]
+        - tab "Windows (PowerShell)" [ref=e47]
+      - tabpanel "macOS/Linux Windows (PowerShell) Copy the contents from the code block curl -fsSL https://openclaw.ai/install.sh | bash":
+        - button "Copy the contents from the code block" [ref=e48]:
+        - code: curl -fsSL https://openclaw.ai/install.sh | bash
+      - text: "Other install methods and requirements:"
+      - link "Install" [ref=e49] [nth=1]:
+        - /url: /install
+      - text: .
+    - listitem:
+      - text: "2"
+      - link "Navigate to header" [ref=e50] [nth=3]:
+        - /url: "#"
+      - paragraph: Run the onboarding wizard
+      - button "Copy the contents from the code block" [ref=e51] [nth=1]:
+      - code: openclaw onboard --install-daemon
+      - text: The wizard configures auth, gateway settings, and optional channels. See
+      - link "Onboarding Wizard" [ref=e52]:
+        - /url: /start/wizard
+      - text: for details.
+    - listitem:
+      - text: "3"
+      - link "Navigate to header" [ref=e53] [nth=4]:
+        - /url: "#"
+      - paragraph: Check the Gateway
+      - text: "If you installed the service, it should already be running:"
+      - button "Copy the contents from the code block" [ref=e54] [nth=2]:
+      - code: openclaw gateway status
+    - listitem:
+      - text: "4"
+      - link "Navigate to header" [ref=e55] [nth=5]:
+        - /url: "#"
+      - paragraph: Open the Control UI
+      - button "Copy the contents from the code block" [ref=e56] [nth=3]:
+      - code: openclaw dashboard
+  - text: If the Control UI loads, your Gateway is ready for use.
+  - heading "Navigate to header Optional checks and extras" [ref=e57] [level=2]:
+    - link "Navigate to header" [ref=e58] [nth=6]:
+      - /url: "#optional-checks-and-extras"
+    - text: Optional checks and extras
+    - paragraph: Run the Gateway in the foreground
+    - paragraph: Send a test message
+  - heading "Navigate to header Useful environment variables" [ref=e59] [level=2]:
+    - link "Navigate to header" [ref=e60] [nth=7]:
+      - /url: "#useful-environment-variables"
+    - text: Useful environment variables
+  - text: "If you run OpenClaw as a service account or want custom config/state locations:"
+      - code: OPENCLAW_HOME
+      - text: sets the home directory used for internal path resolution.
+      - code: OPENCLAW_STATE_DIR
+      - text: overrides the state directory.
+      - code: OPENCLAW_CONFIG_PATH
+      - text: overrides the config file path.
+  - text: "Full environment variable reference:"
+  - link "Environment vars" [ref=e61]:
+    - /url: /help/environment
+  - text: .
+  - heading "Navigate to header Go deeper" [ref=e62] [level=2]:
+    - link "Navigate to header" [ref=e63] [nth=8]:
+      - /url: "#go-deeper"
+    - text: Go deeper
+  - link "Onboarding Wizard (details) Full CLI wizard reference and advanced options." [ref=e64]:
+    - /url: /start/wizard
+    - heading "Onboarding Wizard (details)" [ref=e65] [level=2]
+    - text: Full CLI wizard reference and advanced options.
+  - link "macOS app onboarding First run flow for the macOS app." [ref=e66]:
+    - /url: /start/onboarding
+    - heading "macOS app onboarding" [ref=e67] [level=2]
+    - text: First run flow for the macOS app.
+  - heading "Navigate to header What you will have" [ref=e68] [level=2]:
+    - link "Navigate to header" [ref=e69] [nth=9]:
+      - /url: "#what-you-will-have"
+    - text: What you will have
+    - listitem: A running Gateway
+    - listitem: Auth configured
+    - listitem: Control UI access or a connected channel
+  - heading "Navigate to header Next steps" [ref=e70] [level=2]:
+    - link "Navigate to header" [ref=e71] [nth=10]:
+      - /url: "#next-steps"
+    - text: Next steps
+    - listitem:
+      - text: "DM safety and approvals:"
+      - link "Pairing" [ref=e72]:
+        - /url: /channels/pairing
+    - listitem:
+      - text: "Connect more channels:"
+      - link "Channels" [ref=e73] [nth=1]:
+        - /url: /channels
+    - listitem:
+      - text: "Advanced workflows and from source:"
+      - link "Setup" [ref=e74]:
+        - /url: /start/setup
+  - link "Features" [ref=e75] [nth=1]:
+    - /url: /concepts/features
+    - text: Features
+  - link "Onboarding Overview" [ref=e76] [nth=1]:
+    - /url: /start/onboarding-overview
+    - text: Onboarding Overview
+  - textbox "Ask a question..." [ref=e77]
+  - text: Ctrl+I
+  - button "Send message" [ref=e78] [disabled]:
+  - contentinfo:
+    - link "Powered by" [ref=e79]:
+      - /url: https://www.mintlify.com?utm_campaign=poweredBy&utm_medium=referral&utm_source=clawdhub
+      - text: Powered by

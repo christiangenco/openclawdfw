@@ -1,0 +1,384 @@
+  - link "Skip to main content" [ref=e1]:
+    - /url: "#content-area"
+  - link "OpenClaw home page light logo" [ref=e2]:
+    - /url: /
+    - text: OpenClaw home page
+  - button "US English" [ref=e3]:
+    - text: English
+  - button "Open search" [ref=e4]:
+    - text: Search... Ctrl K
+  - navigation:
+      - listitem:
+        - link "GitHub" [ref=e5]:
+          - /url: https://github.com/openclaw/openclaw
+          - text: GitHub
+      - listitem:
+        - link "Releases" [ref=e6]:
+          - /url: https://github.com/openclaw/openclaw/releases
+          - text: Releases
+  - button "Toggle dark mode" [ref=e7]:
+  - link "Get started" [ref=e8]:
+    - /url: /
+  - link "Install" [ref=e9]:
+    - /url: /install
+  - link "Channels" [ref=e10]:
+    - /url: /channels
+  - link "Agents" [ref=e11]:
+    - /url: /concepts/architecture
+  - link "Tools" [ref=e12]:
+    - /url: /tools
+  - link "Models" [ref=e13]:
+    - /url: /providers
+  - link "Platforms" [ref=e14]:
+    - /url: /platforms
+  - link "Gateway & Ops" [ref=e15]:
+    - /url: /gateway
+  - link "Reference" [ref=e16]:
+    - /url: /cli
+  - link "Help" [ref=e17]:
+    - /url: /help
+  - heading "Fundamentals" [ref=e18] [level=5]
+    - listitem:
+      - link "Gateway Architecture" [ref=e19]:
+        - /url: /concepts/architecture
+    - listitem:
+      - link "Agent Runtime" [ref=e20]:
+        - /url: /concepts/agent
+    - listitem:
+      - link "Agent Loop" [ref=e21]:
+        - /url: /concepts/agent-loop
+    - listitem:
+      - link "System Prompt" [ref=e22]:
+        - /url: /concepts/system-prompt
+    - listitem:
+      - link "Context" [ref=e23]:
+        - /url: /concepts/context
+    - listitem:
+      - link "Agent Workspace" [ref=e24]:
+        - /url: /concepts/agent-workspace
+    - listitem:
+      - link "OAuth" [ref=e25]:
+        - /url: /concepts/oauth
+  - heading "Bootstrapping" [ref=e26] [level=5]
+    - listitem:
+      - link "Bootstrapping" [ref=e27]:
+        - /url: /start/bootstrapping
+  - heading "Sessions and memory" [ref=e28] [level=5]
+    - listitem:
+      - link "Session Management" [ref=e29]:
+        - /url: /concepts/session
+    - listitem:
+      - link "Sessions" [ref=e30]:
+        - /url: /concepts/sessions
+    - listitem:
+      - link "Session Pruning" [ref=e31]:
+        - /url: /concepts/session-pruning
+    - listitem:
+      - link "Session Tools" [ref=e32]:
+        - /url: /concepts/session-tool
+    - listitem:
+      - link "Memory" [ref=e33]:
+        - /url: /concepts/memory
+    - listitem:
+      - link "Compaction" [ref=e34]:
+        - /url: /concepts/compaction
+  - heading "Multi-agent" [ref=e35] [level=5]
+    - listitem:
+      - link "Multi-Agent Routing" [ref=e36]:
+        - /url: /concepts/multi-agent
+    - listitem:
+      - link "Presence" [ref=e37]:
+        - /url: /concepts/presence
+  - heading "Messages and delivery" [ref=e38] [level=5]
+    - listitem:
+      - link "Messages" [ref=e39]:
+        - /url: /concepts/messages
+    - listitem:
+      - link "Streaming and Chunking" [ref=e40]:
+        - /url: /concepts/streaming
+    - listitem:
+      - link "Retry Policy" [ref=e41]:
+        - /url: /concepts/retry
+    - listitem:
+      - link "Command Queue" [ref=e42]:
+        - /url: /concepts/queue
+  - button "On this page" [ref=e43]:
+    - text: On this page
+    - listitem:
+      - link "Agent workspace" [ref=e44]:
+        - /url: "#agent-workspace"
+    - listitem:
+      - link "Default location" [ref=e45]:
+        - /url: "#default-location"
+    - listitem:
+      - link "Extra workspace folders" [ref=e46]:
+        - /url: "#extra-workspace-folders"
+    - listitem:
+      - link "Workspace file map (what each file means)" [ref=e47]:
+        - /url: "#workspace-file-map-what-each-file-means"
+    - listitem:
+      - link "What is NOT in the workspace" [ref=e48]:
+        - /url: "#what-is-not-in-the-workspace"
+    - listitem:
+      - link "Git backup (recommended, private)" [ref=e49]:
+        - /url: "#git-backup-recommended-private"
+    - listitem:
+      - link "1) Initialize the repo" [ref=e50]:
+        - /url: "#1-initialize-the-repo"
+    - listitem:
+      - link "2) Add a private remote (beginner-friendly options)" [ref=e51]:
+        - /url: "#2-add-a-private-remote-beginner-friendly-options"
+    - listitem:
+      - link "3) Ongoing updates" [ref=e52]:
+        - /url: "#3-ongoing-updates"
+    - listitem:
+      - link "Do not commit secrets" [ref=e53]:
+        - /url: "#do-not-commit-secrets"
+    - listitem:
+      - link "Moving the workspace to a new machine" [ref=e54]:
+        - /url: "#moving-the-workspace-to-a-new-machine"
+    - listitem:
+      - link "Advanced notes" [ref=e55]:
+        - /url: "#advanced-notes"
+  - banner:
+    - text: Fundamentals
+    - heading "Agent Workspace" [ref=e56] [level=1]
+  - text: The workspace is the agent’s home. It is the only working directory used for file tools and for workspace context. Keep it private and treat it as memory. This is separate from
+  - code: ~/.openclaw/
+  - text: ", which stores config, credentials, and sessions."
+  - strong: "Important:"
+  - text: the workspace is the
+  - strong: default cwd
+  - text: ", not a hard sandbox. Tools resolve relative paths against the workspace, but absolute paths can still reach elsewhere on the host unless sandboxing is enabled. If you need isolation, use"
+  - link "agents.defaults.sandbox" [ref=e57]:
+    - /url: /gateway/sandboxing
+    - code: agents.defaults.sandbox
+  - text: (and/or per‑agent sandbox config). When sandboxing is enabled and
+  - code: workspaceAccess
+  - text: is not
+  - code: "\"rw\""
+  - text: ", tools operate inside a sandbox workspace under"
+  - code: ~/.openclaw/sandboxes
+  - text: ", not your host workspace."
+  - heading "Navigate to header Default location" [ref=e58] [level=2]:
+    - link "Navigate to header" [ref=e59]:
+      - /url: "#default-location"
+    - text: Default location
+      - text: "Default:"
+      - code: ~/.openclaw/workspace
+      - text: If
+      - code: OPENCLAW_PROFILE
+      - text: is set and not
+      - code: "\"default\""
+      - text: ", the default becomes"
+      - code: ~/.openclaw/workspace-<profile>
+      - text: .
+      - text: Override in
+      - code: ~/.openclaw/openclaw.json
+      - text: ":"
+  - button "Copy the contents from the code block" [ref=e60]:
+  - code: "{ agent: { workspace: \"~/.openclaw/workspace\", }, }"
+  - code: openclaw onboard
+  - text: ","
+  - code: openclaw configure
+  - text: ", or"
+  - code: openclaw setup
+  - text: "will create the workspace and seed the bootstrap files if they are missing. If you already manage the workspace files yourself, you can disable bootstrap file creation:"
+  - button "Copy the contents from the code block" [ref=e61] [nth=1]:
+  - code: "{ agent: { skipBootstrap: true } }"
+  - heading "Navigate to header Extra workspace folders" [ref=e62] [level=2]:
+    - link "Navigate to header" [ref=e63] [nth=1]:
+      - /url: "#extra-workspace-folders"
+    - text: Extra workspace folders
+  - text: Older installs may have created
+  - code: ~/openclaw
+  - text: . Keeping multiple workspace directories around can cause confusing auth or state drift, because only one workspace is active at a time.
+  - strong: "Recommendation:"
+  - text: keep a single active workspace. If you no longer use the extra folders, archive or move them to Trash (for example
+  - code: trash ~/openclaw
+  - text: ). If you intentionally keep multiple workspaces, make sure
+  - code: agents.defaults.workspace
+  - text: points to the active one.
+  - code: openclaw doctor
+  - text: warns when it detects extra workspace directories.
+  - heading "Navigate to header Workspace file map (what each file means)" [ref=e64] [level=2]:
+    - link "Navigate to header" [ref=e65] [nth=2]:
+      - /url: "#workspace-file-map-what-each-file-means"
+    - text: Workspace file map (what each file means)
+  - text: "These are the standard files OpenClaw expects inside the workspace:"
+      - code: AGENTS.md
+        - listitem: Operating instructions for the agent and how it should use memory.
+        - listitem: Loaded at the start of every session.
+        - listitem: Good place for rules, priorities, and “how to behave” details.
+      - code: SOUL.md
+        - listitem: Persona, tone, and boundaries.
+        - listitem: Loaded every session.
+      - code: USER.md
+        - listitem: Who the user is and how to address them.
+        - listitem: Loaded every session.
+      - code: IDENTITY.md
+        - listitem: The agent’s name, vibe, and emoji.
+        - listitem: Created/updated during the bootstrap ritual.
+      - code: TOOLS.md
+        - listitem: Notes about your local tools and conventions.
+        - listitem: Does not control tool availability; it is only guidance.
+      - code: HEARTBEAT.md
+        - listitem: Optional tiny checklist for heartbeat runs.
+        - listitem: Keep it short to avoid token burn.
+      - code: BOOT.md
+        - listitem: Optional startup checklist executed on gateway restart when internal hooks are enabled.
+        - listitem: Keep it short; use the message tool for outbound sends.
+      - code: BOOTSTRAP.md
+        - listitem: One-time first-run ritual.
+        - listitem: Only created for a brand-new workspace.
+        - listitem: Delete it after the ritual is complete.
+      - code: memory/YYYY-MM-DD.md
+        - listitem: Daily memory log (one file per day).
+        - listitem: Recommended to read today + yesterday on session start.
+      - code: MEMORY.md
+      - text: (optional)
+        - listitem: Curated long-term memory.
+        - listitem: Only load in the main, private session (not shared/group contexts).
+  - text: See
+  - link "Memory" [ref=e66] [nth=1]:
+    - /url: /concepts/memory
+  - text: for the workflow and automatic memory flush.
+      - code: skills/
+      - text: (optional)
+        - listitem: Workspace-specific skills.
+        - listitem: Overrides managed/bundled skills when names collide.
+      - code: canvas/
+      - text: (optional)
+          - text: Canvas UI files for node displays (for example
+          - code: canvas/index.html
+          - text: ).
+  - text: If any bootstrap file is missing, OpenClaw injects a “missing file” marker into the session and continues. Large bootstrap files are truncated when injected; adjust the limit with
+  - code: agents.defaults.bootstrapMaxChars
+  - text: "(default: 20000)."
+  - code: openclaw setup
+  - text: can recreate missing defaults without overwriting existing files.
+  - heading "Navigate to header What is NOT in the workspace" [ref=e67] [level=2]:
+    - link "Navigate to header" [ref=e68] [nth=3]:
+      - /url: "#what-is-not-in-the-workspace"
+    - text: What is NOT in the workspace
+  - text: These live under
+  - code: ~/.openclaw/
+  - text: "and should NOT be committed to the workspace repo:"
+      - code: ~/.openclaw/openclaw.json
+      - text: (config)
+      - code: ~/.openclaw/credentials/
+      - text: (OAuth tokens, API keys)
+      - code: ~/.openclaw/agents/<agentId>/sessions/
+      - text: (session transcripts + metadata)
+      - code: ~/.openclaw/skills/
+      - text: (managed skills)
+  - text: If you need to migrate sessions or config, copy them separately and keep them out of version control.
+  - heading "Navigate to header Git backup (recommended, private)" [ref=e69] [level=2]:
+    - link "Navigate to header" [ref=e70] [nth=4]:
+      - /url: "#git-backup-recommended-private"
+    - text: Git backup (recommended, private)
+  - text: Treat the workspace as private memory. Put it in a
+  - strong: private
+  - text: git repo so it is backed up and recoverable. Run these steps on the machine where the Gateway runs (that is where the workspace lives).
+  - heading "Navigate to header 1) Initialize the repo" [ref=e71] [level=3]:
+    - link "Navigate to header" [ref=e72] [nth=5]:
+      - /url: "#1-initialize-the-repo"
+    - text: 1) Initialize the repo
+  - text: "If git is installed, brand-new workspaces are initialized automatically. If this workspace is not already a repo, run:"
+  - button "Copy the contents from the code block" [ref=e73] [nth=2]:
+  - code: cd ~/.openclaw/workspace git init git add AGENTS.md SOUL.md TOOLS.md IDENTITY.md USER.md HEARTBEAT.md memory/ git commit -m "Add agent workspace"
+  - heading "Navigate to header 2) Add a private remote (beginner-friendly options)" [ref=e74] [level=3]:
+    - link "Navigate to header" [ref=e75] [nth=6]:
+      - /url: "#2-add-a-private-remote-beginner-friendly-options"
+    - text: 2) Add a private remote (beginner-friendly options)
+  - text: "Option A: GitHub web UI"
+      - text: Create a new
+      - strong: private
+      - text: repository on GitHub.
+    - listitem: Do not initialize with a README (avoids merge conflicts).
+    - listitem: Copy the HTTPS remote URL.
+    - listitem: "Add the remote and push:"
+  - button "Copy the contents from the code block" [ref=e76] [nth=3]:
+  - code: git branch -M main git remote add origin <https-url> git push -u origin main
+  - text: "Option B: GitHub CLI ("
+  - code: gh
+  - text: )
+  - button "Copy the contents from the code block" [ref=e77] [nth=4]:
+  - code: gh auth login gh repo create openclaw-workspace --private --source . --remote origin --push
+  - text: "Option C: GitLab web UI"
+      - text: Create a new
+      - strong: private
+      - text: repository on GitLab.
+    - listitem: Do not initialize with a README (avoids merge conflicts).
+    - listitem: Copy the HTTPS remote URL.
+    - listitem: "Add the remote and push:"
+  - button "Copy the contents from the code block" [ref=e78] [nth=5]:
+  - code: git branch -M main git remote add origin <https-url> git push -u origin main
+  - heading "Navigate to header 3) Ongoing updates" [ref=e79] [level=3]:
+    - link "Navigate to header" [ref=e80] [nth=7]:
+      - /url: "#3-ongoing-updates"
+    - text: 3) Ongoing updates
+  - button "Copy the contents from the code block" [ref=e81] [nth=6]:
+  - code: git status git add . git commit -m "Update memory" git push
+  - heading "Navigate to header Do not commit secrets" [ref=e82] [level=2]:
+    - link "Navigate to header" [ref=e83] [nth=8]:
+      - /url: "#do-not-commit-secrets"
+    - text: Do not commit secrets
+  - text: "Even in a private repo, avoid storing secrets in the workspace:"
+    - listitem: API keys, OAuth tokens, passwords, or private credentials.
+      - text: Anything under
+      - code: ~/.openclaw/
+      - text: .
+    - listitem: Raw dumps of chats or sensitive attachments.
+  - text: If you must store sensitive references, use placeholders and keep the real secret elsewhere (password manager, environment variables, or
+  - code: ~/.openclaw/
+  - text: ). Suggested
+  - code: .gitignore
+  - text: "starter:"
+  - button "Copy the contents from the code block" [ref=e84] [nth=7]:
+  - code: .DS_Store .env **/*.key **/*.pem **/secrets*
+  - heading "Navigate to header Moving the workspace to a new machine" [ref=e85] [level=2]:
+    - link "Navigate to header" [ref=e86] [nth=9]:
+      - /url: "#moving-the-workspace-to-a-new-machine"
+    - text: Moving the workspace to a new machine
+      - text: Clone the repo to the desired path (default
+      - code: ~/.openclaw/workspace
+      - text: ).
+      - text: Set
+      - code: agents.defaults.workspace
+      - text: to that path in
+      - code: ~/.openclaw/openclaw.json
+      - text: .
+      - text: Run
+      - code: openclaw setup --workspace <path>
+      - text: to seed any missing files.
+      - text: If you need sessions, copy
+      - code: ~/.openclaw/agents/<agentId>/sessions/
+      - text: from the old machine separately.
+  - heading "Navigate to header Advanced notes" [ref=e87] [level=2]:
+    - link "Navigate to header" [ref=e88] [nth=10]:
+      - /url: "#advanced-notes"
+    - text: Advanced notes
+    - listitem:
+      - text: Multi-agent routing can use different workspaces per agent. See
+      - link "Channel routing" [ref=e89]:
+        - /url: /channels/channel-routing
+      - text: for routing configuration.
+      - text: If
+      - code: agents.defaults.sandbox
+      - text: is enabled, non-main sessions can use per-session sandbox workspaces under
+      - code: agents.defaults.sandbox.workspaceRoot
+      - text: .
+  - link "Context" [ref=e90] [nth=1]:
+    - /url: /concepts/context
+    - text: Context
+  - link "OAuth" [ref=e91] [nth=1]:
+    - /url: /concepts/oauth
+    - text: OAuth
+  - textbox "Ask a question..." [ref=e92]
+  - text: Ctrl+I
+  - button "Send message" [ref=e93] [disabled]:
+  - contentinfo:
+    - link "Powered by" [ref=e94]:
+      - /url: https://www.mintlify.com?utm_campaign=poweredBy&utm_medium=referral&utm_source=clawdhub
+      - text: Powered by

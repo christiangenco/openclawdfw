@@ -1,0 +1,485 @@
+  - navigation:
+    - link "OpenClaw" [ref=e1]:
+      - /url: https://openclaw.ai
+    - link "Trust" [ref=e2]:
+      - /url: /trust
+    - link "Threat Model" [ref=e3]:
+      - /url: /trust/threatmodel
+    - link "EN" [ref=e4]:
+      - /url: /trust
+    - link "中文" [ref=e5]:
+      - /url: /trust/zh-cn
+    - link "한국어" [ref=e6]:
+      - /url: /trust/ko
+    - link "日本語" [ref=e7]:
+      - /url: /trust/ja
+  - main:
+    - article:
+      - heading "Trust" [ref=e8] [level=1]
+      - paragraph: Security posture, roadmap, and how we think about agents that can take real-world actions.
+      - heading "A New Era in Computing Security" [ref=e9] [level=2]
+      - paragraph: For the past 20 years, security models have been built around locking devices and applications down - setting boundaries between inter-process communications, separating internet from local, sandboxing untrusted code. These principles remain important.
+      - paragraph: But AI agents represent a fundamental shift.
+      - paragraph: Unlike traditional software that does exactly what code tells it to do, AI agents interpret natural language and make decisions about actions. They blur the boundary between user intent and machine execution. They can be manipulated through language itself.
+      - paragraph: We understand that with the great utility of a tool like OpenClaw comes great responsibility. Done wrong, an AI agent is a liability. Done right, we can change personal computing for the better.
+        - strong: This security program exists to get it right.
+      - heading "Context" [ref=e10] [level=2]
+      - paragraph: "OpenClaw is an AI agent platform. Unlike chatbots that only generate text, OpenClaw agents can:"
+        - listitem: Execute shell commands on the host machine
+        - listitem: Send messages through WhatsApp, Telegram, Discord, Slack, and other channels
+        - listitem: Read and write files in the workspace
+        - listitem: Fetch arbitrary URLs from the internet
+        - listitem: Schedule automated tasks
+        - listitem: Access connected services and APIs
+      - paragraph: This capability is what makes OpenClaw useful. It's also what makes security critical.
+      - paragraph: "AI agents that can take real-world actions introduce risks that traditional software doesn't have:"
+          - strong: Prompt injection
+          - text: "- Malicious users can craft messages that manipulate the AI into performing unintended actions"
+          - strong: Indirect injection
+          - text: "- Malicious content in fetched URLs, emails, or documents can hijack agent behavior"
+          - strong: Tool abuse
+          - text: "- Even without injection, misconfigured agents can cause damage through overly permissive settings"
+          - strong: Identity risks
+          - text: "- Agents can send messages as you, potentially damaging relationships or reputation"
+      - paragraph: These aren't theoretical. They're documented attack patterns that affect all AI agent systems.
+      - heading "Scope" [ref=e11] [level=2]
+        - text: This security program covers the entire OpenClaw ecosystem.
+        - strong: Nothing is out of scope.
+      - heading "Core Platform" [ref=e12] [level=4]
+          - text: OpenClaw CLI and Gateway (
+          - code: openclaw
+          - text: )
+        - listitem: Agent execution engine
+        - listitem: Tool implementations
+        - listitem: Channel integrations (WhatsApp, Telegram, Discord, Slack, Signal, etc.)
+      - heading "Applications" [ref=e13] [level=4]
+        - listitem: macOS desktop application
+        - listitem: iOS mobile application
+        - listitem: Android mobile application
+        - listitem: Web interface
+      - heading "Services" [ref=e14] [level=4]
+        - listitem: ClawHub (clawhub.ai) - Skills marketplace and registry
+        - listitem: Documentation (docs.openclaw.ai)
+        - listitem: Any hosted infrastructure
+      - heading "Extensions" [ref=e15] [level=4]
+          - text: Official extensions (
+          - code: extensions/
+          - text: )
+        - listitem: Plugin SDK and third-party plugins
+        - listitem: Skills distributed through ClawHub
+      - heading "People" [ref=e16] [level=4]
+        - listitem: Core maintainers and contributors
+        - listitem: Security processes and response procedures
+        - listitem: Supply chain and dependency management
+      - heading "Program Overview" [ref=e17] [level=2]
+      - paragraph: "We're establishing a formal security function with four phases:"
+      - text: "1"
+      - heading "Transparency" [ref=e18] [level=4]
+      - paragraph: Develop threat model openly with community contribution
+      - text: "2"
+      - heading "Product Security Roadmap" [ref=e19] [level=4]
+      - paragraph: Define defensive engineering goals and track publicly
+      - text: "3"
+      - heading "Code Review" [ref=e20] [level=4]
+      - paragraph: Manual security review of entire codebase
+      - text: "4"
+      - heading "Security Triage" [ref=e21] [level=4]
+      - paragraph: Formal process for handling vulnerability reports
+      - 'heading "Phase 1: Transparency" [level=2]'
+      - heading "Goal" [ref=e22] [level=3]
+      - paragraph: Develop and publish our threat model openly, inviting community contribution, so users understand the risks and can make informed decisions about their deployments.
+      - heading "Why" [ref=e23] [level=3]
+      - paragraph: "Security through obscurity doesn't work. Attackers already know these techniques - they're documented in academic papers, security blogs, and conference talks. What's missing is clear communication to users about:"
+        - listitem: What risks exist
+        - listitem: What we're doing about them
+        - listitem: What users should do to protect themselves
+      - paragraph: By developing the threat model openly, we benefit from collective expertise and build trust through transparency.
+      - heading "Threat Model Coverage" [ref=e24] [level=3]
+          - row "Category Risks Covered":
+            - columnheader "Category" [ref=e25]
+            - columnheader "Risks Covered" [ref=e26]
+          - row "A. Input Manipulation Direct prompt injection, indirect injection, tool argument injection, context manipulation":
+            - cell "A. Input Manipulation" [ref=e27]:
+              - strong: A. Input Manipulation
+            - cell "Direct prompt injection, indirect injection, tool argument injection, context manipulation" [ref=e28]
+          - row "B. Auth & Access AllowFrom bypass, privilege escalation, cross-session access, API key exposure":
+            - cell "B. Auth & Access" [ref=e29]:
+              - strong: B. Auth & Access
+            - cell "AllowFrom bypass, privilege escalation, cross-session access, API key exposure" [ref=e30]
+          - row "C. Data Security System prompt disclosure, workspace exposure, memory leakage, data exfiltration":
+            - cell "C. Data Security" [ref=e31]:
+              - strong: C. Data Security
+            - cell "System prompt disclosure, workspace exposure, memory leakage, data exfiltration" [ref=e32]
+          - row "D. Infrastructure SSRF, gateway exposure, dependency vulnerabilities, file permissions":
+            - cell "D. Infrastructure" [ref=e33]:
+              - strong: D. Infrastructure
+            - cell "SSRF, gateway exposure, dependency vulnerabilities, file permissions" [ref=e34]
+          - row "E. Operations Logging sensitive data, insufficient monitoring, resource exhaustion, misconfiguration":
+            - cell "E. Operations" [ref=e35]:
+              - strong: E. Operations
+            - cell "Logging sensitive data, insufficient monitoring, resource exhaustion, misconfiguration" [ref=e36]
+          - row "F. Supply Chain ClawHub skills integrity, extension security, dependency vulnerabilities":
+            - cell "F. Supply Chain" [ref=e37]:
+              - strong: F. Supply Chain
+            - cell "ClawHub skills integrity, extension security, dependency vulnerabilities" [ref=e38]
+      - heading "Threat Model Scope" [ref=e39] [level=3]
+          - row "Component Why It's Included":
+            - columnheader "Component" [ref=e40]
+            - columnheader "Why It's Included" [ref=e41]
+          - row "Core platform (CLI, Gateway, agents, tools) Primary attack surface":
+            - cell "Core platform (CLI, Gateway, agents, tools)" [ref=e42]
+            - cell "Primary attack surface" [ref=e43]
+          - row "ClawHub (clawhub.ai) Skills marketplace - supply chain risk":
+            - cell "ClawHub (clawhub.ai)" [ref=e44]
+            - cell "Skills marketplace - supply chain risk" [ref=e45]
+          - row "Mobile apps (iOS, Android) Agent control interface, credential storage":
+            - cell "Mobile apps (iOS, Android)" [ref=e46]
+            - cell "Agent control interface, credential storage" [ref=e47]
+          - row "Desktop app (macOS) Gateway host, system integration":
+            - cell "Desktop app (macOS)" [ref=e48]
+            - cell "Gateway host, system integration" [ref=e49]
+          - row "Extensions and plugins Third-party code execution":
+            - cell "Extensions and plugins" [ref=e50]
+            - cell "Third-party code execution" [ref=e51]
+          - row "Build and release pipeline Distribution integrity":
+            - cell "Build and release pipeline" [ref=e52]
+            - cell "Distribution integrity" [ref=e53]
+      - paragraph: Each risk in the threat model will include description and severity rating, attack examples, current mitigations, known gaps, and user recommendations.
+        - strong: The threat model will be open for community contribution via pull requests.
+      - 'heading "Phase 2: Product Security Roadmap" [level=2]'
+      - heading "Goal" [ref=e54] [nth=1] [level=3]
+      - paragraph: Create a public product security roadmap defining defensive engineering goals, tracked as GitHub issues so the community can follow progress, provide input, and contribute.
+      - heading "Defensive Engineering Goals" [ref=e55] [level=3]
+          - row "Category Goal Description":
+            - columnheader "Category" [ref=e56] [nth=1]
+            - columnheader "Goal" [ref=e57]
+            - columnheader "Description" [ref=e58]
+          - row "Prompt Injection Protection Input validation Pattern detection and alerting for injection attempts":
+            - cell "Prompt Injection Protection" [ref=e59]:
+              - strong: Prompt Injection Protection
+            - cell "Input validation" [ref=e60]
+            - cell "Pattern detection and alerting for injection attempts" [ref=e61]
+          - row "Tool confirmation Require explicit approval for sensitive actions":
+            - cell "Tool confirmation" [ref=e62]
+            - cell "Require explicit approval for sensitive actions" [ref=e63]
+          - row "Context isolation Prevent cross-session contamination":
+            - cell "Context isolation" [ref=e64]
+            - cell "Prevent cross-session contamination" [ref=e65]
+          - row "Privacy Enhancements System prompt protection Prevent disclosure of system prompts":
+            - cell "Privacy Enhancements" [ref=e66]:
+              - strong: Privacy Enhancements
+            - cell "System prompt protection" [ref=e67]
+            - cell "Prevent disclosure of system prompts" [ref=e68]
+          - row "Data minimization Reduce unnecessary data retention":
+            - cell "Data minimization" [ref=e69]
+            - cell "Reduce unnecessary data retention" [ref=e70]
+          - row "Audit logging Clear visibility into agent actions":
+            - cell "Audit logging" [ref=e71]
+            - cell "Clear visibility into agent actions" [ref=e72]
+          - row "Access Control Fine-grained permissions Per-tool, per-session access controls":
+            - cell "Access Control" [ref=e73]:
+              - strong: Access Control
+            - cell "Fine-grained permissions" [ref=e74]
+            - cell "Per-tool, per-session access controls" [ref=e75]
+          - row "Rate limiting Prevent resource exhaustion":
+            - cell "Rate limiting" [ref=e76]
+            - cell "Prevent resource exhaustion" [ref=e77]
+          - row "Spending controls Hard limits on API costs":
+            - cell "Spending controls" [ref=e78]
+            - cell "Hard limits on API costs" [ref=e79]
+          - row "Supply Chain Skills verification Integrity checks for ClawHub skills":
+            - cell "Supply Chain" [ref=e80]:
+              - strong: Supply Chain
+            - cell "Skills verification" [ref=e81]
+            - cell "Integrity checks for ClawHub skills" [ref=e82]
+          - row "Dependency auditing Automated vulnerability scanning":
+            - cell "Dependency auditing" [ref=e83]
+            - cell "Automated vulnerability scanning" [ref=e84]
+          - row "Signed releases Cryptographic verification of updates":
+            - cell "Signed releases" [ref=e85]
+            - cell "Cryptographic verification of updates" [ref=e86]
+      - paragraph: Specific priority issues will be identified through the Phase 3 code review and added to the public roadmap as they are discovered and triaged.
+      - 'heading "Phase 3: Code Review" [level=2]'
+      - heading "Goal" [ref=e87] [nth=2] [level=3]
+      - paragraph: While the community is already working around the clock to find and address flaws - and we're grateful for every contribution - we recognize this is an open-source project where contributors provide their best effort. Phase 3 is a dedicated, comprehensive security assessment specifically designed to drive out deeply rooted systemic issues and improve overall code quality and user safety.
+      - heading "Scope" [ref=e88] [nth=1] [level=3]
+      - paragraph: "The code review covers the entire OpenClaw codebase and ecosystem:"
+          - row "Area Path Why":
+            - columnheader "Area" [ref=e89]
+            - columnheader "Path" [ref=e90]
+            - columnheader "Why" [ref=e91]
+          - row "Agent execution src/agents/ Core attack surface - how agents run":
+            - cell "Agent execution" [ref=e92]
+            - cell "src/agents/" [ref=e93]:
+              - code: src/agents/
+            - cell "Core attack surface - how agents run" [ref=e94]
+          - row "Tool implementations src/agents/tools/ What agents can do - exec, messaging, web":
+            - cell "Tool implementations" [ref=e95]
+            - cell "src/agents/tools/" [ref=e96]:
+              - code: src/agents/tools/
+            - cell "What agents can do - exec, messaging, web" [ref=e97]
+          - row "Message processing src/auto-reply/ Entry point for all user input":
+            - cell "Message processing" [ref=e98]
+            - cell "src/auto-reply/" [ref=e99]:
+              - code: src/auto-reply/
+            - cell "Entry point for all user input" [ref=e100]
+          - row "Security utilities src/security/ Existing security controls":
+            - cell "Security utilities" [ref=e101]
+            - cell "src/security/" [ref=e102]:
+              - code: src/security/
+            - cell "Existing security controls" [ref=e103]
+          - row "Gateway server src/gateway/ Network-exposed component":
+            - cell "Gateway server" [ref=e104]
+            - cell "src/gateway/" [ref=e105]:
+              - code: src/gateway/
+            - cell "Network-exposed component" [ref=e106]
+          - row "Authentication src/*/auth* Credential handling, API keys":
+            - cell "Authentication" [ref=e107]
+            - cell "src/*/auth*" [ref=e108]:
+              - code: src/*/auth*
+            - cell "Credential handling, API keys" [ref=e109]
+          - row "Session management src/config/sessions.ts Cross-session isolation":
+            - cell "Session management" [ref=e110]
+            - cell "src/config/sessions.ts" [ref=e111]:
+              - code: src/config/sessions.ts
+            - cell "Cross-session isolation" [ref=e112]
+          - row "Pairing and access control src/pairing/, src/*/access-control* DM and group gating":
+            - cell "Pairing and access control" [ref=e113]
+            - cell "src/pairing/, src/*/access-control*" [ref=e114]:
+              - code: src/pairing/
+              - text: ","
+              - code: src/*/access-control*
+            - cell "DM and group gating" [ref=e115]
+          - row "External content handling src/security/external-content.ts Injection defenses":
+            - cell "External content handling" [ref=e116]
+            - cell "src/security/external-content.ts" [ref=e117]:
+              - code: src/security/external-content.ts
+            - cell "Injection defenses" [ref=e118]
+          - row "macOS desktop app apps/macos/ Gateway host, system integration":
+            - cell "macOS desktop app" [ref=e119]
+            - cell "apps/macos/" [ref=e120]:
+              - code: apps/macos/
+            - cell "Gateway host, system integration" [ref=e121] [nth=1]
+          - row "iOS mobile app apps/ios/ Agent control, credential storage":
+            - cell "iOS mobile app" [ref=e122]
+            - cell "apps/ios/" [ref=e123]:
+              - code: apps/ios/
+            - cell "Agent control, credential storage" [ref=e124]
+          - row "Android mobile app apps/android/ Agent control, credential storage":
+            - cell "Android mobile app" [ref=e125]
+            - cell "apps/android/" [ref=e126]:
+              - code: apps/android/
+            - cell "Agent control, credential storage" [ref=e127] [nth=1]
+          - row "ClawHub clawhub.ai Skills registry - supply chain risk":
+            - cell "ClawHub" [ref=e128]
+            - cell "clawhub.ai" [ref=e129]
+            - cell "Skills registry - supply chain risk" [ref=e130]
+          - row "Official extensions extensions/ First-party plugins":
+            - cell "Official extensions" [ref=e131]
+            - cell "extensions/" [ref=e132]:
+              - code: extensions/
+            - cell "First-party plugins" [ref=e133]
+          - row "Build and release pipeline CI/CD, scripts Distribution integrity, signing":
+            - cell "Build and release pipeline" [ref=e134] [nth=1]
+            - cell "CI/CD, scripts" [ref=e135]
+            - cell "Distribution integrity, signing" [ref=e136]
+      - heading "Approach" [ref=e137] [level=3]
+          - strong: Manual code review
+          - text: "- Human-in-the-loop analysis of security-critical paths"
+          - strong: Automated scanning
+          - text: "- Static analysis, dependency auditing, secret detection"
+          - strong: Dynamic testing
+          - text: "- Attempting documented attack patterns against running system"
+          - strong: Architecture review
+          - text: "- Evaluating trust boundaries and data flows"
+      - heading "Disclosure" [ref=e138] [level=3]
+        - listitem: All critical and high findings fixed before public disclosure
+        - listitem: Findings summary published after remediation
+        - listitem: Full report available on request
+        - listitem: CVEs assigned where applicable
+      - 'heading "Phase 4: Security Triage Function" [level=2]'
+      - heading "Goal" [ref=e139] [nth=3] [level=3]
+      - paragraph: Establish a formal process for receiving, triaging, and responding to security vulnerability reports.
+      - heading "Report a Vulnerability" [ref=e140] [level=4]
+      - paragraph: "We take security reports seriously. Report vulnerabilities directly to the repository where the issue lives:"
+        - listitem:
+          - strong: Core CLI and gateway
+          - text: "-"
+          - link "openclaw/openclaw" [ref=e141]:
+            - /url: https://github.com/openclaw/openclaw/security/advisories/new
+        - listitem:
+          - strong: macOS desktop app
+          - text: "-"
+          - link "openclaw/openclaw" [ref=e142] [nth=1]:
+            - /url: https://github.com/openclaw/openclaw/security/advisories/new
+          - text: (apps/macos)
+        - listitem:
+          - strong: iOS app
+          - text: "-"
+          - link "openclaw/openclaw" [ref=e143] [nth=2]:
+            - /url: https://github.com/openclaw/openclaw/security/advisories/new
+          - text: (apps/ios)
+        - listitem:
+          - strong: Android app
+          - text: "-"
+          - link "openclaw/openclaw" [ref=e144] [nth=3]:
+            - /url: https://github.com/openclaw/openclaw/security/advisories/new
+          - text: (apps/android)
+        - listitem:
+          - strong: ClawHub
+          - text: "-"
+          - link "openclaw/clawhub" [ref=e145]:
+            - /url: https://github.com/openclaw/clawhub/security/advisories/new
+        - listitem:
+          - strong: Trust and threat model
+          - text: "-"
+          - link "openclaw/trust" [ref=e146]:
+            - /url: https://github.com/openclaw/trust/issues/new
+      - paragraph: For issues that don't fit a specific repo, or if you're unsure, email security@openclaw.ai and we'll route it.
+      - heading "Required in Reports" [ref=e147] [level=4]
+      - text: Title Severity Assessment Impact Affected Component Technical Reproduction Demonstrated Impact Environment Remediation Advice
+      - paragraph: Reports without reproduction steps, demonstrated impact, and remediation advice will be deprioritized. Given the volume of AI-generated scanner findings, we must ensure we're receiving vetted reports from researchers who understand the issues.
+      - heading "Response SLAs" [ref=e148] [level=3]
+          - row "Severity Definition First Response Triage Fix Target":
+            - columnheader "Severity" [ref=e149]
+            - columnheader "Definition" [ref=e150]
+            - columnheader "First Response" [ref=e151]
+            - columnheader "Triage" [ref=e152]
+            - columnheader "Fix Target" [ref=e153]
+          - row "Critical RCE, auth bypass, mass data exposure 24 hours 48 hours 7 days":
+            - cell "Critical" [ref=e154]:
+              - strong: Critical
+            - cell "RCE, auth bypass, mass data exposure" [ref=e155]
+            - cell "24 hours" [ref=e156]
+            - cell "48 hours" [ref=e157]
+            - cell "7 days" [ref=e158]
+          - row "High Significant impact, single-user scope 48 hours 5 days 30 days":
+            - cell "High" [ref=e159]:
+              - strong: High
+            - cell "Significant impact, single-user scope" [ref=e160]
+            - cell "48 hours" [ref=e161] [nth=1]
+            - cell "5 days" [ref=e162]
+            - cell "30 days" [ref=e163]
+          - row "Medium Limited impact, requires specific conditions 5 days 14 days 90 days":
+            - cell "Medium" [ref=e164]:
+              - strong: Medium
+            - cell "Limited impact, requires specific conditions" [ref=e165]
+            - cell "5 days" [ref=e166] [nth=1]
+            - cell "14 days" [ref=e167]
+            - cell "90 days" [ref=e168]
+          - row "Low Minor issues, defense in depth 14 days 30 days Best effort":
+            - cell "Low" [ref=e169]:
+              - strong: Low
+            - cell "Minor issues, defense in depth" [ref=e170]
+            - cell "14 days" [ref=e171] [nth=1]
+            - cell "30 days" [ref=e172] [nth=1]
+            - cell "Best effort" [ref=e173]
+      - heading "Our Commitments" [ref=e174] [level=3]
+        - listitem: Acknowledge all complete reports within 48 hours
+        - listitem: Provide status updates at least every 14 days
+        - listitem: Credit researchers in advisories (unless anonymity requested)
+        - listitem: Not pursue legal action against good-faith security research
+        - listitem: Consider bounties for qualifying critical/high findings (case-by-case)
+      - heading "Security & Trust" [ref=e175] [level=2]
+      - paragraph:
+        - strong: Jamieson O'Reilly
+        - text: (
+        - link "@theonejvo" [ref=e176]:
+          - /url: https://twitter.com/theonejvo
+        - text: ) is Security & Trust at OpenClaw.
+      - paragraph:
+        - text: Jamieson is the founder of
+        - link "Dvuln" [ref=e177]:
+          - /url: https://dvuln.com
+        - text: ", co-founder of"
+        - link "Aether AI" [ref=e178]:
+          - /url: https://tryaether.ai
+        - text: (the world's most dangerous AI, in your corner), a member of the CREST Advisory Council, and brings extensive experience in offensive security, penetration testing, and security program development.
+      - heading "Responsibilities" [ref=e179] [level=3]
+        - listitem: Lead threat modeling and risk assessment
+        - listitem: Scope and oversee code review
+        - listitem: Establish triage process and response procedures
+        - listitem: Review security-critical code changes
+        - listitem: Provide guidance on security architecture decisions
+      - heading "Current Security Posture" [ref=e180] [level=2]
+      - paragraph: OpenClaw already has security controls in place. Understanding what exists helps users configure their deployments appropriately.
+      - heading "Secure by Default" [ref=e181] [level=3]
+      - strong: "DM Policy: Pairing"
+      - paragraph: Unknown senders must complete pairing flow with expiring code
+      - strong: "Exec Security: Deny"
+      - paragraph: Commands not on allowlist are denied by default, user prompted for approval
+      - strong: "Default AllowFrom: Self-only"
+      - paragraph: If not configured, only your own number can DM the agent
+      - strong: Session Isolation
+      - paragraph: Conversations are isolated per session key
+      - strong: SSRF Protection
+      - paragraph: Internal IPs and localhost blocked in web_fetch
+      - strong: Gateway Auth Required
+      - paragraph: WebSocket connections must authenticate
+      - heading "Verify Your Setup" [ref=e182] [level=3]
+      - code: openclaw security audit --deep
+      - paragraph: "Key items to verify:"
+          - text: DM policy is
+          - code: pairing
+          - text: or
+          - code: allowlist
+          - text: (not
+          - code: open
+          - text: )
+          - code: allowFrom
+          - text: is configured for your channels
+          - text: Exec security is not set to
+          - code: full
+          - text: unless intended
+        - listitem: Gateway is bound to loopback or behind authentication
+        - listitem: Workspace doesn't contain secrets
+      - heading "Timeline" [ref=e183] [level=2]
+      - text: "WEEK 1-2: Phase 1 - Transparency ├── Threat model development begins (open for contribution) ├── Security configuration guide drafted ├── Visual overview created └── Announcement posted WEEK 3-4: Phase 2 - Product Security Roadmap ├── GitHub issues created for defensive engineering goals ├── Security label and milestone set up ├── Community input period opens └── First security work begins WEEK 5-8: Phase 3 - Code Review Preparation ├── Scope finalized (entire codebase) ├── Review begins └── Initial findings WEEK 8-12: Phase 3 - Code Review Execution ├── Manual review completed ├── Findings documented ├── Remediation for critical/high └── Verification completed WEEK 8+: Phase 4 - Triage Function ├── security@openclaw.ai live ├── PGP key published ├── Disclosure policy published └── First advisories (if needed) ONGOING: ├── Monthly security updates ├── Continuous threat model refinement ├── Regular dependency auditing └── Community engagement"
+      - heading "FAQ" [ref=e184] [level=2]
+      - text: "\"Is OpenClaw safe to use right now?\""
+      - paragraph: "Yes, with proper configuration. OpenClaw has security controls enabled by default:"
+          - strong: DM Policy
+          - text: ": Defaults to"
+          - code: pairing
+          - text: "- unknown senders must complete a pairing flow with an expiring code"
+          - strong: Exec Security
+          - text: ": Defaults to"
+          - code: deny
+          - text: with
+          - code: "ask: on-miss"
+          - text: "- dangerous commands require approval"
+          - strong: AllowFrom
+          - text: ": If not configured, defaults to self-only"
+          - strong: Gateway Auth
+          - text: ": Required by default"
+      - paragraph:
+        - text: Run
+        - code: openclaw security audit --deep
+        - text: to verify your setup. See
+        - link "docs.openclaw.ai/gateway/security" [ref=e185]:
+          - /url: https://docs.openclaw.ai/gateway/security
+      - text: "\"Why develop the threat model openly?\""
+      - paragraph: These attack techniques are already public knowledge - documented in papers, blogs, and talks. Developing openly benefits from collective expertise, builds trust through transparency, and holds us accountable.
+      - text: "\"Why require remediation advice in vulnerability reports?\""
+      - paragraph: We receive reports from automated scanners and AI tools that flag theoretical issues without understanding them. By requiring reporters to propose a fix, we filter out scanner noise, get actionable reports from researchers who understand the issues, and speed up remediation with expert input.
+      - text: "\"What about ClawHub?\""
+      - paragraph: ClawHub (clawhub.ai) is in scope for the entire security program - threat model, code review, and ongoing monitoring. Skills are code that runs in your agent's context - supply chain security is critical.
+      - text: "\"What about mobile apps and desktop?\""
+      - paragraph: All applications are in scope. The iOS app, Android app, and macOS desktop app will all be covered by the code review and included in the threat model. Nothing is out of scope.
+      - text: "\"Can I help?\""
+        - listitem: Contribute to the threat model via pull request
+        - listitem: Review and comment on security-labeled issues
+        - listitem: Report vulnerabilities to the relevant repo (or security@openclaw.ai if unsure)
+        - listitem: Help improve security documentation
+      - link "View Security Roadmap" [ref=e186]:
+        - /url: https://github.com/openclaw/openclaw/labels/security
+        - text: View Security Roadmap
+      - link "Read Full Documentation" [ref=e187]:
+        - /url: https://docs.openclaw.ai/security
+      - paragraph:
+        - text: OpenClaw Security Program ·
+        - link "openclaw.ai" [ref=e188]:
+          - /url: https://openclaw.ai
+        - text: ·
+        - link "clawhub.ai" [ref=e189]:
+          - /url: https://clawhub.ai

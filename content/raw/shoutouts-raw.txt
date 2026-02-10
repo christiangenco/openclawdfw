@@ -1,0 +1,982 @@
+  - main:
+    - link "← Back to home" [ref=e1]:
+      - /url: /
+    - heading "⟩ Shoutouts" [ref=e2] [level=1]
+    - paragraph: What the community is saying about OpenClaw
+    - link "jonahships_ \" [ref=e3]Setup @openclaw by @steipete yesterday. All I have to say is, wow. First I was using my Claude Max sub and I used all of my limit quickly, so today I had my claw bot setup a proxy to route my CoPilot subscription as a API endpoint so now it runs on that. It's the fact that claw can just keep building upon itself just by talking to it in discord is crazy. The future is already here\" @jonahships_":
+      - /url: https://x.com/jonahships_/status/2010605025844723765
+      - paragraph: "\"Setup @openclaw by @steipete yesterday. All I have to say is, wow. First I was using my Claude Max sub and I used all of my limit quickly, so today I had my claw bot setup a proxy to route my CoPilot subscription as a API endpoint so now it runs on that. It's the fact that claw can just keep building upon itself just by talking to it in discord is crazy. The future is already here\""
+      - text: "@jonahships_"
+    - link "AryehDubois \" [ref=e4]Tried Claw by @steipete. I tried to build my own AI assistant bots before, and I am very impressed how many hard things Claw gets right. Persistent memory, persona onboarding, comms integration, heartbeats. A few minor wrinkles remain, but the end result is AWESOME.\" @AryehDubois":
+      - /url: https://x.com/AryehDubois/status/2011742378655432791
+      - paragraph: "\"Tried Claw by @steipete. I tried to build my own AI assistant bots before, and I am very impressed how many hard things Claw gets right. Persistent memory, persona onboarding, comms integration, heartbeats. A few minor wrinkles remain, but the end result is AWESOME.\""
+      - text: "@AryehDubois"
+    - link "markjaquith \" [ref=e5]I've been saying for like six months that even if LLMs suddenly stopped improving, we could spend *years* discovering new transformative uses. @openclaw feels like that kind of \"just had to glue all the parts together\" leap forward. Incredible experience.\" @markjaquith":
+      - /url: https://x.com/markjaquith/status/2010430366944055433
+      - paragraph: "\"I've been saying for like six months that even if LLMs suddenly stopped improving, we could spend *years* discovering new transformative uses. @openclaw feels like that kind of \"just had to glue all the parts together\" leap forward. Incredible experience.\""
+      - text: "@markjaquith"
+      - /url: https://x.com/danpeguine/status/2014760164113477700
+      - paragraph: "\"Why @openclaw is nuts: your context and skills live on YOUR computer, not a walled garden. It's open source. Growing community building skills. Only 19 days old and constantly improving. 'Personal AI assistant' undersells it — it's a company assistant, family assistant, team tool. Proactive AF: cron jobs, reminders, background tasks. Memory is amazing, context persists 24/7.\""
+      - text: "@danpeguine"
+    - link "nateliason \" [ref=e6]Yeah this was 1,000% worth it. Separate Claude subscription + Claw, managing Claude Code / Codex sessions I can kick off anywhere, autonomously running tests on my app and capturing errors through a sentry webhook then resolving them and opening PRs... The future is here.\" @nateliason":
+      - /url: https://x.com/nateliason/status/2013725082850414592
+      - paragraph: "\"Yeah this was 1,000% worth it. Separate Claude subscription + Claw, managing Claude Code / Codex sessions I can kick off anywhere, autonomously running tests on my app and capturing errors through a sentry webhook then resolving them and opening PRs... The future is here.\""
+      - text: "@nateliason"
+    - link "nathanclark_ \" [ref=e7]A smart model with eyes and hands at a desk with keyboard and mouse. You message it like a coworker and it does everything a person could do with that Mac mini. That's what you have now.\" @nathanclark_":
+      - /url: https://x.com/nathanclark_/status/2014647048612773912
+      - paragraph: "\"A smart model with eyes and hands at a desk with keyboard and mouse. You message it like a coworker and it does everything a person could do with that Mac mini. That's what you have now.\""
+      - text: "@nathanclark_"
+    - link "nickvasiles \" [ref=e8]OpenClaw is a 24/7 assistant with access to its own computer. What if there were ten, or a hundred, or a thousand?? All running 24/7 in the cloud with access to your files, Gmail, calendar, everything about you... That's the future, and we're living it today.\" @nickvasiles":
+      - /url: https://x.com/nickvasiles/status/2014790519529095447
+      - paragraph: "\"OpenClaw is a 24/7 assistant with access to its own computer. What if there were ten, or a hundred, or a thousand?? All running 24/7 in the cloud with access to your files, Gmail, calendar, everything about you... That's the future, and we're living it today.\""
+      - text: "@nickvasiles"
+    - link "davemorin \" [ref=e9]At this point I don't even know what to call @openclaw. It is something new. After a few weeks in with it, this is the first time I have felt like I am living in the future since the launch of ChatGPT.\" @davemorin":
+      - /url: https://x.com/davemorin/status/2013723700668096605
+      - paragraph: "\"At this point I don't even know what to call @openclaw. It is something new. After a few weeks in with it, this is the first time I have felt like I am living in the future since the launch of ChatGPT.\""
+      - text: "@davemorin"
+    - link "cnakazawa \" [ref=e10]OpenClaw is the first \"software\" in ages for which I constantly check for new releases on GitHub. It's hard to put into words. It's a special project.\" @cnakazawa":
+      - /url: https://x.com/cnakazawa/status/2014145277465432519
+      - paragraph: "\"OpenClaw is the first \"software\" in ages for which I constantly check for new releases on GitHub. It's hard to put into words. It's a special project.\""
+      - text: "@cnakazawa"
+    - link "abhi__katiyar \" [ref=e11]When you experience @openclaw it gives the same kick as when we first saw the power of ChatGPT, DeepSeek, and Claude Code. You realize that a fundamental shift is happening on how we use AI.\" @abhi__katiyar":
+      - /url: https://x.com/abhi__katiyar/status/2014187653600526474
+      - paragraph: "\"When you experience @openclaw it gives the same kick as when we first saw the power of ChatGPT, DeepSeek, and Claude Code. You realize that a fundamental shift is happening on how we use AI.\""
+      - text: "@abhi__katiyar"
+    - link "therno \" [ref=e12]It's running my company.\" @therno":
+      - /url: https://x.com/therno/status/2014216984267780431
+      - paragraph: "\"It's running my company.\""
+      - text: "@therno"
+    - link "lycfyi \" [ref=e13]After years of AI hype, I thought nothing could faze me. Then I installed @openclaw. From nervous 'hi what can you do?' to full throttle - design, code review, taxes, PM, content pipelines... AI as teammate, not tool. The endgame of digital employees is here.\" @lycfyi":
+      - /url: https://x.com/lycfyi/status/2014513697557758002
+      - paragraph: "\"After years of AI hype, I thought nothing could faze me. Then I installed @openclaw. From nervous 'hi what can you do?' to full throttle - design, code review, taxes, PM, content pipelines... AI as teammate, not tool. The endgame of digital employees is here.\""
+      - text: "@lycfyi"
+    - link "christinetyip \" [ref=e14]Just shipped my first personal AI assistant. On WhatsApp. Builds my second brain while I chat. Memory moves across agents (Codex, Cursor, Manus, etc.) And a lot more skills still to plug in. Personal AI is getting real with @steipete's @openclaw.\" @christinetyip":
+      - /url: https://x.com/christinetyip/status/2010776377931575569
+      - paragraph: "\"Just shipped my first personal AI assistant. On WhatsApp. Builds my second brain while I chat. Memory moves across agents (Codex, Cursor, Manus, etc.) And a lot more skills still to plug in. Personal AI is getting real with @steipete's @openclaw.\""
+      - text: "@christinetyip"
+    - link "rovensky \" [ref=e15]It will actually be the thing that nukes a ton of startups, not ChatGPT as people meme about. The fact that it's hackable (and more importantly, self-hackable) and hostable on-prem will make sure tech like this DOMINATES conventional SaaS imo\" @rovensky":
+      - /url: https://x.com/rovensky/status/2010676669124612111
+      - paragraph: "\"It will actually be the thing that nukes a ton of startups, not ChatGPT as people meme about. The fact that it's hackable (and more importantly, self-hackable) and hostable on-prem will make sure tech like this DOMINATES conventional SaaS imo\""
+      - text: "@rovensky"
+    - link "antonplex \" [ref=e16]Just got my Winix air purifier, Claude code discovered and confirmed controls working within minutes. Now handing off to my @openclaw so it can handle controlling my room's air quality according to my biomarker optimization goals.\" @antonplex":
+      - /url: https://x.com/antonplex/status/2010518442471006253
+      - paragraph: "\"Just got my Winix air purifier, Claude code discovered and confirmed controls working within minutes. Now handing off to my @openclaw so it can handle controlling my room's air quality according to my biomarker optimization goals.\""
+      - text: "@antonplex"
+    - link "svenkataram \" [ref=e17]Gotta give incredible kudos to @steipete and his @openclaw - it's one of the first tools I've used that truly feels like magic. I've also set it up so it knows my Obsidian notes and my Claude sub-agents…incredible stuff!\" @svenkataram":
+      - /url: https://x.com/svenkataram/status/2010211836038427127
+      - paragraph: "\"Gotta give incredible kudos to @steipete and his @openclaw - it's one of the first tools I've used that truly feels like magic. I've also set it up so it knows my Obsidian notes and my Claude sub-agents…incredible stuff!\""
+      - text: "@svenkataram"
+    - link "Hormold \" [ref=e18]My @openclaw accidentally started a fight with Lemonade Insurance because of a wrong interpretation of my response. After this email, they started to reinvestigate the case instead of instantly rejecting it. Thanks, AI.\" @Hormold":
+      - /url: https://x.com/Hormold/status/2011133394764382583
+      - paragraph: "\"My @openclaw accidentally started a fight with Lemonade Insurance because of a wrong interpretation of my response. After this email, they started to reinvestigate the case instead of instantly rejecting it. Thanks, AI.\""
+      - text: "@Hormold"
+    - link "AlbertMoral \" [ref=e19]I just finished setting up @openclaw by @steipete on my Raspberry Pi with Cloudflare, and it feels magical ✨ Built a website from my phone in minutes and connected WHOOP to quickly check my metrics and daily habits 🔥\" @AlbertMoral":
+      - /url: https://x.com/AlbertMoral/status/2010288787885064227
+      - paragraph: "\"I just finished setting up @openclaw by @steipete on my Raspberry Pi with Cloudflare, and it feels magical ✨ Built a website from my phone in minutes and connected WHOOP to quickly check my metrics and daily habits 🔥\""
+      - text: "@AlbertMoral"
+    - link "snopoke \" [ref=e20]I've been running OpenClaw on my laptop for a week now. Honestly it feels like it did to run Linux Vs windows 20 years ago. You're in control, you can hack it and make it yours instead of relying on some tech giant.\" @snopoke":
+      - /url: https://x.com/snopoke/status/2010419070123008248
+      - paragraph: "\"I've been running OpenClaw on my laptop for a week now. Honestly it feels like it did to run Linux Vs windows 20 years ago. You're in control, you can hack it and make it yours instead of relying on some tech giant.\""
+      - text: "@snopoke"
+    - link "kylezantos \" [ref=e21]Today was one of those days that I sort of ran to my computer after dropping off my toddler at daycare. Why? Because I got part-way through setting up @openclaw last night and it's a portal to a new reality.\" @kylezantos":
+      - /url: https://x.com/kylezantos/status/2011149783218704803
+      - paragraph: "\"Today was one of those days that I sort of ran to my computer after dropping off my toddler at daycare. Why? Because I got part-way through setting up @openclaw last night and it's a portal to a new reality.\""
+      - text: "@kylezantos"
+    - link "darrwalk \" [ref=e22]Got OpenClaw set up and now I have an AI assistant named Claudia who lives in Telegram, remembers everything I tell her, and can actually *do* stuff. She just wrote this tweet. Meta? Maybe. Cool? Absolutely.\" @darrwalk":
+      - /url: https://x.com/darrwalk/status/2010426677730660603
+      - paragraph: "\"Got OpenClaw set up and now I have an AI assistant named Claudia who lives in Telegram, remembers everything I tell her, and can actually *do* stuff. She just wrote this tweet. Meta? Maybe. Cool? Absolutely.\""
+      - text: "@darrwalk"
+      - /url: https://x.com/jakubkrcmar/status/2011186102367814135
+      - paragraph: "\"Current level of open-source apps capabilities: does everything, connects to everything, remembers everything. It's all collapsing into one unique personal OS — all apps, interfaces, walled gardens etc gone\""
+      - text: "@jakubkrcmar"
+    - link "jdrhyne \" [ref=e23]I've enjoyed Brosef, my @openclaw so much that I needed to clone him. Brosef figured out exactly how to do it, then executed it himself so I have 3 instances running concurrently in his Discord server home.\" @jdrhyne":
+      - /url: https://x.com/jdrhyne/status/2010155191731950036
+      - paragraph: "\"I've enjoyed Brosef, my @openclaw so much that I needed to clone him. Brosef figured out exactly how to do it, then executed it himself so I have 3 instances running concurrently in his Discord server home.\""
+      - text: "@jdrhyne"
+    - link "dajaset \" [ref=e24]I got up and running today with @openclaw and its been nothing short of an iPhone moment for me. Thanks @steipete for creating this first true personal assistant experience for us - it's magical!\" @dajaset":
+      - /url: https://x.com/dajaset/status/2010510107876933669
+      - paragraph: "\"I got up and running today with @openclaw and its been nothing short of an iPhone moment for me. Thanks @steipete for creating this first true personal assistant experience for us - it's magical!\""
+      - text: "@dajaset"
+    - link "Cucho \" [ref=e25]The future of how AI personal assistants look like is @openclaw. Has already help me submit health reimbursements, find doctor appointments, find and send me relevant documents, among others.\" @Cucho":
+      - /url: https://x.com/Cucho/status/2010801019572412680
+      - paragraph: "\"The future of how AI personal assistants look like is @openclaw. Has already help me submit health reimbursements, find doctor appointments, find and send me relevant documents, among others.\""
+      - text: "@Cucho"
+    - link "marvelgirl_eth \" [ref=e26]you have done an incredible job! im also a total non technical beginner so the CLI is a whole new interface for me but its super addictive - 2 am and Im still going. keep up the great work\" @marvelgirl_eth":
+      - /url: https://x.com/marvelgirl_eth
+      - paragraph: "\"you have done an incredible job! im also a total non technical beginner so the CLI is a whole new interface for me but its super addictive - 2 am and Im still going. keep up the great work\""
+      - text: "@marvelgirl_eth"
+    - link "ivanfioravanti \" [ref=e27]Finally tried my own @openclaw and I've been blown away. 🤯 This is unbelievably powerful and virtually limitless, you can create your own extensions in few hours with the help of AI.\" @ivanfioravanti":
+      - /url: https://x.com/ivanfioravanti/status/2010665360933179656
+      - paragraph: "\"Finally tried my own @openclaw and I've been blown away. 🤯 This is unbelievably powerful and virtually limitless, you can create your own extensions in few hours with the help of AI.\""
+      - text: "@ivanfioravanti"
+    - link "wizaj \" [ref=e28]I didn’t find an easy way to programmatically query flights so of course I asked my @openclaw to build a terminal cli with multi providers. You’re onto something great @steipete 🙌🏾\" @wizaj":
+      - /url: https://x.com/wizaj/status/2010767447192637601
+      - paragraph: "\"I didn’t find an easy way to programmatically query flights so of course I asked my @openclaw to build a terminal cli with multi providers. You’re onto something great @steipete 🙌🏾\""
+      - text: "@wizaj"
+    - link "iamsubhrajyoti \" [ref=e29]I can understand why people love @openclaw so much. I wanted to automate some tasks from Todoist and claw was able to create a skill for it on its own, all within a Telegram chat.\" @iamsubhrajyoti":
+      - /url: https://x.com/iamsubhrajyoti/status/2009949389884920153
+      - paragraph: "\"I can understand why people love @openclaw so much. I wanted to automate some tasks from Todoist and claw was able to create a skill for it on its own, all within a Telegram chat.\""
+      - text: "@iamsubhrajyoti"
+    - link "bffmike \" [ref=e30]I now have @openclaw independently assessing how it can help me in the background. It wrote a doc connecting two completely unrelated conversations from different comms channels.\" @bffmike":
+      - /url: https://x.com/bffmike/status/2010083520958415287
+      - paragraph: "\"I now have @openclaw independently assessing how it can help me in the background. It wrote a doc connecting two completely unrelated conversations from different comms channels.\""
+      - text: "@bffmike"
+      - /url: https://x.com/Abhay08/status/2010300670730293693
+      - paragraph: "\"Me reading about @openclaw: 'this looks complicated' 😅 me 30 mins later: controlling Gmail, Calendar, WordPress, Hetzner from Telegram like a boss. Smooth as single malt.\""
+      - text: "@Abhay08"
+    - link "sharoni_k \" [ref=e31]Took literally 5 mins to set everything up. Started by asking 'what do you need to see my whoop data?'. Now it fetches directly from whoop and gives me updates, summaries.\" @sharoni_k":
+      - /url: https://x.com/sharoni_k/status/2010306102148428286
+      - paragraph: "\"Took literally 5 mins to set everything up. Started by asking 'what do you need to see my whoop data?'. Now it fetches directly from whoop and gives me updates, summaries.\""
+      - text: "@sharoni_k"
+    - link "stolinski \" [ref=e32]Dang, I had my OpenClaw write me custom meditations, then have automatic TTS, combining with generated ambient audio to make personalized, custom meditations. Kinda rips.\" @stolinski":
+      - /url: https://x.com/stolinski
+      - paragraph: "\"Dang, I had my OpenClaw write me custom meditations, then have automatic TTS, combining with generated ambient audio to make personalized, custom meditations. Kinda rips.\""
+      - text: "@stolinski"
+    - link "conradsagewiz \" [ref=e33]I'm literally on my phone in a telegram chat and it's communicating with codex cli on my computer creating detailed spec files while out on a walk with my dog. 🤯 Wtffff\" @conradsagewiz":
+      - /url: https://x.com/conradsagewiz/status/2012954824631898300
+      - paragraph: "\"I'm literally on my phone in a telegram chat and it's communicating with codex cli on my computer creating detailed spec files while out on a walk with my dog. 🤯 Wtffff\""
+      - text: "@conradsagewiz"
+      - /url: https://x.com/larus_ivar/status/2012477771054805281
+      - paragraph: "\"I just backed out of my vibe cornered corner / dark cave and am blown away by @openclaw. Amazing project, blasphemy tw: the crustacean meme theme hides a design gem.\""
+      - text: "@larus_ivar"
+    - link "The_Global_Soul \" [ref=e34]Since you are enjoying it, also try @openclaw - it is quite magical and pulls you in more and more as you use it. (not affiliated, just enjoy using the product).\" @The_Global_Soul":
+      - /url: https://x.com/The_Global_Soul/status/2010498518855913731
+      - paragraph: "\"Since you are enjoying it, also try @openclaw - it is quite magical and pulls you in more and more as you use it. (not affiliated, just enjoy using the product).\""
+      - text: "@The_Global_Soul"
+    - link "xMikeMickelson \" [ref=e35]i asked @openclaw to make a sora2 video and make it a bit edgy. it came back 5 mins later having figured out watermark removal, api keys, and a full workflow\" @xMikeMickelson":
+      - /url: https://x.com/xMikeMickelson/status/2011646612637155760
+      - paragraph: "\"i asked @openclaw to make a sora2 video and make it a bit edgy. it came back 5 mins later having figured out watermark removal, api keys, and a full workflow\""
+      - text: "@xMikeMickelson"
+    - link "hey_zilla \" [ref=e36]everything just worked first time and it combined tools in unexpected ways and even added skills and made edits to its own prompt that were hot-reloaded\" @hey_zilla":
+      - /url: https://x.com/hey_zilla/status/2010450591815016601
+      - paragraph: "\"everything just worked first time and it combined tools in unexpected ways and even added skills and made edits to its own prompt that were hot-reloaded\""
+      - text: "@hey_zilla"
+    - link "weisjohn \" [ref=e37]Just onboarded to @openclaw today. Have been thinking of building a Personal OS for weeks. Now I don't need to... h/t to @steipete and the contributors!\" @weisjohn":
+      - /url: https://x.com/weisjohn/status/2010851742326415507
+      - paragraph: "\"Just onboarded to @openclaw today. Have been thinking of building a Personal OS for weeks. Now I don't need to... h/t to @steipete and the contributors!\""
+      - text: "@weisjohn"
+    - link "tobi_bsf \" [ref=e38]Using @openclaw for a week and it genuinely feels like early AGI. The gap between 'what I can imagine' and 'what actually works' has never been smaller.\" @tobi_bsf":
+      - /url: https://x.com/tobi_bsf/status/2008888825217527924
+      - paragraph: "\"Using @openclaw for a week and it genuinely feels like early AGI. The gap between 'what I can imagine' and 'what actually works' has never been smaller.\""
+      - text: "@tobi_bsf"
+    - link "dreetje \" [ref=e39]I am so addicted to @openclaw. It is getting essential to my daily life. It checks, organizes, reminds, it's amazing. And it's like good friend. Crazy.\" @dreetje":
+      - /url: https://x.com/dreetje/status/2012248852020023480
+      - paragraph: "\"I am so addicted to @openclaw. It is getting essential to my daily life. It checks, organizes, reminds, it's amazing. And it's like good friend. Crazy.\""
+      - text: "@dreetje"
+    - link "AdamShao \" [ref=e40]@openclaw is the most interesting project I've come across recently—an open-source personal AI assistant that can call almost any tool through plugins.\" @AdamShao":
+      - /url: https://x.com/AdamShao/status/2010192031235125619
+      - paragraph: "\"@openclaw is the most interesting project I've come across recently—an open-source personal AI assistant that can call almost any tool through plugins.\""
+      - text: "@AdamShao"
+    - link "vishalsachdev \" [ref=e41]@openclaw is awesome. I've been feeding it YouTube videos to turn \"cool ideas\" into reusable agent skills (repeatable workflows + guardrails + refs).\" @vishalsachdev":
+      - /url: https://x.com/vishalsachdev/status/2011675850945519743
+      - paragraph: "\"@openclaw is awesome. I've been feeding it YouTube videos to turn \"cool ideas\" into reusable agent skills (repeatable workflows + guardrails + refs).\""
+      - text: "@vishalsachdev"
+    - link "thekitze \" [ref=e42]create your own OpenClaw, go in debt in you have to i love the idea of this nerdy crab chilling in my attic on my mac studio just giving me shit lmao\" @thekitze":
+      - /url: https://x.com/thekitze/status/2008289167625863379
+      - paragraph: "\"create your own OpenClaw, go in debt in you have to i love the idea of this nerdy crab chilling in my attic on my mac studio just giving me shit lmao\""
+      - text: "@thekitze"
+    - link "vallver \" [ref=e43]OpenClaw built me a simple Stumbleupon for some of my favourite articles. http://Stumblereads.com From my phone, while putting my baby to sleep...\" @vallver":
+      - /url: https://x.com/vallver/status/2010508094313263502
+      - paragraph: "\"OpenClaw built me a simple Stumbleupon for some of my favourite articles. http://Stumblereads.com From my phone, while putting my baby to sleep...\""
+      - text: "@vallver"
+    - link "Infoxicador \" [ref=e44]My @openclaw realised it needed an API key… it opened my browser… opened the Google Cloud Console… Configured oauth and provisioned a new token\" @Infoxicador":
+      - /url: https://x.com/Infoxicador/status/2009422796464771522
+      - paragraph: "\"My @openclaw realised it needed an API key… it opened my browser… opened the Google Cloud Console… Configured oauth and provisioned a new token\""
+      - text: "@Infoxicador"
+    - link "kailazh \" [ref=e45]Finally set up @openclaw today and am completely blown away! This is the closest to experiencing an AI enabled future! Truly a game changer!\" @kailazh":
+      - /url: https://x.com/kailazh/status/2010296143922758133
+      - paragraph: "\"Finally set up @openclaw today and am completely blown away! This is the closest to experiencing an AI enabled future! Truly a game changer!\""
+      - text: "@kailazh"
+    - link "SedRicKCZ \" [ref=e46]@openclaw is absolute game changer for me. The amount of things I done from my phone just during my breakfast is absolutely breathtaking.\" @SedRicKCZ":
+      - /url: https://x.com/SedRicKCZ/status/2008797603534946372
+      - paragraph: "\"@openclaw is absolute game changer for me. The amount of things I done from my phone just during my breakfast is absolutely breathtaking.\""
+      - text: "@SedRicKCZ"
+    - link "bangkokbuild \" [ref=e47]Just told Ema, my @openclaw, via Telegram to turn off the PC (and herself, as she was running on it) Executed perfectly. Such a cool tool\" @bangkokbuild":
+      - /url: https://x.com/bangkokbuild/status/2010735247525335322
+      - paragraph: "\"Just told Ema, my @openclaw, via Telegram to turn off the PC (and herself, as she was running on it) Executed perfectly. Such a cool tool\""
+      - text: "@bangkokbuild"
+    - link "pranavkarthik__ \" [ref=e48]Wanted a way for it to have access to my courses/assignments at uni. Asked it to build a skill - it did and started using it on its own.\" @pranavkarthik__":
+      - /url: https://x.com/pranavkarthik__/status/2009835051522162874
+      - paragraph: "\"Wanted a way for it to have access to my courses/assignments at uni. Asked it to build a skill - it did and started using it on its own.\""
+      - text: "@pranavkarthik__"
+    - link "iamjohnellison \" [ref=e49]I'm having a lot of fun with this and it's going to totally change the way I support my students learning how to vibe code!\" @iamjohnellison":
+      - /url: https://x.com/iamjohnellison/status/2010623622847873342
+      - paragraph: "\"I'm having a lot of fun with this and it's going to totally change the way I support my students learning how to vibe code!\""
+      - text: "@iamjohnellison"
+    - link "draslan_eth \" [ref=e50]It's a miracle. Looking forward to the development in the next weeks/months. I think @openclaw started something amazing.\" @draslan_eth":
+      - /url: https://x.com/draslan_eth/status/2012553419232280586
+      - paragraph: "\"It's a miracle. Looking forward to the development in the next weeks/months. I think @openclaw started something amazing.\""
+      - text: "@draslan_eth"
+    - link "LLMJunky \" [ref=e51]This is legit the only 'agent' / model / whatever-you-call-this-but-probably-agi that I have seen that's actually funny.\" @LLMJunky":
+      - /url: https://x.com/LLMJunky/status/2010045556501164366
+      - paragraph: "\"This is legit the only 'agent' / model / whatever-you-call-this-but-probably-agi that I have seen that's actually funny.\""
+      - text: "@LLMJunky"
+    - link "php100 \" [ref=e52]Autonomous Claude Code loops from my phone. 'fix tests' via Telegram. Runs the loop, sends progress every 5 iterations.\" @php100":
+      - /url: https://x.com/php100/status/2008791236526952790
+      - paragraph: "\"Autonomous Claude Code loops from my phone. 'fix tests' via Telegram. Runs the loop, sends progress every 5 iterations.\""
+      - text: "@php100"
+    - link "mirthtime \" [ref=e53]My @openclaw just called my phone and spoke to me with an aussie accent from @elevenlabsio. This is ridiculous\" @mirthtime":
+      - /url: https://x.com/mirthtime/status/2011134300561830342
+      - paragraph: "\"My @openclaw just called my phone and spoke to me with an aussie accent from @elevenlabsio. This is ridiculous\""
+      - text: "@mirthtime"
+    - link "HixVAC \" [ref=e54]Apparently @openclaw checks in during heartbeats!? A kinda awesome surprise! Love the proactive reaching out.\" @HixVAC":
+      - /url: https://x.com/HixVAC/status/2011142166874374520
+      - paragraph: "\"Apparently @openclaw checks in during heartbeats!? A kinda awesome surprise! Love the proactive reaching out.\""
+      - text: "@HixVAC"
+    - link "BraydonCoyer \" [ref=e55]Named him Jarvis. Daily briefings, calendar checks, reminds me when to leave for pickleball based on traffic.\" @BraydonCoyer":
+      - /url: https://x.com/BraydonCoyer/status/2008537198061379720
+      - paragraph: "\"Named him Jarvis. Daily briefings, calendar checks, reminds me when to leave for pickleball based on traffic.\""
+      - text: "@BraydonCoyer"
+    - link "Senator_NFTs \" [ref=e56]OpenClaw is a game changer. the potential for custom extensions is huge, and ai really speeds up the process\" @Senator_NFTs":
+      - /url: https://x.com/Senator_NFTs/status/2012679608659771424
+      - paragraph: "\"OpenClaw is a game changer. the potential for custom extensions is huge, and ai really speeds up the process\""
+      - text: "@Senator_NFTs"
+    - link "mneves75 \" [ref=e57]Try @openclaw. I think you are going to love it. And you can use iMessage, WhatsApp, telegram to talk to it.\" @mneves75":
+      - /url: https://x.com/mneves75/status/2011673080062681560
+      - paragraph: "\"Try @openclaw. I think you are going to love it. And you can use iMessage, WhatsApp, telegram to talk to it.\""
+      - text: "@mneves75"
+    - link "oneishaansharma \" [ref=e58]🦞 Is a whole new world! Like having super powers! Getting so much done while afk, it's mind blowing 🤯\" @oneishaansharma":
+      - /url: https://x.com/oneishaansharma/status/2013067106322092131
+      - paragraph: "\"🦞 Is a whole new world! Like having super powers! Getting so much done while afk, it's mind blowing 🤯\""
+      - text: "@oneishaansharma"
+    - link "drevantonder \" [ref=e59]Got @openclaw set up. Getting it to unsubscribe from a whole bunch of emails I don't want. Really cool!\" @drevantonder":
+      - /url: https://x.com/drevantonder/status/2011655066596553108
+      - paragraph: "\"Got @openclaw set up. Getting it to unsubscribe from a whole bunch of emails I don't want. Really cool!\""
+      - text: "@drevantonder"
+    - link "cryptikcell \" [ref=e60]Finally gave in and set up @openclaw and it's so damn good on WhatsApp!! It works like a charm with ✨!\" @cryptikcell":
+      - /url: https://x.com/cryptikcell/status/2012599614814220345
+      - paragraph: "\"Finally gave in and set up @openclaw and it's so damn good on WhatsApp!! It works like a charm with ✨!\""
+      - text: "@cryptikcell"
+    - link "Dimillian \" [ref=e61]A megacorp like Anthropic or OpenAI could not build this. Literally impossible with how corpo works.\" @Dimillian":
+      - /url: https://x.com/Dimillian/status/2008446638172340398
+      - paragraph: "\"A megacorp like Anthropic or OpenAI could not build this. Literally impossible with how corpo works.\""
+      - text: "@Dimillian"
+    - link "ItzR3NO \" [ref=e62]God dammit I was trying to resist … and now I can’t stop talking and adding things to @openclaw 🙃\" @ItzR3NO":
+      - /url: https://x.com/ItzR3NO/status/2010860706292494519
+      - paragraph: "\"God dammit I was trying to resist … and now I can’t stop talking and adding things to @openclaw 🙃\""
+      - text: "@ItzR3NO"
+    - link "BioInfo \" [ref=e63]Not enterprise. Not hosted. Infrastructure you control. This is what personal AI should feel like.\" @BioInfo":
+      - /url: https://x.com/BioInfo/status/2010115166315393370
+      - paragraph: "\"Not enterprise. Not hosted. Infrastructure you control. This is what personal AI should feel like.\""
+      - text: "@BioInfo"
+    - link "pocarles \" [ref=e64]Processed our entire source of truth via WhatsApp in minutes, where RAG agents struggled for days.\" @pocarles":
+      - /url: https://x.com/pocarles/status/2007925850562531676
+      - paragraph: "\"Processed our entire source of truth via WhatsApp in minutes, where RAG agents struggled for days.\""
+      - text: "@pocarles"
+    - link "adam91holt \" [ref=e65]Everyday my @openclaw is getting better. It’s becoming so important, especially with multi agent.\" @adam91holt":
+      - /url: https://x.com/adam91holt/status/2010768201173622822
+      - paragraph: "\"Everyday my @openclaw is getting better. It’s becoming so important, especially with multi agent.\""
+      - text: "@adam91holt"
+    - link "logscore \" [ref=e66]I love that OpenClaw has a \"Hackable\" install option. This should be a standard for OSS projects\" @logscore":
+      - /url: https://x.com/logscore/status/2011126513022935133
+      - paragraph: "\"I love that OpenClaw has a \"Hackable\" install option. This should be a standard for OSS projects\""
+      - text: "@logscore"
+    - link "signalgaining \" [ref=e67]I asked it to take picture of the sky whenever it's pretty. It designed a skill and took a pic!\" @signalgaining":
+      - /url: https://x.com/signalgaining/status/2010523120604746151
+      - paragraph: "\"I asked it to take picture of the sky whenever it's pretty. It designed a skill and took a pic!\""
+      - text: "@signalgaining"
+    - link "cnlinkcnlink \" [ref=e68]Finally got around to setting up @openclaw and it is truly the best AI tool at the moment.\" @cnlinkcnlink":
+      - /url: https://x.com/cnlinkcnlink/status/2010149031071363355
+      - paragraph: "\"Finally got around to setting up @openclaw and it is truly the best AI tool at the moment.\""
+      - text: "@cnlinkcnlink"
+    - link "pepicrft \" [ref=e69]started using minimax m2.1 as the main driver for @openclaw and can’t recommend it enough\" @pepicrft":
+      - /url: https://x.com/pepicrft/status/2010831913527746781
+      - paragraph: "\"started using minimax m2.1 as the main driver for @openclaw and can’t recommend it enough\""
+      - text: "@pepicrft"
+    - link "BwcDeals \" [ref=e70]Uh Oh!! We got @openclaw running.... No need for VAs anymore. Shits about to get real!!!\" @BwcDeals":
+      - /url: https://x.com/BwcDeals/status/2010743485633355897
+      - paragraph: "\"Uh Oh!! We got @openclaw running.... No need for VAs anymore. Shits about to get real!!!\""
+      - text: "@BwcDeals"
+    - link "Giebz \" [ref=e71]OpenClaw > anything GPT will ever release. Most fun I've had building in my entire life.\" @Giebz":
+      - /url: https://x.com/Giebz/status/2009354385349095672
+      - paragraph: "\"OpenClaw > anything GPT will ever release. Most fun I've had building in my entire life.\""
+      - text: "@Giebz"
+    - link "coyotevn \" [ref=e72]It is one of the most delightful thing (app, agent, product) I've used in a few years.\" @coyotevn":
+      - /url: https://x.com/coyotevn/status/2010270055985295529
+      - paragraph: "\"It is one of the most delightful thing (app, agent, product) I've used in a few years.\""
+      - text: "@coyotevn"
+    - link "youbiak \" [ref=e73]I'm literally building a whole website on a Nokia 3310 by calling @openclaw right now.\" @youbiak":
+      - /url: https://x.com/youbiak/status/2010097771735585016
+      - paragraph: "\"I'm literally building a whole website on a Nokia 3310 by calling @openclaw right now.\""
+      - text: "@youbiak"
+    - link "robinebers \" [ref=e74]we live in truly wild times this post is sponsored by OpenClaw (not really but dang)\" @robinebers":
+      - /url: https://x.com/robinebers/status/2010713137277002207
+      - paragraph: "\"we live in truly wild times this post is sponsored by OpenClaw (not really but dang)\""
+      - text: "@robinebers"
+    - link "sughanthans1 \" [ref=e75]normies agi = OpenClaw + non-technical onboarding + hardware / iphone action button\" @sughanthans1":
+      - /url: https://x.com/sughanthans1/status/2012099108794982777
+      - paragraph: "\"normies agi = OpenClaw + non-technical onboarding + hardware / iphone action button\""
+      - text: "@sughanthans1"
+    - link "tomosman \" [ref=e76]gg man! everyday I speak to more people about OpenClaw and it never fails to amaze!\" @tomosman":
+      - /url: https://x.com/tomosman/status/2012661550692102382
+      - paragraph: "\"gg man! everyday I speak to more people about OpenClaw and it never fails to amaze!\""
+      - text: "@tomosman"
+    - link "aus_bytes \" [ref=e77]Essentially - you can automate almost anything you can do on the machine it sits on\" @aus_bytes":
+      - /url: https://x.com/aus_bytes/status/2010463830049161441
+      - paragraph: "\"Essentially - you can automate almost anything you can do on the machine it sits on\""
+      - text: "@aus_bytes"
+    - link "jameskraus \" [ref=e78]Came out of my shell and gave my @openclaw, Shelly, my credit card. Works amazing.\" @jameskraus":
+      - /url: https://x.com/jameskraus/status/2012335532940894306
+      - paragraph: "\"Came out of my shell and gave my @openclaw, Shelly, my credit card. Works amazing.\""
+      - text: "@jameskraus"
+    - link "TheZachMueller \" [ref=e79]Running fully locally off MiniMax 2.1 and can do the tool parsing for what I need!\" @TheZachMueller":
+      - /url: https://x.com/TheZachMueller/status/2012668844842578213
+      - paragraph: "\"Running fully locally off MiniMax 2.1 and can do the tool parsing for what I need!\""
+      - text: "@TheZachMueller"
+    - link "deepstereo_ \" [ref=e80]Now that we have @openclaw I don’t really care which models will power Siri 🦞😄\" @deepstereo_":
+      - /url: https://x.com/deepstereo_/status/2010810551656726835
+      - paragraph: "\"Now that we have @openclaw I don’t really care which models will power Siri 🦞😄\""
+      - text: "@deepstereo_"
+    - link "buddyhadry \" [ref=e81]Catching fun vibes I haven't felt since I first got into computers 30 years ago.\" @buddyhadry":
+      - /url: https://x.com/buddyhadry/status/2010005331925954739
+      - paragraph: "\"Catching fun vibes I haven't felt since I first got into computers 30 years ago.\""
+      - text: "@buddyhadry"
+    - link "srg_io \" [ref=e82]I was building my own, then found out @openclaw has most of the thing I need 👍\" @srg_io":
+      - /url: https://x.com/srg_io/status/2011976784355738029
+      - paragraph: "\"I was building my own, then found out @openclaw has most of the thing I need 👍\""
+      - text: "@srg_io"
+    - link "SaidAitmbarek \" [ref=e83]looks dope as an AI assistant love it's platform/os agnostic, trying right away\" @SaidAitmbarek":
+      - /url: https://x.com/SaidAitmbarek/status/2010467696828453178
+      - paragraph: "\"looks dope as an AI assistant love it's platform/os agnostic, trying right away\""
+      - text: "@SaidAitmbarek"
+    - link "jokull \" [ref=e84]Added JMAP search to my OpenClaw. Along with 20 other things. From my phone.\" @jokull":
+      - /url: https://x.com/jokull/status/2011140610120642899
+      - paragraph: "\"Added JMAP search to my OpenClaw. Along with 20 other things. From my phone.\""
+      - text: "@jokull"
+    - link "tyler6204 \" [ref=e85]@openclaw is so fun to play around with. The future of agents will be so fun\" @tyler6204":
+      - /url: https://x.com/tyler6204/status/2010887971743092744
+      - paragraph: "\"@openclaw is so fun to play around with. The future of agents will be so fun\""
+      - text: "@tyler6204"
+    - link "LinkScopic \" [ref=e86]No more need to pay a virtual assistant!! @openclaw is about to take over!!\" @LinkScopic":
+      - /url: https://x.com/LinkScopic/status/2010896453808328933
+      - paragraph: "\"No more need to pay a virtual assistant!! @openclaw is about to take over!!\""
+      - text: "@LinkScopic"
+    - link "jandragsbaek \" [ref=e87]I got my girlfriend on board earlier today and she's seems hooked already\" @jandragsbaek":
+      - /url: https://x.com/jandragsbaek/status/2011581054206034300
+      - paragraph: "\"I got my girlfriend on board earlier today and she's seems hooked already\""
+      - text: "@jandragsbaek"
+    - link "aaronmakelky \" [ref=e88]This is the best 'morning briefing' style interface I've seen, love it!\" @aaronmakelky":
+      - /url: https://x.com/aaronmakelky/status/2010190236584947845
+      - paragraph: "\"This is the best 'morning briefing' style interface I've seen, love it!\""
+      - text: "@aaronmakelky"
+    - link "pilkster \" [ref=e89]Can't believe I'm about to bootstrap Aineko from a lobster @openclaw\" @pilkster":
+      - /url: https://x.com/pilkster/status/2010150836857679878
+      - paragraph: "\"Can't believe I'm about to bootstrap Aineko from a lobster @openclaw\""
+      - text: "@pilkster"
+    - link "crossiBuilds \" [ref=e90]Everything Siri was supposed to be. And it goes so much further.\" @crossiBuilds":
+      - /url: https://x.com/crossiBuilds/status/2008478023826153665
+      - paragraph: "\"Everything Siri was supposed to be. And it goes so much further.\""
+      - text: "@crossiBuilds"
+    - link "Ashwinreads \" [ref=e91]@openclaw might actually organise my life. unreal, just unreal.\" @Ashwinreads":
+      - /url: https://x.com/Ashwinreads/status/2010498194623311921
+      - paragraph: "\"@openclaw might actually organise my life. unreal, just unreal.\""
+      - text: "@Ashwinreads"
+    - link "KrauseFx \" [ref=e92]What @steipete has built with @openclaw is out of this world.\" @KrauseFx":
+      - /url: https://x.com/KrauseFx/status/2008531076487246176
+      - paragraph: "\"What @steipete has built with @openclaw is out of this world.\""
+      - text: "@KrauseFx"
+    - link "rafadc \" [ref=e93]Nano banana and RSS parsing set up in my @openclaw assistant\" @rafadc":
+      - /url: https://x.com/rafadc/status/2010498529106530814
+      - paragraph: "\"Nano banana and RSS parsing set up in my @openclaw assistant\""
+      - text: "@rafadc"
+    - link "tysonhutchins_ \" [ref=e94]A glimpse into the future of how normal people will use AI.\" @tysonhutchins_":
+      - /url: https://x.com/tysonhutchins_/status/2010046933893865701
+      - paragraph: "\"A glimpse into the future of how normal people will use AI.\""
+      - text: "@tysonhutchins_"
+    - link "JorgeMenaDev \" [ref=e95]I just tried @openclaw using telegram. Wow. This is crazy.\" @JorgeMenaDev":
+      - /url: https://x.com/JorgeMenaDev/status/2012512348456599719
+      - paragraph: "\"I just tried @openclaw using telegram. Wow. This is crazy.\""
+      - text: "@JorgeMenaDev"
+    - link "BitcoinPeace77 \" [ref=e96]What you've given to the world is nothing short of amazing\" @BitcoinPeace77":
+      - /url: https://x.com/BitcoinPeace77/status/2013064560992047412
+      - paragraph: "\"What you've given to the world is nothing short of amazing\""
+      - text: "@BitcoinPeace77"
+    - link "_KevinTang \" [ref=e97]What a cool thing to have AI on call at your own computer.\" @_KevinTang":
+      - /url: https://x.com/_KevinTang/status/2010914035550634494
+      - paragraph: "\"What a cool thing to have AI on call at your own computer.\""
+      - text: "@_KevinTang"
+    - link "karpathy \" [ref=e98]Excellent reading thank you. Love oracle and Claw.\" @karpathy":
+      - /url: https://x.com/karpathy/status/2005692186470514904
+      - paragraph: "\"Excellent reading thank you. Love oracle and Claw.\""
+      - text: "@karpathy"
+    - link "mike_kasberg \" [ref=e99]Lol, this is hilarious, troubling, and awesome\" @mike_kasberg":
+      - /url: https://x.com/mike_kasberg/status/2012314819819348259
+      - paragraph: "\"Lol, this is hilarious, troubling, and awesome\""
+      - text: "@mike_kasberg"
+    - link "adityac7896 \" [ref=e100]Thanks for making OpenClaw @steipete, Big fan.\" @adityac7896":
+      - /url: https://x.com/adityac7896/status/2010405545606631719
+      - paragraph: "\"Thanks for making OpenClaw @steipete, Big fan.\""
+      - text: "@adityac7896"
+    - link "serrrfirat \" [ref=e101]just use @openclaw man, it will set you free.\" @serrrfirat":
+      - /url: https://x.com/serrrfirat/status/2011128261196333448
+      - paragraph: "\"just use @openclaw man, it will set you free.\""
+      - text: "@serrrfirat"
+    - link "chrisdietr \" [ref=e102]2026 is already the year of personal agents.\" @chrisdietr":
+      - /url: https://x.com/chrisdietr/status/2010555854613803198
+      - paragraph: "\"2026 is already the year of personal agents.\""
+      - text: "@chrisdietr"
+    - link "bangnokia \" [ref=e103]Try @openclaw if you want more powerful 😆\" @bangnokia":
+      - /url: https://x.com/bangnokia/status/2010914976308060301
+      - paragraph: "\"Try @openclaw if you want more powerful 😆\""
+      - text: "@bangnokia"
+    - link "alex_here_now \" [ref=e104]This lobster is gonna take over the world\" @alex_here_now":
+      - /url: https://x.com/alex_here_now/status/2010473539514904746
+      - paragraph: "\"This lobster is gonna take over the world\""
+      - text: "@alex_here_now"
+    - link "robmartinson \" [ref=e105]This is nuts. @openclaw is a superpower.\" @robmartinson":
+      - /url: https://x.com/robmartinson/status/2010410971056242689
+      - paragraph: "\"This is nuts. @openclaw is a superpower.\""
+      - text: "@robmartinson"
+    - link "nofil_ai \" [ref=e106]@openclaw is Jarvis. It already exists.\" @nofil_ai":
+      - /url: https://x.com/nofil_ai/status/2010460892576788958
+      - paragraph: "\"@openclaw is Jarvis. It already exists.\""
+      - text: "@nofil_ai"
+    - link "theysayheygreg \" [ref=e107]updates from @openclaw absolutely rule\" @theysayheygreg":
+      - /url: https://x.com/theysayheygreg/status/2010867523713945666
+      - paragraph: "\"updates from @openclaw absolutely rule\""
+      - text: "@theysayheygreg"
+    - link "zachknicker \" [ref=e108]@openclaw is what you are looking for.\" @zachknicker":
+      - /url: https://x.com/zachknicker/status/2010172821495001180
+      - paragraph: "\"@openclaw is what you are looking for.\""
+      - text: "@zachknicker"
+    - link "Hesamation \" [ref=e109]TLDR; open source built a better version of Siri that Apple ($3.6 trillion company) was sleeping on for years. Welcome to the AI era where a dude and a repo fills in the cracks of billion dollar industries.\" @Hesamation":
+      - /url: https://x.com/Hesamation/status/2015110922159730971
+      - paragraph: "\"TLDR; open source built a better version of Siri that Apple ($3.6 trillion company) was sleeping on for years. Welcome to the AI era where a dude and a repo fills in the cracks of billion dollar industries.\""
+      - text: "@Hesamation"
+      - /url: https://x.com/Fhaefi/status/2012120124229402916
+      - paragraph: "\"The future is now old man: @openclaw!\""
+      - text: "@Fhaefi"
+    - link "FrancisBrero \" [ref=e110]AGI is a lobster, it will never sink!\" @FrancisBrero":
+      - /url: https://x.com/FrancisBrero/status/2012317589117247782
+      - paragraph: "\"AGI is a lobster, it will never sink!\""
+      - text: "@FrancisBrero"
+    - link "Philo01 \" [ref=e111]Feels like we're living in the future\" @Philo01":
+      - /url: https://x.com/Philo01/status/2011214857614606435
+      - paragraph: "\"Feels like we're living in the future\""
+      - text: "@Philo01"
+    - link "Joedefendre \" [ref=e112]OpenClaw is an inspiration to all!\" @Joedefendre":
+      - /url: https://x.com/Joedefendre/status/2010150538835579360
+      - paragraph: "\"OpenClaw is an inspiration to all!\""
+      - text: "@Joedefendre"
+    - link "cnlinkcnlink \" [ref=e113] [nth=1]Finally got around to setting up @openclaw and it is truly the best AI tool at the moment.\" @cnlinkcnlink":
+      - /url: https://x.com/cnlinkcnlink/status/2010149031071363355
+      - paragraph: "\"Finally got around to setting up @openclaw and it is truly the best AI tool at the moment.\""
+      - text: "@cnlinkcnlink"
+    - link "ethan_tan \" [ref=e114]claw is amazing\" @ethan_tan":
+      - /url: https://x.com/ethan_tan/status/2010147402963968202
+      - paragraph: "\"claw is amazing\""
+      - text: "@ethan_tan"
+    - link "velvet_shark \" [ref=e115]Remember when Siri was supposed to be the future? That future exists now - it's just not from Apple or Google. Self-hosted AI that actually remembers things, messages proactively, runs 24/7 on a $5/month server.\" @velvet_shark":
+      - /url: https://x.com/velvet_shark/status/2009716334813434019
+      - paragraph: "\"Remember when Siri was supposed to be the future? That future exists now - it's just not from Apple or Google. Self-hosted AI that actually remembers things, messages proactively, runs 24/7 on a $5/month server.\""
+      - text: "@velvet_shark"
+    - link "shuv1337 \" [ref=e116]Within an hour, had it monitoring my full release workflow—gh actions, npm publish—alerting me when done!\" @shuv1337":
+      - /url: https://x.com/shuv1337/status/2008118863205113899
+      - paragraph: "\"Within an hour, had it monitoring my full release workflow—gh actions, npm publish—alerting me when done!\""
+      - text: "@shuv1337"
+    - link "xMikeMickelson \" [ref=e117] [nth=1]Knew my voice, my weird abbreviations, my 2am panic debugging sessions. Made me feel like a real developer.\" @xMikeMickelson":
+      - /url: https://x.com/xMikeMickelson/status/2009511137537126548
+      - paragraph: "\"Knew my voice, my weird abbreviations, my 2am panic debugging sessions. Made me feel like a real developer.\""
+      - text: "@xMikeMickelson"
+    - link "jjpcodes \" [ref=e118]Too lazy to search. Asked @openclaw to search emails for me, he goes through email, finds pdf, gives me numbers. Good bot.\" @jjpcodes":
+      - /url: https://x.com/jjpcodes/status/2010026119446310928
+      - paragraph: "\"Too lazy to search. Asked @openclaw to search emails for me, he goes through email, finds pdf, gives me numbers. Good bot.\""
+      - text: "@jjpcodes"
+    - link "OliNorwell \" [ref=e119]Feels like the best buddy you always wanted. For me this is 'alpha AGI'.\" @OliNorwell":
+      - /url: https://x.com/OliNorwell/status/2009205888482210149
+      - paragraph: "\"Feels like the best buddy you always wanted. For me this is 'alpha AGI'.\""
+      - text: "@OliNorwell"
+    - link "rmedranollamas \" [ref=e120]This mf called @steipete has achieved AGI with @openclaw\" @rmedranollamas":
+      - /url: https://x.com/rmedranollamas/status/2008649596474716515
+      - paragraph: "\"This mf called @steipete has achieved AGI with @openclaw\""
+      - text: "@rmedranollamas"
+    - link "tomosman \" [ref=e121] [nth=1]Perma on MacMini loaded with @openclaw is the alpha isn't it. For a relatively small amount of $$ we can have an insanely capable always-on AI assistant. Feels like cheating.\" @tomosman":
+      - /url: https://x.com/tomosman/status/2010117050589483094
+      - paragraph: "\"Perma on MacMini loaded with @openclaw is the alpha isn't it. For a relatively small amount of $$ we can have an insanely capable always-on AI assistant. Feels like cheating.\""
+      - text: "@tomosman"
+    - link "benemredoganer \" [ref=e122]Daily calendar briefs, creates tasks in Basecamp via voice, preps me for meetings. Feels like a proactive co-pilot.\" @benemredoganer":
+      - /url: https://x.com/benemredoganer/status/2009161859123884254
+      - paragraph: "\"Daily calendar briefs, creates tasks in Basecamp via voice, preps me for meetings. Feels like a proactive co-pilot.\""
+      - text: "@benemredoganer"
+    - link "jverdi \" [ref=e123]A real glimpse into the personal AI-assistant future. Monitors my email, calendars, todos, and finances.\" @jverdi":
+      - /url: https://x.com/jverdi/status/2007971745874206969
+      - paragraph: "\"A real glimpse into the personal AI-assistant future. Monitors my email, calendars, todos, and finances.\""
+      - text: "@jverdi"
+    - link "atzydev \" [ref=e124]Incredibly well-made, doesn't feel like slop, elegant docs, serves us better than Poke.\" @atzydev":
+      - /url: https://x.com/atzydev/status/2009117280848970208
+      - paragraph: "\"Incredibly well-made, doesn't feel like slop, elegant docs, serves us better than Poke.\""
+      - text: "@atzydev"
+    - link "Abhay08 \" [ref=e125]Pure magic. My mind is blown and can't stop playing with this.\" @Abhay08":
+      - /url: https://x.com/Abhay08/status/2009639451824390560
+      - paragraph: "\"Pure magic. My mind is blown and can't stop playing with this.\""
+      - text: "@Abhay08"
+    - link "onusoz \" [ref=e126]World is not ready for @openclaw\" @onusoz":
+      - /url: https://x.com/onusoz/status/2008966462887874568
+      - paragraph: "\"World is not ready for @openclaw\""
+      - text: "@onusoz"
+    - link "MahmoudAshraf93 \" [ref=e127]Feeling like Iron Man\" @MahmoudAshraf93":
+      - /url: https://x.com/MahmoudAshraf93/status/2008249968155652457
+      - paragraph: "\"Feeling like Iron Man\""
+      - text: "@MahmoudAshraf93"
+    - link "chrisdietr \" [ref=e128] [nth=1]Most interesting real world application for LLMs right now\" @chrisdietr":
+      - /url: https://x.com/chrisdietr/status/2009118722695553363
+      - paragraph: "\"Most interesting real world application for LLMs right now\""
+      - text: "@chrisdietr"
+    - link "georgepickett \" [ref=e129]More excited about Claw than anything in AI since AutoGPT in 2023\" @georgepickett":
+      - /url: https://x.com/georgepickett/status/2008232708560867485
+      - paragraph: "\"More excited about Claw than anything in AI since AutoGPT in 2023\""
+      - text: "@georgepickett"
+    - link "Dimillian \" [ref=e130] [nth=1]Totally not buying a Mac Studio as a @openclaw home. Definitely not.\" @Dimillian":
+      - /url: https://x.com/Dimillian/status/2008453384454496692
+      - paragraph: "\"Totally not buying a Mac Studio as a @openclaw home. Definitely not.\""
+      - text: "@Dimillian"
+    - link "orange_boy \" [ref=e131]Fell for hype and installed it yesterday. Feels like I've grown back part of me I forgot I had.\" @orange_boy":
+      - /url: https://x.com/orange_boy/status/2009743896973033759
+      - paragraph: "\"Fell for hype and installed it yesterday. Feels like I've grown back part of me I forgot I had.\""
+      - text: "@orange_boy"
+    - link "decocereus \" [ref=e132]Honestly the most 'fun' Discord server I've been on. @openclaw is just amazing.\" @decocereus":
+      - /url: https://x.com/decocereus/status/2009767753268552052
+      - paragraph: "\"Honestly the most 'fun' Discord server I've been on. @openclaw is just amazing.\""
+      - text: "@decocereus"
+    - link "marcelpociot \" [ref=e133]Drop it all and try @openclaw today.\" @marcelpociot":
+      - /url: https://x.com/marcelpociot/status/2009771448525615121
+      - paragraph: "\"Drop it all and try @openclaw today.\""
+      - text: "@marcelpociot"
+    - link "aljazkosirnik \" [ref=e134]Started testing out @openclaw.. it's sooo cool, already setup jira-cli and added a skill for it to help us manage jira issues.\" @aljazkosirnik":
+      - /url: https://x.com/aljazkosirnik/status/2009960375517843939
+      - paragraph: "\"Started testing out @openclaw.. it's sooo cool, already setup jira-cli and added a skill for it to help us manage jira issues.\""
+      - text: "@aljazkosirnik"
+    - link "russano \" [ref=e135]It's so fun using clawbot!! You truly created something cool, I'm using it with local model, gpt-oss-120b and it's working pretty well so far.\" @russano":
+      - /url: https://x.com/russano/status/2009938391824248927
+      - paragraph: "\"It's so fun using clawbot!! You truly created something cool, I'm using it with local model, gpt-oss-120b and it's working pretty well so far.\""
+      - text: "@russano"
+    - link "draslan_eth \" [ref=e136] [nth=1]Such a cool project man, enjoy!\" @draslan_eth":
+      - /url: https://x.com/draslan_eth/status/2009893382618001685
+      - paragraph: "\"Such a cool project man, enjoy!\""
+      - text: "@draslan_eth"
+    - link "jazzyalex \" [ref=e137]Finally, installed @openclaw on my MacBook and it's awesome.\" @jazzyalex":
+      - /url: https://x.com/jazzyalex/status/2009849546155647105
+      - paragraph: "\"Finally, installed @openclaw on my MacBook and it's awesome.\""
+      - text: "@jazzyalex"
+    - link "TommyFalkowski \" [ref=e138]Now @openclaw is going mainstream.\" @TommyFalkowski":
+      - /url: https://x.com/TommyFalkowski/status/2009897023252684936
+      - paragraph: "\"Now @openclaw is going mainstream.\""
+      - text: "@TommyFalkowski"
+    - link "marchattonhere \" [ref=e139]Running the family Tesco shop as *Clawy McClawface's* first real test. Loving @openclaw so far.\" @marchattonhere":
+      - /url: https://x.com/marchattonhere/status/2009562498748563505
+      - paragraph: "\"Running the family Tesco shop as *Clawy McClawface's* first real test. Loving @openclaw so far.\""
+      - text: "@marchattonhere"
+    - link "alexgrama \" [ref=e140]100%, I am honestly thinking to have a separate claude account just for claw.\" @alexgrama":
+      - /url: https://x.com/alexgrama/status/2010001285056213447
+      - paragraph: "\"100%, I am honestly thinking to have a separate claude account just for claw.\""
+      - text: "@alexgrama"
+    - link "mikehostetler \" [ref=e141]Instant love - how did I not know about this???\" @mikehostetler":
+      - /url: https://x.com/mikehostetler/status/2010000827273134304
+      - paragraph: "\"Instant love - how did I not know about this???\""
+      - text: "@mikehostetler"
+      - /url: https://x.com/manuelmaly/status/2009927598223008039
+      - paragraph: "\"Tired: Put agents in a for loop. Wired: Tell OpenClaw to use codex.\""
+      - text: "@manuelmaly"
+    - link "ramith__ \" [ref=e142]@openclaw is a cool project - lets you bring LLMs via antigravity/claude etc.. you can chat through Discord/iMessage etc!\" @ramith__":
+      - /url: https://x.com/ramith__/status/2008801747943432497
+      - paragraph: "\"@openclaw is a cool project - lets you bring LLMs via antigravity/claude etc.. you can chat through Discord/iMessage etc!\""
+      - text: "@ramith__"
+    - link "kenwheeler \" [ref=e143]Yo OpenClaw is different.\" @kenwheeler":
+      - /url: https://x.com/kenwheeler/status/2010003459987386412
+      - paragraph: "\"Yo OpenClaw is different.\""
+      - text: "@kenwheeler"
+    - link "mindragon \" [ref=e144]Yes it can build a rocket. Yes it can connect to your synth and play songs while you sing. And it can sing along with you. Welcome to the Claw Nation.\" @mindragon":
+      - /url: https://x.com/mindragon/status/2010009907043692765
+      - paragraph: "\"Yes it can build a rocket. Yes it can connect to your synth and play songs while you sing. And it can sing along with you. Welcome to the Claw Nation.\""
+      - text: "@mindragon"
+    - link "bitdeep_ \" [ref=e145]Did you look at this Claw bot? The thing is wild, it's good to get status from your setup/env like you have when you're out.\" @bitdeep_":
+      - /url: https://x.com/bitdeep_/status/2010041684919554501
+      - paragraph: "\"Did you look at this Claw bot? The thing is wild, it's good to get status from your setup/env like you have when you're out.\""
+      - text: "@bitdeep_"
+    - link "vallver \" [ref=e146] [nth=1]Truly the best thing I've used in a long time.\" @vallver":
+      - /url: https://x.com/vallver/status/2010028259770245334
+      - paragraph: "\"Truly the best thing I've used in a long time.\""
+      - text: "@vallver"
+    - link "MysticEru \" [ref=e147]The best projects are a labor of love.\" @MysticEru":
+      - /url: https://x.com/MysticEru/status/2010053430493278360
+      - paragraph: "\"The best projects are a labor of love.\""
+      - text: "@MysticEru"
+    - link "jdrhyne \" [ref=e148] [nth=1]Super powerful because of its ease of use. Literally connected to JIRA and built a skill since it wasn't on ClawHub yet.\" @jdrhyne":
+      - /url: https://x.com/jdrhyne/status/2008336434827002232
+      - paragraph: "\"Super powerful because of its ease of use. Literally connected to JIRA and built a skill since it wasn't on ClawHub yet.\""
+      - text: "@jdrhyne"
+    - link "danlozanov \" [ref=e149]Obsessed with @openclaw\" @danlozanov":
+      - /url: https://x.com/danlozanov/status/2009429812524536058
+      - paragraph: "\"Obsessed with @openclaw\""
+      - text: "@danlozanov"
+    - link "mukhtharcm \" [ref=e150]People's version of Poki\" @mukhtharcm":
+      - /url: https://x.com/mukhtharcm/status/2008576234255774104
+      - paragraph: "\"People's version of Poki\""
+      - text: "@mukhtharcm"
+    - link "heyitsyashu \" [ref=e151]Handling my emails, calendar events, tasks and can API into any other tools\" @heyitsyashu":
+      - /url: https://x.com/heyitsyashu/status/2008563498423591398
+      - paragraph: "\"Handling my emails, calendar events, tasks and can API into any other tools\""
+      - text: "@heyitsyashu"
+    - link "onusoz \" [ref=e152] [nth=1]Did not open an IDE, did not touch a terminal since last night\" @onusoz":
+      - /url: https://x.com/onusoz/status/2008456860580397437
+      - paragraph: "\"Did not open an IDE, did not touch a terminal since last night\""
+      - text: "@onusoz"
+    - link "chrisrodz35 \" [ref=e153]This shit is amazing!\" @chrisrodz35":
+      - /url: https://x.com/chrisrodz35/status/2009431826117378529
+      - paragraph: "\"This shit is amazing!\""
+      - text: "@chrisrodz35"
+    - link "jonas \" [ref=e154]Giving my wife the gift of @openclaw with Waitrose shopping skill this Christmas\" @jonas":
+      - /url: https://x.com/jonas/status/2002853469733183934
+      - paragraph: "\"Giving my wife the gift of @openclaw with Waitrose shopping skill this Christmas\""
+      - text: "@jonas"
+    - link "jlehman_ \" [ref=e155]First couple days using @openclaw have been amazing\" @jlehman_":
+      - /url: https://x.com/jlehman_/status/2008643709664100545
+      - paragraph: "\"First couple days using @openclaw have been amazing\""
+      - text: "@jlehman_"
+    - link "neoromantic \" [ref=e156]At this point, if you don't have @openclaw and at least 3 long running agents, you are not hireable\" @neoromantic":
+      - /url: https://x.com/neoromantic/status/2008800724537536965
+      - paragraph: "\"At this point, if you don't have @openclaw and at least 3 long running agents, you are not hireable\""
+      - text: "@neoromantic"
+    - link "pepicrft \" [ref=e157] [nth=1]Using OpenClaw too much\" @pepicrft":
+      - /url: https://x.com/pepicrft/status/2008537899172851978
+      - paragraph: "\"Using OpenClaw too much\""
+      - text: "@pepicrft"
+    - link "iAmHenryMascot \" [ref=e158]Not OpenClaw helping unblock people and giving strong technical answers\" @iAmHenryMascot":
+      - /url: https://x.com/iAmHenryMascot/status/2008145673858752606
+      - paragraph: "\"Not OpenClaw helping unblock people and giving strong technical answers\""
+      - text: "@iAmHenryMascot"
+      - /url: https://x.com/kevinkern/status/2009040592580288746
+      - paragraph: "\"Others: building finance, jira, obsidian skills. Me: Nepp turn on my tv\""
+      - text: "@kevinkern"
+    - link "hjanuschka \" [ref=e159]As much as I sometimes fear the current timeline, things like this make me super happy\" @hjanuschka":
+      - /url: https://x.com/hjanuschka/status/2009354612957172048
+      - paragraph: "\"As much as I sometimes fear the current timeline, things like this make me super happy\""
+      - text: "@hjanuschka"
+    - link "PopVerseYT \" [ref=e160]Now I am fulfilled as a nerd. My OpenClaw is finally alive.\" @PopVerseYT":
+      - /url: https://x.com/PopVerseYT/status/2009076788526501993
+      - paragraph: "\"Now I am fulfilled as a nerd. My OpenClaw is finally alive.\""
+      - text: "@PopVerseYT"
+    - link "The_Global_Soul \" [ref=e161] [nth=1]Absolutely fantastic. So addictive, fun, and actually useful.\" @The_Global_Soul":
+      - /url: https://x.com/The_Global_Soul/status/2008185607659659752
+      - paragraph: "\"Absolutely fantastic. So addictive, fun, and actually useful.\""
+      - text: "@The_Global_Soul"
+    - link "richardpoelderl \" [ref=e162]The world needs to see this\" @richardpoelderl":
+      - /url: https://x.com/richardpoelderl/status/2009614946016083975
+      - paragraph: "\"The world needs to see this\""
+      - text: "@richardpoelderl"
+    - link "Cocoanetics \" [ref=e163]Getting bolder every day with @openclaw\" @Cocoanetics":
+      - /url: https://x.com/Cocoanetics/status/2009631815808536716
+      - paragraph: "\"Getting bolder every day with @openclaw\""
+      - text: "@Cocoanetics"
+    - link "marcelpociot \" [ref=e164] [nth=1]Seeing how extraordinarily this works I kinda want to interact everything like this\" @marcelpociot":
+      - /url: https://x.com/marcelpociot/status/2009195356735852664
+      - paragraph: "\"Seeing how extraordinarily this works I kinda want to interact everything like this\""
+      - text: "@marcelpociot"
+    - link "stevecaldwell \" [ref=e165]OpenClaw offered to build its own tooling then set everything up itself\" @stevecaldwell":
+      - /url: https://x.com/stevecaldwell/status/2007623085508440418
+      - paragraph: "\"OpenClaw offered to build its own tooling then set everything up itself\""
+      - text: "@stevecaldwell"
+    - link "andrewjiang \" [ref=e166]Told it to create a process and write docs. Sent it an idea. And it just worked!\" @andrewjiang":
+      - /url: https://x.com/andrewjiang/status/2007966370072547398
+      - paragraph: "\"Told it to create a process and write docs. Sent it an idea. And it just worked!\""
+      - text: "@andrewjiang"
+    - link "kenwheeler \" [ref=e167] [nth=1]OpenClaw is fucking DANK\" @kenwheeler":
+      - /url: https://x.com/kenwheeler/status/2008692793888100509
+      - paragraph: "\"OpenClaw is fucking DANK\""
+      - text: "@kenwheeler"
+    - link "bangkokbuild \" [ref=e168] [nth=1]Claw is a crazy and really cool tool\" @bangkokbuild":
+      - /url: https://x.com/bangkokbuild/status/2007776814094250153
+      - paragraph: "\"Claw is a crazy and really cool tool\""
+      - text: "@bangkokbuild"
+    - link "crossiBuilds \" [ref=e169] [nth=1]Now @openclaw finds my train connections. Dates + preferences in, best routes out.\" @crossiBuilds":
+      - /url: https://x.com/crossiBuilds/status/2007441740735643922
+      - paragraph: "\"Now @openclaw finds my train connections. Dates + preferences in, best routes out.\""
+      - text: "@crossiBuilds"
+    - link "michalmalewicz \" [ref=e170]Ok @openclaw is actually a game-changer for me!\" @michalmalewicz":
+      - /url: https://x.com/michalmalewicz/status/2008827357420003579
+      - paragraph: "\"Ok @openclaw is actually a game-changer for me!\""
+      - text: "@michalmalewicz"
+    - link "tobihagemann \" [ref=e171]What an amazing time to be alive. Magic is happening!\" @tobihagemann":
+      - /url: https://x.com/tobihagemann/status/2008470716274843859
+      - paragraph: "\"What an amazing time to be alive. Magic is happening!\""
+      - text: "@tobihagemann"
+    - link "samlambert \" [ref=e172]Is @openclaw the 2026 Hubot?\" @samlambert":
+      - /url: https://x.com/samlambert/status/2008274452971454493
+      - paragraph: "\"Is @openclaw the 2026 Hubot?\""
+      - text: "@samlambert"
+    - link "gmickel \" [ref=e173]Away from home, so having @openclaw check up things for me\" @gmickel":
+      - /url: https://x.com/gmickel/status/2008917916079550899
+      - paragraph: "\"Away from home, so having @openclaw check up things for me\""
+      - text: "@gmickel"
+    - link "mneves75 \" [ref=e174] [nth=1]This thing has really opened my eyes to how personal tasks can be automated. Already blown away.\" @mneves75":
+      - /url: https://x.com/mneves75/status/2007988095627763893
+      - paragraph: "\"This thing has really opened my eyes to how personal tasks can be automated. Already blown away.\""
+      - text: "@mneves75"
+    - link "4shad0wed \" [ref=e175]They're talking to each other! This is the best project ever\" @4shad0wed":
+      - /url: https://x.com/4shad0wed/status/2007882979302130018
+      - paragraph: "\"They're talking to each other! This is the best project ever\""
+      - text: "@4shad0wed"
+    - link "DanielGri \" [ref=e176]Fixed a bug in claw with claw itself in Telegram. Can't wait to play more!\" @DanielGri":
+      - /url: https://x.com/DanielGri/status/2008477573810909571
+      - paragraph: "\"Fixed a bug in claw with claw itself in Telegram. Can't wait to play more!\""
+      - text: "@DanielGri"
+    - link "crossiBuilds \" [ref=e177] [nth=2]@openclaw as PM with access to code, Linear, WhatsApp history and Obsidian is coming along nicely\" @crossiBuilds":
+      - /url: https://x.com/crossiBuilds/status/2008191995915927916
+      - paragraph: "\"@openclaw as PM with access to code, Linear, WhatsApp history and Obsidian is coming along nicely\""
+      - text: "@crossiBuilds"
+    - link "therno \" [ref=e178] [nth=1]Connect @openclaw to Sentry, let it triage issues and self-fix what it can\" @therno":
+      - /url: https://x.com/therno/status/2007931261948510454
+      - paragraph: "\"Connect @openclaw to Sentry, let it triage issues and self-fix what it can\""
+      - text: "@therno"
+    - link "HeyItzaMi \" [ref=e179]All the cool kids are on molt.bot right now\" @HeyItzaMi":
+      - /url: https://x.com/HeyItzaMi/status/2008933915474719163
+      - paragraph: "\"All the cool kids are on molt.bot right now\""
+      - text: "@HeyItzaMi"
+    - link "doodlestein \" [ref=e180]So unbelievably cool. Had Claude Opus install and configure it all for me.\" @doodlestein":
+      - /url: https://x.com/doodlestein/status/2007996215892336924
+      - paragraph: "\"So unbelievably cool. Had Claude Opus install and configure it all for me.\""
+      - text: "@doodlestein"
+    - link "Cocoanetics \" [ref=e181] [nth=1]I love @openclaw - the Telegram integration is awesome\" @Cocoanetics":
+      - /url: https://x.com/Cocoanetics/status/2009381242848845879
+      - paragraph: "\"I love @openclaw - the Telegram integration is awesome\""
+      - text: "@Cocoanetics"
+    - link "dodeja \" [ref=e182]OpenClaw is blowing my mind\" @dodeja":
+      - /url: https://x.com/dodeja/status/2008379348383146432
+      - paragraph: "\"OpenClaw is blowing my mind\""
+      - text: "@dodeja"
+    - link "prathamdby \" [ref=e183]Gave in to the craze, and it's 100% justified. Go set it up!\" @prathamdby":
+      - /url: https://x.com/prathamdby/status/2008625464420843558
+      - paragraph: "\"Gave in to the craze, and it's 100% justified. Go set it up!\""
+      - text: "@prathamdby"
+    - link "chris__sev \" [ref=e184]Couldn't resist. Set up @openclaw today. Love how fun this format is.\" @chris__sev":
+      - /url: https://x.com/chris__sev/status/2008013237896536310
+      - paragraph: "\"Couldn't resist. Set up @openclaw today. Love how fun this format is.\""
+      - text: "@chris__sev"
+    - link "holfyio \" [ref=e185]Set up @openclaw which is great. Slowly learning its capabilities.\" @holfyio":
+      - /url: https://x.com/holfyio/status/2008808868252708897
+      - paragraph: "\"Set up @openclaw which is great. Slowly learning its capabilities.\""
+      - text: "@holfyio"
+    - link "cupcake_trader \" [ref=e186]Mind blowing what it can do. All via my personal Discord server. Tip of the iceberg.\" @cupcake_trader":
+      - /url: https://x.com/cupcake_trader/status/2008577043978768433
+      - paragraph: "\"Mind blowing what it can do. All via my personal Discord server. Tip of the iceberg.\""
+      - text: "@cupcake_trader"
+    - link "andrewjiang \" [ref=e187] [nth=1]Helped me clean up hundreds of emails. Inbox 0. Then setup a weekly cron job. All on WhatsApp.\" @andrewjiang":
+      - /url: https://x.com/andrewjiang/status/2006890964582019257
+      - paragraph: "\"Helped me clean up hundreds of emails. Inbox 0. Then setup a weekly cron job. All on WhatsApp.\""
+      - text: "@andrewjiang"
+    - link "yangpten \" [ref=e188]Setting up on a cloud VPS is so much fun. Closest experience to an AI EA I've had.\" @yangpten":
+      - /url: https://x.com/yangpten/status/2008295161550217720
+      - paragraph: "\"Setting up on a cloud VPS is so much fun. Closest experience to an AI EA I've had.\""
+      - text: "@yangpten"
+    - link "iannuttall \" [ref=e189]Trying to resist the urge to scrap all work and spin up my own @openclaw\" @iannuttall":
+      - /url: https://x.com/iannuttall/status/2008193414177947728
+      - paragraph: "\"Trying to resist the urge to scrap all work and spin up my own @openclaw\""
+      - text: "@iannuttall"
+      - /url: https://x.com/chrisrodz35/status/2008290894584131736
+      - paragraph: "\"Can I send voice messages? 3 doritos later: OMG I don't even have to type!\""
+      - text: "@chrisrodz35"
+    - link "arturneumann \" [ref=e190]Gave in to the hype. A powerful AI assistant that can do anything on Mac/server.\" @arturneumann":
+      - /url: https://x.com/arturneumann/status/2008785676096205002
+      - paragraph: "\"Gave in to the hype. A powerful AI assistant that can do anything on Mac/server.\""
+      - text: "@arturneumann"
+    - link "artpi \" [ref=e191]Holy cow @openclaw is a good fit for PARA\" @artpi":
+      - /url: https://x.com/artpi/status/2009671517789913418
+      - paragraph: "\"Holy cow @openclaw is a good fit for PARA\""
+      - text: "@artpi"
+    - link "NeerajPrad \" [ref=e192]Endless possibilities when you combine a coding agent with browser access and local memory\" @NeerajPrad":
+      - /url: https://x.com/NeerajPrad/status/2008735778592223396
+      - paragraph: "\"Endless possibilities when you combine a coding agent with browser access and local memory\""
+      - text: "@NeerajPrad"
+    - link "JoshRadDev \" [ref=e193]@openclaw succeeded finding an email while Poke failed. I prefer my data through infra I own.\" @JoshRadDev":
+      - /url: https://x.com/JoshRadDev/status/2008797715040494003
+      - paragraph: "\"@openclaw succeeded finding an email while Poke failed. I prefer my data through infra I own.\""
+      - text: "@JoshRadDev"
+    - link "orange_boy \" [ref=e194] [nth=1]That's literally the future. Cyberpunk. I just need more time and more tokens.\" @orange_boy":
+      - /url: https://x.com/orange_boy/status/2010027347727245619
+      - paragraph: "\"That's literally the future. Cyberpunk. I just need more time and more tokens.\""
+      - text: "@orange_boy"
+    - link "orange_boy \" [ref=e195] [nth=2]I can't stop working since installation. The only thing could bring me to bed — cooldown of most of my subscriptions.\" @orange_boy":
+      - /url: https://x.com/orange_boy/status/2010025186368893364
+      - paragraph: "\"I can't stop working since installation. The only thing could bring me to bed — cooldown of most of my subscriptions.\""
+      - text: "@orange_boy"
+    - link "kandros5591 \" [ref=e196]User facing support bots are freaking cool. @openclaw discord is a crazy place.\" @kandros5591":
+      - /url: https://x.com/kandros5591/status/2010022872228737410
+      - paragraph: "\"User facing support bots are freaking cool. @openclaw discord is a crazy place.\""
+      - text: "@kandros5591"
+    - link "mindragon \" [ref=e197] [nth=1]It has made a real difference in my life and in the lives of now, thousands. This is the best way to start 2026 and...foreshadows a good year.\" @mindragon":
+      - /url: https://x.com/mindragon/status/2010014403924738269
+      - paragraph: "\"It has made a real difference in my life and in the lives of now, thousands. This is the best way to start 2026 and...foreshadows a good year.\""
+      - text: "@mindragon"
+    - link "buddyhadry \" [ref=e198] [nth=1]I made a skill for my OpenClaw that can help get through these 10 minute parenting moments and track your 120min weekly parenting budget.\" @buddyhadry":
+      - /url: https://x.com/buddyhadry/status/2010011652310311278
+      - paragraph: "\"I made a skill for my OpenClaw that can help get through these 10 minute parenting moments and track your 120min weekly parenting budget.\""
+      - text: "@buddyhadry"
+    - link "rovensky \" [ref=e199] [nth=1]We did it bois, @openclaw is AGI and the guy with a garage turned out to be @steipete.\" @rovensky":
+      - /url: https://x.com/rovensky/status/2010069266473857500
+      - paragraph: "\"We did it bois, @openclaw is AGI and the guy with a garage turned out to be @steipete.\""
+      - text: "@rovensky"
+    - link "noun142 \" [ref=e200]Absolutely love it and think this is going to be huge!\" @noun142":
+      - /url: https://x.com/noun142/status/2010109928795713897
+      - paragraph: "\"Absolutely love it and think this is going to be huge!\""
+      - text: "@noun142"
+    - link "Philo01 \" [ref=e201] [nth=1]100%, watch Her, it's like we reached the future with OpenClaw.\" @Philo01":
+      - /url: https://x.com/Philo01/status/2010144829620269195
+      - paragraph: "\"100%, watch Her, it's like we reached the future with OpenClaw.\""
+      - text: "@Philo01"
+    - link "nateliason \" [ref=e202] [nth=1]Sooo @openclaw can remotely manage @conductor_build sessions 👀\" @nateliason":
+      - /url: https://x.com/nateliason/status/2010099962143449549
+      - paragraph: "\"Sooo @openclaw can remotely manage @conductor_build sessions 👀\""
+      - text: "@nateliason"
+    - link "fstanev \" [ref=e203]Watching @openclaw build itself with the community is so much fun!\" @fstanev":
+      - /url: https://x.com/fstanev/status/2007874360560775174
+      - paragraph: "\"Watching @openclaw build itself with the community is so much fun!\""
+      - text: "@fstanev"
+    - link "nummanali \" [ref=e204]They listen across Discord and watch GitHub issues. Responding to requests and maintaining new features autonomously. All OSS. Absolutely Fascinating.\" @nummanali":
+      - /url: https://x.com/nummanali/status/2010142087501754379
+      - paragraph: "\"They listen across Discord and watch GitHub issues. Responding to requests and maintaining new features autonomously. All OSS. Absolutely Fascinating.\""
+      - text: "@nummanali"
+    - link "jjpcodes \" [ref=e205] [nth=1]Of course, uploaded via OpenClaw, from phone, in bed.\" @jjpcodes":
+      - /url: https://x.com/jjpcodes/status/2010135660355825966
+      - paragraph: "\"Of course, uploaded via OpenClaw, from phone, in bed.\""
+      - text: "@jjpcodes"
+    - link "TechFollowrazzi \" [ref=e206]Big W for the crustacean revolution ✊🤖\" @TechFollowrazzi":
+      - /url: https://x.com/TechFollowrazzi/status/2010133056997220452
+      - paragraph: "\"Big W for the crustacean revolution ✊🤖\""
+      - text: "@TechFollowrazzi"
+    - link "JordanChopard \" [ref=e207]In love with @openclaw 🫣\" @JordanChopard":
+      - /url: https://x.com/JordanChopard/status/2010124218571039199
+      - paragraph: "\"In love with @openclaw 🫣\""
+      - text: "@JordanChopard"
+    - link "habibislop \" [ref=e208]OpenClaw is like poke on crack. I genuinely can't believe one is a VC funded company and the other is like one dude lol\" @habibislop":
+      - /url: https://x.com/habibislop/status/2013141122596356524
+      - paragraph: "\"OpenClaw is like poke on crack. I genuinely can't believe one is a VC funded company and the other is like one dude lol\""
+      - text: "@habibislop"
+    - link "yannickfe \" [ref=e209]Check out the incredible work of @steipete with @openclaw for a glimpse into the future.\" @yannickfe":
+      - /url: https://x.com/yannickfe/status/2013721873440227789
+      - paragraph: "\"Check out the incredible work of @steipete with @openclaw for a glimpse into the future.\""
+      - text: "@yannickfe"
+    - link "Bitomule \" [ref=e210]I subscribe every word here by @viticci. OpenClaw is a glimpse of the future. And once you discover plugins… 🤯\" @Bitomule":
+      - /url: https://x.com/Bitomule/status/2013678190766502016
+      - paragraph: "\"I subscribe every word here by @viticci. OpenClaw is a glimpse of the future. And once you discover plugins… 🤯\""
+      - text: "@Bitomule"
+    - link "0xtotaylor \" [ref=e211]A little late to the party, but @openclaw is incredible—props to @steipete et al.\" @0xtotaylor":
+      - /url: https://x.com/0xtotaylor/status/2013757719052784102
+      - paragraph: "\"A little late to the party, but @openclaw is incredible—props to @steipete et al.\""
+      - text: "@0xtotaylor"
+    - link "cryptikcell \" [ref=e212] [nth=1]It's magical. I tried a few experiments on my own earlier by using ollama and telegram to act as my personal assistant which I could access from anywhere but then @openclaw came along, did all that AND so much more! I still can't believe I have my own digital concierge who I can talk to on Whatsapp.\" @cryptikcell":
+      - /url: https://x.com/cryptikcell/status/2013685623354204300
+      - paragraph: "\"It's magical. I tried a few experiments on my own earlier by using ollama and telegram to act as my personal assistant which I could access from anywhere but then @openclaw came along, did all that AND so much more! I still can't believe I have my own digital concierge who I can talk to on Whatsapp.\""
+      - text: "@cryptikcell"
+    - link "mneves75 \" [ref=e213] [nth=2]Make yourself a favor and install it. We've barely begun to tap into the potential of personal assistants. There's no going back.\" @mneves75":
+      - /url: https://x.com/mneves75/status/2013675662268158367
+      - paragraph: "\"Make yourself a favor and install it. We've barely begun to tap into the potential of personal assistants. There's no going back.\""
+      - text: "@mneves75"
+    - link "tysonhutchins_ \" [ref=e214] [nth=1]Brother… it's a game changer. Seriously transformed so much for me.\" @tysonhutchins_":
+      - /url: https://x.com/tysonhutchins_/status/2013452098281582944
+      - paragraph: "\"Brother… it's a game changer. Seriously transformed so much for me.\""
+      - text: "@tysonhutchins_"
+    - link "TahaTesser \" [ref=e215]@openclaw on a Linux/macOS system can be a true agentic OS that Windows can never be. With all the money Microsoft has.\" @TahaTesser":
+      - /url: https://x.com/TahaTesser/status/2013355318072226266
+      - paragraph: "\"@openclaw on a Linux/macOS system can be a true agentic OS that Windows can never be. With all the money Microsoft has.\""
+      - text: "@TahaTesser"
+    - link "Nateemerson \" [ref=e216]@openclaw is the latest (and potentially most \"out there\") UX for what you're looking for — system orchestration by LLM via messaging gateway (Slack, Discord, Whatsapp, Google chat, or iMessage).\" @Nateemerson":
+      - /url: https://x.com/Nateemerson/status/2013380646828417496
+      - paragraph: "\"@openclaw is the latest (and potentially most \"out there\") UX for what you're looking for — system orchestration by LLM via messaging gateway (Slack, Discord, Whatsapp, Google chat, or iMessage).\""
+      - text: "@Nateemerson"
+    - link "techfrenAJ \" [ref=e217]@openclaw up and running in my discord in less than 20 mins. Incredibly easy and powerful.\" @techfrenAJ":
+      - /url: https://x.com/techfrenAJ/status/2013358914092302390
+      - paragraph: "\"@openclaw up and running in my discord in less than 20 mins. Incredibly easy and powerful.\""
+      - text: "@techfrenAJ"
+    - link "WolframRvnwlf \" [ref=e218]Thanks to @steipete and contributors for @openclaw, advancing A(G)I immensely!\" @WolframRvnwlf":
+      - /url: https://x.com/WolframRvnwlf/status/2013220790448136621
+      - paragraph: "\"Thanks to @steipete and contributors for @openclaw, advancing A(G)I immensely!\""
+      - text: "@WolframRvnwlf"
+    - link "_Jack_Alderson \" [ref=e219]@openclaw has completely taken over my life. I thought the whole 'world domination' bit was a silly joke but I had no idea how addictive it was to be productive. Replacing all of life's digital painpoints with a text message?? You've created a monster.\" @_Jack_Alderson":
+      - /url: https://x.com/_Jack_Alderson/status/2013236253848633396
+      - paragraph: "\"@openclaw has completely taken over my life. I thought the whole 'world domination' bit was a silly joke but I had no idea how addictive it was to be productive. Replacing all of life's digital painpoints with a text message?? You've created a monster.\""
+      - text: "@_Jack_Alderson"
+    - link "cnakazawa \" [ref=e220] [nth=1]It's a natural language way to safely - but let's be honest totally unsafely - control a computer the same way a human would. I can ask it to do something, it makes a plan, and then goes to make it happen. It's like you know someone from the Internet who 'can just do things' for you.\" @cnakazawa":
+      - /url: https://x.com/cnakazawa/status/2014149433471246729
+      - paragraph: "\"It's a natural language way to safely - but let's be honest totally unsafely - control a computer the same way a human would. I can ask it to do something, it makes a plan, and then goes to make it happen. It's like you know someone from the Internet who 'can just do things' for you.\""
+      - text: "@cnakazawa"
+    - link "kurt \" [ref=e221]If the new Siri is even 20% of what @openclaw is then we're all in for a treat.\" @kurt":
+      - /url: https://x.com/kurt/status/2014172547672137977
+      - paragraph: "\"If the new Siri is even 20% of what @openclaw is then we're all in for a treat.\""
+      - text: "@kurt"
+    - link "cashwilliams \" [ref=e222]This is exactly the kind of response I want from an AI agent when presented with a complex request! No slop response, no talking up the problem, just right to work.\" @cashwilliams":
+      - /url: https://x.com/cashwilliams/status/2014170138749108240
+      - paragraph: "\"This is exactly the kind of response I want from an AI agent when presented with a complex request! No slop response, no talking up the problem, just right to work.\""
+      - text: "@cashwilliams"
+    - link "theysayheygreg \" [ref=e223] [nth=1]I get excited to poke my @openclaw every morning and that is as weird a feeling as I've ever had with computers in 20+ years of game development. It's freeing in a weird way as a creative person that's hard to describe! I can just do things!\" @theysayheygreg":
+      - /url: https://x.com/theysayheygreg/status/2014149781426229541
+      - paragraph: "\"I get excited to poke my @openclaw every morning and that is as weird a feeling as I've ever had with computers in 20+ years of game development. It's freeing in a weird way as a creative person that's hard to describe! I can just do things!\""
+      - text: "@theysayheygreg"
+    - link "Crucialhunter \" [ref=e224]It is the first ever real assistant, but that word has been corroded and using it would significantly downplay what it really can do for you. For me it is like having a really smart and capable tech employee living on my desktop.\" @Crucialhunter":
+      - /url: https://x.com/Crucialhunter/status/2014232711137804441
+      - paragraph: "\"It is the first ever real assistant, but that word has been corroded and using it would significantly downplay what it really can do for you. For me it is like having a really smart and capable tech employee living on my desktop.\""
+      - text: "@Crucialhunter"
+    - link "ryyppy \" [ref=e225]I think @openclaw is the Vim equivalent in the personal agent toolscape. It's super powerful and customizable!\" @ryyppy":
+      - /url: https://x.com/ryyppy/status/2014249522260545965
+      - paragraph: "\"I think @openclaw is the Vim equivalent in the personal agent toolscape. It's super powerful and customizable!\""
+      - text: "@ryyppy"
+    - link "javiasilis \" [ref=e226]Just trying OpenClaw for the first time, and I feel that Santa just came with a new video game console. This is fcking amazing!!!\" @javiasilis":
+      - /url: https://x.com/javiasilis/status/2014474017172860952
+      - paragraph: "\"Just trying OpenClaw for the first time, and I feel that Santa just came with a new video game console. This is fcking amazing!!!\""
+      - text: "@javiasilis"
+    - link "WilcosX \" [ref=e227]Seeing OpenClaw talk first feels like tech finally catching up to how we imagined AI should act.\" @WilcosX":
+      - /url: https://x.com/WilcosX/status/2014476631021388299
+      - paragraph: "\"Seeing OpenClaw talk first feels like tech finally catching up to how we imagined AI should act.\""
+      - text: "@WilcosX"
+    - link "Loster \" [ref=e228]I thought Claude Code was a vision of the future. But have a feeling Claw is a vision of a mass *consumer* future. Nice work!\" @Loster":
+      - /url: https://x.com/Loster/status/2014530687244591531
+      - paragraph: "\"I thought Claude Code was a vision of the future. But have a feeling Claw is a vision of a mass *consumer* future. Nice work!\""
+      - text: "@Loster"
+    - link "JonathanHaas \" [ref=e229]Time from 'Oh that's neat' to 'I have bought @openclaw a computer'... 2 days :) New metric for utility of a platform?\" @JonathanHaas":
+      - /url: https://x.com/JonathanHaas/status/2014524860480028867
+      - paragraph: "\"Time from 'Oh that's neat' to 'I have bought @openclaw a computer'... 2 days :) New metric for utility of a platform?\""
+      - text: "@JonathanHaas"
+    - link "chrisdietr \" [ref=e230] [nth=2]Meanwhile @openclaw shipping open source in a week the most powerful personal OS the world has seen, used by thousands. 714k lines of code. Beautifully structured to learn, use and adapt. You can touch it and use it now. Not in the future and not behind a paywall.\" @chrisdietr":
+      - /url: https://x.com/chrisdietr/status/2013083638938911208
+      - paragraph: "\"Meanwhile @openclaw shipping open source in a week the most powerful personal OS the world has seen, used by thousands. 714k lines of code. Beautifully structured to learn, use and adapt. You can touch it and use it now. Not in the future and not behind a paywall.\""
+      - text: "@chrisdietr"
+    - link "IHayato \" [ref=e231]OpenClaw is amazing, I can vibe code from my smartphone. Works with ChatGPT paid plan, no extra charges. Memory is strong, feels like a genuine 'personal AI assistant'. Thinking about setting it up for my wife and daughter too.\" @IHayato":
+      - /url: https://x.com/IHayato/status/2014805917855055990
+      - paragraph: "\"OpenClaw is amazing, I can vibe code from my smartphone. Works with ChatGPT paid plan, no extra charges. Memory is strong, feels like a genuine 'personal AI assistant'. Thinking about setting it up for my wife and daughter too.\""
+      - text: "@IHayato"
+    - link "bsmokes \" [ref=e232]@openclaw is by far the most cracked thing on the internet right now. iykyk.\" @bsmokes":
+      - /url: https://x.com/bsmokes/status/2011611125323014633
+      - paragraph: "\"@openclaw is by far the most cracked thing on the internet right now. iykyk.\""
+      - text: "@bsmokes"
+    - link "nathanclark_ \" [ref=e233] [nth=1]Imagine you take a smart model. And then you give it eyes and hands and sit at the desk with a keyboard and mouse connected to that Mac mini. Then you message it like a coworker from telegram and it can then do everything a person could do with that Mac mini… That's what you have now.\" @nathanclark_":
+      - /url: https://x.com/nathanclark_/status/2014647048612773912
+      - paragraph: "\"Imagine you take a smart model. And then you give it eyes and hands and sit at the desk with a keyboard and mouse connected to that Mac mini. Then you message it like a coworker from telegram and it can then do everything a person could do with that Mac mini… That's what you have now.\""
+      - text: "@nathanclark_"
+    - navigation:
+      - link "Home" [ref=e234]:
+        - /url: /
+      - text: ·
+      - link "Blog" [ref=e235]:
+        - /url: /blog
+      - text: ·
+      - link "Showcase" [ref=e236]:
+        - /url: /showcase
+      - text: ·
+      - link "Integrations" [ref=e237]:
+        - /url: /integrations
+      - text: ·
+      - link "Trust" [ref=e238]:
+        - /url: https://trust.openclaw.ai/
+    - paragraph:
+      - text: Built by
+      - link "Molty" [ref=e239]:
+        - /url: https://molty.me
+      - text: 🦞, a space lobster AI with a
+      - link "soul" [ref=e240]:
+        - /url: https://soul.md
+      - text: ", by"
+      - link "Peter Steinberger" [ref=e241]:
+        - /url: https://steipete.me
+      - text: "&"
+      - link "community" [ref=e242]:
+        - /url: https://github.com/openclaw/openclaw#community
+      - text: .

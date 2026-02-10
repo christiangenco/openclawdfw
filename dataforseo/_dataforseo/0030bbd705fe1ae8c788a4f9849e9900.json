@@ -1,0 +1,429 @@
+{
+  "keywords": [
+    "how to automate my inbox",
+    "how to use ai at work",
+    "how to implement ai in small business",
+    "getting started with ai business",
+    "ai workflow automation",
+    "how to automate business tasks with ai",
+    "how to delegate to ai",
+    "best ai assistant for business 2025",
+    "best ai assistant for business 2026",
+    "ai assistant comparison",
+    "openclaw alternatives",
+    "ai personal assistant vs virtual assistant",
+    "chatgpt vs ai executive assistant",
+    "openclaw vs chatgpt",
+    "best ai for email management",
+    "best ai for scheduling",
+    "ai assistant tools for business",
+    "top ai assistants for executives",
+    "claude ai vs chatgpt for business",
+    "ai assistant for business comparison",
+    "is ai assistant safe",
+    "ai assistant security",
+    "ai reading my email safe",
+    "ai data privacy business",
+    "ai security for business",
+    "is it safe to give ai access to email",
+    "ai assistant data protection",
+    "on premise ai vs cloud ai security",
+    "self hosted ai security",
+    "ai compliance business",
+    "ai hipaa compliance",
+    "ai for business security risks",
+    "ai tools for business owners",
+    "best ai tools 2025",
+    "best ai tools 2026",
+    "ai productivity tips",
+    "ai use cases for small business",
+    "tasks to automate with ai",
+    "ai executive assistant use cases",
+    "ai for ceo",
+    "ai for founders",
+    "ai implementation checklist",
+    "ai readiness assessment",
+    "ai roi calculator",
+    "ai automation ideas for business",
+    "ai time saving tips",
+    "things ai can do for business",
+    "ai business workflow ideas",
+    "business tasks to give to ai",
+    "ai assistant prompt templates",
+    "how to talk to ai assistant",
+    "ai onboarding checklist",
+    "ai productivity hacks",
+    "business ai checklist"
+  ],
+  "response": {
+    "version": "0.1.20260209",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.1177 sec.",
+    "cost": 0.0154,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02102355-1046-0392-0000-b0666ba62539",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.0636 sec.",
+        "cost": 0.0154,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "bulk_keyword_difficulty",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "bulk_keyword_difficulty",
+          "se_type": "google",
+          "keywords": [
+            "how to automate my inbox",
+            "how to use ai at work",
+            "how to implement ai in small business",
+            "getting started with ai business",
+            "ai workflow automation",
+            "how to automate business tasks with ai",
+            "how to delegate to ai",
+            "best ai assistant for business 2025",
+            "best ai assistant for business 2026",
+            "ai assistant comparison",
+            "openclaw alternatives",
+            "ai personal assistant vs virtual assistant",
+            "chatgpt vs ai executive assistant",
+            "openclaw vs chatgpt",
+            "best ai for email management",
+            "best ai for scheduling",
+            "ai assistant tools for business",
+            "top ai assistants for executives",
+            "claude ai vs chatgpt for business",
+            "ai assistant for business comparison",
+            "is ai assistant safe",
+            "ai assistant security",
+            "ai reading my email safe",
+            "ai data privacy business",
+            "ai security for business",
+            "is it safe to give ai access to email",
+            "ai assistant data protection",
+            "on premise ai vs cloud ai security",
+            "self hosted ai security",
+            "ai compliance business",
+            "ai hipaa compliance",
+            "ai for business security risks",
+            "ai tools for business owners",
+            "best ai tools 2025",
+            "best ai tools 2026",
+            "ai productivity tips",
+            "ai use cases for small business",
+            "tasks to automate with ai",
+            "ai executive assistant use cases",
+            "ai for ceo",
+            "ai for founders",
+            "ai implementation checklist",
+            "ai readiness assessment",
+            "ai roi calculator",
+            "ai automation ideas for business",
+            "ai time saving tips",
+            "things ai can do for business",
+            "ai business workflow ideas",
+            "business tasks to give to ai",
+            "ai assistant prompt templates",
+            "how to talk to ai assistant",
+            "ai onboarding checklist",
+            "ai productivity hacks",
+            "business ai checklist"
+          ],
+          "language_code": "en",
+          "location_code": 2840
+        },
+        "result": [
+          {
+            "se_type": "google",
+            "location_code": 2840,
+            "language_code": "en",
+            "total_count": 54,
+            "items_count": 54,
+            "items": [
+              {
+                "se_type": "google",
+                "keyword": "ai assistant comparison",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai for ceo",
+                "keyword_difficulty": 7
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai for founders",
+                "keyword_difficulty": 35
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai hipaa compliance",
+                "keyword_difficulty": 30
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai productivity hacks",
+                "keyword_difficulty": 0
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai readiness assessment",
+                "keyword_difficulty": 10
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai roi calculator",
+                "keyword_difficulty": 0
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai tools for business owners",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai use cases for small business",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai workflow automation",
+                "keyword_difficulty": 25
+              },
+              {
+                "se_type": "google",
+                "keyword": "best ai for email management",
+                "keyword_difficulty": 22
+              },
+              {
+                "se_type": "google",
+                "keyword": "best ai for scheduling",
+                "keyword_difficulty": 56
+              },
+              {
+                "se_type": "google",
+                "keyword": "best ai tools 2025",
+                "keyword_difficulty": 37
+              },
+              {
+                "se_type": "google",
+                "keyword": "best ai tools 2026",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "how to implement ai in small business",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "how to use ai at work",
+                "keyword_difficulty": 17
+              },
+              {
+                "se_type": "google",
+                "keyword": "is ai assistant safe",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "how to automate my inbox",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "getting started with ai business",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "how to automate business tasks with ai",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "how to delegate to ai",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "best ai assistant for business 2025",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "best ai assistant for business 2026",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "openclaw alternatives",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai personal assistant vs virtual assistant",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "chatgpt vs ai executive assistant",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "openclaw vs chatgpt",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai assistant tools for business",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "top ai assistants for executives",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "claude ai vs chatgpt for business",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai assistant for business comparison",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai assistant security",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai reading my email safe",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai data privacy business",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai security for business",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "is it safe to give ai access to email",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai assistant data protection",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "on premise ai vs cloud ai security",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "self hosted ai security",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai compliance business",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai for business security risks",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai productivity tips",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "tasks to automate with ai",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai executive assistant use cases",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai implementation checklist",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai automation ideas for business",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai time saving tips",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "things ai can do for business",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai business workflow ideas",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "business tasks to give to ai",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai assistant prompt templates",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "how to talk to ai assistant",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai onboarding checklist",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "business ai checklist",
+                "keyword_difficulty": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "fetched_at": "2026-02-10 15:55:00 -0600"
+}

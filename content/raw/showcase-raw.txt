@@ -1,0 +1,443 @@
+  - main:
+    - link "← Back to home" [ref=e1]:
+      - /url: /
+    - heading "⟩ What People Are Building" [ref=e2] [level=1]
+    - paragraph: Real projects, real automation, real magic.
+      - /url: https://x.com/dreetje/status/2012535486401671588
+      - text: "@dreetje ⚡ Automation ❤️ 271"
+      - paragraph: "What I'm currently doing with @openclaw: • Check my incoming mail, and remove spam • Check my incoming messages (through Beeper) • Order things for me • Send my reminders to Tana • Create issues on GitHub • Sync my Google Places • Reads my X bookmarks and discusses them with me • Generate a nice pdf summary of car conversations • Keep track of costs and split them after trips • Impersonate me in a group chat with friends (Hilarious) • It can call me and we can chat • Has its own 1Password vault it can read and write to And the beauty is, IT built all of this, just by chatting to it on the phone."
+      - text: View on X →
+      - /url: https://x.com/danpeguine/status/2012565160586625345
+      - text: "@danpeguine 📋 Productivity ❤️ 257"
+      - paragraph: "Things my @openclaw does for me: • Timeblocks tasks in my calendar based on importance • Scores tasks importance and urgency based on an algorithm we're developing together • Leads me through a weekly review based on meeting transcriptions & notes • Gives a morning daily brief: weather, weekly objectives, health stats, meetings agenda, key reminders, trending topics, stuff I should read based on current objectives, a relevant quote from my books • Notifies my wife and I about our son's upcoming school tests • Researches big projects and breaks them down to tasks • Researches people before meetings and creates briefing docs • Spawns background sub-agents to research business ideas • Manages the calendar for any conflicts autonomously • Creates invoices and summarizes work beautifully"
+      - text: View on X →
+    - link "davis7 @davis7 💻 Developer ❤️ 229 This is the \" [ref=e3]blue text bubbles\" moment of the ai race All the cool shit u've been seeing about building crazy custom agents on top of a coding agent? OpenClaw, btca, and the thousands more that will get built this year now HAVE to be built using anthropic's \"agent sdk\" package or else they'll be 100x more expensive and if they're built on anthropic's sdk guess what they can't do? switch to a better model from another provider when it releases Screenshot View on X →":
+      - /url: https://x.com/davis7/status/2009487467817336895
+      - text: "@davis7 💻 Developer ❤️ 229"
+      - paragraph: This is the "blue text bubbles" moment of the ai race All the cool shit u've been seeing about building crazy custom agents on top of a coding agent? OpenClaw, btca, and the thousands more that will get built this year now HAVE to be built using anthropic's "agent sdk" package or else they'll be 100x more expensive and if they're built on anthropic's sdk guess what they can't do? switch to a better model from another provider when it releases
+      - text: View on X →
+    - link "iannuttall @iannuttall 🏠 Smart Home ❤️ 318 I bought @openclaw his first home 😍 Screenshot View on X →" [ref=e4]:
+      - /url: https://x.com/iannuttall/status/2012173452061360130
+      - text: "@iannuttall 🏠 Smart Home ❤️ 318"
+      - paragraph: I bought @openclaw his first home 😍
+      - text: View on X →
+    - link "swiftlysingh @swiftlysingh 💻 Developer ❤️ 301 excalidraw files are just JSON so I built a way for agents to create them programmatically was working with @openclaw and kept wishing I could say \" [ref=e5]draw this flow\" and get a diagram now I can View on X →":
+      - /url: https://x.com/swiftlysingh/status/2009684853827281070
+      - text: "@swiftlysingh 💻 Developer ❤️ 301"
+      - paragraph: excalidraw files are just JSON so I built a way for agents to create them programmatically was working with @openclaw and kept wishing I could say "draw this flow" and get a diagram now I can
+      - text: View on X →
+    - link "andrewjiang @andrewjiang 💻 Developer ❤️ 157 24 hours later, the idea turned into a project pulling 4 million posts across 100 top X accounts. What a time to build. View on X →" [ref=e6]:
+      - /url: https://x.com/andrewjiang/status/2008388427180630155
+      - text: "@andrewjiang 💻 Developer ❤️ 157"
+      - paragraph: 24 hours later, the idea turned into a project pulling 4 million posts across 100 top X accounts. What a time to build.
+      - text: View on X →
+    - link "KrauseFx @KrauseFx 🔗 Integration ❤️ 218 What @steipete has built with @openclaw is out of this world. The discord went from 0 to thousands of devs on Discord hacking together, new messages every minute, impossible to keep up. Also, just shipped support for Beeper (messenger), Homey (Smart Home) and Fastmail Screenshot Screenshot View on X →" [ref=e7]:
+      - /url: https://x.com/KrauseFx/status/2008531076487246176
+      - text: "@KrauseFx 🔗 Integration ❤️ 218"
+      - paragraph: What @steipete has built with @openclaw is out of this world. The discord went from 0 to thousands of devs on Discord hacking together, new messages every minute, impossible to keep up. Also, just shipped support for Beeper (messenger), Homey (Smart Home) and Fastmail
+      - text: View on X →
+    - link "chrisbanes @chrisbanes 💻 Developer ❤️ 160 Finally got around to fully configuring my @openclaw instance, and it's so so good. Even at the most basic level, being able to spin up agents to implement a bunch of features from my phone is 🤯 This is all hooked up to a Telegram group. Screenshot View on X →" [ref=e8]:
+      - /url: https://x.com/chrisbanes/status/2012507246874255661
+      - text: "@chrisbanes 💻 Developer ❤️ 160"
+      - paragraph: Finally got around to fully configuring my @openclaw instance, and it's so so good. Even at the most basic level, being able to spin up agents to implement a bunch of features from my phone is 🤯 This is all hooked up to a Telegram group.
+      - text: View on X →
+      - /url: https://x.com/avi_press/status/2009070459065913806
+      - text: "@avi_press 📋 Productivity ❤️ 92"
+      - paragraph: "Less than 24 hours in: cleaned up Linear issues, wrote email follow-ups, opened 3 PRs, prospected new signups. Sent thousands of messages in a loop to an innocent and unsuspecting person who happened to message me on WhatsApp. Prospected our new signups for the day, now scheduled daily."
+      - text: View on X →
+    - link "davekiss @davekiss 💻 Developer ❤️ 142 Rebuilt my entire site via Telegram while watching Netflix in bed. Notion → Astro, 18 posts migrated, DNS moved to Cloudflare. Never opened my laptop. View on X →" [ref=e9]:
+      - /url: https://x.com/davekiss/status/2008994096736817624
+      - text: "@davekiss 💻 Developer ❤️ 142"
+      - paragraph: Rebuilt my entire site via Telegram while watching Netflix in bed. Notion → Astro, 18 posts migrated, DNS moved to Cloudflare. Never opened my laptop.
+      - text: View on X →
+      - /url: https://x.com/jlehman_/status/2011965312824942772
+      - text: "@jlehman_ 🔗 Integration ❤️ 100"
+      - paragraph: "me: hey OpenClaw, can you check this voice model that I just found out about, install it, and use it to talk to me? OpenClaw: yes"
+      - text: View on X →
+    - link "chrisrodz35 @chrisrodz35 👤 Personal ❤️ 82 @openclaw short story; Week 1 - Set it up for my family Week 2 - Set it up for some non-techie friends Week 3 - We're building claw for work View on X →" [ref=e10]:
+      - /url: https://x.com/chrisrodz35/status/2012313149576302746
+      - text: "@chrisrodz35 👤 Personal ❤️ 82"
+      - paragraph: "@openclaw short story; Week 1 - Set it up for my family Week 2 - Set it up for some non-techie friends Week 3 - We're building claw for work"
+      - text: View on X →
+      - /url: https://x.com/jdrhyne/status/2012028725710192741
+      - text: "@jdrhyne 💻 Developer ❤️ 42"
+      - paragraph: "Just built a GA4 skill for @openclaw in ~20 minutes. Solved my own problem → packaged it → published to ClawHub. Now anyone can `clawhub install ga4` and start querying their analytics. The best part of agent skills: pay it forward so the next person doesn't have to figure it out."
+      - text: View on X →
+    - link "AlbertMoral @AlbertMoral 🏠 Smart Home ❤️ 35 I just finished setting up @openclaw by @steipete on my Raspberry Pi with Cloudflare, and it feels magical ✨ Built a website from my phone in minutes and connected WHOOP to quickly check my metrics and daily habits 🔥 Screenshot View on X →" [ref=e11]:
+      - /url: https://x.com/AlbertMoral/status/2010288787885064227
+      - text: "@AlbertMoral 🏠 Smart Home ❤️ 35"
+      - paragraph: I just finished setting up @openclaw by @steipete on my Raspberry Pi with Cloudflare, and it feels magical ✨ Built a website from my phone in minutes and connected WHOOP to quickly check my metrics and daily habits 🔥
+      - text: View on X →
+    - link "LLMJunky @LLMJunky ⚡ Automation ❤️ 30 If you're using gog for Gmail and Calendar in @openclaw, I created a simple skill that provides you a rollup in the morning so you can get an overview of any calendar events or emails you received overnight. You can add as many accounts as you like, and you can set how often it runs. You can configure how many events or emails it shows as well. Screenshot View on X →" [ref=e12]:
+      - /url: https://x.com/LLMJunky/status/2012081542567280964
+      - text: "@LLMJunky ⚡ Automation ❤️ 30"
+      - paragraph: If you're using gog for Gmail and Calendar in @openclaw, I created a simple skill that provides you a rollup in the morning so you can get an overview of any calendar events or emails you received overnight. You can add as many accounts as you like, and you can set how often it runs. You can configure how many events or emails it shows as well.
+      - text: View on X →
+    - link [ref=e13]:
+      - /url: https://x.com/georgedagg_/status/2012119327147798753
+      - text: "@georgedagg_ 💻 Developer ❤️ 143"
+      - paragraph: I had a holy shit, the world is not the same anymore moment last night. Put BigC, my @openclaw on a hetzner server and my mind is just blown. We all know that AI is transformative but I don't think you really feel it until you step outside the prompt/response loop and step into the prompt/take real actions on my behalf/response loop. - I got BigC to check on the deployment of a new railway project - Builds for each of the services in the project failed - BigC reviewed the logs - Then reviewed the project on the server - Identified the root cause (incorrect build commands on each service) - Updated the configs of each in railway - Redeployed - Confirmed everything worked - I then tested it - Identified a design issue - Got BigC to review, fix and submit a PR - job done oh and all this was done over voice when walking the fucking dog...
+      - text: View on X →
+      - /url: https://x.com/stevecaldwell/status/2007616854689280196
+      - text: "@stevecaldwell 👨‍👩‍👧 Family ❤️ 133"
+      - paragraph: "Update on Crawdad 🦞 (my AI Assistant running on @openclaw by @steipete) Tonight we built a full weekly meal planning system in Notion. My wife and I take turns cooking, so we had Crawdad set up: - Master meal plan template for all of 2026 (365 days) - Shopping lists sorted by store and aisle (Kroger/Costco/Lowes) - Weather forecast auto-updating on the meal plan list (helps me plan good nights for grilling, soup, etc) - Our go-to recipes catalogued by chef - It'll remind me in morning/evening digests if I need to plan dinner or grab groceries. I imagine that this will save us at least an hour a week."
+      - text: View on X →
+      - /url: https://x.com/jdrhyne/status/2012778049406742632
+      - text: "@jdrhyne 🚀 Power User ❤️ 119"
+      - paragraph: "What my @openclaw army does: • Cleared 10,000 emails from my inbox (Day 1) • Reviewed and summarize 122 google slides for town hall • Built CLI tools, published to npm • Refactored PRs from code review • Works on complete visual refresh of SDK docs • Reviews, analyzes and optimized Google Ads • Built Jira, GA4, & GSC skills on the fly • Reads my X bookmarks and discusses them with me • Drafts LinkedIn/X posts in my voice • Orchestrates Codex agents for coding • Building a trading analyst research and UI • Daily roll call across 10+ agents • Updates itself 15+ agents. 3 machines. 1 Discord server. And yes — IT built most of this, just by chatting."
+      - text: View on X →
+    - link "jdrhyne @jdrhyne 💻 Developer ❤️ 46 Honestly, @openclaw is super powerful because of its ease of use. It literally just connected to JIRA and built a skill since it wasn't on @clawhub yet. Look how simple it was Screenshot View on X →" [ref=e14]:
+      - /url: https://x.com/jdrhyne/status/2008336434827002232
+      - text: "@jdrhyne 💻 Developer ❤️ 46"
+      - paragraph: Honestly, @openclaw is super powerful because of its ease of use. It literally just connected to JIRA and built a skill since it wasn't on @clawhub yet. Look how simple it was
+      - text: View on X →
+    - link "tonylongname @tonylongname 👨‍👩‍👧 Family ❤️ 27 Now my home's PM. Wife and I drop topics anytime, Claw researches, Sunday 9am sends the roundup. View on X →" [ref=e15]:
+      - /url: https://x.com/tonylongname/status/2008970037013381165
+      - text: "@tonylongname 👨‍👩‍👧 Family ❤️ 27"
+      - paragraph: Now my home's PM. Wife and I drop topics anytime, Claw researches, Sunday 9am sends the roundup.
+      - text: View on X →
+    - link "acevail_ @acevail_ 🔗 Integration ❤️ 25 Completely hooked. Integrated emails, home assistant, homelab via SSH, todo list, Apple Notes, shopping list. All via a single Telegram chat. And we're only getting started! View on X →" [ref=e16]:
+      - /url: https://x.com/acevail_/status/2008203784317714847
+      - text: "@acevail_ 🔗 Integration ❤️ 25"
+      - paragraph: Completely hooked. Integrated emails, home assistant, homelab via SSH, todo list, Apple Notes, shopping list. All via a single Telegram chat. And we're only getting started!
+      - text: View on X →
+    - link "cupcake_trader @cupcake_trader 🔗 Integration ❤️ 25 Two days ago I stumbled on @openclaw it's mind blowing what it can do. @steipete has created a monster. All via my personal discord server links into projects I've built and runs them. It's the tip of the ice berg. You have to check it out. Screenshot Screenshot View on X →" [ref=e17]:
+      - /url: https://x.com/cupcake_trader/status/2008577043978768433
+      - text: "@cupcake_trader 🔗 Integration ❤️ 25"
+      - paragraph: Two days ago I stumbled on @openclaw it's mind blowing what it can do. @steipete has created a monster. All via my personal discord server links into projects I've built and runs them. It's the tip of the ice berg. You have to check it out.
+      - text: View on X →
+    - link "MagiMetal @MagiMetal 💻 Developer ❤️ 23 Just built a Swift macOS menu bar app with @openclaw to manage OpenClaw! 🤖⚡ Shows gateway status, Discord connection, lets me start/stop/restart, view logs, and has notifications for status changes. Built it together in about an hour. Screenshot View on X →" [ref=e18]:
+      - /url: https://x.com/MagiMetal/status/2009424267801485362
+      - text: "@MagiMetal 💻 Developer ❤️ 23"
+      - paragraph: Just built a Swift macOS menu bar app with @openclaw to manage OpenClaw! 🤖⚡ Shows gateway status, Discord connection, lets me start/stop/restart, view logs, and has notifications for status changes. Built it together in about an hour.
+      - text: View on X →
+      - /url: https://x.com/manuelmaly/status/2012820689179312278
+      - text: "@manuelmaly 💻 Developer ❤️ 19"
+      - paragraph: "My current workflow: 1. Prototype TUI w/ @openclaw + codex, purely vibed spaghetti 2. Pi appends summaries of each code file in a huge md file (Haiku scout sub agents) 3. GPT Pro (web) optimizes architecture w/ that md file 4. Codex implements the result 5. Repeat"
+      - text: View on X →
+    - link [ref=e19] [nth=1]:
+      - /url: https://x.com/iamtrebuh/status/2011260468975771862
+      - text: "@iamtrebuh 💻 Developer ❤️ 11"
+      - paragraph: "My AI setup as a solo founder built it with @openclaw, here's how it works: 4 agents, each with their own job: - main one: strategy, planning, big picture. coordinates the others - dev agent: coding, technical problems, architecture decisions - marketing agent: research, content ideas, competitor analysis - business agent: pricing, metrics, growth strategy what makes it actually useful: - shared memory for the big stuff (project docs, goals, key decisions) - but each agent also has their own context (past messages) - different models for different jobs (codex for coding, Gemini for marketing etc) - scheduled daily tasks without me asking (content prompts, reddit monitoring, reminders) - agents can work in parallel - connected to my notes so nothing gets lost It all runs on my VPS and I control them all through Telegram, so it basically works as a real small team available 24/7. I even gave them names and different characters: - Milo (leader - confident and charismatic), - Josh (business guy - pragmatic and straight to the point, numbers-driven), - Angela (marketing - extroverted, funny and full of ideas), - Bob (coding - introverted analytical genius). I'm still setting up all the skills, but so far it really works great and it's a first use case that's so beneficial to me and can help me in my daily work."
+      - text: View on X →
+      - /url: https://x.com/antonplex/status/2012397507754770587
+      - text: "@antonplex 📋 Productivity ❤️ 4"
+      - paragraph: "I've been experimenting with a new system to keep my @openclaw busy: > I created a \"log\" skill that captures my thoughts as they move through the idea-to-decision pipeline. > Throughout the day, I send any interesting ideas, and it records each as a TASK. > Overnight, a cron job picks up a task and spawns experiments (exploration, research via scientist subagents, writing code, etc.). > The next morning, I review the results and either assign follow-up tasks or make a decision. > Each decision is captured as a decision record, similar to an ADR in software, including problem context, considered alternatives, pros and cons, and the final proposed solution. > All these artifacts live in a log directory with templates and file naming conventions, enabling the agent to write complex search expressions."
+      - text: View on X →
+      - /url: https://x.com/bangkokbuild/status/2013024865393975718
+      - text: "@bangkokbuild 🔗 Integration ❤️ 3"
+      - paragraph: "Gave Claw access to: • Garmin Watch • Obsidian Vault • GitHub repos • VPS • Telegram + Whatsapp • X Now it: • Logs my sleep/health/exercise data and tells me when I stay up too late • Writes code and deploys it • Updates Obsidian daily notes • Tracks who visits MenuCapture and where they came from • Monitors earthquakes in Tokyo • Researches stuff online and saves files to my desktop • Remembers my projects, patterns and preferences • Reminds me of my schedule, including holidays/accommodation • Checks on me (on Telegram!) if I'm quiet too long"
+      - text: View on X →
+    - link "IamAdiG @IamAdiG 💻 Developer ❤️ 20 @openclaw BUILT and runs @learnfromlenny Built using WhatsApp messages to my bot 🦞 Agentic future is here. View on X →" [ref=e20]:
+      - /url: https://x.com/IamAdiG/status/2011922739846898098
+      - text: "@IamAdiG 💻 Developer ❤️ 20"
+      - paragraph: "@openclaw BUILT and runs @learnfromlenny Built using WhatsApp messages to my bot 🦞 Agentic future is here."
+      - text: View on X →
+    - link "DhruvalGolakiya @DhruvalGolakiya 💻 Developer ❤️ 16 so i built this ui completely from whatsApp using @openclaw and cc. generated, and sent the final output back to me as a screenshot and I can now add new skills + integrations the same way. Screenshot Screenshot Screenshot View on X →" [ref=e21]:
+      - /url: https://x.com/DhruvalGolakiya/status/2009577664018018425
+      - text: "@DhruvalGolakiya 💻 Developer ❤️ 16"
+      - paragraph: so i built this ui completely from whatsApp using @openclaw and cc. generated, and sent the final output back to me as a screenshot and I can now add new skills + integrations the same way.
+      - text: View on X →
+    - link "armanddp @armanddp ⚡ Automation ❤️ 14 Finds my next flight in email, runs through check-in, finds me a window seat. While I'm driving. View on X →" [ref=e22]:
+      - /url: https://x.com/armanddp/status/2008767951340794245
+      - text: "@armanddp ⚡ Automation ❤️ 14"
+      - paragraph: Finds my next flight in email, runs through check-in, finds me a window seat. While I'm driving.
+      - text: View on X →
+    - link "Philo01 @Philo01 💻 Developer ❤️ 17 My @openclaw a.k.a. I.R.I.S. (Integrated Reasoning & Insight System - it came up with this 😂) is now fully set up to develop apps for me on the go! It even made this nice little status page 💅 Secure private network via Tailscale with any preferred domain 👌 Screenshot Screenshot View on X →" [ref=e23]:
+      - /url: https://x.com/Philo01/status/2011204271786672526
+      - text: "@Philo01 💻 Developer ❤️ 17"
+      - paragraph: My @openclaw a.k.a. I.R.I.S. (Integrated Reasoning & Insight System - it came up with this 😂) is now fully set up to develop apps for me on the go! It even made this nice little status page 💅 Secure private network via Tailscale with any preferred domain 👌
+      - text: View on X →
+    - link "kylezantos @kylezantos 💻 Developer ❤️ 16 This little resource was sent to me on Thursday night. Figured I'd just run through it this weekend. BUT, I have grown rather tired of this pattern for reading on a 27\" [ref=e24] 5k monitor. So I had @openclaw repackage it into a tiny HTML/CSS file for me, w adjustable sizing and speed-read mode. Now I can happily and quickly consume. The internet is easily customizable once you learn the spells 🧙 Screenshot View on X →":
+      - /url: https://x.com/kylezantos/status/2012646568219029586
+      - text: "@kylezantos 💻 Developer ❤️ 16"
+      - paragraph: This little resource was sent to me on Thursday night. Figured I'd just run through it this weekend. BUT, I have grown rather tired of this pattern for reading on a 27" 5k monitor. So I had @openclaw repackage it into a tiny HTML/CSS file for me, w adjustable sizing and speed-read mode. Now I can happily and quickly consume. The internet is easily customizable once you learn the spells 🧙
+      - text: View on X →
+    - link "pepicrft @pepicrft 💻 Developer ❤️ 16 I finally shipped a OpenClaw plugin for Ralph projects. It scaffolds the Ralph files, compiles the prompt with an explicit RALPH_STATUS block, and only exits when the exit signal and indicators agree. I built it to run Claude Code or Codex through a simple runner config. View on X →" [ref=e25]:
+      - /url: https://x.com/pepicrft/status/2012212865206272266
+      - text: "@pepicrft 💻 Developer ❤️ 16"
+      - paragraph: I finally shipped a OpenClaw plugin for Ralph projects. It scaffolds the Ralph files, compiles the prompt with an explicit RALPH_STATUS block, and only exits when the exit signal and indicators agree. I built it to run Claude Code or Codex through a simple runner config.
+      - text: View on X →
+    - link "5katkov @5katkov 📋 Productivity ❤️ 11 OpenClaw is fully operational. It can manage my calendar, obsidian, it can use browser now. It send me reminders, plans my itirenary. Contributes to my GitHub repositories. This bot is my bitch now. View on X →" [ref=e26]:
+      - /url: https://x.com/5katkov/status/2011586646458708138
+      - text: "@5katkov 📋 Productivity ❤️ 11"
+      - paragraph: OpenClaw is fully operational. It can manage my calendar, obsidian, it can use browser now. It send me reminders, plans my itirenary. Contributes to my GitHub repositories. This bot is my bitch now.
+      - text: View on X →
+    - link "andytorres_a @andytorres_a 📋 Productivity ❤️ 10 .@openclaw on NAS x PC x Mac Studio is undefeated. Never had a better second brain! Latest productivity app we made is a daily agenda that auto refreshes based on actions per project. Screenshot View on X →" [ref=e27]:
+      - /url: https://x.com/andytorres_a/status/2012265108697923809
+      - text: "@andytorres_a 📋 Productivity ❤️ 10"
+      - paragraph: .@openclaw on NAS x PC x Mac Studio is undefeated. Never had a better second brain! Latest productivity app we made is a daily agenda that auto refreshes based on actions per project.
+      - text: View on X →
+    - link "DhruvalGolakiya @DhruvalGolakiya ⚡ Automation ❤️ 8 Added supabase + mail-reader tools and set a daily cron. Every morning it reads my unread emails, sends me a summary on WhatsApp, and auto-creates todos in the DB (which syncs with our team CRM). Screenshot View on X →" [ref=e28]:
+      - /url: https://x.com/DhruvalGolakiya/status/2009688047747764575
+      - text: "@DhruvalGolakiya ⚡ Automation ❤️ 8"
+      - paragraph: Added supabase + mail-reader tools and set a daily cron. Every morning it reads my unread emails, sends me a summary on WhatsApp, and auto-creates todos in the DB (which syncs with our team CRM).
+      - text: View on X →
+    - link "IamAdiG @IamAdiG 👤 Personal ❤️ 16 My personal bot has replaced at least half the apps I used to operate myself. It lives in my personal WhatsApp and on groups with my friends and family. It has so much context. Though, it's absolutely unhealthy the amount of time I spend talking to my bot 😅 View on X →" [ref=e29]:
+      - /url: https://x.com/IamAdiG/status/2012027310074171550
+      - text: "@IamAdiG 👤 Personal ❤️ 16"
+      - paragraph: My personal bot has replaced at least half the apps I used to operate myself. It lives in my personal WhatsApp and on groups with my friends and family. It has so much context. Though, it's absolutely unhealthy the amount of time I spend talking to my bot 😅
+      - text: View on X →
+    - link "aus_bytes @aus_bytes 📋 Productivity ❤️ 16 Feels like we are living in the future. Working primarily with OpenClaw to research and build documents, syncing to Notion. Linking calendars and setting up Claude to manage my diary automatically. Building coding projects remotely from my phone. All done via WhatsApp. View on X →" [ref=e30]:
+      - /url: https://x.com/aus_bytes/status/2010148656687767803
+      - text: "@aus_bytes 📋 Productivity ❤️ 16"
+      - paragraph: Feels like we are living in the future. Working primarily with OpenClaw to research and build documents, syncing to Notion. Linking calendars and setting up Claude to manage my diary automatically. Building coding projects remotely from my phone. All done via WhatsApp.
+      - text: View on X →
+    - link "buddyhadry @buddyhadry 🏠 Smart Home ❤️ 16 Having too much fun building new CLIs / skills to work with @steipete's @openclaw. Just built an alexa cli to control your Alexa devices (including all Alexa-enabled smart home devices) with Clawis / Claude Code / Codex / your agent of choice. Supports natural language text commands that can mimic anything you'd say to an Echo. View on X →" [ref=e31]:
+      - /url: https://x.com/buddyhadry/status/2007656142105661693
+      - text: "@buddyhadry 🏠 Smart Home ❤️ 16"
+      - paragraph: Having too much fun building new CLIs / skills to work with @steipete's @openclaw. Just built an alexa cli to control your Alexa devices (including all Alexa-enabled smart home devices) with Clawis / Claude Code / Codex / your agent of choice. Supports natural language text commands that can mimic anything you'd say to an Echo.
+      - text: View on X →
+    - link "kirjd @kirjd 💻 Developer ❤️ 8 Built myself a nice dashboard with @openclaw Screenshot View on X →" [ref=e32]:
+      - /url: https://x.com/kirjd/status/2008309808164896878
+      - text: "@kirjd 💻 Developer ❤️ 8"
+      - paragraph: Built myself a nice dashboard with @openclaw
+      - text: View on X →
+    - link "LukaRadisic @LukaRadisic 💻 Developer ❤️ 2 Just built @openclaw integration for ralph-tui! Remote TUI via Tailscale + tmux Telegram inline status updates Screenshots on completion View on X →" [ref=e33]:
+      - /url: https://x.com/LukaRadisic/status/2011077782688985233
+      - text: "@LukaRadisic 💻 Developer ❤️ 2"
+      - paragraph: Just built @openclaw integration for ralph-tui! Remote TUI via Tailscale + tmux Telegram inline status updates Screenshots on completion
+      - text: View on X →
+    - link "avi_press @avi_press ⚡ Automation ❤️ 2 Today @openclaw filed an insurance claim for me and scheduled the repair appointment View on X →" [ref=e34]:
+      - /url: https://x.com/avi_press/status/2013066316467560521
+      - text: "@avi_press ⚡ Automation ❤️ 2"
+      - paragraph: Today @openclaw filed an insurance claim for me and scheduled the repair appointment
+      - text: View on X →
+    - link "theguti @theguti 🏠 Smart Home ❤️ 14 Just used OpenClaw to finally fix my iotawatt setup - took me forever to calibrate it two years ago and a corrupted sdcard + no backup resulted in my neglect for many months. Asked @openclaw to help set it up again and voilà! it works. The experience was rather amazing, it had access to the iotawatt box and I pasted screenshots and it guided me. The gift that keeps on giving! View on X →" [ref=e35]:
+      - /url: https://x.com/theguti/status/2010655467400208746
+      - text: "@theguti 🏠 Smart Home ❤️ 14"
+      - paragraph: Just used OpenClaw to finally fix my iotawatt setup - took me forever to calibrate it two years ago and a corrupted sdcard + no backup resulted in my neglect for many months. Asked @openclaw to help set it up again and voilà! it works. The experience was rather amazing, it had access to the iotawatt box and I pasted screenshots and it guided me. The gift that keeps on giving!
+      - text: View on X →
+    - link "jjpcodes @jjpcodes 💻 Developer ❤️ 13 Building a language learning tool, driven by OpenClaw and Pi agent. Teaches you Chinese, tailored \" [ref=e36]magically\" to your level, with TTS and STT and pronunciation feedback, and progress tracking/spaced repetition. Built 100% by codex in 2 days or so. Screenshot View on X →":
+      - /url: https://x.com/jjpcodes/status/2002334394993025243
+      - text: "@jjpcodes 💻 Developer ❤️ 13"
+      - paragraph: Building a language learning tool, driven by OpenClaw and Pi agent. Teaches you Chinese, tailored "magically" to your level, with TTS and STT and pronunciation feedback, and progress tracking/spaced repetition. Built 100% by codex in 2 days or so.
+      - text: View on X →
+    - link "CopyKatCapital @CopyKatCapital 💻 Developer ❤️ 11 Submitted my first ever app to Apple for review. Mostly done through @openclaw using telegram - amazing not having to be at my computer to iterate. Also quite fun it automated the entire TestFlight update process I had zero clue about. View on X →" [ref=e37]:
+      - /url: https://x.com/CopyKatCapital/status/2013003345686868171
+      - text: "@CopyKatCapital 💻 Developer ❤️ 11"
+      - paragraph: Submitted my first ever app to Apple for review. Mostly done through @openclaw using telegram - amazing not having to be at my computer to iterate. Also quite fun it automated the entire TestFlight update process I had zero clue about.
+      - text: View on X →
+    - link "dantelex @dantelex 💻 Developer ❤️ 1 Built an email (Himalaya - CLI to manage email) SKILL for @openclaw yesterday and it felt good to contribute to OSS. This is just going to get more useful @steipete ❤️ View on X →" [ref=e38]:
+      - /url: https://x.com/dantelex/status/2008897333874893078
+      - text: "@dantelex 💻 Developer ❤️ 1"
+      - paragraph: Built an email (Himalaya - CLI to manage email) SKILL for @openclaw yesterday and it felt good to contribute to OSS. This is just going to get more useful @steipete ❤️
+      - text: View on X →
+    - link "xz3dev @xz3dev ⚡ Automation ❤️ 1 OpenClaw is now doing a weekly fully automated SEO analysis for me. Future is now kiddos Screenshot Screenshot View on X →" [ref=e39]:
+      - /url: https://x.com/xz3dev/status/2011807680180957383
+      - text: "@xz3dev ⚡ Automation ❤️ 1"
+      - paragraph: OpenClaw is now doing a weekly fully automated SEO analysis for me. Future is now kiddos
+      - text: View on X →
+    - link "AndresReibel @AndresReibel 💻 Developer ❤️ 1 You will never find another AI agent like me... 😂 my personal @openclaw-inspired agent. Screenshot View on X →" [ref=e40]:
+      - /url: https://x.com/AndresReibel/status/2012052022464577954
+      - text: "@AndresReibel 💻 Developer ❤️ 1"
+      - paragraph: You will never find another AI agent like me... 😂 my personal @openclaw-inspired agent.
+      - text: View on X →
+    - link "xMikeMickelson @xMikeMickelson 💻 Developer ❤️ 7 yesterday @openclaw learned to strip sora 2 watermarks on its own today i told it to also make videos it generated a whole ugc influencer from scratch messy hair, airpods, gray hoodie, manic energy i didn't give it a reference image what is happening here?! Screenshot View on X →" [ref=e41]:
+      - /url: https://x.com/xMikeMickelson/status/2012058702115709160
+      - text: "@xMikeMickelson 💻 Developer ❤️ 7"
+      - paragraph: yesterday @openclaw learned to strip sora 2 watermarks on its own today i told it to also make videos it generated a whole ugc influencer from scratch messy hair, airpods, gray hoodie, manic energy i didn't give it a reference image what is happening here?!
+      - text: View on X →
+      - /url: https://x.com/DhruvalGolakiya/status/2010745968044732692
+      - text: "@DhruvalGolakiya ⚡ Automation ❤️ 6"
+      - paragraph: "Finally done - added supabase + gmail skills to @openclaw with a daily morning cron. It now: • Reads my first 10 emails • Summarizes everything • Creates todos from important emails • Sends them to Slack • Stores all of it in Supabase Also built a tiny macOS menu bar app so I can check my daily summary + tasks automatically."
+      - text: View on X →
+    - link "vallver @vallver 💻 Developer ❤️ 5 OpenClaw built me a simple Stumbleupon for some of my favourite articles. From my phone, while putting my baby to sleep... Let me know if you want me to add any features or articles and I'll point @openclaw to this thread in the morning to do it 😂 View on X →" [ref=e42]:
+      - /url: https://x.com/vallver/status/2010508094313263502
+      - text: "@vallver 💻 Developer ❤️ 5"
+      - paragraph: OpenClaw built me a simple Stumbleupon for some of my favourite articles. From my phone, while putting my baby to sleep... Let me know if you want me to add any features or articles and I'll point @openclaw to this thread in the morning to do it 😂
+      - text: View on X →
+      - /url: https://x.com/bangkokbuild/status/2010729667540787707
+      - text: "@bangkokbuild 💻 Developer ❤️ 4"
+      - paragraph: "This is the setup now: • Claude Code running a Ralph loop, auto-building features • My OpenClaw Ema monitoring progress and pinging me to urge me to sleep • Me, in bed, using this chance to ask for status updates via Telegram 6 tasks done already"
+      - text: View on X →
+    - link "nathanclark_ @nathanclark_ 🔗 Integration ❤️ 3 Ok this fun. Setup @openclaw (mines 'Merlin') and put him in Slack since no need for another number + I'm in there all the time anyway. Now I can him trigger @droid exec to run the writing system I built. Magic! 🧙‍♂️ 🪄 Screenshot View on X →" [ref=e43]:
+      - /url: https://x.com/nathanclark_/status/2010318448207995241
+      - text: "@nathanclark_ 🔗 Integration ❤️ 3"
+      - paragraph: Ok this fun. Setup @openclaw (mines 'Merlin') and put him in Slack since no need for another number + I'm in there all the time anyway. Now I can him trigger @droid exec to run the writing system I built. Magic! 🧙‍♂️ 🪄
+      - text: View on X →
+    - link "jandragsbaek @jandragsbaek 🔗 Integration ❤️ 3 Last night I got @openclaw set up with a Telegram group and multiple topics, and there was a slight hitch with the default channel and permissions (I can see there's a PR to fix it) But it sure does feel like black magic, now that it's set up. I am excited to see what it can do. View on X →" [ref=e44]:
+      - /url: https://x.com/jandragsbaek/status/2011373120033095875
+      - text: "@jandragsbaek 🔗 Integration ❤️ 3"
+      - paragraph: Last night I got @openclaw set up with a Telegram group and multiple topics, and there was a slight hitch with the default channel and permissions (I can see there's a PR to fix it) But it sure does feel like black magic, now that it's set up. I am excited to see what it can do.
+      - text: View on X →
+    - link "scottw @scottw 👨‍👩‍👧 Family ❤️ 2 The 10-year-old has been enjoying MadLibs. While we were out for the day and mostly disconnected (thanks to Verizon), our @openclaw built us a dynamic version with images, history, etc. It also resolved a TailScale issue and is now ready for personal use. Screenshot View on X →" [ref=e45]:
+      - /url: https://x.com/scottw/status/2011656156318744971
+      - text: "@scottw 👨‍👩‍👧 Family ❤️ 2"
+      - paragraph: The 10-year-old has been enjoying MadLibs. While we were out for the day and mostly disconnected (thanks to Verizon), our @openclaw built us a dynamic version with images, history, etc. It also resolved a TailScale issue and is now ready for personal use.
+      - text: View on X →
+      - /url: https://x.com/arthurlee/status/2011629550875394517
+      - text: "@arthurlee 💻 Developer ❤️ 0"
+      - paragraph: "341 agent sessions in the past 7 days using @openclaw @OpenAICodexCli. Shipped: - Client proposal tightened - Market research distilled - Calendar + Drive wired up - Prompt-injection scanner built What would you automate first?"
+      - text: View on X →
+      - /url: https://x.com/quifago/status/2012458753786859872
+      - text: "@quifago 💻 Developer ❤️ 0"
+      - paragraph: "This morning I built a small CLI for the Idealista API + a Skill you can plug into your favorite agent (mine: @openclaw). Ask things like: \"Find a flat in A Coruña under 200.000€ with 3 rooms\" \"What's my house worth?\""
+      - text: View on X →
+    - link "bffmike @bffmike 💻 Developer ❤️ 1 My @openclaw drove my coding agents after i went to bed last night from 12:30–7ish am while i snoozed. MUCH better than a Ralph loop because you don't just give it a prompt about when to stop looping. Instead I've been delegating management of coding agents to it ALL DAY. It knows about the entire project history, all the headaches. it drives better than Ralph because it's been watching me all day. Screenshot View on X →" [ref=e46]:
+      - /url: https://x.com/bffmike/status/2012207314884075773
+      - text: "@bffmike 💻 Developer ❤️ 1"
+      - paragraph: My @openclaw drove my coding agents after i went to bed last night from 12:30–7ish am while i snoozed. MUCH better than a Ralph loop because you don't just give it a prompt about when to stop looping. Instead I've been delegating management of coding agents to it ALL DAY. It knows about the entire project history, all the headaches. it drives better than Ralph because it's been watching me all day.
+      - text: View on X →
+      - /url: https://x.com/0xLCZ/status/2012728470980420090
+      - text: "@0xLCZ 💻 Developer ❤️ 5"
+      - paragraph: "Ok, @openclaw IS amazing 😍 #BuildInPublic"
+      - text: View on X →
+    - link "theaaron @theaaron 📋 Productivity ❤️ 0 chat based calendar management with @openclaw is one of the best uses of an LLM I've ever experienced -work, personal, and family calendar access -chat to change/add/check in -can be shared with a spouse or family bravo @steipete 🦞 Screenshot View on X →" [ref=e47]:
+      - /url: https://x.com/theaaron/status/2013089675552968761
+      - text: "@theaaron 📋 Productivity ❤️ 0"
+      - paragraph: chat based calendar management with @openclaw is one of the best uses of an LLM I've ever experienced -work, personal, and family calendar access -chat to change/add/check in -can be shared with a spouse or family bravo @steipete 🦞
+      - text: View on X →
+    - link "LLMJunky @LLMJunky 💻 Developer ❤️ 3 You should try to think of Claw as an orchestration layer that can interface with not only your entire machine, but the rest of your coding agents as well. And what makes it supremely useful, in my opinion, is that inferface is now available to you on all of your devices at the same time - especially mobile! This means that anything you can do on your local dev machine, you can now do with simple voice memos on your phone. Working on a project? Think of some idea while walking to the train? No problem. Drop Claw a message, tell it to goto your project directory, spin up an agent, and build that feature. View on X →" [ref=e48]:
+      - /url: https://x.com/LLMJunky/status/2013089630317355014
+      - text: "@LLMJunky 💻 Developer ❤️ 3"
+      - paragraph: You should try to think of Claw as an orchestration layer that can interface with not only your entire machine, but the rest of your coding agents as well. And what makes it supremely useful, in my opinion, is that inferface is now available to you on all of your devices at the same time - especially mobile! This means that anything you can do on your local dev machine, you can now do with simple voice memos on your phone. Working on a project? Think of some idea while walking to the train? No problem. Drop Claw a message, tell it to goto your project directory, spin up an agent, and build that feature.
+      - text: View on X →
+    - link "advait3000 @advait3000 📋 Productivity ❤️ 1 OpenClaw is now my primary interface to the digital world. All of my notes, emails, projects, questions, plans, and specs flow through a central system with Discord as the interface. This eliminates tons of friction to go from idea to execution. I don't have to orchestrate a bunch of independent tools anymore. It's just a single interface. View on X →" [ref=e49]:
+      - /url: https://x.com/advait3000/status/2013099774937911694
+      - text: "@advait3000 📋 Productivity ❤️ 1"
+      - paragraph: OpenClaw is now my primary interface to the digital world. All of my notes, emails, projects, questions, plans, and specs flow through a central system with Discord as the interface. This eliminates tons of friction to go from idea to execution. I don't have to orchestrate a bunch of independent tools anymore. It's just a single interface.
+      - text: View on X →
+    - link "bangkokbuild @bangkokbuild 👤 Personal ❤️ 0 @openclaw made a heat map with all my exercises after the data from Garmin was loaded. • Took 2 prompts • 2nd one was to get a better map and navigation, including a slider and clearer index cards • Signed up for a map API • Can zoom out and check all my runs around the world on the map Screenshot View on X →" [ref=e50]:
+      - /url: https://x.com/bangkokbuild/status/2013158851194085388
+      - text: "@bangkokbuild 👤 Personal ❤️ 0"
+      - paragraph: "@openclaw made a heat map with all my exercises after the data from Garmin was loaded. • Took 2 prompts • 2nd one was to get a better map and navigation, including a slider and clearer index cards • Signed up for a map API • Can zoom out and check all my runs around the world on the map"
+      - text: View on X →
+    - link "astuyve @astuyve ⚡ Automation ❤️ 16 It may not be AGI, but OpenClaw is automatically negotiating with multiple dealers for my next car via browser, email, and imessage and it's amazing. Screenshot View on X →" [ref=e51]:
+      - /url: https://x.com/astuyve/status/2013811099028557966
+      - text: "@astuyve ⚡ Automation ❤️ 16"
+      - paragraph: It may not be AGI, but OpenClaw is automatically negotiating with multiple dealers for my next car via browser, email, and imessage and it's amazing.
+      - text: View on X →
+    - link "dreetje @dreetje ⚡ Automation ❤️ 119 My @openclaw has managed to order things itself from @albertheijn (our supermarket) when our cleaning lady sent me a message. It logged in using shared credentials in my @1Password, then waited for the old style text message MFA (read it through @beeper iMessage bridge using MCP). And placed the items in my basket! So helpful. View on X →" [ref=e52]:
+      - /url: https://x.com/dreetje/status/2013645067441844697
+      - text: "@dreetje ⚡ Automation ❤️ 119"
+      - paragraph: My @openclaw has managed to order things itself from @albertheijn (our supermarket) when our cleaning lady sent me a message. It logged in using shared credentials in my @1Password, then waited for the old style text message MFA (read it through @beeper iMessage bridge using MCP). And placed the items in my basket! So helpful.
+      - text: View on X →
+    - link "stevengonsalvez @stevengonsalvez 📋 Productivity ❤️ 1 Tracks my spends, books and tracks my kids lunch, scrum master with some motivation. Took screenshots for this tweet and asked it to blur out anything finance or personal - used imagemagick to work it out. Oh and spins off codex's and claude's to fix code rabbits PR comments. Screenshot Screenshot Screenshot View on X →" [ref=e53]:
+      - /url: https://x.com/stevengonsalvez/status/2013650626962424047
+      - text: "@stevengonsalvez 📋 Productivity ❤️ 1"
+      - paragraph: Tracks my spends, books and tracks my kids lunch, scrum master with some motivation. Took screenshots for this tweet and asked it to blur out anything finance or personal - used imagemagick to work it out. Oh and spins off codex's and claude's to fix code rabbits PR comments.
+      - text: View on X →
+    - link "nathanclark_ @nathanclark_ 💻 Developer ❤️ 1 I've now got my @openclaw across the writing system so he can trigger @droid exec to execute the writing pipeline. It's Sassy the Sasquatch, IYKYK. Very Aussie reference. Screenshot View on X →" [ref=e54]:
+      - /url: https://x.com/nathanclark_/status/2013549390615715905
+      - text: "@nathanclark_ 💻 Developer ❤️ 1"
+      - paragraph: I've now got my @openclaw across the writing system so he can trigger @droid exec to execute the writing pipeline. It's Sassy the Sasquatch, IYKYK. Very Aussie reference.
+      - text: View on X →
+    - link "_KevinTang @_KevinTang ⚡ Automation ❤️ 5 I have @openclaw setup to look at Hacker News trending and send me links to articles it thinks I'd be interested in! Personal content curation. Screenshot Screenshot View on X →" [ref=e55]:
+      - /url: https://x.com/_KevinTang/status/2013499715892006998
+      - text: "@_KevinTang ⚡ Automation ❤️ 5"
+      - paragraph: I have @openclaw setup to look at Hacker News trending and send me links to articles it thinks I'd be interested in! Personal content curation.
+      - text: View on X →
+    - link "danpeguine @danpeguine ⚡ Automation ❤️ 50 Today I asked @openclaw to organize all my bloodworks lab results into a neat Notion database. Screenshot View on X →" [ref=e56]:
+      - /url: https://x.com/danpeguine/status/2013388700479058068
+      - text: "@danpeguine ⚡ Automation ❤️ 50"
+      - paragraph: Today I asked @openclaw to organize all my bloodworks lab results into a neat Notion database.
+      - text: View on X →
+    - link "chrisrodz35 @chrisrodz35 📋 Productivity ❤️ 25 Kicking bad habits with @openclaw. I like watching youtube videos but it's time I could spend producing instead of consuming. Setup a daily cron that summarizes new videos with key takeaways and actionable insights. Now I can get the learnings without the time sink! View on X →" [ref=e57]:
+      - /url: https://x.com/chrisrodz35/status/2013257743004545257
+      - text: "@chrisrodz35 📋 Productivity ❤️ 25"
+      - paragraph: Kicking bad habits with @openclaw. I like watching youtube videos but it's time I could spend producing instead of consuming. Setup a daily cron that summarizes new videos with key takeaways and actionable insights. Now I can get the learnings without the time sink!
+      - text: View on X →
+    - link "christinetyip @christinetyip 🔗 Integration ❤️ 1 I connected mine to an external memory layer - check out the shared-memory skill in clawhub. OpenClaw helps me build my second brain and selectively shares context and state with my partner's OpenClaw. View on X →" [ref=e58]:
+      - /url: https://x.com/christinetyip/status/2013196232181637500
+      - text: "@christinetyip 🔗 Integration ❤️ 1"
+      - paragraph: I connected mine to an external memory layer - check out the shared-memory skill in clawhub. OpenClaw helps me build my second brain and selectively shares context and state with my partner's OpenClaw.
+      - text: View on X →
+    - link "theguti @theguti general ❤️ 1 The things OpenClaw can do are just never ending, it's crazy. View on X →" [ref=e59]:
+      - /url: https://x.com/theguti/status/2014337533178425499
+      - text: "@theguti general ❤️ 1"
+      - paragraph: The things OpenClaw can do are just never ending, it's crazy.
+      - text: View on X →
+      - /url: https://x.com/dnouri/status/2014339212271600067
+      - text: "@dnouri creative ❤️ 3"
+      - paragraph: "Is this legal? It feels illegal… Having so much fun with @openclaw: Check out how after a bit of hacking I can ask it to send me the track of this song as an audio, extract some cool GIFs and finally send me a PDF with chords? Mind: blown!"
+      - text: View on X →
+    - link "danpeguine @danpeguine 🔗 Integration ❤️ 83 Two different @openclaw can collaborate!!! @assafdagan and I put our bots in the same WhatsApp group and they are collaborating!!! Screenshot View on X →" [ref=e60]:
+      - /url: https://x.com/danpeguine/status/2014481698369536402
+      - text: "@danpeguine 🔗 Integration ❤️ 83"
+      - paragraph: Two different @openclaw can collaborate!!! @assafdagan and I put our bots in the same WhatsApp group and they are collaborating!!!
+      - text: View on X →
+      - /url: https://x.com/cedric_chee/status/2014608153393168425
+      - text: "@cedric_chee creative ❤️ 2"
+      - paragraph: "@openclaw is my media studio for the creator. I hooked it up to Codex 5.2 and Minimax-M2.1 (as fallback). Some Skills in action: - Kyutai Pocket TTS - Whisper audio transcribe - Browser use (web scraping, form filling) - Twitter ops I hacked this up in <5 days, all on my mobile while I was on the move."
+      - text: View on X →
+    - link "Ysqander @Ysqander ⚡ Automation ❤️ 1 I love @openclaw. I set up a Reddit fetch crawler and can pull Reddit posts from my Telegram. Screenshot View on X →" [ref=e61]:
+      - /url: https://x.com/Ysqander/status/2014590075972247640
+      - text: "@Ysqander ⚡ Automation ❤️ 1"
+      - paragraph: I love @openclaw. I set up a Reddit fetch crawler and can pull Reddit posts from my Telegram.
+      - text: View on X →
+      - /url: https://x.com/nateliason/status/2014797672419340435
+      - text: "@nateliason 💻 Developer ❤️ 239"
+      - paragraph: "My new favorite way to work with OpenClaw: 1. Tell it we're working on app improvements, it should just take notes 2. Run through user flows, send screenshots with notes as I find issues 3. It builds a list of work, adds its own hypotheses 4. Writes up a full report on what to do 5. I say \"Go\" and it kicks off Codex agents to attack the different pieces, opening separate PRs 6. Claude reviews & improves the PRs on Github 7. Claw makes a doc of everything we did + what to test 8. Next time I test, I start with that list to make sure everything worked"
+      - text: View on X →
+    - link "andrewjiang @andrewjiang hardware ❤️ 880 Bought a $35 holo cube to give my @openclaw its own little display. Basically a tamagotchi now. View on X →" [ref=e62]:
+      - /url: https://x.com/andrewjiang/status/2013140793649734032
+      - text: "@andrewjiang hardware ❤️ 880"
+      - paragraph: Bought a $35 holo cube to give my @openclaw its own little display. Basically a tamagotchi now.
+      - text: View on X →
+    - link "astuyve @astuyve ⚡ Automation ❤️ 255 OpenClaw just saved me $4,200 on a car. Screenshot View on X →" [ref=e63]:
+      - /url: https://x.com/astuyve/status/2014147784098681217
+      - text: "@astuyve ⚡ Automation ❤️ 255"
+      - paragraph: OpenClaw just saved me $4,200 on a car.
+      - text: View on X →
+      - /url: https://x.com/localghost/status/2014568799824212004
+      - text: "@localghost setup ❤️ 1978"
+      - paragraph: "Got a mac mini for OpenClaw. Had a lot of fun setting this up today. Instead of access to my accounts, I gave it: ✅ its own apple account for messages ✅ its own gmail to sign up for stuff ✅ its own github to push code"
+      - text: View on X →
+    - link "localghost @localghost ⚡ Automation ❤️ 27 Since OpenClaw has an email inbox I can just forward stuff for it to take care of. Here's OpenClaw turning my email receipts into a parts list. Screenshot View on X →" [ref=e64]:
+      - /url: https://x.com/localghost/status/2014880905979167005
+      - text: "@localghost ⚡ Automation ❤️ 27"
+      - paragraph: Since OpenClaw has an email inbox I can just forward stuff for it to take care of. Here's OpenClaw turning my email receipts into a parts list.
+      - text: View on X →
+    - link "thekitze @thekitze hardware ❤️ 30 Just preordered the pebble ring 🤓 one tap → voice to @openclaw → @benjiDotSo Screenshot View on X →" [ref=e65]:
+      - /url: https://x.com/thekitze/status/2014765279650189578
+      - text: "@thekitze hardware ❤️ 30"
+      - paragraph: Just preordered the pebble ring 🤓 one tap → voice to @openclaw → @benjiDotSo
+      - text: View on X →
+    - link "localghost @localghost 🏠 Smart Home ❤️ 104 OpenClaw found my HomePods on the network and built a skill to control them. Screenshot View on X →" [ref=e66]:
+      - /url: https://x.com/localghost/status/2014763987683225685
+      - text: "@localghost 🏠 Smart Home ❤️ 104"
+      - paragraph: OpenClaw found my HomePods on the network and built a skill to control them.
+      - text: View on X →
+      - /url: https://x.com/Diego_F_Aguirre/status/2013908013619319293
+      - text: "@Diego_F_Aguirre 💻 Developer ❤️ 6"
+      - paragraph: "I'm literally debugging my fitness app mid-workout with OpenClaw. Between sets: 'here's the bug' → it patches → I keep moving. Absolutely wild 🤯"
+      - text: View on X →
+    - link "danpeguine @danpeguine 🔗 Integration ❤️ 456 I used @openclaw to install this skill and then made a video showing how I used it to install the skill. All via WhatsApp. Insane! View on X →" [ref=e67]:
+      - /url: https://x.com/danpeguine/status/2013902632276914265
+      - text: "@danpeguine 🔗 Integration ❤️ 456"
+      - paragraph: I used @openclaw to install this skill and then made a video showing how I used it to install the skill. All via WhatsApp. Insane!
+      - text: View on X →
+    - heading "Built something cool?" [ref=e68] [level=2]
+    - paragraph: Share your OpenClaw creation with the community
+    - link "Share on X" [ref=e69]:
+      - /url: https://twitter.com/intent/tweet?text=Check%20out%20what%20I%20built%20with%20%40openclaw%21
+    - link "Browse Skills" [ref=e70]:
+      - /url: https://clawhub.com
+    - link "Join Discord" [ref=e71]:
+      - /url: https://discord.com/invite/clawd
+    - paragraph:
+      - text: Looking for more? Check out
+      - link "even more examples in our docs" [ref=e72]:
+        - /url: https://docs.openclaw.ai/start/showcase
+      - text: →
+    - navigation:
+      - link "Home" [ref=e73]:
+        - /url: /
+      - text: ·
+      - link "Blog" [ref=e74]:
+        - /url: /blog
+      - text: ·
+      - link "Shoutouts" [ref=e75]:
+        - /url: /shoutouts
+      - text: ·
+      - link "Integrations" [ref=e76]:
+        - /url: /integrations
+      - text: ·
+      - link "Trust" [ref=e77]:
+        - /url: https://trust.openclaw.ai/
+    - paragraph:
+      - text: Built by
+      - link "Molty" [ref=e78]:
+        - /url: https://molty.me
+      - text: 🦞

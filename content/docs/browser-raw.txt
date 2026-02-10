@@ -1,0 +1,1104 @@
+  - link "Skip to main content" [ref=e1]:
+    - /url: "#content-area"
+  - link "OpenClaw home page light logo" [ref=e2]:
+    - /url: /
+    - text: OpenClaw home page
+  - button "US English" [ref=e3]:
+    - text: English
+  - button "Open search" [ref=e4]:
+    - text: Search... Ctrl K
+  - navigation:
+      - listitem:
+        - link "GitHub" [ref=e5]:
+          - /url: https://github.com/openclaw/openclaw
+          - text: GitHub
+      - listitem:
+        - link "Releases" [ref=e6]:
+          - /url: https://github.com/openclaw/openclaw/releases
+          - text: Releases
+  - button "Toggle dark mode" [ref=e7]:
+  - link "Get started" [ref=e8]:
+    - /url: /
+  - link "Install" [ref=e9]:
+    - /url: /install
+  - link "Channels" [ref=e10]:
+    - /url: /channels
+  - link "Agents" [ref=e11]:
+    - /url: /concepts/architecture
+  - link "Tools" [ref=e12]:
+    - /url: /tools
+  - link "Models" [ref=e13]:
+    - /url: /providers
+  - link "Platforms" [ref=e14]:
+    - /url: /platforms
+  - link "Gateway & Ops" [ref=e15]:
+    - /url: /gateway
+  - link "Reference" [ref=e16]:
+    - /url: /cli
+  - link "Help" [ref=e17]:
+    - /url: /help
+  - heading "Overview" [ref=e18] [level=5]
+    - listitem:
+      - link "Tools" [ref=e19] [nth=1]:
+        - /url: /tools
+  - heading "Built-in tools" [ref=e20] [level=5]
+    - listitem:
+      - link "Lobster" [ref=e21]:
+        - /url: /tools/lobster
+    - listitem:
+      - link "LLM Task" [ref=e22]:
+        - /url: /tools/llm-task
+    - listitem:
+      - link "Exec Tool" [ref=e23]:
+        - /url: /tools/exec
+    - listitem:
+      - link "Web Tools" [ref=e24]:
+        - /url: /tools/web
+    - listitem:
+      - link "apply_patch Tool" [ref=e25]:
+        - /url: /tools/apply-patch
+    - listitem:
+      - link "Elevated Mode" [ref=e26]:
+        - /url: /tools/elevated
+    - listitem:
+      - link "Thinking Levels" [ref=e27]:
+        - /url: /tools/thinking
+    - listitem:
+      - link "Reactions" [ref=e28]:
+        - /url: /tools/reactions
+  - heading "Browser" [ref=e29] [level=5]
+    - listitem:
+      - link "Browser (OpenClaw-managed)" [ref=e30]:
+        - /url: /tools/browser
+    - listitem:
+      - link "Browser Login" [ref=e31]:
+        - /url: /tools/browser-login
+    - listitem:
+      - link "Chrome Extension" [ref=e32]:
+        - /url: /tools/chrome-extension
+    - listitem:
+      - link "Browser Troubleshooting" [ref=e33]:
+        - /url: /tools/browser-linux-troubleshooting
+  - heading "Agent coordination" [ref=e34] [level=5]
+    - listitem:
+      - link "Agent Send" [ref=e35]:
+        - /url: /tools/agent-send
+    - listitem:
+      - link "Sub-Agents" [ref=e36]:
+        - /url: /tools/subagents
+    - listitem:
+      - link "Multi-Agent Sandbox & Tools" [ref=e37]:
+        - /url: /tools/multi-agent-sandbox-tools
+  - heading "Skills" [ref=e38] [level=5]
+    - listitem:
+      - link "Slash Commands" [ref=e39]:
+        - /url: /tools/slash-commands
+    - listitem:
+      - link "Skills" [ref=e40]:
+        - /url: /tools/skills
+    - listitem:
+      - link "Skills Config" [ref=e41]:
+        - /url: /tools/skills-config
+    - listitem:
+      - link "ClawHub" [ref=e42]:
+        - /url: /tools/clawhub
+    - listitem:
+      - link "Plugins" [ref=e43]:
+        - /url: /tools/plugin
+  - heading "Extensions" [ref=e44] [level=5]
+    - listitem:
+      - link "Voice Call Plugin" [ref=e45]:
+        - /url: /plugins/voice-call
+    - listitem:
+      - link "Zalo Personal Plugin" [ref=e46]:
+        - /url: /plugins/zalouser
+  - heading "Automation" [ref=e47] [level=5]
+    - listitem:
+      - link "Hooks" [ref=e48]:
+        - /url: /automation/hooks
+    - listitem:
+      - link "Cron Jobs" [ref=e49]:
+        - /url: /automation/cron-jobs
+    - listitem:
+      - link "Cron vs Heartbeat" [ref=e50]:
+        - /url: /automation/cron-vs-heartbeat
+    - listitem:
+      - link "Automation Troubleshooting" [ref=e51]:
+        - /url: /automation/troubleshooting
+    - listitem:
+      - link "Webhooks" [ref=e52]:
+        - /url: /automation/webhook
+    - listitem:
+      - link "Gmail PubSub" [ref=e53]:
+        - /url: /automation/gmail-pubsub
+    - listitem:
+      - link "Polls" [ref=e54]:
+        - /url: /automation/poll
+    - listitem:
+      - link "Auth Monitoring" [ref=e55]:
+        - /url: /automation/auth-monitoring
+  - heading "Hooks" [ref=e56] [level=5]
+    - listitem:
+      - link "SOUL Evil Hook" [ref=e57]:
+        - /url: /hooks/soul-evil
+  - heading "Media and devices" [ref=e58] [level=5]
+    - listitem:
+      - link "Nodes" [ref=e59]:
+        - /url: /nodes
+    - listitem:
+      - link "Node Troubleshooting" [ref=e60]:
+        - /url: /nodes/troubleshooting
+    - listitem:
+      - link "Image and Media Support" [ref=e61]:
+        - /url: /nodes/images
+    - listitem:
+      - link "Audio and Voice Notes" [ref=e62]:
+        - /url: /nodes/audio
+    - listitem:
+      - link "Camera Capture" [ref=e63]:
+        - /url: /nodes/camera
+    - listitem:
+      - link "Talk Mode" [ref=e64]:
+        - /url: /nodes/talk
+    - listitem:
+      - link "Voice Wake" [ref=e65]:
+        - /url: /nodes/voicewake
+    - listitem:
+      - link "Location Command" [ref=e66]:
+        - /url: /nodes/location-command
+  - button "On this page" [ref=e67]:
+    - text: On this page
+    - listitem:
+      - link "Browser (openclaw-managed)" [ref=e68]:
+        - /url: "#browser-openclaw-managed"
+    - listitem:
+      - link "What you get" [ref=e69]:
+        - /url: "#what-you-get"
+    - listitem:
+      - link "Quick start" [ref=e70]:
+        - /url: "#quick-start"
+        - /url: "#profiles-openclaw-vs-chrome"
+    - listitem:
+      - link "Configuration" [ref=e71]:
+        - /url: "#configuration"
+    - listitem:
+      - link "Use Brave (or another Chromium-based browser)" [ref=e72]:
+        - /url: "#use-brave-or-another-chromium-based-browser"
+    - listitem:
+      - link "Local vs remote control" [ref=e73]:
+        - /url: "#local-vs-remote-control"
+    - listitem:
+      - link "Node browser proxy (zero-config default)" [ref=e74]:
+        - /url: "#node-browser-proxy-zero-config-default"
+    - listitem:
+      - link "Browserless (hosted remote CDP)" [ref=e75]:
+        - /url: "#browserless-hosted-remote-cdp"
+    - listitem:
+      - link "Security" [ref=e76]:
+        - /url: "#security"
+    - listitem:
+      - link "Profiles (multi-browser)" [ref=e77]:
+        - /url: "#profiles-multi-browser"
+    - listitem:
+      - link "Chrome extension relay (use your existing Chrome)" [ref=e78]:
+        - /url: "#chrome-extension-relay-use-your-existing-chrome"
+    - listitem:
+      - link "Sandboxed sessions" [ref=e79]:
+        - /url: "#sandboxed-sessions"
+    - listitem:
+      - link "Setup" [ref=e80]:
+        - /url: "#setup"
+    - listitem:
+      - link "Isolation guarantees" [ref=e81]:
+        - /url: "#isolation-guarantees"
+    - listitem:
+      - link "Browser selection" [ref=e82]:
+        - /url: "#browser-selection"
+    - listitem:
+      - link "Control API (optional)" [ref=e83]:
+        - /url: "#control-api-optional"
+    - listitem:
+      - link "Playwright requirement" [ref=e84]:
+        - /url: "#playwright-requirement"
+    - listitem:
+      - link "Docker Playwright install" [ref=e85]:
+        - /url: "#docker-playwright-install"
+    - listitem:
+      - link "How it works (internal)" [ref=e86]:
+        - /url: "#how-it-works-internal"
+    - listitem:
+      - link "CLI quick reference" [ref=e87]:
+        - /url: "#cli-quick-reference"
+    - listitem:
+      - link "Snapshots and refs" [ref=e88]:
+        - /url: "#snapshots-and-refs"
+    - listitem:
+      - link "Wait power-ups" [ref=e89]:
+        - /url: "#wait-power-ups"
+    - listitem:
+      - link "Debug workflows" [ref=e90]:
+        - /url: "#debug-workflows"
+    - listitem:
+      - link "JSON output" [ref=e91]:
+        - /url: "#json-output"
+    - listitem:
+      - link "State and environment knobs" [ref=e92]:
+        - /url: "#state-and-environment-knobs"
+    - listitem:
+      - link "Security & privacy" [ref=e93]:
+        - /url: "#security-%26-privacy"
+    - listitem:
+      - link "Troubleshooting" [ref=e94]:
+        - /url: "#troubleshooting"
+    - listitem:
+      - link "Agent tools + how control works" [ref=e95]:
+        - /url: "#agent-tools-%2B-how-control-works"
+  - banner:
+    - text: Browser
+    - heading "Browser (OpenClaw-managed)" [ref=e96] [level=1]
+  - text: OpenClaw can run a
+  - strong: dedicated Chrome/Brave/Edge/Chromium profile
+  - text: "that the agent controls. It is isolated from your personal browser and is managed through a small local control service inside the Gateway (loopback only). Beginner view:"
+      - text: Think of it as a
+      - strong: separate, agent-only browser
+      - text: .
+      - text: The
+      - code: openclaw
+      - text: profile does
+      - strong: not
+      - text: touch your personal browser profile.
+      - text: The agent can
+      - strong: open tabs, read pages, click, and type
+      - text: in a safe lane.
+      - text: The default
+      - code: chrome
+      - text: profile uses the
+      - strong: system default Chromium browser
+      - text: via the extension relay; switch to
+      - code: openclaw
+      - text: for the isolated managed browser.
+  - heading "Navigate to header What you get" [ref=e97] [level=2]:
+    - link "Navigate to header" [ref=e98]:
+      - /url: "#what-you-get"
+    - text: What you get
+      - text: A separate browser profile named
+      - strong: openclaw
+      - text: (orange accent by default).
+    - listitem: Deterministic tab control (list/open/focus/close).
+    - listitem: Agent actions (click/type/drag/select), snapshots, screenshots, PDFs.
+      - text: Optional multi-profile support (
+      - code: openclaw
+      - text: ","
+      - code: work
+      - text: ","
+      - code: remote
+      - text: ", …)."
+  - text: This browser is
+  - strong: not
+  - text: your daily driver. It is a safe, isolated surface for agent automation and verification.
+  - heading "Navigate to header Quick start" [ref=e99] [level=2]:
+    - link "Navigate to header" [ref=e100] [nth=1]:
+      - /url: "#quick-start"
+    - text: Quick start
+  - button "Copy the contents from the code block" [ref=e101]:
+  - code: openclaw browser --browser-profile openclaw status openclaw browser --browser-profile openclaw start openclaw browser --browser-profile openclaw open https://example.com openclaw browser --browser-profile openclaw snapshot
+  - text: If you get “Browser disabled”, enable it in config (see below) and restart the Gateway.
+  - 'heading "Navigate to header Profiles: openclaw vs chrome" [level=2]':
+    - link "Navigate to header" [ref=e102] [nth=2]:
+      - /url: "#profiles-openclaw-vs-chrome"
+    - text: "Profiles:"
+    - code: openclaw
+    - text: vs
+    - code: chrome
+      - code: openclaw
+      - text: ": managed, isolated browser (no extension required)."
+      - code: chrome
+      - text: ": extension relay to your"
+      - strong: system browser
+      - text: (requires the OpenClaw extension to be attached to a tab).
+  - text: Set
+  - code: "browser.defaultProfile: \"openclaw\""
+  - text: if you want managed mode by default.
+  - heading "Navigate to header Configuration" [ref=e103] [level=2]:
+    - link "Navigate to header" [ref=e104] [nth=3]:
+      - /url: "#configuration"
+    - text: Configuration
+  - text: Browser settings live in
+  - code: ~/.openclaw/openclaw.json
+  - text: .
+  - button "Copy the contents from the code block" [ref=e105] [nth=1]:
+  - code: "{ browser: { enabled: true, // default: true // cdpUrl: \"http://127.0.0.1:18792\", // legacy single-profile override remoteCdpTimeoutMs: 1500, // remote CDP HTTP timeout (ms) remoteCdpHandshakeTimeoutMs: 3000, // remote CDP WebSocket handshake timeout (ms) defaultProfile: \"chrome\", color: \"#FF4500\", headless: false, noSandbox: false, attachOnly: false, executablePath: \"/Applications/Brave Browser.app/Contents/MacOS/Brave Browser\", profiles: { openclaw: { cdpPort: 18800, color: \"#FF4500\" }, work: { cdpPort: 18801, color: \"#0066CC\" }, remote: { cdpUrl: \"http://10.0.0.42:9222\", color: \"#00AA00\" }, }, }, }"
+  - text: "Notes:"
+      - text: The browser control service binds to loopback on a port derived from
+      - code: gateway.port
+      - text: "(default:"
+      - code: "18791"
+      - text: ", which is gateway + 2). The relay uses the next port ("
+      - code: "18792"
+      - text: ).
+      - text: If you override the Gateway port (
+      - code: gateway.port
+      - text: or
+      - code: OPENCLAW_GATEWAY_PORT
+      - text: ), the derived browser ports shift to stay in the same “family”.
+      - code: cdpUrl
+      - text: defaults to the relay port when unset.
+      - code: remoteCdpTimeoutMs
+      - text: applies to remote (non-loopback) CDP reachability checks.
+      - code: remoteCdpHandshakeTimeoutMs
+      - text: applies to remote CDP WebSocket reachability checks.
+      - code: "attachOnly: true"
+      - text: means “never launch a local browser; only attach if it is already running.”
+      - code: color
+      - text: + per-profile
+      - code: color
+      - text: tint the browser UI so you can see which profile is active.
+      - text: Default profile is
+      - code: chrome
+      - text: (extension relay). Use
+      - code: "defaultProfile: \"openclaw\""
+      - text: for the managed browser.
+    - listitem: "Auto-detect order: system default browser if Chromium-based; otherwise Chrome → Brave → Edge → Chromium → Chrome Canary."
+      - text: Local
+      - code: openclaw
+      - text: profiles auto-assign
+      - code: cdpPort
+      - text: /
+      - code: cdpUrl
+      - text: — set those only for remote CDP.
+  - heading "Navigate to header Use Brave (or another Chromium-based browser)" [ref=e106] [level=2]:
+    - link "Navigate to header" [ref=e107] [nth=4]:
+      - /url: "#use-brave-or-another-chromium-based-browser"
+    - text: Use Brave (or another Chromium-based browser)
+  - text: If your
+  - strong: system default
+  - text: browser is Chromium-based (Chrome/Brave/Edge/etc), OpenClaw uses it automatically. Set
+  - code: browser.executablePath
+  - text: "to override auto-detection: CLI example:"
+  - button "Copy the contents from the code block" [ref=e108] [nth=2]:
+  - code: openclaw config set browser.executablePath "/usr/bin/google-chrome"
+  - button "Copy the contents from the code block" [ref=e109] [nth=3]:
+  - code: "// macOS { browser: { executablePath: \"/Applications/Brave Browser.app/Contents/MacOS/Brave Browser\" } } // Windows { browser: { executablePath: \"C:\\\\Program Files\\\\BraveSoftware\\\\Brave-Browser\\\\Application\\\\brave.exe\" } } // Linux { browser: { executablePath: \"/usr/bin/brave-browser\" } }"
+  - heading "Navigate to header Local vs remote control" [ref=e110] [level=2]:
+    - link "Navigate to header" [ref=e111] [nth=5]:
+      - /url: "#local-vs-remote-control"
+    - text: Local vs remote control
+      - strong: "Local control (default):"
+      - text: the Gateway starts the loopback control service and can launch a local browser.
+      - strong: "Remote control (node host):"
+      - text: run a node host on the machine that has the browser; the Gateway proxies browser actions to it.
+      - strong: "Remote CDP:"
+      - text: set
+      - code: browser.profiles.<name>.cdpUrl
+      - text: (or
+      - code: browser.cdpUrl
+      - text: ) to attach to a remote Chromium-based browser. In this case, OpenClaw will not launch a local browser.
+  - text: "Remote CDP URLs can include auth:"
+      - text: Query tokens (e.g.,
+      - code: https://provider.example?token=<token>
+      - text: )
+      - text: HTTP Basic auth (e.g.,
+      - code: https://user:pass@provider.example
+      - text: )
+  - text: OpenClaw preserves the auth when calling
+  - code: /json/*
+  - text: endpoints and when connecting to the CDP WebSocket. Prefer environment variables or secrets managers for tokens instead of committing them to config files.
+  - heading "Navigate to header Node browser proxy (zero-config default)" [ref=e112] [level=2]:
+    - link "Navigate to header" [ref=e113] [nth=6]:
+      - /url: "#node-browser-proxy-zero-config-default"
+    - text: Node browser proxy (zero-config default)
+  - text: If you run a
+  - strong: node host
+  - text: "on the machine that has your browser, OpenClaw can auto-route browser tool calls to that node without any extra browser config. This is the default path for remote gateways. Notes:"
+      - text: The node host exposes its local browser control server via a
+      - strong: proxy command
+      - text: .
+      - text: Profiles come from the node’s own
+      - code: browser.profiles
+      - text: config (same as local).
+      - text: "Disable if you don’t want it:"
+          - text: "On the node:"
+          - code: nodeHost.browserProxy.enabled=false
+          - text: "On the gateway:"
+          - code: gateway.nodes.browser.mode="off"
+  - heading "Navigate to header Browserless (hosted remote CDP)" [ref=e114] [level=2]:
+    - link "Navigate to header" [ref=e115] [nth=7]:
+      - /url: "#browserless-hosted-remote-cdp"
+    - text: Browserless (hosted remote CDP)
+  - link "Browserless" [ref=e116]:
+    - /url: https://browserless.io
+  - text: "is a hosted Chromium service that exposes CDP endpoints over HTTPS. You can point a OpenClaw browser profile at a Browserless region endpoint and authenticate with your API key. Example:"
+  - button "Copy the contents from the code block" [ref=e117] [nth=4]:
+  - code: "{ browser: { enabled: true, defaultProfile: \"browserless\", remoteCdpTimeoutMs: 2000, remoteCdpHandshakeTimeoutMs: 4000, profiles: { browserless: { cdpUrl: \"https://production-sfo.browserless.io?token=<BROWSERLESS_API_KEY>\", color: \"#00AA00\", }, }, }, }"
+  - text: "Notes:"
+      - text: Replace
+      - code: <BROWSERLESS_API_KEY>
+      - text: with your real Browserless token.
+    - listitem: Choose the region endpoint that matches your Browserless account (see their docs).
+  - heading "Navigate to header Security" [ref=e118] [level=2]:
+    - link "Navigate to header" [ref=e119] [nth=8]:
+      - /url: "#security"
+    - text: Security
+  - text: "Key ideas:"
+    - listitem: Browser control is loopback-only; access flows through the Gateway’s auth or node pairing.
+    - listitem: Keep the Gateway and any node hosts on a private network (Tailscale); avoid public exposure.
+    - listitem: Treat remote CDP URLs/tokens as secrets; prefer env vars or a secrets manager.
+  - text: "Remote CDP tips:"
+    - listitem: Prefer HTTPS endpoints and short-lived tokens where possible.
+    - listitem: Avoid embedding long-lived tokens directly in config files.
+  - heading "Navigate to header Profiles (multi-browser)" [ref=e120] [level=2]:
+    - link "Navigate to header" [ref=e121] [nth=9]:
+      - /url: "#profiles-multi-browser"
+    - text: Profiles (multi-browser)
+  - text: "OpenClaw supports multiple named profiles (routing configs). Profiles can be:"
+      - strong: openclaw-managed
+      - text: ": a dedicated Chromium-based browser instance with its own user data directory + CDP port"
+      - strong: remote
+      - text: ": an explicit CDP URL (Chromium-based browser running elsewhere)"
+      - strong: extension relay
+      - text: ": your existing Chrome tab(s) via the local relay + Chrome extension"
+  - text: "Defaults:"
+      - text: The
+      - code: openclaw
+      - text: profile is auto-created if missing.
+      - text: The
+      - code: chrome
+      - text: profile is built-in for the Chrome extension relay (points at
+      - code: http://127.0.0.1:18792
+      - text: by default).
+      - text: Local CDP ports allocate from
+      - strong: 18800–18899
+      - text: by default.
+    - listitem: Deleting a profile moves its local data directory to Trash.
+  - text: All control endpoints accept
+  - code: "?profile=<name>"
+  - text: ; the CLI uses
+  - code: "--browser-profile"
+  - text: .
+  - heading "Navigate to header Chrome extension relay (use your existing Chrome)" [ref=e122] [level=2]:
+    - link "Navigate to header" [ref=e123] [nth=10]:
+      - /url: "#chrome-extension-relay-use-your-existing-chrome"
+    - text: Chrome extension relay (use your existing Chrome)
+  - text: OpenClaw can also drive
+  - strong: your existing Chrome tabs
+  - text: "(no separate “openclaw” Chrome instance) via a local CDP relay + a Chrome extension. Full guide:"
+  - link "Chrome extension" [ref=e124]:
+    - /url: /tools/chrome-extension
+  - text: "Flow:"
+    - listitem: The Gateway runs locally (same machine) or a node host runs on the browser machine.
+      - text: A local
+      - strong: relay server
+      - text: listens at a loopback
+      - code: cdpUrl
+      - text: "(default:"
+      - code: http://127.0.0.1:18792
+      - text: ).
+      - text: You click the
+      - strong: OpenClaw Browser Relay
+      - text: extension icon on a tab to attach (it does not auto-attach).
+      - text: The agent controls that tab via the normal
+      - code: browser
+      - text: tool, by selecting the right profile.
+  - text: If the Gateway runs elsewhere, run a node host on the browser machine so the Gateway can proxy browser actions.
+  - heading "Navigate to header Sandboxed sessions" [ref=e125] [level=3]:
+    - link "Navigate to header" [ref=e126] [nth=11]:
+      - /url: "#sandboxed-sessions"
+    - text: Sandboxed sessions
+  - text: If the agent session is sandboxed, the
+  - code: browser
+  - text: tool may default to
+  - code: target="sandbox"
+  - text: "(sandbox browser). Chrome extension relay takeover requires host browser control, so either:"
+    - listitem: run the session unsandboxed, or
+      - text: set
+      - code: "agents.defaults.sandbox.browser.allowHostControl: true"
+      - text: and use
+      - code: target="host"
+      - text: when calling the tool.
+  - heading "Navigate to header Setup" [ref=e127] [level=3]:
+    - link "Navigate to header" [ref=e128] [nth=12]:
+      - /url: "#setup"
+    - text: Setup
+    - listitem: "Load the extension (dev/unpacked):"
+  - button "Copy the contents from the code block" [ref=e129] [nth=5]:
+  - code: openclaw browser extension install
+      - text: Chrome →
+      - code: chrome://extensions
+      - text: → enable “Developer mode”
+      - text: “Load unpacked” → select the directory printed by
+      - code: openclaw browser extension path
+      - text: Pin the extension, then click it on the tab you want to control (badge shows
+      - code: "ON"
+      - text: ).
+    - listitem: "Use it:"
+      - text: "CLI:"
+      - code: openclaw browser --browser-profile chrome tabs
+      - text: "Agent tool:"
+      - code: browser
+      - text: with
+      - code: profile="chrome"
+  - text: "Optional: if you want a different name or relay port, create your own profile:"
+  - button "Copy the contents from the code block" [ref=e130] [nth=6]:
+  - code: openclaw browser create-profile \ --name my-chrome \ --driver extension \ --cdp-url http://127.0.0.1:18792 \ --color "#00AA00"
+  - text: "Notes:"
+    - listitem: This mode relies on Playwright-on-CDP for most operations (screenshots/snapshots/actions).
+    - listitem: Detach by clicking the extension icon again.
+  - heading "Navigate to header Isolation guarantees" [ref=e131] [level=2]:
+    - link "Navigate to header" [ref=e132] [nth=13]:
+      - /url: "#isolation-guarantees"
+    - text: Isolation guarantees
+      - strong: Dedicated user data dir
+      - text: ": never touches your personal browser profile."
+      - strong: Dedicated ports
+      - text: ": avoids"
+      - code: "9222"
+      - text: to prevent collisions with dev workflows.
+      - strong: Deterministic tab control
+      - text: ": target tabs by"
+      - code: targetId
+      - text: ", not “last tab”."
+  - heading "Navigate to header Browser selection" [ref=e133] [level=2]:
+    - link "Navigate to header" [ref=e134] [nth=14]:
+      - /url: "#browser-selection"
+    - text: Browser selection
+  - text: "When launching locally, OpenClaw picks the first available:"
+    - listitem: Chrome
+    - listitem: Brave
+    - listitem: Edge
+    - listitem: Chromium
+    - listitem: Chrome Canary
+  - text: You can override with
+  - code: browser.executablePath
+  - text: ". Platforms:"
+      - text: "macOS: checks"
+      - code: /Applications
+      - text: and
+      - code: ~/Applications
+      - text: .
+      - text: "Linux: looks for"
+      - code: google-chrome
+      - text: ","
+      - code: brave
+      - text: ","
+      - code: microsoft-edge
+      - text: ","
+      - code: chromium
+      - text: ", etc."
+    - listitem: "Windows: checks common install locations."
+  - heading "Navigate to header Control API (optional)" [ref=e135] [level=2]:
+    - link "Navigate to header" [ref=e136] [nth=15]:
+      - /url: "#control-api-optional"
+    - text: Control API (optional)
+  - text: "For local integrations only, the Gateway exposes a small loopback HTTP API:"
+      - text: "Status/start/stop:"
+      - code: GET /
+      - text: ","
+      - code: POST /start
+      - text: ","
+      - code: POST /stop
+      - text: "Tabs:"
+      - code: GET /tabs
+      - text: ","
+      - code: POST /tabs/open
+      - text: ","
+      - code: POST /tabs/focus
+      - text: ","
+      - code: DELETE /tabs/:targetId
+      - text: "Snapshot/screenshot:"
+      - code: GET /snapshot
+      - text: ","
+      - code: POST /screenshot
+      - text: "Actions:"
+      - code: POST /navigate
+      - text: ","
+      - code: POST /act
+      - text: "Hooks:"
+      - code: POST /hooks/file-chooser
+      - text: ","
+      - code: POST /hooks/dialog
+      - text: "Downloads:"
+      - code: POST /download
+      - text: ","
+      - code: POST /wait/download
+      - text: "Debugging:"
+      - code: GET /console
+      - text: ","
+      - code: POST /pdf
+      - text: "Debugging:"
+      - code: GET /errors
+      - text: ","
+      - code: GET /requests
+      - text: ","
+      - code: POST /trace/start
+      - text: ","
+      - code: POST /trace/stop
+      - text: ","
+      - code: POST /highlight
+      - text: "Network:"
+      - code: POST /response/body
+      - text: "State:"
+      - code: GET /cookies
+      - text: ","
+      - code: POST /cookies/set
+      - text: ","
+      - code: POST /cookies/clear
+      - text: "State:"
+      - code: GET /storage/:kind
+      - text: ","
+      - code: POST /storage/:kind/set
+      - text: ","
+      - code: POST /storage/:kind/clear
+      - text: "Settings:"
+      - code: POST /set/offline
+      - text: ","
+      - code: POST /set/headers
+      - text: ","
+      - code: POST /set/credentials
+      - text: ","
+      - code: POST /set/geolocation
+      - text: ","
+      - code: POST /set/media
+      - text: ","
+      - code: POST /set/timezone
+      - text: ","
+      - code: POST /set/locale
+      - text: ","
+      - code: POST /set/device
+  - text: All endpoints accept
+  - code: "?profile=<name>"
+  - text: .
+  - heading "Navigate to header Playwright requirement" [ref=e137] [level=3]:
+    - link "Navigate to header" [ref=e138] [nth=16]:
+      - /url: "#playwright-requirement"
+    - text: Playwright requirement
+  - text: Some features (navigate/act/AI snapshot/role snapshot, element screenshots, PDF) require Playwright. If Playwright isn’t installed, those endpoints return a clear 501 error. ARIA snapshots and basic screenshots still work for openclaw-managed Chrome. For the Chrome extension relay driver, ARIA snapshots and screenshots require Playwright. If you see
+  - code: Playwright is not available in this gateway build
+  - text: ", install the full Playwright package (not"
+  - code: playwright-core
+  - text: ) and restart the gateway, or reinstall OpenClaw with browser support.
+  - heading "Navigate to header Docker Playwright install" [ref=e139] [level=4]:
+    - link "Navigate to header" [ref=e140] [nth=17]:
+      - /url: "#docker-playwright-install"
+    - text: Docker Playwright install
+  - text: If your Gateway runs in Docker, avoid
+  - code: npx playwright
+  - text: "(npm override conflicts). Use the bundled CLI instead:"
+  - button "Copy the contents from the code block" [ref=e141] [nth=7]:
+  - code: docker compose run --rm openclaw-cli \ node /app/node_modules/playwright-core/cli.js install chromium
+  - text: To persist browser downloads, set
+  - code: PLAYWRIGHT_BROWSERS_PATH
+  - text: (for example,
+  - code: /home/node/.cache/ms-playwright
+  - text: ) and make sure
+  - code: /home/node
+  - text: is persisted via
+  - code: OPENCLAW_HOME_VOLUME
+  - text: or a bind mount. See
+  - link "Docker" [ref=e142]:
+    - /url: /install/docker
+  - text: .
+  - heading "Navigate to header How it works (internal)" [ref=e143] [level=2]:
+    - link "Navigate to header" [ref=e144] [nth=18]:
+      - /url: "#how-it-works-internal"
+    - text: How it works (internal)
+  - text: "High-level flow:"
+      - text: A small
+      - strong: control server
+      - text: accepts HTTP requests.
+      - text: It connects to Chromium-based browsers (Chrome/Brave/Edge/Chromium) via
+      - strong: CDP
+      - text: .
+      - text: For advanced actions (click/type/snapshot/PDF), it uses
+      - strong: Playwright
+      - text: on top of CDP.
+    - listitem: When Playwright is missing, only non-Playwright operations are available.
+  - text: This design keeps the agent on a stable, deterministic interface while letting you swap local/remote browsers and profiles.
+  - heading "Navigate to header CLI quick reference" [ref=e145] [level=2]:
+    - link "Navigate to header" [ref=e146] [nth=19]:
+      - /url: "#cli-quick-reference"
+    - text: CLI quick reference
+  - text: All commands accept
+  - code: "--browser-profile <name>"
+  - text: to target a specific profile. All commands also accept
+  - code: "--json"
+  - text: "for machine-readable output (stable payloads). Basics:"
+      - code: openclaw browser status
+      - code: openclaw browser start
+      - code: openclaw browser stop
+      - code: openclaw browser tabs
+      - code: openclaw browser tab
+      - code: openclaw browser tab new
+      - code: openclaw browser tab select 2
+      - code: openclaw browser tab close 2
+      - code: openclaw browser open https://example.com
+      - code: openclaw browser focus abcd1234
+      - code: openclaw browser close abcd1234
+  - text: "Inspection:"
+      - code: openclaw browser screenshot
+      - code: openclaw browser screenshot --full-page
+      - code: openclaw browser screenshot --ref 12
+      - code: openclaw browser screenshot --ref e12
+      - code: openclaw browser snapshot
+      - code: openclaw browser snapshot --format aria --limit 200
+      - code: openclaw browser snapshot --interactive --compact --depth 6
+      - code: openclaw browser snapshot --efficient
+      - code: openclaw browser snapshot --labels
+      - code: openclaw browser snapshot --selector "#main" --interactive
+      - code: openclaw browser snapshot --frame "iframe#main" --interactive
+      - code: openclaw browser console --level error
+      - code: openclaw browser errors --clear
+      - code: openclaw browser requests --filter api --clear
+      - code: openclaw browser pdf
+      - code: openclaw browser responsebody "**/api" --max-chars 5000
+  - text: "Actions:"
+      - code: openclaw browser navigate https://example.com
+      - code: openclaw browser resize 1280 720
+      - code: openclaw browser click 12 --double
+      - code: openclaw browser click e12 --double
+      - code: openclaw browser type 23 "hello" --submit
+      - code: openclaw browser press Enter
+      - code: openclaw browser hover 44
+      - code: openclaw browser scrollintoview e12
+      - code: openclaw browser drag 10 11
+      - code: openclaw browser select 9 OptionA OptionB
+      - code: openclaw browser download e12 /tmp/report.pdf
+      - code: openclaw browser waitfordownload /tmp/report.pdf
+      - code: openclaw browser upload /tmp/file.pdf
+      - code: "openclaw browser fill --fields '[{\"ref\":\"1\",\"type\":\"text\",\"value\":\"Ada\"}]'"
+      - code: openclaw browser dialog --accept
+      - code: openclaw browser wait --text "Done"
+      - code: openclaw browser wait "#main" --url "**/dash" --load networkidle --fn "window.ready===true"
+      - code: openclaw browser evaluate --fn '(el) => el.textContent' --ref 7
+      - code: openclaw browser highlight e12
+      - code: openclaw browser trace start
+      - code: openclaw browser trace stop
+  - text: "State:"
+      - code: openclaw browser cookies
+      - code: openclaw browser cookies set session abc123 --url "https://example.com"
+      - code: openclaw browser cookies clear
+      - code: openclaw browser storage local get
+      - code: openclaw browser storage local set theme dark
+      - code: openclaw browser storage session clear
+      - code: openclaw browser set offline on
+      - code: "openclaw browser set headers --json '{\"X-Debug\":\"1\"}'"
+      - code: openclaw browser set credentials user pass
+      - code: openclaw browser set credentials --clear
+      - code: openclaw browser set geo 37.7749 -122.4194 --origin "https://example.com"
+      - code: openclaw browser set geo --clear
+      - code: openclaw browser set media dark
+      - code: openclaw browser set timezone America/New_York
+      - code: openclaw browser set locale en-US
+      - code: openclaw browser set device "iPhone 14"
+  - text: "Notes:"
+      - code: upload
+      - text: and
+      - code: dialog
+      - text: are
+      - strong: arming
+      - text: calls; run them before the click/press that triggers the chooser/dialog.
+      - code: upload
+      - text: can also set file inputs directly via
+      - code: "--input-ref"
+      - text: or
+      - code: "--element"
+      - text: .
+    - listitem:
+      - code: snapshot
+      - text: ":"
+          - code: "--format ai"
+          - text: "(default when Playwright is installed): returns an AI snapshot with numeric refs ("
+          - code: aria-ref="<n>"
+          - text: ).
+          - code: "--format aria"
+          - text: ": returns the accessibility tree (no refs; inspection only)."
+          - code: "--efficient"
+          - text: (or
+          - code: "--mode efficient"
+          - text: "): compact role snapshot preset (interactive + compact + depth + lower maxChars)."
+        - listitem:
+          - text: "Config default (tool/CLI only): set"
+          - code: "browser.snapshotDefaults.mode: \"efficient\""
+          - text: to use efficient snapshots when the caller does not pass a mode (see
+          - link "Gateway configuration" [ref=e147]:
+            - /url: /gateway/configuration#browser-openclaw-managed-browser
+          - text: ).
+          - text: Role snapshot options (
+          - code: "--interactive"
+          - text: ","
+          - code: "--compact"
+          - text: ","
+          - code: "--depth"
+          - text: ","
+          - code: "--selector"
+          - text: ) force a role-based snapshot with refs like
+          - code: ref=e12
+          - text: .
+          - code: "--frame \"<iframe selector>\""
+          - text: scopes role snapshots to an iframe (pairs with role refs like
+          - code: e12
+          - text: ).
+          - code: "--interactive"
+          - text: outputs a flat, easy-to-pick list of interactive elements (best for driving actions).
+          - code: "--labels"
+          - text: adds a viewport-only screenshot with overlayed ref labels (prints
+          - code: MEDIA:<path>
+          - text: ).
+      - code: click
+      - text: /
+      - code: type
+      - text: /etc require a
+      - code: ref
+      - text: from
+      - code: snapshot
+      - text: (either numeric
+      - code: "12"
+      - text: or role ref
+      - code: e12
+      - text: ). CSS selectors are intentionally not supported for actions.
+  - heading "Navigate to header Snapshots and refs" [ref=e148] [level=2]:
+    - link "Navigate to header" [ref=e149] [nth=20]:
+      - /url: "#snapshots-and-refs"
+    - text: Snapshots and refs
+  - text: "OpenClaw supports two “snapshot” styles:"
+      - strong: AI snapshot (numeric refs)
+      - text: ":"
+      - code: openclaw browser snapshot
+      - text: (default;
+      - code: "--format ai"
+      - text: )
+        - listitem: "Output: a text snapshot that includes numeric refs."
+          - text: "Actions:"
+          - code: openclaw browser click 12
+          - text: ","
+          - code: openclaw browser type 23 "hello"
+          - text: .
+          - text: Internally, the ref is resolved via Playwright’s
+          - code: aria-ref
+          - text: .
+    - listitem:
+        - text: Role snapshot (role refs like
+        - code: e12
+        - text: )
+      - text: ":"
+      - code: openclaw browser snapshot --interactive
+      - text: (or
+      - code: "--compact"
+      - text: ","
+      - code: "--depth"
+      - text: ","
+      - code: "--selector"
+      - text: ","
+      - code: "--frame"
+      - text: )
+        - listitem:
+          - text: "Output: a role-based list/tree with"
+          - code: "[ref=e12]"
+          - text: (and optional
+          - code: "[nth=1]"
+          - text: ).
+          - text: "Actions:"
+          - code: openclaw browser click e12
+          - text: ","
+          - code: openclaw browser highlight e12
+          - text: .
+          - text: Internally, the ref is resolved via
+          - code: getByRole(...)
+          - text: (plus
+          - code: nth()
+          - text: for duplicates).
+          - text: Add
+          - code: "--labels"
+          - text: to include a viewport screenshot with overlayed
+          - code: e12
+          - text: labels.
+  - text: "Ref behavior:"
+      - text: Refs are
+      - strong: not stable across navigations
+      - text: ; if something fails, re-run
+      - code: snapshot
+      - text: and use a fresh ref.
+      - text: If the role snapshot was taken with
+      - code: "--frame"
+      - text: ", role refs are scoped to that iframe until the next role snapshot."
+  - heading "Navigate to header Wait power-ups" [ref=e150] [level=2]:
+    - link "Navigate to header" [ref=e151] [nth=21]:
+      - /url: "#wait-power-ups"
+    - text: Wait power-ups
+  - text: "You can wait on more than just time/text:"
+      - text: "Wait for URL (globs supported by Playwright):"
+          - code: openclaw browser wait --url "**/dash"
+      - text: "Wait for load state:"
+          - code: openclaw browser wait --load networkidle
+      - text: "Wait for a JS predicate:"
+          - code: openclaw browser wait --fn "window.ready===true"
+      - text: "Wait for a selector to become visible:"
+          - code: openclaw browser wait "#main"
+  - text: "These can be combined:"
+  - button "Copy the contents from the code block" [ref=e152] [nth=8]:
+  - code: openclaw browser wait "#main" \ --url "**/dash" \ --load networkidle \ --fn "window.ready===true" \ --timeout-ms 15000
+  - heading "Navigate to header Debug workflows" [ref=e153] [level=2]:
+    - link "Navigate to header" [ref=e154] [nth=22]:
+      - /url: "#debug-workflows"
+    - text: Debug workflows
+  - text: "When an action fails (e.g. “not visible”, “strict mode violation”, “covered”):"
+      - code: openclaw browser snapshot --interactive
+      - text: Use
+      - code: click <ref>
+      - text: /
+      - code: type <ref>
+      - text: (prefer role refs in interactive mode)
+      - text: "If it still fails:"
+      - code: openclaw browser highlight <ref>
+      - text: to see what Playwright is targeting
+      - text: "If the page behaves oddly:"
+          - code: openclaw browser errors --clear
+          - code: openclaw browser requests --filter api --clear
+      - text: "For deep debugging: record a trace:"
+          - code: openclaw browser trace start
+        - listitem: reproduce the issue
+          - code: openclaw browser trace stop
+          - text: (prints
+          - code: TRACE:<path>
+          - text: )
+  - heading "Navigate to header JSON output" [ref=e155] [level=2]:
+    - link "Navigate to header" [ref=e156] [nth=23]:
+      - /url: "#json-output"
+    - text: JSON output
+  - code: "--json"
+  - text: "is for scripting and structured tooling. Examples:"
+  - button "Copy the contents from the code block" [ref=e157] [nth=9]:
+  - code: openclaw browser status --json openclaw browser snapshot --interactive --json openclaw browser requests --filter api --json openclaw browser cookies --json
+  - text: Role snapshots in JSON include
+  - code: refs
+  - text: plus a small
+  - code: stats
+  - text: block (lines/chars/refs/interactive) so tools can reason about payload size and density.
+  - heading "Navigate to header State and environment knobs" [ref=e158] [level=2]:
+    - link "Navigate to header" [ref=e159] [nth=24]:
+      - /url: "#state-and-environment-knobs"
+    - text: State and environment knobs
+  - text: "These are useful for “make the site behave like X” workflows:"
+      - text: "Cookies:"
+      - code: cookies
+      - text: ","
+      - code: cookies set
+      - text: ","
+      - code: cookies clear
+      - text: "Storage:"
+      - code: storage local|session get|set|clear
+      - text: "Offline:"
+      - code: set offline on|off
+      - text: "Headers:"
+      - code: "set headers --json '{\"X-Debug\":\"1\"}'"
+      - text: (or
+      - code: "--clear"
+      - text: )
+      - text: "HTTP basic auth:"
+      - code: set credentials user pass
+      - text: (or
+      - code: "--clear"
+      - text: )
+      - text: "Geolocation:"
+      - code: set geo <lat> <lon> --origin "https://example.com"
+      - text: (or
+      - code: "--clear"
+      - text: )
+      - text: "Media:"
+      - code: set media dark|light|no-preference|none
+      - text: "Timezone / locale:"
+      - code: set timezone ...
+      - text: ","
+      - code: set locale ...
+      - text: "Device / viewport:"
+          - code: set device "iPhone 14"
+          - text: (Playwright device presets)
+          - code: set viewport 1280 720
+  - heading "Navigate to header Security & privacy" [ref=e160] [level=2]:
+    - link "Navigate to header" [ref=e161] [nth=25]:
+      - /url: "#security-&-privacy"
+    - text: Security & privacy
+    - listitem: The openclaw browser profile may contain logged-in sessions; treat it as sensitive.
+      - code: browser act kind=evaluate
+      - text: /
+      - code: openclaw browser evaluate
+      - text: and
+      - code: wait --fn
+      - text: execute arbitrary JavaScript in the page context. Prompt injection can steer this. Disable it with
+      - code: browser.evaluateEnabled=false
+      - text: if you do not need it.
+    - listitem:
+      - text: For logins and anti-bot notes (X/Twitter, etc.), see
+      - link "Browser login + X/Twitter posting" [ref=e162]:
+        - /url: /tools/browser-login
+      - text: .
+    - listitem: Keep the Gateway/node host private (loopback or tailnet-only).
+    - listitem: Remote CDP endpoints are powerful; tunnel and protect them.
+  - heading "Navigate to header Troubleshooting" [ref=e163] [level=2]:
+    - link "Navigate to header" [ref=e164] [nth=26]:
+      - /url: "#troubleshooting"
+    - text: Troubleshooting
+  - text: For Linux-specific issues (especially snap Chromium), see
+  - link "Browser troubleshooting" [ref=e165]:
+    - /url: /tools/browser-linux-troubleshooting
+  - text: .
+  - heading "Navigate to header Agent tools + how control works" [ref=e166] [level=2]:
+    - link "Navigate to header" [ref=e167] [nth=27]:
+      - /url: "#agent-tools-+-how-control-works"
+    - text: Agent tools + how control works
+  - text: The agent gets
+  - strong: one tool
+  - text: "for browser automation:"
+      - code: browser
+      - text: — status/start/stop/tabs/open/focus/close/snapshot/screenshot/navigate/act
+  - text: "How it maps:"
+      - code: browser snapshot
+      - text: returns a stable UI tree (AI or ARIA).
+      - code: browser act
+      - text: uses the snapshot
+      - code: ref
+      - text: IDs to click/type/drag/select.
+      - code: browser screenshot
+      - text: captures pixels (full page or element).
+      - code: browser
+      - text: "accepts:"
+          - code: profile
+          - text: to choose a named browser profile (openclaw, chrome, or remote CDP).
+          - code: target
+          - text: (
+          - code: sandbox
+          - text: "|"
+          - code: host
+          - text: "|"
+          - code: node
+          - text: ) to select where the browser lives.
+          - text: In sandboxed sessions,
+          - code: "target: \"host\""
+          - text: requires
+          - code: agents.defaults.sandbox.browser.allowHostControl=true
+          - text: .
+          - text: If
+          - code: target
+          - text: "is omitted: sandboxed sessions default to"
+          - code: sandbox
+          - text: ", non-sandbox sessions default to"
+          - code: host
+          - text: .
+          - text: If a browser-capable node is connected, the tool may auto-route to it unless you pin
+          - code: target="host"
+          - text: or
+          - code: target="node"
+          - text: .
+  - text: This keeps the agent deterministic and avoids brittle selectors.
+  - link "Reactions" [ref=e168] [nth=1]:
+    - /url: /tools/reactions
+    - text: Reactions
+  - link "Browser Login" [ref=e169] [nth=1]:
+    - /url: /tools/browser-login
+    - text: Browser Login
+  - textbox "Ask a question..." [ref=e170]
+  - text: Ctrl+I
+  - button "Send message" [ref=e171] [disabled]:
+  - contentinfo:
+    - link "Powered by" [ref=e172]:
+      - /url: https://www.mintlify.com?utm_campaign=poweredBy&utm_medium=referral&utm_source=clawdhub
+      - text: Powered by

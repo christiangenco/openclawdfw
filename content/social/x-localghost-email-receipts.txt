@@ -1,0 +1,83 @@
+  - text: Don’t miss what’s happening People on X are the first to know.
+  - link "Log in" [ref=e1]:
+    - /url: /login
+  - link "Sign up" [ref=e2]:
+    - /url: /i/flow/signup
+  - button "Skip to home timeline" [ref=e3]
+  - button "Skip to trending" [ref=e4]
+  - banner:
+    - heading "X" [ref=e5] [level=1]:
+      - link "X" [ref=e6]:
+        - /url: /
+    - navigation "Primary" [ref=e7]
+  - main:
+    - button "Back" [ref=e8]
+    - heading "Post" [ref=e9] [level=2]
+    - region "Conversation" [ref=e10]:
+      - heading "Conversation" [ref=e11] [level=1]
+      - article "Aaron Ng Verified account @localghost Since Clawdbot has an email inbox I can just forward stuff for it to take care of. Here’s Clawdbot turning my email receipts into a parts list. Image 12 replies, 9 reposts, 216 likes, 116 bookmarks, 23396 views" [ref=e12]:
+        - link "Aaron Ng Verified account" [ref=e13]:
+          - /url: /localghost
+          - text: Aaron Ng
+        - link "@localghost" [ref=e14]:
+          - /url: /localghost
+        - button "More" [ref=e15]
+        - text: Since Clawdbot has an email inbox I can just forward stuff for it to take care of. Here’s Clawdbot turning my email receipts into a parts list.
+        - link "Image" [ref=e16]:
+          - /url: /localghost/status/2014880905979167005/photo/1
+        - link "8:00 PM · Jan 23, 2026" [ref=e17]:
+          - /url: /localghost/status/2014880905979167005
+          - time: 8:00 PM · Jan 23, 2026
+        - link "23.3K Views" [ref=e18]:
+          - /url: /localghost/status/2014880905979167005/analytics
+        - group "12 replies, 9 reposts, 216 likes, 116 bookmarks, 23396 views":
+          - button "12 Replies. Reply" [ref=e19]: "12"
+          - button "9 reposts. Repost" [ref=e20]: "9"
+          - button "216 Likes. Like" [ref=e21]: "216"
+          - button "116 Bookmarks. Bookmark" [ref=e22]: "116"
+          - button "Share post" [ref=e23]
+        - button "Read 12 replies" [ref=e24]
+    - region "Sign up" [ref=e25]:
+      - heading "New to X?" [ref=e26] [level=2]
+      - text: Sign up now to get your own personalized timeline!
+      - button "Sign up with Apple" [ref=e27]
+      - link "Create account" [ref=e28]:
+        - /url: /i/flow/signup
+      - text: By signing up, you agree to the
+      - link "Terms of Service" [ref=e29]:
+        - /url: https://x.com/tos
+      - text: and
+      - link "Privacy Policy" [ref=e30]:
+        - /url: https://x.com/privacy
+      - text: ", including"
+      - link "Cookie Use." [ref=e31]:
+        - /url: https://help.x.com/rules-and-policies/twitter-cookies
+    - region "Trending now" [ref=e32]:
+      - heading "Trending now" [ref=e33] [level=1]
+      - heading "What’s happening" [ref=e34] [level=2]
+      - link "Sports · Trending Verlander" [ref=e35]
+      - link "Trending in United States Noah Kahan" [ref=e36]
+      - link "Politics · Trending Nancy Guthrie Trending with The FBI" [ref=e37]:
+        - text: Politics · Trending Nancy Guthrie Trending with
+        - link "The FBI" [ref=e38]:
+          - /url: /search?q=The%20FBI&src=trend_click&vertical=trends
+      - link "Show more" [ref=e39]:
+        - /url: /explore/tabs/for-you
+    - navigation "Footer" [ref=e40]:
+      - link "Terms of Service" [ref=e41] [nth=1]:
+        - /url: https://x.com/tos
+      - text: "|"
+      - link "Privacy Policy" [ref=e42] [nth=1]:
+        - /url: https://x.com/privacy
+      - text: "|"
+      - link "Cookie Policy" [ref=e43]:
+        - /url: https://support.x.com/articles/20170514
+      - text: "|"
+      - link "Accessibility" [ref=e44]:
+        - /url: https://help.x.com/resources/accessibility
+      - text: "|"
+      - link "Ads info" [ref=e45]:
+        - /url: https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo
+      - text: "|"
+      - button "More" [ref=e46] [nth=1]
+      - text: © 2026 X Corp.

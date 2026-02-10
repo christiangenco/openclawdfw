@@ -1,0 +1,824 @@
+  - link "Skip to main content" [ref=e1]:
+    - /url: "#content-area"
+  - link "OpenClaw home page light logo" [ref=e2]:
+    - /url: /
+    - text: OpenClaw home page
+  - button "US English" [ref=e3]:
+    - text: English
+  - button "Open search" [ref=e4]:
+    - text: Search... Ctrl K
+  - navigation:
+      - listitem:
+        - link "GitHub" [ref=e5]:
+          - /url: https://github.com/openclaw/openclaw
+          - text: GitHub
+      - listitem:
+        - link "Releases" [ref=e6]:
+          - /url: https://github.com/openclaw/openclaw/releases
+          - text: Releases
+  - button "Toggle dark mode" [ref=e7]:
+  - link "Get started" [ref=e8]:
+    - /url: /
+  - link "Install" [ref=e9]:
+    - /url: /install
+  - link "Channels" [ref=e10]:
+    - /url: /channels
+  - link "Agents" [ref=e11]:
+    - /url: /concepts/architecture
+  - link "Tools" [ref=e12]:
+    - /url: /tools
+  - link "Models" [ref=e13]:
+    - /url: /providers
+  - link "Platforms" [ref=e14]:
+    - /url: /platforms
+  - link "Gateway & Ops" [ref=e15]:
+    - /url: /gateway
+  - link "Reference" [ref=e16]:
+    - /url: /cli
+  - link "Help" [ref=e17]:
+    - /url: /help
+  - heading "Fundamentals" [ref=e18] [level=5]
+    - listitem:
+      - link "Gateway Architecture" [ref=e19]:
+        - /url: /concepts/architecture
+    - listitem:
+      - link "Agent Runtime" [ref=e20]:
+        - /url: /concepts/agent
+    - listitem:
+      - link "Agent Loop" [ref=e21]:
+        - /url: /concepts/agent-loop
+    - listitem:
+      - link "System Prompt" [ref=e22]:
+        - /url: /concepts/system-prompt
+    - listitem:
+      - link "Context" [ref=e23]:
+        - /url: /concepts/context
+    - listitem:
+      - link "Agent Workspace" [ref=e24]:
+        - /url: /concepts/agent-workspace
+    - listitem:
+      - link "OAuth" [ref=e25]:
+        - /url: /concepts/oauth
+  - heading "Bootstrapping" [ref=e26] [level=5]
+    - listitem:
+      - link "Bootstrapping" [ref=e27]:
+        - /url: /start/bootstrapping
+  - heading "Sessions and memory" [ref=e28] [level=5]
+    - listitem:
+      - link "Session Management" [ref=e29]:
+        - /url: /concepts/session
+    - listitem:
+      - link "Sessions" [ref=e30]:
+        - /url: /concepts/sessions
+    - listitem:
+      - link "Session Pruning" [ref=e31]:
+        - /url: /concepts/session-pruning
+    - listitem:
+      - link "Session Tools" [ref=e32]:
+        - /url: /concepts/session-tool
+    - listitem:
+      - link "Memory" [ref=e33]:
+        - /url: /concepts/memory
+    - listitem:
+      - link "Compaction" [ref=e34]:
+        - /url: /concepts/compaction
+  - heading "Multi-agent" [ref=e35] [level=5]
+    - listitem:
+      - link "Multi-Agent Routing" [ref=e36]:
+        - /url: /concepts/multi-agent
+    - listitem:
+      - link "Presence" [ref=e37]:
+        - /url: /concepts/presence
+  - heading "Messages and delivery" [ref=e38] [level=5]
+    - listitem:
+      - link "Messages" [ref=e39]:
+        - /url: /concepts/messages
+    - listitem:
+      - link "Streaming and Chunking" [ref=e40]:
+        - /url: /concepts/streaming
+    - listitem:
+      - link "Retry Policy" [ref=e41]:
+        - /url: /concepts/retry
+    - listitem:
+      - link "Command Queue" [ref=e42]:
+        - /url: /concepts/queue
+  - button "On this page" [ref=e43]:
+    - text: On this page
+    - listitem:
+      - link "Memory" [ref=e44] [nth=1]:
+        - /url: "#memory"
+    - listitem:
+      - link "Memory files (Markdown)" [ref=e45]:
+        - /url: "#memory-files-markdown"
+    - listitem:
+      - link "When to write memory" [ref=e46]:
+        - /url: "#when-to-write-memory"
+    - listitem:
+      - link "Automatic memory flush (pre-compaction ping)" [ref=e47]:
+        - /url: "#automatic-memory-flush-pre-compaction-ping"
+    - listitem:
+      - link "Vector memory search" [ref=e48]:
+        - /url: "#vector-memory-search"
+    - listitem:
+      - link "QMD backend (experimental)" [ref=e49]:
+        - /url: "#qmd-backend-experimental"
+    - listitem:
+      - link "Additional memory paths" [ref=e50]:
+        - /url: "#additional-memory-paths"
+    - listitem:
+      - link "Gemini embeddings (native)" [ref=e51]:
+        - /url: "#gemini-embeddings-native"
+    - listitem:
+      - link "How the memory tools work" [ref=e52]:
+        - /url: "#how-the-memory-tools-work"
+    - listitem:
+      - link "What gets indexed (and when)" [ref=e53]:
+        - /url: "#what-gets-indexed-and-when"
+    - listitem:
+      - link "Hybrid search (BM25 + vector)" [ref=e54]:
+        - /url: "#hybrid-search-bm25-%2B-vector"
+    - listitem:
+      - link "Why hybrid?" [ref=e55]:
+        - /url: "#why-hybrid"
+    - listitem:
+      - link "How we merge results (the current design)" [ref=e56]:
+        - /url: "#how-we-merge-results-the-current-design"
+    - listitem:
+      - link "Embedding cache" [ref=e57]:
+        - /url: "#embedding-cache"
+    - listitem:
+      - link "Session memory search (experimental)" [ref=e58]:
+        - /url: "#session-memory-search-experimental"
+    - listitem:
+      - link "SQLite vector acceleration (sqlite-vec)" [ref=e59]:
+        - /url: "#sqlite-vector-acceleration-sqlite-vec"
+    - listitem:
+      - link "Local embedding auto-download" [ref=e60]:
+        - /url: "#local-embedding-auto-download"
+    - listitem:
+      - link "Custom OpenAI-compatible endpoint example" [ref=e61]:
+        - /url: "#custom-openai-compatible-endpoint-example"
+  - banner:
+    - text: Sessions and memory
+    - heading "Memory" [ref=e62] [level=1]
+  - text: OpenClaw memory is
+  - strong: plain Markdown in the agent workspace
+  - text: ". The files are the source of truth; the model only “remembers” what gets written to disk. Memory search tools are provided by the active memory plugin (default:"
+  - code: memory-core
+  - text: ). Disable memory plugins with
+  - code: plugins.slots.memory = "none"
+  - text: .
+  - heading "Navigate to header Memory files (Markdown)" [ref=e63] [level=2]:
+    - link "Navigate to header" [ref=e64]:
+      - /url: "#memory-files-markdown"
+    - text: Memory files (Markdown)
+  - text: "The default workspace layout uses two memory layers:"
+      - code: memory/YYYY-MM-DD.md
+        - listitem: Daily log (append-only).
+        - listitem: Read today + yesterday at session start.
+      - code: MEMORY.md
+      - text: (optional)
+        - listitem: Curated long-term memory.
+          - strong: Only load in the main, private session
+          - text: (never in group contexts).
+  - text: These files live under the workspace (
+  - code: agents.defaults.workspace
+  - text: ", default"
+  - code: ~/.openclaw/workspace
+  - text: ). See
+  - link "Agent workspace" [ref=e65]:
+    - /url: /concepts/agent-workspace
+  - text: for the full layout.
+  - heading "Navigate to header When to write memory" [ref=e66] [level=2]:
+    - link "Navigate to header" [ref=e67] [nth=1]:
+      - /url: "#when-to-write-memory"
+    - text: When to write memory
+      - text: Decisions, preferences, and durable facts go to
+      - code: MEMORY.md
+      - text: .
+      - text: Day-to-day notes and running context go to
+      - code: memory/YYYY-MM-DD.md
+      - text: .
+    - listitem: If someone says “remember this,” write it down (do not keep it in RAM).
+    - listitem: This area is still evolving. It helps to remind the model to store memories; it will know what to do.
+      - text: If you want something to stick,
+      - strong: ask the bot to write it
+      - text: into memory.
+  - heading "Navigate to header Automatic memory flush (pre-compaction ping)" [ref=e68] [level=2]:
+    - link "Navigate to header" [ref=e69] [nth=2]:
+      - /url: "#automatic-memory-flush-pre-compaction-ping"
+    - text: Automatic memory flush (pre-compaction ping)
+  - text: When a session is
+  - strong: close to auto-compaction
+  - text: ", OpenClaw triggers a"
+  - strong: silent, agentic turn
+  - text: that reminds the model to write durable memory
+  - strong: before
+  - text: the context is compacted. The default prompts explicitly say the model
+  - emphasis: may reply
+  - text: ", but usually"
+  - code: NO_REPLY
+  - text: is the correct response so the user never sees this turn. This is controlled by
+  - code: agents.defaults.compaction.memoryFlush
+  - text: ":"
+  - button "Copy the contents from the code block" [ref=e70]:
+  - code: "{ agents: { defaults: { compaction: { reserveTokensFloor: 20000, memoryFlush: { enabled: true, softThresholdTokens: 4000, systemPrompt: \"Session nearing compaction. Store durable memories now.\", prompt: \"Write any lasting notes to memory/YYYY-MM-DD.md; reply with NO_REPLY if nothing to store.\", }, }, }, }, }"
+  - text: "Details:"
+      - strong: Soft threshold
+      - text: ": flush triggers when the session token estimate crosses"
+      - code: contextWindow - reserveTokensFloor - softThresholdTokens
+      - text: .
+      - strong: Silent
+      - text: "by default: prompts include"
+      - code: NO_REPLY
+      - text: so nothing is delivered.
+      - strong: Two prompts
+      - text: ": a user prompt plus a system prompt append the reminder."
+      - strong: One flush per compaction cycle
+      - text: (tracked in
+      - code: sessions.json
+      - text: ).
+      - strong: Workspace must be writable
+      - text: ": if the session runs sandboxed with"
+      - code: "workspaceAccess: \"ro\""
+      - text: or
+      - code: "\"none\""
+      - text: ", the flush is skipped."
+  - text: For the full compaction lifecycle, see
+  - link "Session management + compaction" [ref=e71]:
+    - /url: /reference/session-management-compaction
+  - text: .
+  - heading "Navigate to header Vector memory search" [ref=e72] [level=2]:
+    - link "Navigate to header" [ref=e73] [nth=3]:
+      - /url: "#vector-memory-search"
+    - text: Vector memory search
+  - text: OpenClaw can build a small vector index over
+  - code: MEMORY.md
+  - text: and
+  - code: memory/*.md
+  - text: "so semantic queries can find related notes even when wording differs. Defaults:"
+    - listitem: Enabled by default.
+    - listitem: Watches memory files for changes (debounced).
+      - text: Configure memory search under
+      - code: agents.defaults.memorySearch
+      - text: (not top-level
+      - code: memorySearch
+      - text: ).
+      - text: Uses remote embeddings by default. If
+      - code: memorySearch.provider
+      - text: "is not set, OpenClaw auto-selects:"
+          - code: local
+          - text: if a
+          - code: memorySearch.local.modelPath
+          - text: is configured and the file exists.
+          - code: openai
+          - text: if an OpenAI key can be resolved.
+          - code: gemini
+          - text: if a Gemini key can be resolved.
+          - code: voyage
+          - text: if a Voyage key can be resolved.
+        - listitem: Otherwise memory search stays disabled until configured.
+      - text: Local mode uses node-llama-cpp and may require
+      - code: pnpm approve-builds
+      - text: .
+    - listitem: Uses sqlite-vec (when available) to accelerate vector search inside SQLite.
+  - text: Remote embeddings
+  - strong: require
+  - text: an API key for the embedding provider. OpenClaw resolves keys from auth profiles,
+  - code: models.providers.*.apiKey
+  - text: ", or environment variables. Codex OAuth only covers chat/completions and does"
+  - strong: not
+  - text: satisfy embeddings for memory search. For Gemini, use
+  - code: GEMINI_API_KEY
+  - text: or
+  - code: models.providers.google.apiKey
+  - text: . For Voyage, use
+  - code: VOYAGE_API_KEY
+  - text: or
+  - code: models.providers.voyage.apiKey
+  - text: . When using a custom OpenAI-compatible endpoint, set
+  - code: memorySearch.remote.apiKey
+  - text: (and optional
+  - code: memorySearch.remote.headers
+  - text: ).
+  - heading "Navigate to header QMD backend (experimental)" [ref=e74] [level=3]:
+    - link "Navigate to header" [ref=e75] [nth=4]:
+      - /url: "#qmd-backend-experimental"
+    - text: QMD backend (experimental)
+  - text: Set
+  - code: memory.backend = "qmd"
+  - text: to swap the built-in SQLite indexer for
+  - link "QMD" [ref=e76]:
+    - /url: https://github.com/tobi/qmd
+  - text: ": a local-first search sidecar that combines BM25 + vectors + reranking. Markdown stays the source of truth; OpenClaw shells out to QMD for retrieval. Key points:"
+  - strong: Prereqs
+      - text: Disabled by default. Opt in per-config (
+      - code: memory.backend = "qmd"
+      - text: ).
+      - text: Install the QMD CLI separately (
+      - code: bun install -g https://github.com/tobi/qmd
+      - text: or grab a release) and make sure the
+      - code: qmd
+      - text: binary is on the gateway’s
+      - code: PATH
+      - text: .
+      - text: QMD needs an SQLite build that allows extensions (
+      - code: brew install sqlite
+      - text: on macOS).
+      - text: QMD runs fully locally via Bun +
+      - code: node-llama-cpp
+      - text: and auto-downloads GGUF models from HuggingFace on first use (no separate Ollama daemon required).
+      - text: The gateway runs QMD in a self-contained XDG home under
+      - code: ~/.openclaw/agents/<agentId>/qmd/
+      - text: by setting
+      - code: XDG_CONFIG_HOME
+      - text: and
+      - code: XDG_CACHE_HOME
+      - text: .
+    - listitem: "OS support: macOS and Linux work out of the box once Bun + SQLite are installed. Windows is best supported via WSL2."
+  - strong: How the sidecar runs
+      - text: The gateway writes a self-contained QMD home under
+      - code: ~/.openclaw/agents/<agentId>/qmd/
+      - text: (config + cache + sqlite DB).
+      - text: Collections are created via
+      - code: qmd collection add
+      - text: from
+      - code: memory.qmd.paths
+      - text: (plus default workspace memory files), then
+      - code: qmd update
+      - text: +
+      - code: qmd embed
+      - text: run on boot and on a configurable interval (
+      - code: memory.qmd.update.interval
+      - text: ", default 5 m)."
+      - text: The gateway now initializes the QMD manager on startup, so periodic update timers are armed even before the first
+      - code: memory_search
+      - text: call.
+      - text: Boot refresh now runs in the background by default so chat startup is not blocked; set
+      - code: memory.qmd.update.waitForBootSync = true
+      - text: to keep the previous blocking behavior.
+      - text: Searches run via
+      - code: qmd query --json
+      - text: ", scoped to OpenClaw-managed collections. If QMD fails or the binary is missing, OpenClaw automatically falls back to the builtin SQLite manager so memory tools keep working."
+    - listitem: OpenClaw does not expose QMD embed batch-size tuning today; batch behavior is controlled by QMD itself.
+    - listitem:
+      - strong: First search may be slow
+      - text: ": QMD may download local GGUF models (reranker/query expansion) on the first"
+      - code: qmd query
+      - text: run.
+          - text: OpenClaw sets
+          - code: XDG_CONFIG_HOME
+          - text: /
+          - code: XDG_CACHE_HOME
+          - text: automatically when it runs QMD.
+        - listitem:
+          - text: If you want to pre-download models manually (and warm the same index OpenClaw uses), run a one-off query with the agent’s XDG dirs. OpenClaw’s QMD state lives under your
+          - strong: state dir
+          - text: (defaults to
+          - code: ~/.openclaw
+          - text: ). You can point
+          - code: qmd
+          - text: "at the exact same index by exporting the same XDG vars OpenClaw uses:"
+          - button "Copy the contents from the code block" [ref=e77] [nth=1]:
+          - code: "# Pick the same state dir OpenClaw uses STATE_DIR=\"${OPENCLAW_STATE_DIR:-$HOME/.openclaw}\" if [ -d \"$HOME/.moltbot\" ] && [ ! -d \"$HOME/.openclaw\" ] \\ && [ -z \"${OPENCLAW_STATE_DIR:-}\" ]; then STATE_DIR=\"$HOME/.moltbot\" fi export XDG_CONFIG_HOME=\"$STATE_DIR/agents/main/qmd/xdg-config\" export XDG_CACHE_HOME=\"$STATE_DIR/agents/main/qmd/xdg-cache\" # (Optional) force an index refresh + embeddings qmd update qmd embed # Warm up / trigger first-time model downloads qmd query \"test\" -c memory-root --json >/dev/null 2>&1"
+  - strong:
+    - text: Config surface (
+    - code: memory.qmd.*
+    - text: )
+      - code: command
+      - text: (default
+      - code: qmd
+      - text: "): override the executable path."
+      - code: includeDefaultMemory
+      - text: (default
+      - code: "true"
+      - text: "): auto-index"
+      - code: MEMORY.md
+      - text: +
+      - code: memory/**/*.md
+      - text: .
+      - code: paths[]
+      - text: ": add extra directories/files ("
+      - code: path
+      - text: ", optional"
+      - code: pattern
+      - text: ", optional stable"
+      - code: name
+      - text: ).
+      - code: sessions
+      - text: ": opt into session JSONL indexing ("
+      - code: enabled
+      - text: ","
+      - code: retentionDays
+      - text: ","
+      - code: exportDir
+      - text: ).
+      - code: update
+      - text: ": controls refresh cadence and maintenance execution: ("
+      - code: interval
+      - text: ","
+      - code: debounceMs
+      - text: ","
+      - code: onBoot
+      - text: ","
+      - code: waitForBootSync
+      - text: ","
+      - code: embedInterval
+      - text: ","
+      - code: commandTimeoutMs
+      - text: ","
+      - code: updateTimeoutMs
+      - text: ","
+      - code: embedTimeoutMs
+      - text: ).
+      - code: limits
+      - text: ": clamp recall payload ("
+      - code: maxResults
+      - text: ","
+      - code: maxSnippetChars
+      - text: ","
+      - code: maxInjectedChars
+      - text: ","
+      - code: timeoutMs
+      - text: ).
+    - listitem:
+      - code: scope
+      - text: ": same schema as"
+      - link "session.sendPolicy" [ref=e78]:
+        - /url: /gateway/configuration#session
+        - code: session.sendPolicy
+      - text: . Default is DM-only (
+      - code: deny
+      - text: all,
+      - code: allow
+      - text: direct chats); loosen it to surface QMD hits in groups/channels.
+      - text: When
+      - code: scope
+      - text: denies a search, OpenClaw logs a warning with the derived
+      - code: channel
+      - text: /
+      - code: chatType
+      - text: so empty results are easier to debug.
+      - text: Snippets sourced outside the workspace show up as
+      - code: qmd/<collection>/<relative-path>
+      - text: in
+      - code: memory_search
+      - text: results;
+      - code: memory_get
+      - text: understands that prefix and reads from the configured QMD collection root.
+      - text: When
+      - code: memory.qmd.sessions.enabled = true
+      - text: ", OpenClaw exports sanitized session transcripts (User/Assistant turns) into a dedicated QMD collection under"
+      - code: ~/.openclaw/agents/<id>/qmd/sessions/
+      - text: ", so"
+      - code: memory_search
+      - text: can recall recent conversations without touching the builtin SQLite index.
+      - code: memory_search
+      - text: snippets now include a
+      - code: "Source: <path#line>"
+      - text: footer when
+      - code: memory.citations
+      - text: is
+      - code: auto
+      - text: /
+      - code: "on"
+      - text: ; set
+      - code: memory.citations = "off"
+      - text: to keep the path metadata internal (the agent still receives the path for
+      - code: memory_get
+      - text: ", but the snippet text omits the footer and the system prompt warns the agent not to cite it)."
+  - strong: Example
+  - button "Copy the contents from the code block" [ref=e79] [nth=2]:
+  - code: "memory: { backend: \"qmd\", citations: \"auto\", qmd: { includeDefaultMemory: true, update: { interval: \"5m\", debounceMs: 15000 }, limits: { maxResults: 6, timeoutMs: 4000 }, scope: { default: \"deny\", rules: [{ action: \"allow\", match: { chatType: \"direct\" } }] }, paths: [ { name: \"docs\", path: \"~/notes\", pattern: \"**/*.md\" } ] } }"
+  - strong: Citations & fallback
+      - code: memory.citations
+      - text: applies regardless of backend (
+      - code: auto
+      - text: /
+      - code: "on"
+      - text: /
+      - code: "off"
+      - text: ).
+      - text: When
+      - code: qmd
+      - text: runs, we tag
+      - code: status().backend = "qmd"
+      - text: so diagnostics show which engine served the results. If the QMD subprocess exits or JSON output can’t be parsed, the search manager logs a warning and returns the builtin provider (existing Markdown embeddings) until QMD recovers.
+  - heading "Navigate to header Additional memory paths" [ref=e80] [level=3]:
+    - link "Navigate to header" [ref=e81] [nth=5]:
+      - /url: "#additional-memory-paths"
+    - text: Additional memory paths
+  - text: "If you want to index Markdown files outside the default workspace layout, add explicit paths:"
+  - button "Copy the contents from the code block" [ref=e82] [nth=3]:
+  - code: "agents: { defaults: { memorySearch: { extraPaths: [\"../team-docs\", \"/srv/shared-notes/overview.md\"] } } }"
+  - text: "Notes:"
+    - listitem: Paths can be absolute or workspace-relative.
+      - text: Directories are scanned recursively for
+      - code: .md
+      - text: files.
+    - listitem: Only Markdown files are indexed.
+    - listitem: Symlinks are ignored (files or directories).
+  - heading "Navigate to header Gemini embeddings (native)" [ref=e83] [level=3]:
+    - link "Navigate to header" [ref=e84] [nth=6]:
+      - /url: "#gemini-embeddings-native"
+    - text: Gemini embeddings (native)
+  - text: Set the provider to
+  - code: gemini
+  - text: "to use the Gemini embeddings API directly:"
+  - button "Copy the contents from the code block" [ref=e85] [nth=4]:
+  - code: "agents: { defaults: { memorySearch: { provider: \"gemini\", model: \"gemini-embedding-001\", remote: { apiKey: \"YOUR_GEMINI_API_KEY\" } } } }"
+  - text: "Notes:"
+      - code: remote.baseUrl
+      - text: is optional (defaults to the Gemini API base URL).
+      - code: remote.headers
+      - text: lets you add extra headers if needed.
+      - text: "Default model:"
+      - code: gemini-embedding-001
+      - text: .
+  - text: If you want to use a
+  - strong: custom OpenAI-compatible endpoint
+  - text: (OpenRouter, vLLM, or a proxy), you can use the
+  - code: remote
+  - text: "configuration with the OpenAI provider:"
+  - button "Copy the contents from the code block" [ref=e86] [nth=5]:
+  - code: "agents: { defaults: { memorySearch: { provider: \"openai\", model: \"text-embedding-3-small\", remote: { baseUrl: \"https://api.example.com/v1/\", apiKey: \"YOUR_OPENAI_COMPAT_API_KEY\", headers: { \"X-Custom-Header\": \"value\" } } } } }"
+  - text: If you don’t want to set an API key, use
+  - code: memorySearch.provider = "local"
+  - text: or set
+  - code: memorySearch.fallback = "none"
+  - text: ". Fallbacks:"
+      - code: memorySearch.fallback
+      - text: can be
+      - code: openai
+      - text: ","
+      - code: gemini
+      - text: ","
+      - code: local
+      - text: ", or"
+      - code: none
+      - text: .
+    - listitem: The fallback provider is only used when the primary embedding provider fails.
+  - text: "Batch indexing (OpenAI + Gemini + Voyage):"
+      - text: Disabled by default. Set
+      - code: agents.defaults.memorySearch.remote.batch.enabled = true
+      - text: to enable for large-corpus indexing (OpenAI, Gemini, and Voyage).
+      - text: Default behavior waits for batch completion; tune
+      - code: remote.batch.wait
+      - text: ","
+      - code: remote.batch.pollIntervalMs
+      - text: ", and"
+      - code: remote.batch.timeoutMinutes
+      - text: if needed.
+      - text: Set
+      - code: remote.batch.concurrency
+      - text: "to control how many batch jobs we submit in parallel (default: 2)."
+      - text: Batch mode applies when
+      - code: memorySearch.provider = "openai"
+      - text: or
+      - code: "\"gemini\""
+      - text: and uses the corresponding API key.
+    - listitem: Gemini batch jobs use the async embeddings batch endpoint and require Gemini Batch API availability.
+  - text: "Why OpenAI batch is fast + cheap:"
+    - listitem: For large backfills, OpenAI is typically the fastest option we support because we can submit many embedding requests in a single batch job and let OpenAI process them asynchronously.
+    - listitem: OpenAI offers discounted pricing for Batch API workloads, so large indexing runs are usually cheaper than sending the same requests synchronously.
+    - listitem:
+      - text: "See the OpenAI Batch API docs and pricing for details:"
+        - listitem:
+          - link "https://platform.openai.com/docs/api-reference/batch" [ref=e87]:
+            - /url: https://platform.openai.com/docs/api-reference/batch
+        - listitem:
+          - link "https://platform.openai.com/pricing" [ref=e88]:
+            - /url: https://platform.openai.com/pricing
+  - text: "Config example:"
+  - button "Copy the contents from the code block" [ref=e89] [nth=6]:
+  - code: "agents: { defaults: { memorySearch: { provider: \"openai\", model: \"text-embedding-3-small\", fallback: \"openai\", remote: { batch: { enabled: true, concurrency: 2 } }, sync: { watch: true } } } }"
+  - text: "Tools:"
+      - code: memory_search
+      - text: — returns snippets with file + line ranges.
+      - code: memory_get
+      - text: — read memory file content by path.
+  - text: "Local mode:"
+      - text: Set
+      - code: agents.defaults.memorySearch.provider = "local"
+      - text: .
+      - text: Provide
+      - code: agents.defaults.memorySearch.local.modelPath
+      - text: (GGUF or
+      - code: "hf:"
+      - text: URI).
+      - text: "Optional: set"
+      - code: agents.defaults.memorySearch.fallback = "none"
+      - text: to avoid remote fallback.
+  - heading "Navigate to header How the memory tools work" [ref=e90] [level=3]:
+    - link "Navigate to header" [ref=e91] [nth=7]:
+      - /url: "#how-the-memory-tools-work"
+    - text: How the memory tools work
+      - code: memory_search
+      - text: semantically searches Markdown chunks (~400 token target, 80-token overlap) from
+      - code: MEMORY.md
+      - text: +
+      - code: memory/**/*.md
+      - text: . It returns snippet text (capped ~700 chars), file path, line range, score, provider/model, and whether we fell back from local → remote embeddings. No full file payload is returned.
+      - code: memory_get
+      - text: reads a specific memory Markdown file (workspace-relative), optionally from a starting line and for N lines. Paths outside
+      - code: MEMORY.md
+      - text: /
+      - code: memory/
+      - text: are rejected.
+      - text: Both tools are enabled only when
+      - code: memorySearch.enabled
+      - text: resolves true for the agent.
+  - heading "Navigate to header What gets indexed (and when)" [ref=e92] [level=3]:
+    - link "Navigate to header" [ref=e93] [nth=8]:
+      - /url: "#what-gets-indexed-and-when"
+    - text: What gets indexed (and when)
+      - text: "File type: Markdown only ("
+      - code: MEMORY.md
+      - text: ","
+      - code: memory/**/*.md
+      - text: ).
+      - text: "Index storage: per-agent SQLite at"
+      - code: ~/.openclaw/memory/<agentId>.sqlite
+      - text: (configurable via
+      - code: agents.defaults.memorySearch.store.path
+      - text: ", supports"
+      - code: "{agentId}"
+      - text: token).
+      - text: "Freshness: watcher on"
+      - code: MEMORY.md
+      - text: +
+      - code: memory/
+      - text: marks the index dirty (debounce 1.5s). Sync is scheduled on session start, on search, or on an interval and runs asynchronously. Session transcripts use delta thresholds to trigger background sync.
+      - text: "Reindex triggers: the index stores the embedding"
+      - strong: provider/model + endpoint fingerprint + chunking params
+      - text: . If any of those change, OpenClaw automatically resets and reindexes the entire store.
+  - heading "Navigate to header Hybrid search (BM25 + vector)" [ref=e94] [level=3]:
+    - link "Navigate to header" [ref=e95] [nth=9]:
+      - /url: "#hybrid-search-bm25-+-vector"
+    - text: Hybrid search (BM25 + vector)
+  - text: "When enabled, OpenClaw combines:"
+      - strong: Vector similarity
+      - text: (semantic match, wording can differ)
+      - strong: BM25 keyword relevance
+      - text: (exact tokens like IDs, env vars, code symbols)
+  - text: If full-text search is unavailable on your platform, OpenClaw falls back to vector-only search.
+  - heading "Navigate to header Why hybrid?" [ref=e96] [level=4]:
+    - link "Navigate to header" [ref=e97] [nth=10]:
+      - /url: "#why-hybrid"
+    - text: Why hybrid?
+  - text: "Vector search is great at “this means the same thing”:"
+    - listitem: “Mac Studio gateway host” vs “the machine running the gateway”
+    - listitem: “debounce file updates” vs “avoid indexing on every write”
+  - text: "But it can be weak at exact, high-signal tokens:"
+      - text: IDs (
+      - code: a828e60
+      - text: ","
+      - code: b3b9895a…
+      - text: )
+      - text: code symbols (
+      - code: memorySearch.query.hybrid
+      - text: )
+    - listitem: error strings (“sqlite-vec unavailable”)
+  - text: "BM25 (full-text) is the opposite: strong at exact tokens, weaker at paraphrases. Hybrid search is the pragmatic middle ground:"
+  - strong: use both retrieval signals
+  - text: so you get good results for both “natural language” queries and “needle in a haystack” queries.
+  - heading "Navigate to header How we merge results (the current design)" [ref=e98] [level=4]:
+    - link "Navigate to header" [ref=e99] [nth=11]:
+      - /url: "#how-we-merge-results-the-current-design"
+    - text: How we merge results (the current design)
+  - text: "Implementation sketch:"
+    - listitem: "Retrieve a candidate pool from both sides:"
+      - strong: Vector
+      - text: ": top"
+      - code: maxResults * candidateMultiplier
+      - text: by cosine similarity.
+      - strong: BM25
+      - text: ": top"
+      - code: maxResults * candidateMultiplier
+      - text: by FTS5 BM25 rank (lower is better).
+    - listitem: "Convert BM25 rank into a 0..1-ish score:"
+      - code: textScore = 1 / (1 + max(0, bm25Rank))
+    - listitem: "Union candidates by chunk id and compute a weighted score:"
+      - code: finalScore = vectorWeight * vectorScore + textWeight * textScore
+  - text: "Notes:"
+      - code: vectorWeight
+      - text: +
+      - code: textWeight
+      - text: is normalized to 1.0 in config resolution, so weights behave as percentages.
+    - listitem: If embeddings are unavailable (or the provider returns a zero-vector), we still run BM25 and return keyword matches.
+    - listitem: If FTS5 can’t be created, we keep vector-only search (no hard failure).
+  - text: "This isn’t “IR-theory perfect”, but it’s simple, fast, and tends to improve recall/precision on real notes. If we want to get fancier later, common next steps are Reciprocal Rank Fusion (RRF) or score normalization (min/max or z-score) before mixing. Config:"
+  - button "Copy the contents from the code block" [ref=e100] [nth=7]:
+  - code: "agents: { defaults: { memorySearch: { query: { hybrid: { enabled: true, vectorWeight: 0.7, textWeight: 0.3, candidateMultiplier: 4 } } } } }"
+  - heading "Navigate to header Embedding cache" [ref=e101] [level=3]:
+    - link "Navigate to header" [ref=e102] [nth=12]:
+      - /url: "#embedding-cache"
+    - text: Embedding cache
+  - text: OpenClaw can cache
+  - strong: chunk embeddings
+  - text: "in SQLite so reindexing and frequent updates (especially session transcripts) don’t re-embed unchanged text. Config:"
+  - button "Copy the contents from the code block" [ref=e103] [nth=8]:
+  - code: "agents: { defaults: { memorySearch: { cache: { enabled: true, maxEntries: 50000 } } } }"
+  - heading "Navigate to header Session memory search (experimental)" [ref=e104] [level=3]:
+    - link "Navigate to header" [ref=e105] [nth=13]:
+      - /url: "#session-memory-search-experimental"
+    - text: Session memory search (experimental)
+  - text: You can optionally index
+  - strong: session transcripts
+  - text: and surface them via
+  - code: memory_search
+  - text: . This is gated behind an experimental flag.
+  - button "Copy the contents from the code block" [ref=e106] [nth=9]:
+  - code: "agents: { defaults: { memorySearch: { experimental: { sessionMemory: true }, sources: [\"memory\", \"sessions\"] } } }"
+  - text: "Notes:"
+      - text: Session indexing is
+      - strong: opt-in
+      - text: (off by default).
+      - text: Session updates are debounced and
+      - strong: indexed asynchronously
+      - text: once they cross delta thresholds (best-effort).
+      - code: memory_search
+      - text: never blocks on indexing; results can be slightly stale until background sync finishes.
+      - text: Results still include snippets only;
+      - code: memory_get
+      - text: remains limited to memory files.
+    - listitem: Session indexing is isolated per agent (only that agent’s session logs are indexed).
+      - text: Session logs live on disk (
+      - code: ~/.openclaw/agents/<agentId>/sessions/*.jsonl
+      - text: ). Any process/user with filesystem access can read them, so treat disk access as the trust boundary. For stricter isolation, run agents under separate OS users or hosts.
+  - text: "Delta thresholds (defaults shown):"
+  - button "Copy the contents from the code block" [ref=e107] [nth=10]:
+  - code: "agents: { defaults: { memorySearch: { sync: { sessions: { deltaBytes: 100000, // ~100 KB deltaMessages: 50 // JSONL lines } } } } }"
+  - heading "Navigate to header SQLite vector acceleration (sqlite-vec)" [ref=e108] [level=3]:
+    - link "Navigate to header" [ref=e109] [nth=14]:
+      - /url: "#sqlite-vector-acceleration-sqlite-vec"
+    - text: SQLite vector acceleration (sqlite-vec)
+  - text: When the sqlite-vec extension is available, OpenClaw stores embeddings in a SQLite virtual table (
+  - code: vec0
+  - text: ") and performs vector distance queries in the database. This keeps search fast without loading every embedding into JS. Configuration (optional):"
+  - button "Copy the contents from the code block" [ref=e110] [nth=11]:
+  - code: "agents: { defaults: { memorySearch: { store: { vector: { enabled: true, extensionPath: \"/path/to/sqlite-vec\" } } } } }"
+  - text: "Notes:"
+      - code: enabled
+      - text: defaults to true; when disabled, search falls back to in-process cosine similarity over stored embeddings.
+    - listitem: If the sqlite-vec extension is missing or fails to load, OpenClaw logs the error and continues with the JS fallback (no vector table).
+      - code: extensionPath
+      - text: overrides the bundled sqlite-vec path (useful for custom builds or non-standard install locations).
+  - heading "Navigate to header Local embedding auto-download" [ref=e111] [level=3]:
+    - link "Navigate to header" [ref=e112] [nth=15]:
+      - /url: "#local-embedding-auto-download"
+    - text: Local embedding auto-download
+      - text: "Default local embedding model:"
+      - code: hf:ggml-org/embeddinggemma-300M-GGUF/embeddinggemma-300M-Q8_0.gguf
+      - text: (~0.6 GB).
+      - text: When
+      - code: memorySearch.provider = "local"
+      - text: ","
+      - code: node-llama-cpp
+      - text: resolves
+      - code: modelPath
+      - text: ; if the GGUF is missing it
+      - strong: auto-downloads
+      - text: to the cache (or
+      - code: local.modelCacheDir
+      - text: if set), then loads it. Downloads resume on retry.
+      - text: "Native build requirement: run"
+      - code: pnpm approve-builds
+      - text: ", pick"
+      - code: node-llama-cpp
+      - text: ", then"
+      - code: pnpm rebuild node-llama-cpp
+      - text: .
+      - text: "Fallback: if local setup fails and"
+      - code: memorySearch.fallback = "openai"
+      - text: ", we automatically switch to remote embeddings ("
+      - code: openai/text-embedding-3-small
+      - text: unless overridden) and record the reason.
+  - heading "Navigate to header Custom OpenAI-compatible endpoint example" [ref=e113] [level=3]:
+    - link "Navigate to header" [ref=e114] [nth=16]:
+      - /url: "#custom-openai-compatible-endpoint-example"
+    - text: Custom OpenAI-compatible endpoint example
+  - button "Copy the contents from the code block" [ref=e115] [nth=12]:
+  - code: "agents: { defaults: { memorySearch: { provider: \"openai\", model: \"text-embedding-3-small\", remote: { baseUrl: \"https://api.example.com/v1/\", apiKey: \"YOUR_REMOTE_API_KEY\", headers: { \"X-Organization\": \"org-id\", \"X-Project\": \"project-id\" } } } } }"
+  - text: "Notes:"
+      - code: remote.*
+      - text: takes precedence over
+      - code: models.providers.openai.*
+      - text: .
+      - code: remote.headers
+      - text: merge with OpenAI headers; remote wins on key conflicts. Omit
+      - code: remote.headers
+      - text: to use the OpenAI defaults.
+  - link "Session Tools" [ref=e116] [nth=1]:
+    - /url: /concepts/session-tool
+    - text: Session Tools
+  - link "Compaction" [ref=e117] [nth=1]:
+    - /url: /concepts/compaction
+    - text: Compaction
+  - textbox "Ask a question..." [ref=e118]
+  - text: Ctrl+I
+  - button "Send message" [ref=e119] [disabled]:
+  - contentinfo:
+    - link "Powered by" [ref=e120]:
+      - /url: https://www.mintlify.com?utm_campaign=poweredBy&utm_medium=referral&utm_source=clawdhub
+      - text: Powered by

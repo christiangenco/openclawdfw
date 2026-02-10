@@ -1,0 +1,684 @@
+  - link "Skip to main content" [ref=e1]:
+    - /url: "#content-area"
+  - link "OpenClaw home page light logo" [ref=e2]:
+    - /url: /
+    - text: OpenClaw home page
+  - button "US English" [ref=e3]:
+    - text: English
+  - button "Open search" [ref=e4]:
+    - text: Search... Ctrl K
+  - navigation:
+      - listitem:
+        - link "GitHub" [ref=e5]:
+          - /url: https://github.com/openclaw/openclaw
+          - text: GitHub
+      - listitem:
+        - link "Releases" [ref=e6]:
+          - /url: https://github.com/openclaw/openclaw/releases
+          - text: Releases
+  - button "Toggle dark mode" [ref=e7]:
+  - link "Get started" [ref=e8]:
+    - /url: /
+  - link "Install" [ref=e9]:
+    - /url: /install
+  - link "Channels" [ref=e10]:
+    - /url: /channels
+  - link "Agents" [ref=e11]:
+    - /url: /concepts/architecture
+  - link "Tools" [ref=e12]:
+    - /url: /tools
+  - link "Models" [ref=e13]:
+    - /url: /providers
+  - link "Platforms" [ref=e14]:
+    - /url: /platforms
+  - link "Gateway & Ops" [ref=e15]:
+    - /url: /gateway
+  - link "Reference" [ref=e16]:
+    - /url: /cli
+  - link "Help" [ref=e17]:
+    - /url: /help
+  - heading "Overview" [ref=e18] [level=5]
+    - listitem:
+      - link "Tools" [ref=e19] [nth=1]:
+        - /url: /tools
+  - heading "Built-in tools" [ref=e20] [level=5]
+    - listitem:
+      - link "Lobster" [ref=e21]:
+        - /url: /tools/lobster
+    - listitem:
+      - link "LLM Task" [ref=e22]:
+        - /url: /tools/llm-task
+    - listitem:
+      - link "Exec Tool" [ref=e23]:
+        - /url: /tools/exec
+    - listitem:
+      - link "Web Tools" [ref=e24]:
+        - /url: /tools/web
+    - listitem:
+      - link "apply_patch Tool" [ref=e25]:
+        - /url: /tools/apply-patch
+    - listitem:
+      - link "Elevated Mode" [ref=e26]:
+        - /url: /tools/elevated
+    - listitem:
+      - link "Thinking Levels" [ref=e27]:
+        - /url: /tools/thinking
+    - listitem:
+      - link "Reactions" [ref=e28]:
+        - /url: /tools/reactions
+  - heading "Browser" [ref=e29] [level=5]
+    - listitem:
+      - link "Browser (OpenClaw-managed)" [ref=e30]:
+        - /url: /tools/browser
+    - listitem:
+      - link "Browser Login" [ref=e31]:
+        - /url: /tools/browser-login
+    - listitem:
+      - link "Chrome Extension" [ref=e32]:
+        - /url: /tools/chrome-extension
+    - listitem:
+      - link "Browser Troubleshooting" [ref=e33]:
+        - /url: /tools/browser-linux-troubleshooting
+  - heading "Agent coordination" [ref=e34] [level=5]
+    - listitem:
+      - link "Agent Send" [ref=e35]:
+        - /url: /tools/agent-send
+    - listitem:
+      - link "Sub-Agents" [ref=e36]:
+        - /url: /tools/subagents
+    - listitem:
+      - link "Multi-Agent Sandbox & Tools" [ref=e37]:
+        - /url: /tools/multi-agent-sandbox-tools
+  - heading "Skills" [ref=e38] [level=5]
+    - listitem:
+      - link "Slash Commands" [ref=e39]:
+        - /url: /tools/slash-commands
+    - listitem:
+      - link "Skills" [ref=e40]:
+        - /url: /tools/skills
+    - listitem:
+      - link "Skills Config" [ref=e41]:
+        - /url: /tools/skills-config
+    - listitem:
+      - link "ClawHub" [ref=e42]:
+        - /url: /tools/clawhub
+    - listitem:
+      - link "Plugins" [ref=e43]:
+        - /url: /tools/plugin
+  - heading "Extensions" [ref=e44] [level=5]
+    - listitem:
+      - link "Voice Call Plugin" [ref=e45]:
+        - /url: /plugins/voice-call
+    - listitem:
+      - link "Zalo Personal Plugin" [ref=e46]:
+        - /url: /plugins/zalouser
+  - heading "Automation" [ref=e47] [level=5]
+    - listitem:
+      - link "Hooks" [ref=e48]:
+        - /url: /automation/hooks
+    - listitem:
+      - link "Cron Jobs" [ref=e49]:
+        - /url: /automation/cron-jobs
+    - listitem:
+      - link "Cron vs Heartbeat" [ref=e50]:
+        - /url: /automation/cron-vs-heartbeat
+    - listitem:
+      - link "Automation Troubleshooting" [ref=e51]:
+        - /url: /automation/troubleshooting
+    - listitem:
+      - link "Webhooks" [ref=e52]:
+        - /url: /automation/webhook
+    - listitem:
+      - link "Gmail PubSub" [ref=e53]:
+        - /url: /automation/gmail-pubsub
+    - listitem:
+      - link "Polls" [ref=e54]:
+        - /url: /automation/poll
+    - listitem:
+      - link "Auth Monitoring" [ref=e55]:
+        - /url: /automation/auth-monitoring
+  - heading "Hooks" [ref=e56] [level=5]
+    - listitem:
+      - link "SOUL Evil Hook" [ref=e57]:
+        - /url: /hooks/soul-evil
+  - heading "Media and devices" [ref=e58] [level=5]
+    - listitem:
+      - link "Nodes" [ref=e59]:
+        - /url: /nodes
+    - listitem:
+      - link "Node Troubleshooting" [ref=e60]:
+        - /url: /nodes/troubleshooting
+    - listitem:
+      - link "Image and Media Support" [ref=e61]:
+        - /url: /nodes/images
+    - listitem:
+      - link "Audio and Voice Notes" [ref=e62]:
+        - /url: /nodes/audio
+    - listitem:
+      - link "Camera Capture" [ref=e63]:
+        - /url: /nodes/camera
+    - listitem:
+      - link "Talk Mode" [ref=e64]:
+        - /url: /nodes/talk
+    - listitem:
+      - link "Voice Wake" [ref=e65]:
+        - /url: /nodes/voicewake
+    - listitem:
+      - link "Location Command" [ref=e66]:
+        - /url: /nodes/location-command
+  - button "On this page" [ref=e67]:
+    - text: On this page
+    - listitem:
+      - link "Skills (OpenClaw)" [ref=e68]:
+        - /url: "#skills-openclaw"
+    - listitem:
+      - link "Locations and precedence" [ref=e69]:
+        - /url: "#locations-and-precedence"
+    - listitem:
+      - link "Per-agent vs shared skills" [ref=e70]:
+        - /url: "#per-agent-vs-shared-skills"
+    - listitem:
+      - link "Plugins + skills" [ref=e71]:
+        - /url: "#plugins-%2B-skills"
+    - listitem:
+      - link "ClawHub (install + sync)" [ref=e72]:
+        - /url: "#clawhub-install-%2B-sync"
+    - listitem:
+      - link "Security notes" [ref=e73]:
+        - /url: "#security-notes"
+    - listitem:
+      - link "Format (AgentSkills + Pi-compatible)" [ref=e74]:
+        - /url: "#format-agentskills-%2B-pi-compatible"
+    - listitem:
+      - link "Gating (load-time filters)" [ref=e75]:
+        - /url: "#gating-load-time-filters"
+    - listitem:
+      - link "Config overrides (~/.openclaw/openclaw.json)" [ref=e76]:
+        - /url: "#config-overrides-%2F-openclaw%2Fopenclaw-json"
+    - listitem:
+      - link "Environment injection (per agent run)" [ref=e77]:
+        - /url: "#environment-injection-per-agent-run"
+    - listitem:
+      - link "Session snapshot (performance)" [ref=e78]:
+        - /url: "#session-snapshot-performance"
+    - listitem:
+      - link "Remote macOS nodes (Linux gateway)" [ref=e79]:
+        - /url: "#remote-macos-nodes-linux-gateway"
+    - listitem:
+      - link "Skills watcher (auto-refresh)" [ref=e80]:
+        - /url: "#skills-watcher-auto-refresh"
+    - listitem:
+      - link "Token impact (skills list)" [ref=e81]:
+        - /url: "#token-impact-skills-list"
+    - listitem:
+      - link "Managed skills lifecycle" [ref=e82]:
+        - /url: "#managed-skills-lifecycle"
+    - listitem:
+      - link "Config reference" [ref=e83]:
+        - /url: "#config-reference"
+    - listitem:
+      - link "Looking for more skills?" [ref=e84]:
+        - /url: "#looking-for-more-skills"
+  - banner:
+    - text: Skills
+    - heading "Skills" [ref=e85] [nth=1] [level=1]
+  - text: OpenClaw uses
+  - strong:
+    - link "AgentSkills" [ref=e86]:
+      - /url: https://agentskills.io
+    - text: "-compatible"
+  - text: skill folders to teach the agent how to use tools. Each skill is a directory containing a
+  - code: SKILL.md
+  - text: with YAML frontmatter and instructions. OpenClaw loads
+  - strong: bundled skills
+  - text: plus optional local overrides, and filters them at load time based on environment, config, and binary presence.
+  - heading "Navigate to header Locations and precedence" [ref=e87] [level=2]:
+    - link "Navigate to header" [ref=e88]:
+      - /url: "#locations-and-precedence"
+    - text: Locations and precedence
+  - text: Skills are loaded from
+  - strong: three
+  - text: "places:"
+      - strong: Bundled skills
+      - text: ": shipped with the install (npm package or OpenClaw.app)"
+      - strong: Managed/local skills
+      - text: ":"
+      - code: ~/.openclaw/skills
+      - strong: Workspace skills
+      - text: ":"
+      - code: <workspace>/skills
+  - text: "If a skill name conflicts, precedence is:"
+  - code: <workspace>/skills
+  - text: (highest) →
+  - code: ~/.openclaw/skills
+  - text: → bundled skills (lowest) Additionally, you can configure extra skill folders (lowest precedence) via
+  - code: skills.load.extraDirs
+  - text: in
+  - code: ~/.openclaw/openclaw.json
+  - text: .
+  - heading "Navigate to header Per-agent vs shared skills" [ref=e89] [level=2]:
+    - link "Navigate to header" [ref=e90] [nth=1]:
+      - /url: "#per-agent-vs-shared-skills"
+    - text: Per-agent vs shared skills
+  - text: In
+  - strong: multi-agent
+  - text: "setups, each agent has its own workspace. That means:"
+      - strong: Per-agent skills
+      - text: live in
+      - code: <workspace>/skills
+      - text: for that agent only.
+      - strong: Shared skills
+      - text: live in
+      - code: ~/.openclaw/skills
+      - text: (managed/local) and are visible to
+      - strong: all agents
+      - text: on the same machine.
+      - strong: Shared folders
+      - text: can also be added via
+      - code: skills.load.extraDirs
+      - text: (lowest precedence) if you want a common skills pack used by multiple agents.
+  - text: "If the same skill name exists in more than one place, the usual precedence applies: workspace wins, then managed/local, then bundled."
+  - heading "Navigate to header Plugins + skills" [ref=e91] [level=2]:
+    - link "Navigate to header" [ref=e92] [nth=2]:
+      - /url: "#plugins-+-skills"
+    - text: Plugins + skills
+  - text: Plugins can ship their own skills by listing
+  - code: skills
+  - text: directories in
+  - code: openclaw.plugin.json
+  - text: (paths relative to the plugin root). Plugin skills load when the plugin is enabled and participate in the normal skill precedence rules. You can gate them via
+  - code: metadata.openclaw.requires.config
+  - text: on the plugin’s config entry. See
+  - link "Plugins" [ref=e93] [nth=1]:
+    - /url: /tools/plugin
+  - text: for discovery/config and
+  - link "Tools" [ref=e94] [nth=2]:
+    - /url: /tools
+  - text: for the tool surface those skills teach.
+  - heading "Navigate to header ClawHub (install + sync)" [ref=e95] [level=2]:
+    - link "Navigate to header" [ref=e96] [nth=3]:
+      - /url: "#clawhub-install-+-sync"
+    - text: ClawHub (install + sync)
+  - text: ClawHub is the public skills registry for OpenClaw. Browse at
+  - link "https://clawhub.com" [ref=e97]:
+    - /url: https://clawhub.com
+  - text: ". Use it to discover, install, update, and back up skills. Full guide:"
+  - link "ClawHub" [ref=e98] [nth=1]:
+    - /url: /tools/clawhub
+  - text: ". Common flows:"
+      - text: "Install a skill into your workspace:"
+          - code: clawhub install <skill-slug>
+      - text: "Update all installed skills:"
+          - code: clawhub update --all
+      - text: "Sync (scan + publish updates):"
+          - code: clawhub sync --all
+  - text: By default,
+  - code: clawhub
+  - text: installs into
+  - code: ./skills
+  - text: under your current working directory (or falls back to the configured OpenClaw workspace). OpenClaw picks that up as
+  - code: <workspace>/skills
+  - text: on the next session.
+  - heading "Navigate to header Security notes" [ref=e99] [level=2]:
+    - link "Navigate to header" [ref=e100] [nth=4]:
+      - /url: "#security-notes"
+    - text: Security notes
+      - text: Treat third-party skills as
+      - strong: untrusted code
+      - text: . Read them before enabling.
+    - listitem:
+      - text: Prefer sandboxed runs for untrusted inputs and risky tools. See
+      - link "Sandboxing" [ref=e101]:
+        - /url: /gateway/sandboxing
+      - text: .
+      - code: skills.entries.*.env
+      - text: and
+      - code: skills.entries.*.apiKey
+      - text: inject secrets into the
+      - strong: host
+      - text: process for that agent turn (not the sandbox). Keep secrets out of prompts and logs.
+    - listitem:
+      - text: For a broader threat model and checklists, see
+      - link "Security" [ref=e102]:
+        - /url: /gateway/security
+      - text: .
+  - heading "Navigate to header Format (AgentSkills + Pi-compatible)" [ref=e103] [level=2]:
+    - link "Navigate to header" [ref=e104] [nth=5]:
+      - /url: "#format-agentskills-+-pi-compatible"
+    - text: Format (AgentSkills + Pi-compatible)
+  - code: SKILL.md
+  - text: "must include at least:"
+  - button "Copy the contents from the code block" [ref=e105]:
+  - code: "--- name: nano-banana-pro description: Generate or edit images via Gemini 3 Pro Image ---"
+  - text: "Notes:"
+    - listitem: We follow the AgentSkills spec for layout/intent.
+      - text: The parser used by the embedded agent supports
+      - strong: single-line
+      - text: frontmatter keys only.
+      - code: metadata
+      - text: should be a
+      - strong: single-line JSON object
+      - text: .
+      - text: Use
+      - code: "{baseDir}"
+      - text: in instructions to reference the skill folder path.
+      - text: "Optional frontmatter keys:"
+          - code: homepage
+          - text: — URL surfaced as “Website” in the macOS Skills UI (also supported via
+          - code: metadata.openclaw.homepage
+          - text: ).
+          - code: user-invocable
+          - text: —
+          - code: true|false
+          - text: "(default:"
+          - code: "true"
+          - text: ). When
+          - code: "true"
+          - text: ", the skill is exposed as a user slash command."
+          - code: disable-model-invocation
+          - text: —
+          - code: true|false
+          - text: "(default:"
+          - code: "false"
+          - text: ). When
+          - code: "true"
+          - text: ", the skill is excluded from the model prompt (still available via user invocation)."
+          - code: command-dispatch
+          - text: —
+          - code: tool
+          - text: (optional). When set to
+          - code: tool
+          - text: ", the slash command bypasses the model and dispatches directly to a tool."
+          - code: command-tool
+          - text: — tool name to invoke when
+          - code: "command-dispatch: tool"
+          - text: is set.
+          - code: command-arg-mode
+          - text: —
+          - code: raw
+          - text: "(default). For tool dispatch, forwards the raw args string to the tool (no core parsing). The tool is invoked with params:"
+          - code: "{ command: \"<raw args>\", commandName: \"<slash command>\", skillName: \"<skill name>\" }"
+          - text: .
+  - heading "Navigate to header Gating (load-time filters)" [ref=e106] [level=2]:
+    - link "Navigate to header" [ref=e107] [nth=6]:
+      - /url: "#gating-load-time-filters"
+    - text: Gating (load-time filters)
+  - text: OpenClaw
+  - strong: filters skills at load time
+  - text: using
+  - code: metadata
+  - text: "(single-line JSON):"
+  - button "Copy the contents from the code block" [ref=e108] [nth=1]:
+  - code: "--- name: nano-banana-pro description: Generate or edit images via Gemini 3 Pro Image metadata: { \"openclaw\": { \"requires\": { \"bins\": [\"uv\"], \"env\": [\"GEMINI_API_KEY\"], \"config\": [\"browser.enabled\"] }, \"primaryEnv\": \"GEMINI_API_KEY\", }, } ---"
+  - text: Fields under
+  - code: metadata.openclaw
+  - text: ":"
+      - code: "always: true"
+      - text: — always include the skill (skip other gates).
+      - code: emoji
+      - text: — optional emoji used by the macOS Skills UI.
+      - code: homepage
+      - text: — optional URL shown as “Website” in the macOS Skills UI.
+      - code: os
+      - text: — optional list of platforms (
+      - code: darwin
+      - text: ","
+      - code: linux
+      - text: ","
+      - code: win32
+      - text: ). If set, the skill is only eligible on those OSes.
+      - code: requires.bins
+      - text: — list; each must exist on
+      - code: PATH
+      - text: .
+      - code: requires.anyBins
+      - text: — list; at least one must exist on
+      - code: PATH
+      - text: .
+      - code: requires.env
+      - text: — list; env var must exist
+      - strong: or
+      - text: be provided in config.
+      - code: requires.config
+      - text: — list of
+      - code: openclaw.json
+      - text: paths that must be truthy.
+      - code: primaryEnv
+      - text: — env var name associated with
+      - code: skills.entries.<name>.apiKey
+      - text: .
+      - code: install
+      - text: — optional array of installer specs used by the macOS Skills UI (brew/node/go/uv/download).
+  - text: "Note on sandboxing:"
+      - code: requires.bins
+      - text: is checked on the
+      - strong: host
+      - text: at skill load time.
+      - text: If an agent is sandboxed, the binary must also exist
+      - strong: inside the container
+      - text: . Install it via
+      - code: agents.defaults.sandbox.docker.setupCommand
+      - text: (or a custom image).
+      - code: setupCommand
+      - text: "runs once after the container is created. Package installs also require network egress, a writable root FS, and a root user in the sandbox. Example: the"
+      - code: summarize
+      - text: skill (
+      - code: skills/summarize/SKILL.md
+      - text: ) needs the
+      - code: summarize
+      - text: CLI in the sandbox container to run there.
+  - text: "Installer example:"
+  - button "Copy the contents from the code block" [ref=e109] [nth=2]:
+  - code: "--- name: gemini description: Use Gemini CLI for coding assistance and Google search lookups. metadata: { \"openclaw\": { \"emoji\": \"♊️\", \"requires\": { \"bins\": [\"gemini\"] }, \"install\": [ { \"id\": \"brew\", \"kind\": \"brew\", \"formula\": \"gemini-cli\", \"bins\": [\"gemini\"], \"label\": \"Install Gemini CLI (brew)\", }, ], }, } ---"
+  - text: "Notes:"
+      - text: If multiple installers are listed, the gateway picks a
+      - strong: single
+      - text: preferred option (brew when available, otherwise node).
+      - text: If all installers are
+      - code: download
+      - text: ", OpenClaw lists each entry so you can see the available artifacts."
+      - text: Installer specs can include
+      - code: "os: [\"darwin\"|\"linux\"|\"win32\"]"
+      - text: to filter options by platform.
+      - text: Node installs honor
+      - code: skills.install.nodeManager
+      - text: in
+      - code: openclaw.json
+      - text: "(default: npm; options: npm/pnpm/yarn/bun). This only affects"
+      - strong: skill installs
+      - text: ; the Gateway runtime should still be Node (Bun is not recommended for WhatsApp/Telegram).
+      - text: "Go installs: if"
+      - code: go
+      - text: is missing and
+      - code: brew
+      - text: is available, the gateway installs Go via Homebrew first and sets
+      - code: GOBIN
+      - text: to Homebrew’s
+      - code: bin
+      - text: when possible.
+      - text: "Download installs:"
+      - code: url
+      - text: (required),
+      - code: archive
+      - text: (
+      - code: tar.gz
+      - text: "|"
+      - code: tar.bz2
+      - text: "|"
+      - code: zip
+      - text: ),
+      - code: extract
+      - text: "(default: auto when archive detected),"
+      - code: stripComponents
+      - text: ","
+      - code: targetDir
+      - text: "(default:"
+      - code: ~/.openclaw/tools/<skillKey>
+      - text: ).
+  - text: If no
+  - code: metadata.openclaw
+  - text: is present, the skill is always eligible (unless disabled in config or blocked by
+  - code: skills.allowBundled
+  - text: for bundled skills).
+  - heading "Navigate to header Config overrides (~/.openclaw/openclaw.json)" [ref=e110] [level=2]:
+    - link "Navigate to header" [ref=e111] [nth=7]:
+      - /url: "#config-overrides-/-openclaw/openclaw-json"
+    - text: Config overrides (
+    - code: ~/.openclaw/openclaw.json
+    - text: )
+  - text: "Bundled/managed skills can be toggled and supplied with env values:"
+  - button "Copy the contents from the code block" [ref=e112] [nth=3]:
+  - code: "{ skills: { entries: { \"nano-banana-pro\": { enabled: true, apiKey: \"GEMINI_KEY_HERE\", env: { GEMINI_API_KEY: \"GEMINI_KEY_HERE\", }, config: { endpoint: \"https://example.invalid\", model: \"nano-pro\", }, }, peekaboo: { enabled: true }, sag: { enabled: false }, }, }, }"
+  - text: "Note: if the skill name contains hyphens, quote the key (JSON5 allows quoted keys). Config keys match the"
+  - strong: skill name
+  - text: by default. If a skill defines
+  - code: metadata.openclaw.skillKey
+  - text: ", use that key under"
+  - code: skills.entries
+  - text: ". Rules:"
+      - code: "enabled: false"
+      - text: disables the skill even if it’s bundled/installed.
+      - code: env
+      - text: ": injected"
+      - strong: only if
+      - text: the variable isn’t already set in the process.
+      - code: apiKey
+      - text: ": convenience for skills that declare"
+      - code: metadata.openclaw.primaryEnv
+      - text: .
+      - code: config
+      - text: ": optional bag for custom per-skill fields; custom keys must live here."
+      - code: allowBundled
+      - text: ": optional allowlist for"
+      - strong: bundled
+      - text: skills only. If set, only bundled skills in the list are eligible (managed/workspace skills unaffected).
+  - heading "Navigate to header Environment injection (per agent run)" [ref=e113] [level=2]:
+    - link "Navigate to header" [ref=e114] [nth=8]:
+      - /url: "#environment-injection-per-agent-run"
+    - text: Environment injection (per agent run)
+  - text: "When an agent run starts, OpenClaw:"
+    - listitem: Reads skill metadata.
+      - text: Applies any
+      - code: skills.entries.<key>.env
+      - text: or
+      - code: skills.entries.<key>.apiKey
+      - text: to
+      - code: process.env
+      - text: .
+      - text: Builds the system prompt with
+      - strong: eligible
+      - text: skills.
+    - listitem: Restores the original environment after the run ends.
+  - text: This is
+  - strong: scoped to the agent run
+  - text: ", not a global shell environment."
+  - heading "Navigate to header Session snapshot (performance)" [ref=e115] [level=2]:
+    - link "Navigate to header" [ref=e116] [nth=9]:
+      - /url: "#session-snapshot-performance"
+    - text: Session snapshot (performance)
+  - text: OpenClaw snapshots the eligible skills
+  - strong: when a session starts
+  - text: and reuses that list for subsequent turns in the same session. Changes to skills or config take effect on the next new session. Skills can also refresh mid-session when the skills watcher is enabled or when a new eligible remote node appears (see below). Think of this as a
+  - strong: hot reload
+  - text: ": the refreshed list is picked up on the next agent turn."
+  - heading "Navigate to header Remote macOS nodes (Linux gateway)" [ref=e117] [level=2]:
+    - link "Navigate to header" [ref=e118] [nth=10]:
+      - /url: "#remote-macos-nodes-linux-gateway"
+    - text: Remote macOS nodes (Linux gateway)
+  - text: If the Gateway is running on Linux but a
+  - strong: macOS node
+  - text: is connected
+    - text: with
+    - code: system.run
+    - text: allowed
+  - text: (Exec approvals security not set to
+  - code: deny
+  - text: ), OpenClaw can treat macOS-only skills as eligible when the required binaries are present on that node. The agent should execute those skills via the
+  - code: nodes
+  - text: tool (typically
+  - code: nodes.run
+  - text: ). This relies on the node reporting its command support and on a bin probe via
+  - code: system.run
+  - text: . If the macOS node goes offline later, the skills remain visible; invocations may fail until the node reconnects.
+  - heading "Navigate to header Skills watcher (auto-refresh)" [ref=e119] [level=2]:
+    - link "Navigate to header" [ref=e120] [nth=11]:
+      - /url: "#skills-watcher-auto-refresh"
+    - text: Skills watcher (auto-refresh)
+  - text: By default, OpenClaw watches skill folders and bumps the skills snapshot when
+  - code: SKILL.md
+  - text: files change. Configure this under
+  - code: skills.load
+  - text: ":"
+  - button "Copy the contents from the code block" [ref=e121] [nth=4]:
+  - code: "{ skills: { load: { watch: true, watchDebounceMs: 250, }, }, }"
+  - heading "Navigate to header Token impact (skills list)" [ref=e122] [level=2]:
+    - link "Navigate to header" [ref=e123] [nth=12]:
+      - /url: "#token-impact-skills-list"
+    - text: Token impact (skills list)
+  - text: When skills are eligible, OpenClaw injects a compact XML list of available skills into the system prompt (via
+  - code: formatSkillsForPrompt
+  - text: in
+  - code: pi-coding-agent
+  - text: "). The cost is deterministic:"
+      - strong: "Base overhead (only when ≥1 skill):"
+      - text: 195 characters.
+      - strong: "Per skill:"
+      - text: 97 characters + the length of the XML-escaped
+      - code: <name>
+      - text: ","
+      - code: <description>
+      - text: ", and"
+      - code: <location>
+      - text: values.
+  - text: "Formula (characters):"
+  - button "Copy the contents from the code block" [ref=e124] [nth=5]:
+  - code: total = 195 + Σ (97 + len(name_escaped) + len(description_escaped) + len(location_escaped))
+  - text: "Notes:"
+      - text: XML escaping expands
+      - code: "& < > \" '"
+      - text: into entities (
+      - code: "&amp;"
+      - text: ","
+      - code: "&lt;"
+      - text: ", etc.), increasing length."
+      - text: Token counts vary by model tokenizer. A rough OpenAI-style estimate is ~4 chars/token, so
+      - strong: 97 chars ≈ 24 tokens
+      - text: per skill plus your actual field lengths.
+  - heading "Navigate to header Managed skills lifecycle" [ref=e125] [level=2]:
+    - link "Navigate to header" [ref=e126] [nth=13]:
+      - /url: "#managed-skills-lifecycle"
+    - text: Managed skills lifecycle
+  - text: OpenClaw ships a baseline set of skills as
+  - strong: bundled skills
+  - text: as part of the install (npm package or OpenClaw.app).
+  - code: ~/.openclaw/skills
+  - text: exists for local overrides (for example, pinning/patching a skill without changing the bundled copy). Workspace skills are user-owned and override both on name conflicts.
+  - heading "Navigate to header Config reference" [ref=e127] [level=2]:
+    - link "Navigate to header" [ref=e128] [nth=14]:
+      - /url: "#config-reference"
+    - text: Config reference
+  - text: See
+  - link "Skills config" [ref=e129]:
+    - /url: /tools/skills-config
+  - text: for the full configuration schema.
+  - heading "Navigate to header Looking for more skills?" [ref=e130] [level=2]:
+    - link "Navigate to header" [ref=e131] [nth=15]:
+      - /url: "#looking-for-more-skills"
+    - text: Looking for more skills?
+  - text: Browse
+  - link "https://clawhub.com" [ref=e132] [nth=1]:
+    - /url: https://clawhub.com
+  - text: .
+  - link "Slash Commands" [ref=e133] [nth=1]:
+    - /url: /tools/slash-commands
+    - text: Slash Commands
+  - link "Skills Config" [ref=e134] [nth=1]:
+    - /url: /tools/skills-config
+    - text: Skills Config
+  - textbox "Ask a question..." [ref=e135]
+  - text: Ctrl+I
+  - button "Send message" [ref=e136] [disabled]:
+  - contentinfo:
+    - link "Powered by" [ref=e137]:
+      - /url: https://www.mintlify.com?utm_campaign=poweredBy&utm_medium=referral&utm_source=clawdhub
+      - text: Powered by

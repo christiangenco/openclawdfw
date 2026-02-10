@@ -1,0 +1,161 @@
+  - main:
+    - article:
+      - link "← Back to blog" [ref=e1]:
+        - /url: /blog
+      - heading "OpenClaw Partners with VirusTotal for Skill Security" [ref=e2] [level=1]
+      - text: Peter Steinberger
+      - link "@steipete" [ref=e3]:
+        - /url: https://x.com/steipete
+      - text: Jamieson O'Reilly
+      - link "@theonejvo" [ref=e4]:
+        - /url: https://x.com/theonejvo
+      - text: Bernardo Quintero
+      - link "@bquintero" [ref=e5]:
+        - /url: https://x.com/bquintero
+      - text: February 7, 2026 · 6 min read
+      - paragraph:
+        - text: Today we’re announcing a partnership with
+        - link "VirusTotal" [ref=e6]:
+          - /url: https://www.virustotal.com
+        - text: ", the world’s leading threat intelligence platform, to bring security scanning to ClawHub—OpenClaw’s skill marketplace."
+        - strong: "TL;DR:"
+        - text: All skills published to ClawHub are now scanned using VirusTotal’s threat intelligence, including their new Code Insight capability. This provides an additional layer of security for the OpenClaw community.
+      - heading "Why This Matters" [ref=e7] [level=2]
+      - paragraph: For the past 20 years, security models have been built around locking devices and applications down—setting boundaries between inter-process communications, separating internet from local, sandboxing untrusted code. These principles remain important.
+      - paragraph: But AI agents represent a fundamental shift.
+      - paragraph: Unlike traditional software that does exactly what code tells it to do, AI agents interpret natural language and make decisions about actions. They blur the boundary between user intent and machine execution. They can be manipulated through language itself.
+      - paragraph: We understand that with the great utility of a tool like OpenClaw comes great responsibility. Done wrong, an AI agent is a liability. Done right, we can change personal computing for the better.
+      - paragraph: OpenClaw skills are powerful. They extend what your AI agent can do—from controlling smart home devices to managing finances to automating workflows. But with that power comes risk.
+      - paragraph: "Skills are code that runs in your agent’s context, with access to your tools and your data. A malicious skill could:"
+        - listitem: Exfiltrate sensitive information
+        - listitem: Execute unauthorized commands
+        - listitem: Send messages on your behalf
+        - listitem: Download and run external payloads
+      - paragraph:
+        - text: As the OpenClaw ecosystem grows, so does the attack surface. We’ve already seen
+        - link "documented cases" [ref=e8]:
+          - /url: https://blog.virustotal.com/2026/02/from-automation-to-infection-how.html
+        - text: of malicious actors attempting to exploit AI agent platforms. We’re not waiting for this to become a bigger problem.
+      - heading "How It Works" [ref=e9] [level=2]
+      - paragraph: "When a skill is published to ClawHub:"
+          - strong: Deterministic Packaging
+          - text: — The skill files are bundled into a ZIP with consistent compression and timestamps, along with a
+          - code: _meta.json
+          - text: containing publisher info and version history
+          - strong: Hash Computation
+          - text: — A SHA-256 hash is computed for the entire bundle, creating a unique fingerprint
+          - strong: VirusTotal Lookup
+          - text: — The hash is checked against VirusTotal’s database. If the file exists with a Code Insight verdict, results are returned immediately
+          - strong: Upload & Analysis
+          - text: — If not found (or no AI analysis exists), the bundle is uploaded to VirusTotal for fresh scanning via their v3 API
+          - strong: Code Insight
+          - text: "— VirusTotal’s LLM-powered Code Insight (powered by Gemini) performs a security-focused analysis of the entire skill package, starting from SKILL.md and including any referenced scripts or resources. It doesn’t just look at what the skill claims to do—it summarizes what the code actually does from a security perspective: whether it downloads and executes external code, accesses sensitive data, performs network operations, or embeds instructions that could coerce the agent into unsafe behavior"
+          - strong: Auto-Approval
+          - text: — Skills with a “benign” Code Insight verdict are automatically approved. Anything flagged as suspicious is automatically marked with a warning. Skills flagged as malicious are instantly blocked from download
+          - strong: Daily Re-scans
+          - text: — All active skills are re-scanned daily to detect if a previously clean skill becomes malicious
+      - paragraph: Scan results are displayed on every skill page and in version history, with direct links to the full VirusTotal report.
+      - paragraph:
+        - text: VirusTotal already protects the
+        - link "Hugging Face" [ref=e10]:
+          - /url: https://huggingface.co/blog/virustotal
+        - text: ecosystem using hash-based lookups against their threat intelligence database. Our integration goes further—we upload full skill bundles for Code Insight analysis, giving the AI a complete picture of the skill’s behavior rather than just matching known signatures.
+      - heading "What This Is—And What It Isn’t" [ref=e11] [level=2]
+        - text: "Let’s be clear:"
+        - strong: this is not a silver bullet.
+      - paragraph: VirusTotal scanning won’t catch everything. A skill that uses natural language to instruct an agent to do something malicious won’t trigger a virus signature. A carefully crafted prompt injection payload won’t show up in a threat database.
+      - paragraph: "What this does provide:"
+          - strong: Detection of known malware
+          - text: — Trojans, stealers, backdoors, malicious payloads
+          - strong: Behavioral analysis
+          - text: — Code Insight identifies suspicious patterns even in novel threats
+          - strong: Supply chain visibility
+          - text: — Catching compromised dependencies and embedded executables
+          - strong: A signal of intent
+          - text: — We’re investing in security, and this is the first of many layers
+      - paragraph: Security is defense in depth. This is one layer. More are coming.
+      - heading "The Bigger Picture" [ref=e12] [level=2]
+      - paragraph: "This partnership is part of a broader security initiative at OpenClaw. In the coming days, we’ll be publishing:"
+          - strong: A comprehensive threat model
+          - text: for the OpenClaw ecosystem
+          - strong: A public security roadmap
+          - text: tracking defensive engineering goals
+          - strong: Details on our security audit
+          - text: covering the entire codebase
+          - strong: A formal security reporting process
+          - text: with defined SLAs
+      - paragraph:
+        - text: Follow progress and read the full security program overview at
+        - link "trust.openclaw.ai" [ref=e13]:
+          - /url: https://trust.openclaw.ai/
+        - text: .
+      - paragraph:
+        - text: We’ve brought on
+        - link "Jamieson O’Reilly" [ref=e14]:
+          - /url: https://twitter.com/theonejvo
+        - text: (founder of Dvuln, co-founder of Aether AI, CREST Advisory Council member) as lead security advisor to guide this program.
+      - paragraph: AI agents that take real-world actions deserve real security processes. We’re building them.
+      - heading "For Skill Publishers" [ref=e15] [level=2]
+      - paragraph: "If you publish skills to ClawHub, your code will now be scanned automatically. Here’s how it works:"
+        - listitem: Your skill is published and the VT scan runs asynchronously
+        - listitem: If the scan returns a “benign” verdict, your skill is automatically approved
+        - listitem: If something is flagged as suspicious, your skill is marked with a warning but remains available for transparency
+        - listitem: If flagged as malicious, your skill is instantly blocked from download
+        - listitem: You can check scan status on your skill’s detail page with a direct link to the full VirusTotal report
+      - paragraph:
+        - text: We expect some false positives initially—security tooling isn’t perfect. If your skill is incorrectly flagged, reach out to us at
+        - link "security@openclaw.ai" [ref=e16]:
+          - /url: mailto:security@openclaw.ai
+        - text: and we’ll review it.
+      - heading "For Users" [ref=e17] [level=2]
+      - paragraph: "When browsing ClawHub, you’ll see scan status for each skill. This gives you one more data point when deciding what to trust. But remember:"
+        - listitem: A clean scan doesn’t mean a skill is safe
+        - listitem: Always review what permissions a skill requests
+        - listitem: Start with skills from publishers you trust
+        - listitem:
+          - text: Report suspicious behavior to
+          - link "security@openclaw.ai" [ref=e18] [nth=1]:
+            - /url: mailto:security@openclaw.ai
+      - heading "Thank You, VirusTotal" [ref=e19] [level=2]
+      - paragraph: We’re grateful to Bernardo Quintero and the VirusTotal team for their partnership. Their platform protects millions of users every day, and we’re proud to bring that protection to the OpenClaw community.
+      - heading "What’s Next" [ref=e20] [level=2]
+      - paragraph: This is the beginning, not the end. We’re committed to making OpenClaw the most secure AI agent platform available. Expect more announcements soon.
+      - paragraph: The lobster grows stronger. 🦞
+      - paragraph:
+        - emphasis:
+          - text: Questions about security?
+          - link "security@openclaw.ai" [ref=e21] [nth=2]:
+            - /url: mailto:security@openclaw.ai
+        - emphasis: "Publish skills: clawhub.ai"
+        - emphasis: "Join the discussion: Discord"
+      - paragraph: — Peter, Jamieson, and Bernardo
+      - text: Share this post
+      - link "Share on X" [ref=e22]:
+        - /url: https://twitter.com/intent/tweet?text=OpenClaw%20Partners%20with%20VirusTotal%20for%20Skill%20Security&url=https%3A%2F%2Fopenclaw.ai%2Fblog%2Fvirustotal-partnership&via=openclaw
+      - link "Post to HN" [ref=e23]:
+        - /url: https://news.ycombinator.com/submitlink?u=https%3A%2F%2Fopenclaw.ai%2Fblog%2Fvirustotal-partnership&t=OpenClaw%20Partners%20with%20VirusTotal%20for%20Skill%20Security
+      - heading "Ready to try OpenClaw?" [ref=e24] [level=3]
+      - paragraph: Get started with a single command.
+      - code: curl -fsSL https://openclaw.ai/install.sh | bash
+      - link "Learn more →" [ref=e25]:
+        - /url: /
+    - navigation:
+      - link "Home" [ref=e26]:
+        - /url: /
+      - text: ·
+      - link "Blog" [ref=e27]:
+        - /url: /blog
+      - text: ·
+      - link "Showcase" [ref=e28]:
+        - /url: /showcase
+      - text: ·
+      - link "Shoutouts" [ref=e29]:
+        - /url: /shoutouts
+      - text: ·
+      - link "Trust" [ref=e30]:
+        - /url: https://trust.openclaw.ai/
+    - paragraph:
+      - text: Built by
+      - link "Molty" [ref=e31]:
+        - /url: https://molty.me
+      - text: 🦞

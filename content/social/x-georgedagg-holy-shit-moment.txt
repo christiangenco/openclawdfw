@@ -1,0 +1,82 @@
+  - text: Don’t miss what’s happening People on X are the first to know.
+  - link "Log in" [ref=e1]:
+    - /url: /login
+  - link "Sign up" [ref=e2]:
+    - /url: /i/flow/signup
+  - button "Skip to home timeline" [ref=e3]
+  - button "Skip to trending" [ref=e4]
+  - banner:
+    - heading "X" [ref=e5] [level=1]:
+      - link "X" [ref=e6]:
+        - /url: /
+    - navigation "Primary" [ref=e7]
+  - main:
+    - button "Back" [ref=e8]
+    - heading "Post" [ref=e9] [level=2]
+    - region "Conversation" [ref=e10]:
+      - heading "Conversation" [ref=e11] [level=1]
+      - article:
+        - link "George Dagg Verified account" [ref=e12]:
+          - /url: /georgedagg_
+          - text: George Dagg
+        - link "@georgedagg_" [ref=e13]:
+          - /url: /georgedagg_
+        - button "More" [ref=e14]
+        - text: I had a holy shit, the world is not the same anymore moment last night. Put BigC, my
+        - link "@openclaw" [ref=e15]:
+          - /url: /openclaw
+        - text: on a hetzner server and my mind is just blown. We all know that AI is transformative but I don't think you really feel it until you step outside the prompt/response loop and step into the prompt/take real actions on my behalf/response loop. - I got BigC to check on the deployment of a new railway project - Builds for each of the services in the project failed - BigC reviewed the logs - Then reviewed the project on the server - Identified the root cause (incorrect build commands on each service) - Updated the configs of each in railway - Redeployed - Confirmed everything worked - I then tested it - Identified a design issue - Got BigC to review, fix and submit a PR - job done oh and all this was done over voice when walking the fucking dog... More to come as I try and make sense of this new world.
+        - link "5:06 AM · Jan 16, 2026" [ref=e16]:
+          - /url: /georgedagg_/status/2012119327147798753
+          - time: 5:06 AM · Jan 16, 2026
+        - link "34.3K Views" [ref=e17]:
+          - /url: /georgedagg_/status/2012119327147798753/analytics
+        - group "12 replies, 8 reposts, 209 likes, 160 bookmarks, 34310 views":
+          - button "12 Replies. Reply" [ref=e18]: "12"
+          - button "8 reposts. Repost" [ref=e19]: "8"
+          - button "209 Likes. Like" [ref=e20]: "209"
+          - button "160 Bookmarks. Bookmark" [ref=e21]: "160"
+          - button "Share post" [ref=e22]
+        - button "Read 12 replies" [ref=e23]
+    - region "Sign up" [ref=e24]:
+      - heading "New to X?" [ref=e25] [level=2]
+      - text: Sign up now to get your own personalized timeline!
+      - button "Sign up with Apple" [ref=e26]
+      - link "Create account" [ref=e27]:
+        - /url: /i/flow/signup
+      - text: By signing up, you agree to the
+      - link "Terms of Service" [ref=e28]:
+        - /url: https://x.com/tos
+      - text: and
+      - link "Privacy Policy" [ref=e29]:
+        - /url: https://x.com/privacy
+      - text: ", including"
+      - link "Cookie Use." [ref=e30]:
+        - /url: https://help.x.com/rules-and-policies/twitter-cookies
+    - region "Trending now" [ref=e31]:
+      - heading "Trending now" [ref=e32] [level=1]
+      - heading "What’s happening" [ref=e33] [level=2]
+      - link "Trending in United States Noah Kahan" [ref=e34]
+      - link "Trending in United States Nancy Guthrie" [ref=e35]
+      - link "Music · Trending Jack Harlow" [ref=e36]
+      - link "Politics · Trending She's a Democrat" [ref=e37]
+      - link "Show more" [ref=e38]:
+        - /url: /explore/tabs/for-you
+    - navigation "Footer" [ref=e39]:
+      - link "Terms of Service" [ref=e40] [nth=1]:
+        - /url: https://x.com/tos
+      - text: "|"
+      - link "Privacy Policy" [ref=e41] [nth=1]:
+        - /url: https://x.com/privacy
+      - text: "|"
+      - link "Cookie Policy" [ref=e42]:
+        - /url: https://support.x.com/articles/20170514
+      - text: "|"
+      - link "Accessibility" [ref=e43]:
+        - /url: https://help.x.com/resources/accessibility
+      - text: "|"
+      - link "Ads info" [ref=e44]:
+        - /url: https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo
+      - text: "|"
+      - button "More" [ref=e45] [nth=1]
+      - text: © 2026 X Corp.

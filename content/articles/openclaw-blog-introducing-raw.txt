@@ -1,0 +1,111 @@
+  - main:
+    - article:
+      - link "← Back to blog" [ref=e1]:
+        - /url: /blog
+      - heading "Introducing OpenClaw" [ref=e2] [level=1]
+      - text: Peter Steinberger
+      - link "@steipete" [ref=e3]:
+        - /url: https://x.com/steipete
+      - text: January 29, 2026 · 3 min read
+      - paragraph: Two months ago, I hacked together a weekend project. What started as “WhatsApp Relay” now has over 100,000 GitHub stars and drew 2 million visitors in a single week.
+        - text: "Today, I’m excited to announce our new name:"
+        - strong: OpenClaw
+        - text: .
+      - heading "The Naming Journey" [ref=e4] [level=2]
+      - paragraph: We’ve been through some names.
+        - strong: Clawd
+        - text: was born in November 2025—a playful pun on “Claude” with a claw. It felt perfect until Anthropic’s legal team politely asked us to reconsider. Fair enough.
+      - paragraph:
+        - strong: Moltbot
+        - text: came next, chosen in a chaotic 5am Discord brainstorm with the community. Molting represents growth - lobsters shed their shells to become something bigger. It was meaningful, but
+        - link "it never quite rolled off the tongue" [ref=e5]:
+          - /url: https://x.com/NetworkChuck/status/2016254397496414317
+        - text: .
+        - strong: OpenClaw
+        - text: "is where we land. And this time, we did our homework: trademark searches came back clear, domains have been purchased, migration code has been written. The name captures what this project has become:"
+          - strong: Open
+          - text: ": Open source, open to everyone, community-driven"
+          - strong: Claw
+          - text: ": Our lobster heritage, a nod to where we came from"
+      - heading "What OpenClaw Is" [ref=e6] [level=2]
+      - paragraph: OpenClaw is an open agent platform that runs on your machine and works from the chat apps you already use. WhatsApp, Telegram, Discord, Slack, Teams—wherever you are, your AI assistant follows.
+        - strong: Your assistant. Your machine. Your rules.
+      - paragraph: Unlike SaaS assistants where your data lives on someone else’s servers, OpenClaw runs where you choose—laptop, homelab, or VPS. Your infrastructure. Your keys. Your data.
+      - heading "What’s New in This Release" [ref=e7] [level=2]
+      - paragraph: "Along with the rebrand, we’re shipping:"
+          - strong: New Channels
+          - text: ": Twitch and Google Chat plugins"
+          - strong: Models
+          - text: ": Support for KIMI K2.5 & Xiaomi MiMo-V2-Flash"
+          - strong: Web Chat
+          - text: ": Send images just like you can in messaging apps"
+          - strong: Security
+          - text: ": 34 security-related commits to harden the codebase"
+      - paragraph:
+        - text: I’d like to thank all security folks for their hard work in helping us harden the project. We’ve released
+        - link "machine-checkable security models" [ref=e8]:
+          - /url: https://github.com/vignesh07/clawdbot-formal-models
+        - text: this week and are continuing to work on additional security improvements. Remember that prompt injection is still an industry-wide unsolved problem, so it’s important to use strong models and to study our
+        - link "security best practices" [ref=e9]:
+          - /url: https://docs.openclaw.ai/gateway/security
+        - text: .
+      - heading "The Road Ahead" [ref=e10] [level=2]
+      - paragraph: What’s next? Security remains our top priority. We’re also focused on gateway reliability and adding polish plus support for more models and providers.
+      - paragraph:
+        - text: This project has grown far beyond what I could maintain alone. Over the last few days I’ve worked on adding maintainers and we’re slowly setting up processes so we can deal with the insane influx of PRs and Issues. I’m also figuring out how to pay maintainers properly—full-time if possible. If you wanna help, consider
+        - link "contributing" [ref=e11]:
+          - /url: https://github.com/openclaw/openclaw/blob/main/CONTRIBUTING.md
+        - text: or
+        - link "sponsoring the org" [ref=e12]:
+          - /url: https://github.com/sponsors/openclaw
+        - text: .
+      - heading "Thank You" [ref=e13] [level=2]
+      - paragraph: "To the Claw Crew—every clawtributor who’s shipped code, filed issues, joined our Discord, or just tried the project: thank you. You are what makes OpenClaw special."
+      - paragraph: The lobster has molted into its final form. Welcome to OpenClaw.
+      - paragraph:
+        - emphasis:
+          - text: "Get started:"
+          - link "openclaw.ai" [ref=e14]:
+            - /url: https://openclaw.ai
+      - paragraph:
+        - emphasis:
+          - text: "Join the Claw Crew:"
+          - link "Discord" [ref=e15]:
+            - /url: https://discord.gg/openclaw
+      - paragraph:
+        - emphasis:
+          - text: "Star on GitHub:"
+          - link "github.com/openclaw/openclaw" [ref=e16]:
+            - /url: https://github.com/openclaw/openclaw
+      - paragraph: — Peter
+      - paragraph: P.S. Yes, the mascot is still a lobster. Some things are sacred. 🦞
+      - text: Share this post
+      - link "Share on X" [ref=e17]:
+        - /url: https://twitter.com/intent/tweet?text=Introducing%20OpenClaw&url=https%3A%2F%2Fopenclaw.ai%2Fblog%2Fintroducing-openclaw&via=openclaw
+      - link "Post to HN" [ref=e18]:
+        - /url: https://news.ycombinator.com/submitlink?u=https%3A%2F%2Fopenclaw.ai%2Fblog%2Fintroducing-openclaw&t=Introducing%20OpenClaw
+      - heading "Ready to try OpenClaw?" [ref=e19] [level=3]
+      - paragraph: Get started with a single command.
+      - code: curl -fsSL https://openclaw.ai/install.sh | bash
+      - link "Learn more →" [ref=e20]:
+        - /url: /
+    - navigation:
+      - link "Home" [ref=e21]:
+        - /url: /
+      - text: ·
+      - link "Blog" [ref=e22]:
+        - /url: /blog
+      - text: ·
+      - link "Showcase" [ref=e23]:
+        - /url: /showcase
+      - text: ·
+      - link "Shoutouts" [ref=e24]:
+        - /url: /shoutouts
+      - text: ·
+      - link "Trust" [ref=e25]:
+        - /url: https://trust.openclaw.ai/
+    - paragraph:
+      - text: Built by
+      - link "Molty" [ref=e26]:
+        - /url: https://molty.me
+      - text: 🦞

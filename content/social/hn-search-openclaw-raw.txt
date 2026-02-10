@@ -1,0 +1,743 @@
+  - main:
+    - link [ref=e1]:
+      - /url: https://news.ycombinator.com
+    - link "Search Hacker News" [ref=e2]:
+      - /url: /
+    - searchbox "Search stories by title, url or author" [ref=e3]: openclaw
+    - text: Search by
+    - link "Algolia Logo" [ref=e4]:
+      - /url: https://www.algolia.com/developers/?utm_source=hackernews&utm_medium=referral
+    - link [ref=e5] [nth=1]:
+      - /url: /settings
+    - text: Search
+    - combobox "Stories" [ref=e6]:
+      - text: Stories
+    - text: by
+    - combobox "Popularity" [ref=e7]:
+      - text: Popularity
+    - text: for
+    - combobox "All time" [ref=e8]:
+      - text: All time
+    - paragraph: 310 results (0.009 seconds)
+    - combobox [ref=e9]:
+    - article:
+      - link "OpenClaw – Moltbot Renamed Again" [ref=e10]:
+        - /url: https://news.ycombinator.com/item?id=46820783
+        - emphasis: OpenClaw
+        - text: – Moltbot Renamed Again
+      - link "(https://openclaw.ai/blog/introducing-openclaw)" [ref=e11]:
+        - /url: https://openclaw.ai/blog/introducing-openclaw
+        - text: (https://
+        - emphasis: openclaw
+        - text: .ai/blog/introducing-
+        - emphasis: openclaw
+        - text: )
+      - link "667 points" [ref=e12]:
+        - /url: https://news.ycombinator.com/item?id=46820783
+      - text: "|"
+      - link "ed" [ref=e13]:
+        - /url: https://news.ycombinator.com/user?id=ed
+      - text: "|"
+      - link "12 days ago" [ref=e14]:
+        - /url: https://news.ycombinator.com/item?id=46820783
+      - text: "|"
+      - link "382 comments" [ref=e15]:
+        - /url: https://news.ycombinator.com/item?id=46820783
+    - article:
+      - link "OpenClaw is what Apple intelligence should have been" [ref=e16]:
+        - /url: https://news.ycombinator.com/item?id=46893970
+        - emphasis: OpenClaw
+        - text: is what Apple intelligence should have been
+      - link "(https://www.jakequist.com/thoughts/openclaw-is-what-apple-intelligence-should-have-been)" [ref=e17]:
+        - /url: https://www.jakequist.com/thoughts/openclaw-is-what-apple-intelligence-should-have-been
+        - text: (https://www.jakequist.com/thoughts/
+        - emphasis: openclaw
+        - text: "-is-what-apple-intelligence-should-have-been)"
+      - link "515 points" [ref=e18]:
+        - /url: https://news.ycombinator.com/item?id=46893970
+      - text: "|"
+      - link "jakequist" [ref=e19]:
+        - /url: https://news.ycombinator.com/user?id=jakequist
+      - text: "|"
+      - link "6 days ago" [ref=e20]:
+        - /url: https://news.ycombinator.com/item?id=46893970
+      - text: "|"
+      - link "416 comments" [ref=e21]:
+        - /url: https://news.ycombinator.com/item?id=46893970
+    - article:
+      - link "OpenClaw is changing my life" [ref=e22]:
+        - /url: https://news.ycombinator.com/item?id=46931805
+        - emphasis: OpenClaw
+        - text: is changing my life
+      - link "(https://reorx.com/blog/openclaw-is-changing-my-life/)" [ref=e23]:
+        - /url: https://reorx.com/blog/openclaw-is-changing-my-life/
+        - text: (https://reorx.com/blog/
+        - emphasis: openclaw
+        - text: "-is-changing-my-life/)"
+      - link "321 points" [ref=e24]:
+        - /url: https://news.ycombinator.com/item?id=46931805
+      - text: "|"
+      - link "novoreorx" [ref=e25]:
+        - /url: https://news.ycombinator.com/user?id=novoreorx
+      - text: "|"
+      - link "3 days ago" [ref=e26]:
+        - /url: https://news.ycombinator.com/item?id=46931805
+      - text: "|"
+      - link "501 comments" [ref=e27]:
+        - /url: https://news.ycombinator.com/item?id=46931805
+    - article:
+      - link "A sane but bull case on Clawdbot / OpenClaw" [ref=e28]:
+        - /url: https://news.ycombinator.com/item?id=46872465
+        - text: A sane but bull case on Clawdbot /
+        - emphasis: OpenClaw
+      - link "(https://brandon.wang/2026/clawdbot)" [ref=e29]:
+        - /url: https://brandon.wang/2026/clawdbot
+      - link "298 points" [ref=e30]:
+        - /url: https://news.ycombinator.com/item?id=46872465
+      - text: "|"
+      - link "brdd" [ref=e31]:
+        - /url: https://news.ycombinator.com/user?id=brdd
+      - text: "|"
+      - link "7 days ago" [ref=e32]:
+        - /url: https://news.ycombinator.com/item?id=46872465
+      - text: "|"
+      - link "481 comments" [ref=e33]:
+        - /url: https://news.ycombinator.com/item?id=46872465
+    - article:
+        - /url: https://news.ycombinator.com/item?id=46897737
+        - text: "Nanobot: Ultra-Lightweight Alternative to"
+        - emphasis: OpenClaw
+      - link "(https://github.com/HKUDS/nanobot)" [ref=e34]:
+        - /url: https://github.com/HKUDS/nanobot
+      - link "253 points" [ref=e35]:
+        - /url: https://news.ycombinator.com/item?id=46897737
+      - text: "|"
+      - link "ms7892" [ref=e36]:
+        - /url: https://news.ycombinator.com/user?id=ms7892
+      - text: "|"
+      - link "5 days ago" [ref=e37]:
+        - /url: https://news.ycombinator.com/item?id=46897737
+      - text: "|"
+      - link "125 comments" [ref=e38]:
+        - /url: https://news.ycombinator.com/item?id=46897737
+    - article:
+        - /url: https://news.ycombinator.com/item?id=46838946
+        - text: "Ask HN: Any real"
+        - emphasis: OpenClaw
+        - text: (Clawd Bot/Molt Bot) users? What's your experience?
+      - link "121 points" [ref=e39]:
+        - /url: https://news.ycombinator.com/item?id=46838946
+      - text: "|"
+      - link "cvhc" [ref=e40]:
+        - /url: https://news.ycombinator.com/user?id=cvhc
+      - text: "|"
+      - link "10 days ago" [ref=e41]:
+        - /url: https://news.ycombinator.com/item?id=46838946
+      - text: "|"
+      - link "185 comments" [ref=e42]:
+        - /url: https://news.ycombinator.com/item?id=46838946
+      - text: I've read many mind-boggling stories from those appeared to be genuine
+      - emphasis: OpenClaw
+      - text: users, like how their assistants (from useful to dramatic) (1) plan a travel and book everything; (2) started a company and build things; (3) entered stock market and lost all the money... Moltbook added more funs.
+        - text: Interestingly, I cannot find a single user of
+        - emphasis: OpenClaw
+        - text: in my familiar communities, presumbly because it takes some effort to setup and the concept of AI taking control of everything is too scary for average tech enthusiasts.
+      - paragraph: "I scan through comments on HN, many of which were discussing about the ideas, but not sharing first-hand user experiences. A few HN users who did try it gave up / failed for various reasons:"
+      - paragraph:
+        - text: "-"
+        - link "https://news.ycombinator.com/item?id=46822562" [ref=e43]:
+          - /url: https://news.ycombinator.com/item?id=46822562
+        - text: (burning too many tokens)
+      - paragraph:
+        - text: "-"
+        - link "https://news.ycombinator.com/item?id=46786628" [ref=e44]:
+          - /url: https://news.ycombinator.com/item?id=46786628
+        - text: (ditto + security implication)
+      - paragraph:
+        - text: "-"
+        - link "https://news.ycombinator.com/item?id=46762521" [ref=e45]:
+          - /url: https://news.ycombinator.com/item?id=46762521
+        - text: (installation failed due to sandboxing)
+      - paragraph:
+        - text: "-"
+        - link "https://news.ycombinator.com/item?id=46831031" [ref=e46]:
+          - /url: https://news.ycombinator.com/item?id=46831031
+        - text: (moltbook didn't work)
+        - text: I smell hype in the air... HN users, have any of you actually run
+        - emphasis: OpenClaw
+        - text: and let it do any things useful or interesting? Can you share your experience?
+    - article:
+      - link "OpenClaw is basically a cascade of LLMs in prime position to mess stuff up" [ref=e47]:
+        - /url: https://news.ycombinator.com/item?id=46875952
+        - emphasis: OpenClaw
+        - text: is basically a cascade of LLMs in prime position to mess stuff up
+      - link "(https://cacm.acm.org/blogcacm/openclaw-a-k-a-moltbot-is-everywhere-all-at-once-and-a-disaster-waiting-to-happen/)" [ref=e48]:
+        - /url: https://cacm.acm.org/blogcacm/openclaw-a-k-a-moltbot-is-everywhere-all-at-once-and-a-disaster-waiting-to-happen/
+        - text: (https://cacm.acm.org/blogcacm/
+        - emphasis: openclaw
+        - text: "-a-k-a-moltbot-is-everywhere-all-at-once-and-a-disaster-waiting-to-happen/)"
+      - link "110 points" [ref=e49]:
+        - /url: https://news.ycombinator.com/item?id=46875952
+      - text: "|"
+      - link "Beeroness" [ref=e50]:
+        - /url: https://news.ycombinator.com/user?id=Beeroness
+      - text: "|"
+      - link "7 days ago" [ref=e51] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46875952
+      - text: "|"
+      - link "68 comments" [ref=e52]:
+        - /url: https://news.ycombinator.com/item?id=46875952
+    - article:
+        - /url: https://news.ycombinator.com/item?id=46845296
+        - emphasis: OpenClaw
+        - text: ": When AI Agents Get Full System Access. Security nightmare?"
+      - link "(https://innfactory.ai:443/en/blog/openclaw-ai-agent-security/)" [ref=e53]:
+        - /url: https://innfactory.ai:443/en/blog/openclaw-ai-agent-security/
+        - text: (https://innfactory.ai:443/en/blog/
+        - emphasis: openclaw
+        - text: "-ai-agent-security/)"
+      - link "63 points" [ref=e54]:
+        - /url: https://news.ycombinator.com/item?id=46845296
+      - text: "|"
+      - link "i-blis" [ref=e55]:
+        - /url: https://news.ycombinator.com/user?id=i-blis
+      - text: "|"
+      - link "9 days ago" [ref=e56]:
+        - /url: https://news.ycombinator.com/item?id=46845296
+      - text: "|"
+      - link "29 comments" [ref=e57]:
+        - /url: https://news.ycombinator.com/item?id=46845296
+    - article:
+      - link "Please stop using OpenClaw, formerly known as Moltbot" [ref=e58]:
+        - /url: https://news.ycombinator.com/item?id=46906866
+        - text: Please stop using
+        - emphasis: OpenClaw
+        - text: ", formerly known as Moltbot"
+      - link "(https://www.xda-developers.com/please-stop-using-openclaw/)" [ref=e59]:
+        - /url: https://www.xda-developers.com/please-stop-using-openclaw/
+        - text: (https://www.xda-developers.com/please-stop-using-
+        - emphasis: openclaw
+        - text: /)
+      - link "61 points" [ref=e60]:
+        - /url: https://news.ycombinator.com/item?id=46906866
+      - text: "|"
+      - link "bandrami" [ref=e61]:
+        - /url: https://news.ycombinator.com/user?id=bandrami
+      - text: "|"
+      - link "5 days ago" [ref=e62] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46906866
+      - text: "|"
+      - link "23 comments" [ref=e63]:
+        - /url: https://news.ycombinator.com/item?id=46906866
+    - article:
+      - link "OpenClaw security assessment [pdf]" [ref=e64]:
+        - /url: https://news.ycombinator.com/item?id=46842884
+        - emphasis: OpenClaw
+        - text: security assessment [pdf]
+      - link "(https://zeroleaks.ai/reports/openclaw-analysis.pdf)" [ref=e65]:
+        - /url: https://zeroleaks.ai/reports/openclaw-analysis.pdf
+        - text: (https://zeroleaks.ai/reports/
+        - emphasis: openclaw
+        - text: "-analysis.pdf)"
+      - link "61 points" [ref=e66] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46842884
+      - text: "|"
+      - link "nreece" [ref=e67]:
+        - /url: https://news.ycombinator.com/user?id=nreece
+      - text: "|"
+      - link "10 days ago" [ref=e68] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46842884
+      - text: "|"
+      - link "20 comments" [ref=e69]:
+        - /url: https://news.ycombinator.com/item?id=46842884
+    - article:
+      - link "OpenClaw is everywhere all at once, and a disaster waiting to happen" [ref=e70]:
+        - /url: https://news.ycombinator.com/item?id=46848552
+        - emphasis: OpenClaw
+        - text: is everywhere all at once, and a disaster waiting to happen
+      - link "(https://garymarcus.substack.com/p/openclaw-aka-moltbot-is-everywhere)" [ref=e71]:
+        - /url: https://garymarcus.substack.com/p/openclaw-aka-moltbot-is-everywhere
+        - text: (https://garymarcus.substack.com/p/
+        - emphasis: openclaw
+        - text: "-aka-moltbot-is-everywhere)"
+      - link "44 points" [ref=e72]:
+        - /url: https://news.ycombinator.com/item?id=46848552
+      - text: "|"
+      - link "geox" [ref=e73]:
+        - /url: https://news.ycombinator.com/user?id=geox
+      - text: "|"
+      - link "9 days ago" [ref=e74] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46848552
+      - text: "|"
+      - link "25 comments" [ref=e75]:
+        - /url: https://news.ycombinator.com/item?id=46848552
+    - article:
+        - /url: https://news.ycombinator.com/item?id=46832520
+        - emphasis: Openclaw
+        - text: "on Oracle's Free Tier: Always-On AI for $0/Month"
+      - link "(https://ryanshook.org/blog/posts/openclaw-on-oracle-free-tier-always-on-ai-for-free/)" [ref=e76]:
+        - /url: https://ryanshook.org/blog/posts/openclaw-on-oracle-free-tier-always-on-ai-for-free/
+        - text: (https://ryanshook.org/blog/posts/
+        - emphasis: openclaw
+        - text: "-on-oracle-free-tier-always-on-ai-for-free/)"
+      - link "23 points" [ref=e77]:
+        - /url: https://news.ycombinator.com/item?id=46832520
+      - text: "|"
+      - link "RyanShook" [ref=e78]:
+        - /url: https://news.ycombinator.com/user?id=RyanShook
+      - text: "|"
+      - link "11 days ago" [ref=e79]:
+        - /url: https://news.ycombinator.com/item?id=46832520
+      - text: "|"
+      - link "7 comments" [ref=e80]:
+        - /url: https://news.ycombinator.com/item?id=46832520
+    - article:
+        - /url: https://news.ycombinator.com/item?id=46864515
+        - text: "Ask HN:"
+        - emphasis: OpenClaw
+        - text: users, what is your token spend?
+      - link "15 points" [ref=e81]:
+        - /url: https://news.ycombinator.com/item?id=46864515
+      - text: "|"
+      - link "8cvor6j844qw_d6" [ref=e82]:
+        - /url: https://news.ycombinator.com/user?id=8cvor6j844qw_d6
+      - text: "|"
+      - link "8 days ago" [ref=e83]:
+        - /url: https://news.ycombinator.com/item?id=46864515
+      - text: "|"
+      - link "6 comments" [ref=e84]:
+        - /url: https://news.ycombinator.com/item?id=46864515
+      - text: Running
+      - emphasis: OpenClaw
+      - text: with Anthrophic API and it burned through ~USD 50 in one day.
+        - text: What are other
+        - emphasis: OpenClaw
+        - text: users seeing? Anyone found effective ways to cut costs (model tiering, caching, etc.)?
+    - article:
+      - link "SecureClaw – 100% free social-driven security platform for OpenClaw" [ref=e85]:
+        - /url: https://news.ycombinator.com/item?id=46870027
+        - text: SecureClaw – 100% free social-driven security platform for
+        - emphasis: OpenClaw
+      - link "(https://secureclaw.dev/)" [ref=e86]:
+        - /url: https://secureclaw.dev/
+      - link "13 points" [ref=e87]:
+        - /url: https://news.ycombinator.com/item?id=46870027
+      - text: "|"
+      - link "alonsqrr" [ref=e88]:
+        - /url: https://news.ycombinator.com/user?id=alonsqrr
+      - text: "|"
+      - link "7 days ago" [ref=e89] [nth=2]:
+        - /url: https://news.ycombinator.com/item?id=46870027
+      - text: "|"
+      - link "2 comments" [ref=e90]:
+        - /url: https://news.ycombinator.com/item?id=46870027
+    - article:
+        - /url: https://news.ycombinator.com/item?id=46837424
+        - text: "Pi: The Minimal Agent Within"
+        - emphasis: OpenClaw
+      - link "(https://lucumr.pocoo.org/2026/1/31/pi/)" [ref=e91]:
+        - /url: https://lucumr.pocoo.org/2026/1/31/pi/
+      - link "13 points" [ref=e92] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46837424
+      - text: "|"
+      - link "admp" [ref=e93]:
+        - /url: https://news.ycombinator.com/user?id=admp
+      - text: "|"
+      - link "10 days ago" [ref=e94] [nth=2]:
+        - /url: https://news.ycombinator.com/item?id=46837424
+      - text: "|"
+      - link "0 comments" [ref=e95]:
+        - /url: https://news.ycombinator.com/item?id=46837424
+    - article:
+        - /url: https://news.ycombinator.com/item?id=46913721
+        - text: "Show HN: Cheapest Managed"
+        - emphasis: OpenClaw
+        - text: hosting – 30s setup (agent37.com)
+      - link "(https://www.agent37.com/openclaw)" [ref=e96]:
+        - /url: https://www.agent37.com/openclaw
+        - text: (https://www.agent37.com/
+        - emphasis: openclaw
+        - text: )
+      - link "12 points" [ref=e97]:
+        - /url: https://news.ycombinator.com/item?id=46913721
+      - text: "|"
+      - link "azfar0007" [ref=e98]:
+        - /url: https://news.ycombinator.com/user?id=azfar0007
+      - text: "|"
+      - link "4 days ago" [ref=e99]:
+        - /url: https://news.ycombinator.com/item?id=46913721
+      - text: "|"
+      - link "12 comments" [ref=e100]:
+        - /url: https://news.ycombinator.com/item?id=46913721
+      - text: Hi HN, I built the cheapest managed
+      - emphasis: OpenClaw
+      - text: hosting I could - $0.99/mo for your own instance. I tried hosting it myself first - went through GCP (e2-micro and e2-small both too little RAM, e2-medium was ~$25/mo), Hostinger ($5.99 is a 12-month lock-in), Hetzner (auto ID verification failed twice). Finally got it running on OVH and noticed it was idle 90% of the time. So I containerized the setup and started sharing it with friends.
+      - paragraph: "What each person gets: their own isolated instance with full UI, terminal access, SSL. Setup takes about 30 seconds. $0.99/mo."
+        - text: "How it works: Containerized shared infrastructure with per-tenant isolation. Each instance runs in its own container with dedicated resources and burst capacity. SSL is automated via Let's Encrypt. The economics work because"
+        - emphasis: OpenClaw
+        - text: usage is bursty - nobody's hammering it 24/7, so density is high.
+        - text: "The question I'm testing: how cheap can managed hosting for open-source tools actually get? The marginal cost of a small container is cents. Most of the cost in managed hosting is support, marketing, and margin, not compute. I wanted to offer the most affordable way to try"
+        - emphasis: OpenClaw
+        - text: without the setup headache.
+    - article:
+        - /url: https://news.ycombinator.com/item?id=46850907
+        - text: "Ask HN: What serious task have you accomplished with Moltbot /"
+        - emphasis: OpenClaw
+        - text: "?"
+      - link "12 points" [ref=e101] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46850907
+      - text: "|"
+      - link "lukol" [ref=e102]:
+        - /url: https://news.ycombinator.com/user?id=lukol
+      - text: "|"
+      - link "9 days ago" [ref=e103] [nth=2]:
+        - /url: https://news.ycombinator.com/item?id=46850907
+      - text: "|"
+      - link "6 comments" [ref=e104] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46850907
+      - text: I'm genuinely curious. I've read a lot of stories of people adding it to group chats, using it as a remote coding and research assistant, or getting it to clean up folders and inboxes. This is all interesting, but nothing that couldn't have been accomplished with the tooling that was already in place.
+      - paragraph: I'd like to hear stories like "it accurately filed my taxes", "it organized and booked all tickets for my trip from A to B", or "it successfully executed a cold email campaign with a 30% open rate". These stories must be out there - would you mind sharing them?
+    - article:
+      - link "Using Microvm.nix to Sandbox OpenClaw" [ref=e105]:
+        - /url: https://news.ycombinator.com/item?id=46912660
+        - text: Using Microvm.nix to Sandbox
+        - emphasis: OpenClaw
+      - link "(https://buduroiu.com/blog/openclaw-microvm/)" [ref=e106]:
+        - /url: https://buduroiu.com/blog/openclaw-microvm/
+        - text: (https://buduroiu.com/blog/
+        - emphasis: openclaw
+        - text: "-microvm/)"
+      - link "10 points" [ref=e107]:
+        - /url: https://news.ycombinator.com/item?id=46912660
+      - text: "|"
+      - link "eric_khun" [ref=e108]:
+        - /url: https://news.ycombinator.com/user?id=eric_khun
+      - text: "|"
+      - link "4 days ago" [ref=e109] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46912660
+      - text: "|"
+      - link "1 comments" [ref=e110]:
+        - /url: https://news.ycombinator.com/item?id=46912660
+    - article:
+        - /url: https://news.ycombinator.com/item?id=46869657
+        - text: "From magic to malware: How"
+        - emphasis: OpenClaw
+        - text: "'s agent skills become an attack surface"
+      - link "(https://1password.com/blog/from-magic-to-malware-how-openclaws-agent-skills-become-an-attack-surface)" [ref=e111]:
+        - /url: https://1password.com/blog/from-magic-to-malware-how-openclaws-agent-skills-become-an-attack-surface
+      - link "8 points" [ref=e112]:
+        - /url: https://news.ycombinator.com/item?id=46869657
+      - text: "|"
+      - link "_____k" [ref=e113]:
+        - /url: https://news.ycombinator.com/user?id=_____k
+      - text: "|"
+      - link "7 days ago" [ref=e114] [nth=3]:
+        - /url: https://news.ycombinator.com/item?id=46869657
+      - text: "|"
+      - link "3 comments" [ref=e115]:
+        - /url: https://news.ycombinator.com/item?id=46869657
+    - article:
+      - link "Properly securing OpenClaw with authentication" [ref=e116]:
+        - /url: https://news.ycombinator.com/item?id=46884963
+        - text: Properly securing
+        - emphasis: OpenClaw
+        - text: with authentication
+      - link "(https://www.haproxy.com/blog/properly-securing-openclaw-with-authentication)" [ref=e117]:
+        - /url: https://www.haproxy.com/blog/properly-securing-openclaw-with-authentication
+        - text: (https://www.haproxy.com/blog/properly-securing-
+        - emphasis: openclaw
+        - text: "-with-authentication)"
+      - link "8 points" [ref=e118] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46884963
+      - text: "|"
+      - link "owenthejumper" [ref=e119]:
+        - /url: https://news.ycombinator.com/user?id=owenthejumper
+      - text: "|"
+      - link "6 days ago" [ref=e120] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46884963
+      - text: "|"
+      - link "0 comments" [ref=e121] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46884963
+    - article:
+        - /url: https://news.ycombinator.com/item?id=46946310
+        - text: "Show HN: Open source setup to self-host"
+        - emphasis: OpenClaw
+        - text: instances on any host
+      - link "(https://github.com/Agent-3-7/openclaw-host-kit)" [ref=e122]:
+        - /url: https://github.com/Agent-3-7/openclaw-host-kit
+        - text: (https://github.com/Agent-3-7/
+        - emphasis: openclaw
+        - text: "-host-kit)"
+      - link "7 points" [ref=e123]:
+        - /url: https://news.ycombinator.com/item?id=46946310
+      - text: "|"
+      - link "vishnukool" [ref=e124]:
+        - /url: https://news.ycombinator.com/user?id=vishnukool
+      - text: "|"
+      - link "1 day ago" [ref=e125]:
+        - /url: https://news.ycombinator.com/item?id=46946310
+      - text: "|"
+      - link "11 comments" [ref=e126]:
+        - /url: https://news.ycombinator.com/item?id=46946310
+    - article:
+        - /url: https://news.ycombinator.com/item?id=46884862
+        - text: "Show HN: OpenShears – I built an uninstaller because"
+        - emphasis: OpenClaw
+        - text: refuses to die
+      - link "(https://github.com/oswarld/openshears)" [ref=e127]:
+        - /url: https://github.com/oswarld/openshears
+      - link "7 points" [ref=e128] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46884862
+      - text: "|"
+      - link "haebom" [ref=e129]:
+        - /url: https://news.ycombinator.com/user?id=haebom
+      - text: "|"
+      - link "6 days ago" [ref=e130] [nth=2]:
+        - /url: https://news.ycombinator.com/item?id=46884862
+      - text: "|"
+      - link "1 comments" [ref=e131] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46884862
+      - text: Hey HN, I've been using
+      - emphasis: OpenClaw
+      - text: "for a few months as my local LLM gateway. It was genuinely fun — the convenience of routing multiple models through a single endpoint is hard to beat. But along the way, I stumbled upon a few surprises that made me uncomfortable:"
+        - text: "- Config files scattered in unexpected places (~/."
+        - emphasis: openclaw
+        - text: ", ~/.clawdbot, and more) - Background processes that respawn after termination - Logs that quietly accumulate without rotation - Cached data persisting long after I thought I'd removed it"
+      - paragraph: None of this is necessarily malicious, but when I decided to move on, I wanted a clean break — not leftover artifacts haunting my system.
+        - text: "So I built OpenShears: a CLI tool that scans, detects, and removes all traces of"
+        - emphasis: OpenClaw
+        - text: . It's intentionally aggressive but always asks for confirmation before deleting anything.
+      - paragraph: This is fully open source (MIT). If you've found other hidden files or processes that OpenShears missed, PRs are very welcome. Let's make this the definitive cleanup tool.
+    - article:
+        - /url: https://news.ycombinator.com/item?id=46854807
+        - text: "Show HN: Prompt-injection firewall for"
+        - emphasis: OpenClaw
+        - text: agents
+      - link "(https://github.com/ContextFort-AI/clawdbot-runtime-controls)" [ref=e132]:
+        - /url: https://github.com/ContextFort-AI/clawdbot-runtime-controls
+      - link "6 points" [ref=e133]:
+        - /url: https://news.ycombinator.com/item?id=46854807
+      - text: "|"
+      - link "ashwinr2002" [ref=e134]:
+        - /url: https://news.ycombinator.com/user?id=ashwinr2002
+      - text: "|"
+      - link "8 days ago" [ref=e135] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46854807
+      - text: "|"
+      - link "3 comments" [ref=e136] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46854807
+      - text: People seem to be blindly hooking up their
+      - emphasis: OpenClaw
+      - text: ’s to their personal data. So, I built runtime controls to prevent at the least, very simple prompt injection attacks.
+      - paragraph: Once installed, it hooks to Node.js child_process module in the gateway process and listens to tool calls and their response streams. And a fetch hook to monitor user prompts (both could’ve been through fetch, happy to discuss why this whole layer couldn’t just be a proxy).
+      - paragraph: "There are two layers of protection:"
+      - paragraph: "First: Whenever there is a read-only tool call whose response an attacker can modify, we extract that part of the json response and send it to a small haiku model to check if it has instruction asking the LLM to do something different"
+      - paragraph: "Second: For when the prompt injection detection fails, we maintain a list of function calls which can write to places that an external actor can access. We prompt the user for explicit permission to go forward through the UI."
+      - paragraph: "I would love a discussion on how this second layer could be made better and less frequent by relying on some decision process. My current idea: Based on a collected set of “trusted” context (user prompts, responses from tool calls attackers cannot manipulate), can we detect if this tool call was necessary. There are scenarios where you’d need detection at the parameter-level."
+      - paragraph: "Two notes:"
+      - paragraph: 1) This cannot just be a proxy because you need application level integration to have humans in the loop when needed and push UI controls.
+      - paragraph: 2) How i improved accuracy of detecting prompt injection is by selecting only that content from the entire response json that can be manipulated by an external actor. This had to be done for each tool separately. The current implementation is for 2 skills I randomly chose (Notion & Github).
+      - paragraph:
+        - text: "P.S.: I maintain one for claude code myself while working:"
+        - link "https://github.com/ContextFort-AI/Runtime-Controls" [ref=e137]:
+          - /url: https://github.com/ContextFort-AI/Runtime-Controls
+        - text: ", I created this over the weekend"
+        - emphasis: OpenClaw
+    - article:
+      - link "Added OTEL Observability to OpenClaw agents full GenAI spec support" [ref=e138]:
+        - /url: https://news.ycombinator.com/item?id=46944961
+        - text: Added OTEL Observability to
+        - emphasis: OpenClaw
+        - text: agents full GenAI spec support
+      - link "(https://github.com/openclaw/openclaw/pull/11100)" [ref=e139]:
+        - /url: https://github.com/openclaw/openclaw/pull/11100
+        - text: (https://github.com/
+        - emphasis: openclaw
+        - text: /
+        - emphasis: openclaw
+        - text: /pull/11100)
+      - link "6 points" [ref=e140] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46944961
+      - text: "|"
+      - link "draismaa" [ref=e141]:
+        - /url: https://news.ycombinator.com/user?id=draismaa
+      - text: "|"
+      - link "1 day ago" [ref=e142] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46944961
+      - text: "|"
+      - link "2 comments" [ref=e143] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46944961
+    - article:
+        - /url: https://news.ycombinator.com/item?id=46895546
+        - text: "Show HN: I've been running"
+        - emphasis: OpenClaw
+        - text: on a $640 Mac Mini for a week. Honest report
+      - link "(https://github.com/openclaw/openclaw)" [ref=e144]:
+        - /url: https://github.com/openclaw/openclaw
+        - text: (https://github.com/
+        - emphasis: openclaw
+        - text: /
+        - emphasis: openclaw
+        - text: )
+      - link "6 points" [ref=e145] [nth=2]:
+        - /url: https://news.ycombinator.com/item?id=46895546
+      - text: "|"
+      - link "Legin82" [ref=e146]:
+        - /url: https://news.ycombinator.com/user?id=Legin82
+      - text: "|"
+      - link "6 days ago" [ref=e147] [nth=3]:
+        - /url: https://news.ycombinator.com/item?id=46895546
+      - text: "|"
+      - link "2 comments" [ref=e148] [nth=2]:
+        - /url: https://news.ycombinator.com/item?id=46895546
+    - article:
+      - link "DIY AI bot farm OpenClaw is a security 'dumpster fire'" [ref=e149]:
+        - /url: https://news.ycombinator.com/item?id=46869372
+        - text: DIY AI bot farm
+        - emphasis: OpenClaw
+        - text: is a security 'dumpster fire'
+      - link "(https://www.theregister.com/2026/02/03/openclaw_security_problems/)" [ref=e150]:
+        - /url: https://www.theregister.com/2026/02/03/openclaw_security_problems/
+        - text: (https://www.theregister.com/2026/02/03/
+        - emphasis: openclaw
+        - text: _security_problems/)
+      - link "6 points" [ref=e151] [nth=3]:
+        - /url: https://news.ycombinator.com/item?id=46869372
+      - text: "|"
+      - link "0in" [ref=e152]:
+        - /url: https://news.ycombinator.com/user?id=0in
+      - text: "|"
+      - link "7 days ago" [ref=e153] [nth=4]:
+        - /url: https://news.ycombinator.com/item?id=46869372
+      - text: "|"
+      - link "1 comments" [ref=e154] [nth=2]:
+        - /url: https://news.ycombinator.com/item?id=46869372
+    - article:
+        - /url: https://news.ycombinator.com/item?id=46955793
+        - text: "Show HN: PicoClaw – lightweight"
+        - emphasis: OpenClaw
+        - text: "-style AI bot in one Go binary"
+      - link "(https://github.com/mosaxiv/picoclaw)" [ref=e155]:
+        - /url: https://github.com/mosaxiv/picoclaw
+      - link "6 points" [ref=e156] [nth=4]:
+        - /url: https://news.ycombinator.com/item?id=46955793
+      - text: "|"
+      - link "mosaxiv" [ref=e157]:
+        - /url: https://news.ycombinator.com/user?id=mosaxiv
+      - text: "|"
+      - link "13 hours ago" [ref=e158]:
+        - /url: https://news.ycombinator.com/item?id=46955793
+      - text: "|"
+      - link "0 comments" [ref=e159] [nth=2]:
+        - /url: https://news.ycombinator.com/item?id=46955793
+      - text: "I’m building PicoClaw: a lightweight"
+      - emphasis: OpenClaw
+      - text: "-style personal AI bot that runs as a single Go binary."
+      - emphasis: OpenClaw
+      - text: (Moltbot / Clawdbot) is a great product. I wanted something with a simpler, more “single-binary” architecture that’s easy to read and hack on.
+      - paragraph:
+        - text: "Repo:"
+        - link "https://github.com/mosaxiv/picoclaw" [ref=e160]:
+          - /url: https://github.com/mosaxiv/picoclaw
+    - article:
+      - link "OpenClaw Is the New Linux" [ref=e161]:
+        - /url: https://news.ycombinator.com/item?id=46954388
+        - emphasis: OpenClaw
+        - text: Is the New Linux
+      - link "(https://openclaw.rocks/blog/openclaw-is-the-new-linux/)" [ref=e162]:
+        - /url: https://openclaw.rocks/blog/openclaw-is-the-new-linux/
+        - text: (https://
+        - emphasis: openclaw
+        - text: .rocks/blog/
+        - emphasis: openclaw
+        - text: "-is-the-new-linux/)"
+      - link "5 points" [ref=e163]:
+        - /url: https://news.ycombinator.com/item?id=46954388
+      - text: "|"
+      - link "stubbi" [ref=e164]:
+        - /url: https://news.ycombinator.com/user?id=stubbi
+      - text: "|"
+      - link "17 hours ago" [ref=e165]:
+        - /url: https://news.ycombinator.com/item?id=46954388
+      - text: "|"
+      - link "8 comments" [ref=e166]:
+        - /url: https://news.ycombinator.com/item?id=46954388
+    - article:
+        - /url: https://news.ycombinator.com/item?id=46828638
+        - text: "Ask HN: Why the"
+        - emphasis: OpenClaw
+        - text: hype? What's so special?
+      - link "5 points" [ref=e167] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46828638
+      - text: "|"
+      - link "anon_anon12" [ref=e168]:
+        - /url: https://news.ycombinator.com/user?id=anon_anon12
+      - text: "|"
+      - link "11 days ago" [ref=e169] [nth=1]:
+        - /url: https://news.ycombinator.com/item?id=46828638
+      - text: "|"
+      - link "3 comments" [ref=e170] [nth=2]:
+        - /url: https://news.ycombinator.com/item?id=46828638
+      - emphasis: OpenClaw
+      - text: is seemingly just another way to chat with an AI on another non-AI centric platform instead of the CLI or the company's site. Then, you have to give it so many API keys to actually utilise it, which for me has shattered the image of it enabling complete autonomy. Yes, I get that it's just an one-time thing, but all these platforms have AIs of their own at this point, why would I go through this new hassle. That too some have expiring API keys or certain limits as well. All in all, AGAIN, a feature, not a product.
+    - article:
+        - /url: https://news.ycombinator.com/item?id=46913871
+        - emphasis: OpenClaw
+        - text: "Security Testing: 80% hijacking success on a hardened AI agent"
+      - link "(https://earlycore.dev/collection/openclaw-security-hardening-80-percent-attacks-succeeded)" [ref=e171]:
+        - /url: https://earlycore.dev/collection/openclaw-security-hardening-80-percent-attacks-succeeded
+        - text: (https://earlycore.dev/collection/
+        - emphasis: openclaw
+        - text: "-security-hardening-80-percent-attacks-succeeded)"
+      - link "5 points" [ref=e172] [nth=2]:
+        - /url: https://news.ycombinator.com/item?id=46913871
+      - text: "|"
+      - link "paldeac2" [ref=e173]:
+        - /url: https://news.ycombinator.com/user?id=paldeac2
+      - text: "|"
+      - link "4 days ago" [ref=e174] [nth=2]:
+        - /url: https://news.ycombinator.com/item?id=46913871
+      - text: "|"
+      - link "1 comments" [ref=e175] [nth=3]:
+        - /url: https://news.ycombinator.com/item?id=46913871
+      - listitem:
+        - button "1" [ref=e176]
+      - listitem:
+        - button "2" [ref=e177]
+      - listitem:
+        - button "3" [ref=e178]
+      - listitem:
+        - button "4" [ref=e179]
+      - listitem:
+        - button "5" [ref=e180]
+      - listitem:
+        - button "6" [ref=e181]
+      - listitem:
+        - button [ref=e182]:
+      - listitem:
+        - link "About" [ref=e183]:
+          - /url: /about
+      - listitem: •
+      - listitem:
+        - link "Setting" [ref=e184]:
+          - /url: /settings
+      - listitem: •
+      - listitem:
+        - link "Help" [ref=e185]:
+          - /url: /help
+      - listitem: •
+      - listitem:
+        - link "API Documentation" [ref=e186]:
+          - /url: /api
+      - listitem: •
+      - listitem:
+        - link "Hacker News" [ref=e187]:
+          - /url: https://news.ycombinator.com
+      - listitem: •
+      - listitem:
+        - link "Fork/Contribute" [ref=e188]:
+          - /url: https://github.com/algolia/hn-search
+      - listitem: •
+      - listitem:
+        - link "Cool Apps" [ref=e189]:
+          - /url: /cool_apps

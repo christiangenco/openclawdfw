@@ -1,0 +1,79 @@
+  - text: Don’t miss what’s happening People on X are the first to know.
+  - link "Log in" [ref=e1]:
+    - /url: /login
+  - link "Sign up" [ref=e2]:
+    - /url: /i/flow/signup
+  - button "Skip to home timeline" [ref=e3]
+  - button "Skip to trending" [ref=e4]
+  - banner:
+    - heading "X" [ref=e5] [level=1]:
+      - link "X" [ref=e6]:
+        - /url: /
+    - navigation "Primary" [ref=e7]
+  - main:
+    - button "Back" [ref=e8]
+    - heading "Post" [ref=e9] [level=2]
+    - region "Conversation" [ref=e10]:
+      - heading "Conversation" [ref=e11] [level=1]
+      - article "Christian A. Rodríguez Encarnación @chrisrodz35 @openclaw short story; Week 1 - Set it up for my family Week 2 - Set it up for some non-techie friends Week 3 - We’re building clawd for work 7 replies, 5 reposts, 93 likes, 37 bookmarks, 9642 views" [ref=e12]:
+        - link "Christian A. Rodríguez Encarnación" [ref=e13]:
+          - /url: /chrisrodz35
+        - link "@chrisrodz35" [ref=e14]:
+          - /url: /chrisrodz35
+        - button "More" [ref=e15]
+        - link "@openclaw" [ref=e16]:
+          - /url: /openclaw
+        - text: short story; Week 1 - Set it up for my family Week 2 - Set it up for some non-techie friends Week 3 - We’re building clawd for work
+        - link "5:56 PM · Jan 16, 2026" [ref=e17]:
+          - /url: /chrisrodz35/status/2012313149576302746
+          - time: 5:56 PM · Jan 16, 2026
+        - link "9,642 Views" [ref=e18]:
+          - /url: /chrisrodz35/status/2012313149576302746/analytics
+        - group "7 replies, 5 reposts, 93 likes, 37 bookmarks, 9642 views":
+          - button "7 Replies. Reply" [ref=e19]: "7"
+          - button "5 reposts. Repost" [ref=e20]: "5"
+          - button "93 Likes. Like" [ref=e21]: "93"
+          - button "37 Bookmarks. Bookmark" [ref=e22]: "37"
+          - button "Share post" [ref=e23]
+        - button "Read 7 replies" [ref=e24]
+    - region "Sign up" [ref=e25]:
+      - heading "New to X?" [ref=e26] [level=2]
+      - text: Sign up now to get your own personalized timeline!
+      - button "Sign up with Apple" [ref=e27]
+      - link "Create account" [ref=e28]:
+        - /url: /i/flow/signup
+      - text: By signing up, you agree to the
+      - link "Terms of Service" [ref=e29]:
+        - /url: https://x.com/tos
+      - text: and
+      - link "Privacy Policy" [ref=e30]:
+        - /url: https://x.com/privacy
+      - text: ", including"
+      - link "Cookie Use." [ref=e31]:
+        - /url: https://help.x.com/rules-and-policies/twitter-cookies
+    - region "Trending now" [ref=e32]:
+      - heading "Trending now" [ref=e33] [level=1]
+      - heading "What’s happening" [ref=e34] [level=2]
+      - link "Sports · Trending Justin Verlander" [ref=e35]
+      - link "Trending in United States Noah Kahan" [ref=e36]
+      - link "Trending in United States Flashlight" [ref=e37]
+      - link "Show more" [ref=e38]:
+        - /url: /explore/tabs/for-you
+    - navigation "Footer" [ref=e39]:
+      - link "Terms of Service" [ref=e40] [nth=1]:
+        - /url: https://x.com/tos
+      - text: "|"
+      - link "Privacy Policy" [ref=e41] [nth=1]:
+        - /url: https://x.com/privacy
+      - text: "|"
+      - link "Cookie Policy" [ref=e42]:
+        - /url: https://support.x.com/articles/20170514
+      - text: "|"
+      - link "Accessibility" [ref=e43]:
+        - /url: https://help.x.com/resources/accessibility
+      - text: "|"
+      - link "Ads info" [ref=e44]:
+        - /url: https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo
+      - text: "|"
+      - button "More" [ref=e45] [nth=1]
+      - text: © 2026 X Corp.
