@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { TrackChecklistSignup } from "./track-goal";
 
 export const metadata = {
   title: "Check Your Email — OpenClaw DFW",
@@ -19,6 +20,8 @@ export default function ThankYou() {
           <span className="font-semibold text-gray-500">DFW</span>
         </Link>
       </nav>
+
+      <TrackChecklistSignup />
 
       {/* Content */}
       <main className="flex flex-1 flex-col items-center justify-center px-6 text-center">
