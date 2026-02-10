@@ -149,16 +149,27 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="border-t border-gray-200 px-6 py-8 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} OpenClaw DFW. Powered by{" "}
-        <a
-          href="https://openclaw.ai"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="underline hover:text-gray-700"
-        >
-          OpenClaw
-        </a>
-        .
+        <p>
+          © {new Date().getFullYear()} OpenClaw DFW. Powered by{" "}
+          <a
+            href="https://openclaw.ai"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-gray-700"
+          >
+            OpenClaw
+          </a>
+          .
+        </p>
+        <p className="mt-2">
+          <Link href="/privacy" className="underline hover:text-gray-700">
+            Privacy Policy
+          </Link>
+          {" · "}
+          <Link href="/terms" className="underline hover:text-gray-700">
+            Terms of Service
+          </Link>
+        </p>
       </footer>
     </div>
   );
