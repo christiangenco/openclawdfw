@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { EmailCapture } from "@/components/email-capture";
+import { TestimonialGrid } from "@/components/tweet-embed";
 
 const CHECK = (
   <svg
@@ -45,14 +46,6 @@ export default function Home() {
           <span className="font-semibold text-gray-500">DFW</span>
         </span>
         <div className="flex items-center gap-4">
-          <a
-            href="https://x.com/cgenco"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm text-gray-400 transition hover:text-gray-200"
-          >
-            @cgenco
-          </a>
           <Link
             href="/book"
             className="rounded-lg bg-red-600 px-4 py-2 text-sm font-medium text-white transition hover:bg-red-700"
@@ -194,6 +187,84 @@ export default function Home() {
             If you can do it on a computer, your AI employee can learn it.
             Complex integrations are scoped on the call.
           </p>
+        </div>
+      </section>
+
+      {/* Social Proof: What Real People Are Doing */}
+      <section className="border-t border-gray-800 px-6 py-20">
+        <div className="mx-auto max-w-5xl">
+          <h2 className="text-center text-2xl font-bold text-gray-100 sm:text-3xl">
+            Real People. Real Tasks. Handled&nbsp;by&nbsp;AI.
+          </h2>
+          <p className="mt-4 text-center text-gray-400">
+            OpenClaw is already working as an executive assistant for thousands
+            of people. Here&rsquo;s what that looks like.
+          </p>
+          <div className="mt-12">
+            <TestimonialGrid
+              tweets={[
+                {
+                  name: "Dan Peguine",
+                  handle: "danpeguine",
+                  tweetId: "2012565160586625345",
+                  verified: false,
+                  text: `Things my OpenClaw does for me:\n\n• Timeblocks tasks in my calendar based on importance\n• Gives a morning daily brief: weather, objectives, meetings agenda, key reminders\n• Researches people before meetings and creates briefing docs\n• Manages the calendar for any conflicts autonomously\n• Creates invoices and summarizes work beautifully`,
+                },
+                {
+                  name: "JD Rhyne",
+                  handle: "jdrhyne",
+                  tweetId: "2012778049406742632",
+                  verified: false,
+                  text: `What my OpenClaw army does:\n\n• Cleared 10,000 emails from my inbox (Day 1)\n• Reviewed and summarized 122 Google Slides for town hall\n• Drafts LinkedIn/X posts in my voice\n• Reviews, analyzes and optimized Google Ads\n• Daily roll call across 10+ agents`,
+                },
+                {
+                  name: "Armand du Plessis",
+                  handle: "armanddp",
+                  tweetId: "2008767951340794245",
+                  verified: false,
+                  text: `Finds my next flight in email, runs through check-in, finds me a window seat.\n\nWhile I'm driving.`,
+                },
+              ]}
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Social Proof: Credibility */}
+      <section className="border-t border-gray-800 px-6 py-20">
+        <div className="mx-auto max-w-5xl">
+          <h2 className="text-center text-2xl font-bold text-gray-100 sm:text-3xl">
+            Endorsed by the People Who Know&nbsp;AI&nbsp;Best
+          </h2>
+          <div className="mt-12">
+            <TestimonialGrid
+              tweets={[
+                {
+                  name: "Dave Morin",
+                  handle: "davemorin",
+                  tweetId: "2013723700668096605",
+                  verified: true,
+                  text: `At this point I don't even know what to call OpenClaw. It is something new.\n\nAfter a few weeks in with it, this is the first time I have felt like I am living in the future since the launch of ChatGPT.`,
+                  subtitle: "Co-founder of Facebook, founder of Path",
+                },
+                {
+                  name: "Andrej Karpathy",
+                  handle: "karpathy",
+                  tweetId: "2005692186470514904",
+                  verified: true,
+                  text: `Excellent reading thank you. Love oracle and Claw.`,
+                  subtitle: "Former Tesla AI Director, OpenAI founding member",
+                },
+                {
+                  name: "crossi",
+                  handle: "crossiBuilds",
+                  tweetId: "2008478023826153665",
+                  verified: false,
+                  text: `Everything Siri was supposed to be.\n\nAnd it goes so much further.`,
+                },
+              ]}
+            />
+          </div>
         </div>
       </section>
 

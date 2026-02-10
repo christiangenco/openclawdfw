@@ -41,7 +41,7 @@ const DEFAULTS: Required<CalendlyEmbedProps> = {
   textColor: "f0f4ff",
   primaryColor: "ff4d4d", // red to match the site theme
   minWidth: "320px",
-  height: "950px",
+  height: "1150px",
 };
 
 // ─── Component ──────────────────────────────────────────────────────────────
