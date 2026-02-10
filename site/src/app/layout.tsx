@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { FathomAnalytics } from "./fathom";
 
 const siteName = "OpenClaw DFW";
 const title =
@@ -167,7 +168,10 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="bg-white text-gray-900 antialiased">{children}</body>
+      <body className="bg-white text-gray-900 antialiased">
+        <FathomAnalytics />
+        {children}
+      </body>
     </html>
   );
 }
