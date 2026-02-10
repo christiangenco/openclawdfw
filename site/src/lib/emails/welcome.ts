@@ -5,39 +5,39 @@
 
 import { emailLayout, textFooter } from "./layout";
 
-const CHECKLIST_URL = "https://openclawdfw.com/checklist.pdf";
+const PLAYBOOK_URL = "https://openclawdfw.com/playbook.pdf";
 
 export function welcomeEmail({
   unsubscribeUrl,
 }: {
   unsubscribeUrl: string;
 }) {
-  const subject = "Your 27-step OpenClaw checklist is ready";
+  const subject = "Your AI Employee Playbook is ready";
 
   const html = emailLayout({
-    preheader: "Download your free OpenClaw deployment checklist.",
+    preheader: "Download your free AI Employee Playbook.",
     unsubscribeUrl,
     body: `
-      <h1>Your checklist is ready 🎉</h1>
+      <h1>Your playbook is ready 🎉</h1>
       <p>Hey! I'm Christian from OpenClaw DFW. Thanks for confirming — here's your download:</p>
       <p style="text-align: center;">
-        <a href="${CHECKLIST_URL}" class="cta-button">Download the Checklist (PDF) →</a>
+        <a href="${PLAYBOOK_URL}" class="cta-button">Download the Playbook (PDF) →</a>
       </p>
-      <p>It covers 27 steps across pre-deployment, installation, security hardening, integration, go-live, and ongoing maintenance. It's everything you need for a production-ready OpenClaw setup.</p>
-      <p>Over the next couple of weeks, I'll send you a few quick emails about how DFW founders are using OpenClaw to get 10+ hours/week back. If that's not your thing, unsubscribe anytime — no hard feelings.</p>
+      <p>It covers 87 ways your AI employee can work for you — organized by department, with Dallas-specific examples. Keep it on your desk and scan it whenever you're wondering "could the AI do this?"</p>
+      <p>Over the next couple of weeks, I'll send you a few quick emails about how DFW business owners are using AI employees to get 10+ hours/week back. If that's not your thing, unsubscribe anytime — no hard feelings.</p>
       <p>— Christian</p>
     `,
   });
 
-  const text = `Your checklist is ready!
+  const text = `Your playbook is ready!
 
 Hey! I'm Christian from OpenClaw DFW. Thanks for confirming — here's your download:
 
-${CHECKLIST_URL}
+${PLAYBOOK_URL}
 
-It covers 27 steps across pre-deployment, installation, security hardening, integration, go-live, and ongoing maintenance. It's everything you need for a production-ready OpenClaw setup.
+It covers 87 ways your AI employee can work for you — organized by department, with Dallas-specific examples. Keep it on your desk and scan it whenever you're wondering "could the AI do this?"
 
-Over the next couple of weeks, I'll send you a few quick emails about how DFW founders are using OpenClaw to get 10+ hours/week back. If that's not your thing, unsubscribe anytime — no hard feelings.
+Over the next couple of weeks, I'll send you a few quick emails about how DFW business owners are using AI employees to get 10+ hours/week back. If that's not your thing, unsubscribe anytime — no hard feelings.
 
 — Christian${textFooter(unsubscribeUrl)}`;
 

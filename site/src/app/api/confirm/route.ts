@@ -39,7 +39,7 @@ export async function GET(request: NextRequest) {
       // Already confirmed or doesn't exist
       return htmlResponse(
         "Already Confirmed",
-        "Your email is already confirmed! Check your inbox for the checklist.",
+        "Your email is already confirmed! Check your inbox for the playbook.",
         200
       );
     }
@@ -51,7 +51,7 @@ export async function GET(request: NextRequest) {
 
     return htmlResponse(
       "Email Confirmed! 🎉",
-      "Thanks for confirming! Your OpenClaw Deployment Checklist is on the way — check your inbox.",
+      "Thanks for confirming! Your AI Employee Playbook is on the way — check your inbox.",
       200
     );
   } catch (error) {

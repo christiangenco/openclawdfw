@@ -24,7 +24,7 @@ export async function POST(request: NextRequest) {
     }
 
     const normalizedEmail = email.toLowerCase().trim();
-    const magnet = lead_magnet || "checklist";
+    const magnet = lead_magnet || "playbook";
 
     const sql = getDb();
 
@@ -62,7 +62,7 @@ export async function POST(request: NextRequest) {
     if (subscriber.status === "active") {
       return NextResponse.json({
         success: true,
-        message: "You're already subscribed! Check your inbox for the checklist.",
+        message: "You're already subscribed! Check your inbox for the playbook.",
         already_subscribed: true,
       });
     }

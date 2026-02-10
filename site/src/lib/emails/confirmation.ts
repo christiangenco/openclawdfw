@@ -13,14 +13,14 @@ export function confirmationEmail({
   confirmUrl: string;
   unsubscribeUrl: string;
 }) {
-  const subject = "Confirm your email to get the OpenClaw checklist";
+  const subject = "Confirm your email to get the AI Employee Playbook";
 
   const html = emailLayout({
-    preheader: "One click to confirm, then your checklist is on the way.",
+    preheader: "One click to confirm, then your playbook is on the way.",
     unsubscribeUrl,
     body: `
       <h1>Almost there!</h1>
-      <p>Thanks for signing up. Please confirm your email address so I can send you the <strong>27-step OpenClaw Deployment Checklist</strong>.</p>
+      <p>Thanks for signing up. Please confirm your email address so I can send you the <strong>AI Employee Playbook</strong> — 87 ways your AI employee can work for you.</p>
       <p style="text-align: center;">
         <a href="${confirmUrl}" class="cta-button">Confirm My Email →</a>
       </p>
@@ -30,7 +30,7 @@ export function confirmationEmail({
 
   const text = `Almost there!
 
-Thanks for signing up. Please confirm your email address so I can send you the 27-step OpenClaw Deployment Checklist.
+Thanks for signing up. Please confirm your email address so I can send you the AI Employee Playbook — 87 ways your AI employee can work for you.
 
 Confirm here: ${confirmUrl}
 

@@ -17,10 +17,10 @@ interface EmailCaptureProps {
 }
 
 export function EmailCapture({
-  leadMagnet = "checklist",
-  heading = "Get the Free OpenClaw Deployment Checklist",
-  description = "27 steps to a secure, production-ready AI executive assistant — from hardware selection to ongoing maintenance.",
-  buttonText = "Send Me the Checklist",
+  leadMagnet = "playbook",
+  heading = "Get the Free AI Employee Playbook",
+  description = "87 ways your AI employee can work for you — organized by department, with Dallas-specific examples.",
+  buttonText = "Send Me the Playbook",
   compact = false,
 }: EmailCaptureProps) {
   const router = useRouter();
@@ -53,7 +53,7 @@ export function EmailCapture({
 
       if (data.already_subscribed) {
         setStatus("success");
-        setMessage("You're already subscribed! Check your inbox for the checklist.");
+        setMessage("You're already subscribed! Check your inbox for the playbook.");
         setEmail("");
       } else {
         router.push("/thank-you");

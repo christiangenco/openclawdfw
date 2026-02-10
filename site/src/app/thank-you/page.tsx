@@ -3,7 +3,7 @@ import { TrackChecklistSignup } from "./track-goal";
 
 export const metadata = {
   title: "Check Your Email — OpenClaw DFW",
-  description: "Confirm your email to get the free OpenClaw Deployment Checklist.",
+  description: "Confirm your email to get the free AI Employee Playbook.",
   robots: { index: false, follow: false },
 };
 
@@ -33,7 +33,7 @@ export default function ThankYou() {
           <p className="mt-4 text-lg text-gray-400">
             I just sent you a confirmation link. Click it to get your{" "}
             <strong className="text-gray-200">
-              27-step OpenClaw Deployment Checklist
+              AI Employee Playbook
             </strong>
             .
           </p>

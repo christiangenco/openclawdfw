@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "md-to-pdf": "^5.2.5",
+    "qrcode": "^1.5.4"
+  }
+}
