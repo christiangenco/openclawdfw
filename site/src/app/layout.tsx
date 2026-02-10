@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   other: {
-    "theme-color": "#059669",
+    "theme-color": "#ff4d4d",
   },
 };
 
@@ -168,7 +168,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="bg-white text-gray-900 antialiased">
+      <body className="text-gray-100 antialiased">
         <FathomAnalytics />
         {children}
       </body>

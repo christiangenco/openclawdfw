@@ -36,9 +36,9 @@ const DEFAULTS: Required<CalendlyEmbedProps> = {
   url: "https://calendly.com/cgenco/openclaw-dfw-consultation",
   hideEventTypeDetails: true,
   hideGdprBanner: true,
-  backgroundColor: "ffffff",
-  textColor: "333333",
-  primaryColor: "059669", // emerald-600 to match the site theme
+  backgroundColor: "0a0f1a",
+  textColor: "f0f4ff",
+  primaryColor: "ff4d4d", // red to match the site theme
   minWidth: "320px",
   height: "700px",
 };

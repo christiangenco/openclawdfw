@@ -12,12 +12,12 @@ export default function TermsOfService() {
     <main className="mx-auto max-w-3xl px-6 py-16">
       <Link
         href="/"
-        className="text-sm text-emerald-600 hover:text-emerald-700"
+        className="text-sm text-red-500 hover:text-red-400"
       >
         ← Back
       </Link>
 
-      <article className="prose prose-gray mt-8 max-w-none prose-headings:text-gray-900 prose-a:text-emerald-600 hover:prose-a:text-emerald-700">
+      <article className="prose prose-invert mt-8 max-w-none prose-headings:text-gray-100 prose-p:text-gray-300 prose-li:text-gray-300 prose-a:text-red-500 hover:prose-a:text-red-400 prose-strong:text-gray-200">
         <h1>Terms of Service</h1>
         <p>Last updated: February 10, 2026</p>
 
