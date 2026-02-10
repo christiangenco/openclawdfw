@@ -2,8 +2,7 @@ import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
 
-export const alt =
-  "OpenClaw DFW — AI Employee Placement & Management for Dallas/Fort Worth";
+export const alt = "OpenClaw DFW — Your AI Employee, Placed & Managed";
 export const size = {
   width: 1200,
   height: 630,
@@ -16,10 +15,9 @@ export default async function Image() {
     new URL("../../public/mascot.png", import.meta.url)
   ).then((res) => res.arrayBuffer());
 
-  // Load the Dallas skyline background
-  // Photo from Unsplash - Dallas skyline with Reunion Tower
+  // Load the Dallas skyline background — smaller size + lower quality to keep filesize down
   const skylineUrl =
-    "https://images.unsplash.com/photo-1545194445-dddb8f4487c6?w=1400&q=80";
+    "https://images.unsplash.com/photo-1545194445-dddb8f4487c6?w=1200&q=50";
 
   return new ImageResponse(
     (
@@ -218,6 +216,30 @@ export default async function Image() {
                 }}
               >
                 for Dallas/Fort Worth business owners.
+              </span>
+            </div>
+
+            {/* CTA */}
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                alignSelf: "flex-start",
+                marginTop: "20px",
+                background: "#ef4444",
+                padding: "12px 28px",
+                borderRadius: "8px",
+              }}
+            >
+              <span
+                style={{
+                  fontSize: "22px",
+                  fontWeight: 800,
+                  color: "#ffffff",
+                  letterSpacing: "-0.01em",
+                }}
+              >
+                Book Your Free AI Audit →
               </span>
             </div>
           </div>

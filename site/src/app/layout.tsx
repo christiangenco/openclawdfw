@@ -4,10 +4,9 @@ import "./globals.css";
 import { FathomAnalytics } from "./fathom";
 
 const siteName = "OpenClaw DFW";
-const title =
-  "OpenClaw DFW — AI Employee Placement & Management for Dallas/Fort Worth";
+const title = "OpenClaw DFW — Your AI Employee, Placed & Managed";
 const description =
-  "White-glove deployment of OpenClaw, the open-source AI executive assistant. I place it, secure it, and manage it — like a staffing agency for AI. In-person in DFW, remote nationwide.";
+  "I place, secure, and manage your AI executive assistant — like a staffing agency for AI. In-person in Dallas/Fort Worth, remote nationwide.";
 const url = "https://openclawdfw.com";
 
 export const metadata: Metadata = {
