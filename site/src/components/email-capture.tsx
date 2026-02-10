@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, FormEvent } from "react";
+import { useRouter } from "next/navigation";
 
 interface EmailCaptureProps {
   /** Which lead magnet this form is for (tracked in DB) */
@@ -22,6 +23,7 @@ export function EmailCapture({
   buttonText = "Send Me the Checklist",
   compact = false,
 }: EmailCaptureProps) {
+  const router = useRouter();
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<
     "idle" | "loading" | "success" | "error"
@@ -49,13 +51,13 @@ export function EmailCapture({
         return;
       }
 
-      setStatus("success");
-      setMessage(
-        data.already_subscribed
-          ? "You're already subscribed! Check your inbox for the checklist."
-          : "Check your email to confirm your subscription!"
-      );
-      setEmail("");
+      if (data.already_subscribed) {
+        setStatus("success");
+        setMessage("You're already subscribed! Check your inbox for the checklist.");
+        setEmail("");
+      } else {
+        router.push("/thank-you");
+      }
     } catch {
       setStatus("error");
       setMessage("Something went wrong. Please try again.");
