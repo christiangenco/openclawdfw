@@ -15,11 +15,17 @@ const CHECK = (
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
+      {/* Top banner */}
+      <div className="bg-emerald-700 px-4 py-2 text-center text-sm text-emerald-50">
+        📍 In-person OpenClaw setup across Dallas/Fort Worth · Remote available
+        nationwide
+      </div>
+
       {/* Nav */}
       <nav className="flex items-center justify-between px-6 py-4 md:px-12">
         <span className="text-lg font-bold tracking-tight">
-          Setup<span className="text-emerald-600">Claw</span>{" "}
-          <span className="text-sm font-normal text-gray-500">DFW</span>
+          Open<span className="text-emerald-600">Claw</span>{" "}
+          <span className="font-semibold text-gray-400">DFW</span>
         </span>
         <Link
           href="/book"
@@ -31,12 +37,17 @@ export default function Home() {
 
       {/* Hero */}
       <section className="flex flex-1 flex-col items-center justify-center px-6 text-center">
-        <h1 className="max-w-3xl text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
-          Your AI Executive Assistant,{" "}
-          <span className="text-emerald-600">Deployed&nbsp;For&nbsp;You</span>
+        <span className="inline-flex items-center gap-1.5 rounded-full border border-emerald-200 bg-emerald-50 px-4 py-1.5 text-sm font-medium text-emerald-700">
+          <span className="text-xs">📍</span> Serving Dallas/Fort Worth
+        </span>
+        <h1 className="mt-6 max-w-3xl text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
+          DFW&rsquo;s White-Glove{" "}
+          <span className="text-emerald-600">
+            AI&nbsp;Executive&nbsp;Assistant
+          </span>
         </h1>
         <p className="mt-6 max-w-xl text-lg text-gray-600">
-          We set up and maintain{" "}
+          We come to your office in Dallas/Fort Worth to deploy and maintain{" "}
           <a
             href="https://openclaw.ai"
             target="_blank"
@@ -48,8 +59,9 @@ export default function Home() {
           — the open-source AI that manages your email, calendar, and workflows
           — so you can focus on running your business.
         </p>
-        <p className="mt-2 text-sm text-gray-500">
-          White-glove service for Dallas/Fort Worth founders &amp; exec teams.
+        <p className="mt-4 text-sm text-gray-400">
+          Uptown · Deep Ellum · Las Colinas · Frisco · Fort Worth ·
+          Southlake · Colleyville · Plano · Arlington
         </p>
         <div className="mt-10 flex flex-col gap-4 sm:flex-row">
           <Link
@@ -137,7 +149,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="border-t border-gray-200 px-6 py-8 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} SetupClaw DFW. Powered by{" "}
+        © {new Date().getFullYear()} OpenClaw DFW. Powered by{" "}
         <a
           href="https://openclaw.ai"
           target="_blank"

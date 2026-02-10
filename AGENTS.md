@@ -16,15 +16,18 @@ Goal: become the Dallas/Fort Worth licensed operator (or independent consultancy
 
 ## Domains (Purchased)
 
-All registered on Namecheap, expiring Feb 10, 2027:
+All registered on Namecheap, expiring Feb 10, 2027.
 
-| # | Domain | Notes |
-|---|--------|-------|
-| 1 | `clawdallas.com` | Claw + Dallas |
-| 2 | `clawdfw.com` | Claw + DFW |
-| 3 | `dfwclaw.com` | Direct: DFW + Claw |
-| 4 | `openclawdallas.com` | OpenClaw + Dallas |
-| 5 | `openclawdfw.com` | OpenClaw + DFW |
-| 6 | `openclawtx.com` | OpenClaw + Texas |
-| 7 | `setupclawdallas.com` | SetupClaw + Dallas |
-| 8 | `setupclawdfw.com` | Full explicit name |
+**Primary domain:** `openclawdfw.com` (deployed on Vercel)
+**Fallback brand:** `dfwclaw.com` (short/memorable, swap to primary if needed)
+
+| # | Domain | Role |
+|---|--------|------|
+| 1 | `openclawdfw.com` | **Primary** — Vercel deployment |
+| 2 | `dfwclaw.com` | Alias → 301 redirect to primary |
+| 3 | `clawdallas.com` | Alias → 301 redirect to primary |
+| 4 | `clawdfw.com` | Alias → 301 redirect to primary |
+| 5 | `openclawdallas.com` | Alias → 301 redirect to primary |
+| 6 | `openclawtx.com` | Alias → 301 redirect to primary |
+| 7 | `setupclawdallas.com` | Alias → 301 redirect to primary |
+| 8 | `setupclawdfw.com` | Alias → 301 redirect to primary |
