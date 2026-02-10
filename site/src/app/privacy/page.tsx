@@ -54,8 +54,8 @@ export default function PrivacyPolicy() {
           </li>
           <li>
             <strong>Support messages:</strong> Any correspondence you send us
-            through email, text, Slack, or social media during hypercare or a
-            Managed Care engagement.
+            through email, text, Slack, or social media during onboarding or an
+            Agent Management engagement.
           </li>
         </ul>
 
@@ -64,8 +64,8 @@ export default function PrivacyPolicy() {
           <li>Scheduling and carrying out your deployment appointment.</li>
           <li>Processing payments for services rendered.</li>
           <li>
-            Delivering post-deployment support during the hypercare window and
-            any active Managed Care plan.
+            Delivering post-deployment support during the onboarding period and
+            any active Agent Management plan.
           </li>
           <li>
             Communicating with you about your engagement, including status

@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Terms of Service — OpenClaw DFW",
   description:
-    "Terms governing the use of OpenClaw DFW deployment and managed care services.",
+    "Terms governing the use of OpenClaw DFW placement and agent management services.",
 };
 
 export default function TermsOfService() {
@@ -44,12 +44,13 @@ export default function TermsOfService() {
             custom workflow configurations per engagement.
           </li>
           <li>
-            A 14-day hypercare window after go-live covering issues directly
-            related to the initial setup.
+            An onboarding period after go-live (including a 1-week follow-up
+            call) covering issues directly related to the initial placement.
           </li>
           <li>
-            Optional month-to-month Managed Care plans for ongoing monitoring,
-            updates, and support (billed monthly under separate plan terms).
+            Optional month-to-month Agent Management plans for ongoing
+            monitoring, updates, performance reviews, and support (billed
+            monthly under separate plan terms).
           </li>
         </ul>
         <p>
@@ -60,9 +61,9 @@ export default function TermsOfService() {
 
         <h2>3. Pricing &amp; Refunds</h2>
         <p>
-          Implementation fees are one-time charges; Managed Care fees are
-          recurring monthly charges. Current pricing is listed on our website and
-          may change without prior notice.
+          Placement fees are one-time charges; Agent Management fees are
+          recurring monthly charges. Pricing is provided during your AI
+          Opportunity Audit and may change without prior notice.
         </p>
         <ul>
           <li>
@@ -70,11 +71,11 @@ export default function TermsOfService() {
             full refund.
           </li>
           <li>
-            Once a deployment appointment has been completed, implementation fees
-            are non-refundable.
+            Once a placement appointment has been completed, placement fees are
+            non-refundable.
           </li>
           <li>
-            Managed Care plans may be cancelled with 30 days&rsquo; written
+            Agent Management plans may be cancelled with 30 days&rsquo; written
             notice.
           </li>
           <li>
@@ -185,10 +186,10 @@ export default function TermsOfService() {
           how we handle information.
         </p>
 
-        <h2>11. Hypercare &amp; Ongoing Support</h2>
+        <h2>11. Onboarding &amp; Ongoing Support</h2>
         <p>
-          The 14-day hypercare period covers issues directly attributable to the
-          initial deployment. It does not cover:
+          The onboarding period (including the 1-week follow-up) covers issues
+          directly attributable to the initial placement. It does not cover:
         </p>
         <ul>
           <li>OpenClaw software updates or new releases.</li>
@@ -198,8 +199,8 @@ export default function TermsOfService() {
           <li>Hardware failures or local network changes.</li>
         </ul>
         <p>
-          Continued monitoring, maintenance, and support beyond the hypercare
-          window requires an active Managed Care plan.
+          Continued monitoring, maintenance, and support beyond the onboarding
+          period requires an active Agent Management plan.
         </p>
 
         <h2>12. Resolving Disputes</h2>
