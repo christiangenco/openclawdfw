@@ -86,7 +86,7 @@ export async function POST(request: NextRequest) {
     console.error("Subscribe error:", msg);
     console.error("Subscribe stack:", error instanceof Error ? error.stack : "no stack");
     return NextResponse.json(
-      { error: "Something went wrong. Please try again.", debug: msg },
+      { error: "Something went wrong. Please try again." },
       { status: 500 }
     );
   }
