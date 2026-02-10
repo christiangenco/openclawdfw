@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { EmailCapture } from "@/components/email-capture";
-import { TestimonialGrid } from "@/components/tweet-embed";
+import { TestimonialGrid, TweetCard } from "@/components/tweet-embed";
 
 const CHECK = (
   <svg
@@ -119,6 +119,45 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Social Proof: What Real People Are Doing */}
+      <section className="border-t border-gray-800 px-6 py-20">
+        <div className="mx-auto max-w-5xl">
+          <h2 className="text-center text-2xl font-bold text-gray-100 sm:text-3xl">
+            Real People. Real Tasks. Handled&nbsp;by&nbsp;AI.
+          </h2>
+          <p className="mt-4 text-center text-gray-400">
+            OpenClaw is already working as an executive assistant for thousands
+            of people. Here&rsquo;s what that looks like.
+          </p>
+          <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            <TweetCard
+              name="Dan Peguine"
+              handle="danpeguine"
+              tweetId="2012565160586625345"
+              verified={false}
+              avatarUrl="https://pbs.twimg.com/profile_images/2012138409616396288/YXHJBXU1_200x200.jpg"
+              text={`My OpenClaw runs my day before I even open my laptop:\n\n• Morning daily brief: weather, objectives, meeting agendas, key reminders\n• Timeblocks my tasks by importance and urgency\n• Weekly review from meeting transcripts and notes\n• Researches people before meetings and creates briefing docs\n• Breaks down big projects into actionable tasks\n• Manages my calendar for conflicts — autonomously\n• Creates invoices and summarizes work beautifully\n\nNext up: tracking expenses and handling service-provider calls over the phone.`}
+            />
+            <TweetCard
+              name="Jonathan Rhyne"
+              handle="jdrhyne"
+              tweetId="2012778049406742632"
+              verified={false}
+              avatarUrl="https://pbs.twimg.com/profile_images/3620395243/387c48578bbb256ee05cbbce902752a4_200x200.jpeg"
+              text={`My OpenClaw army handles the stuff that used to eat my whole week:\n\n• Cleared 10,000 emails from my inbox on Day 1\n• Summarized 122 Google Slides for a company town hall\n• Reviews, analyzes, and optimizes our Google Ads\n• Drafts LinkedIn and X posts in my voice\n• Built an internal assistant for employee onboarding and policy\n• Analyzed support tickets and created a customer support bot\n• Daily roll call across 10+ agents with gentle nudges\n\n15+ agents. 3 machines. They built most of this just by chatting.`}
+            />
+            <TweetCard
+              name="Armand du Plessis"
+              handle="armanddp"
+              tweetId="2008767951340794245"
+              verified={false}
+              avatarUrl="https://pbs.twimg.com/profile_images/1653299086005501954/NktnJOVd_200x200.jpg"
+              text={`Finds my next flight in email, runs through check-in, finds me a window seat.\n\nWhile I'm driving.`}
+            />
+          </div>
+        </div>
+      </section>
+
       {/* How It Works */}
       <section className="border-t border-gray-800 px-6 py-20">
         <div className="mx-auto max-w-4xl">
@@ -190,84 +229,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Social Proof: What Real People Are Doing */}
-      <section className="border-t border-gray-800 px-6 py-20">
-        <div className="mx-auto max-w-5xl">
-          <h2 className="text-center text-2xl font-bold text-gray-100 sm:text-3xl">
-            Real People. Real Tasks. Handled&nbsp;by&nbsp;AI.
-          </h2>
-          <p className="mt-4 text-center text-gray-400">
-            OpenClaw is already working as an executive assistant for thousands
-            of people. Here&rsquo;s what that looks like.
-          </p>
-          <div className="mt-12">
-            <TestimonialGrid
-              tweets={[
-                {
-                  name: "Dan Peguine",
-                  handle: "danpeguine",
-                  tweetId: "2012565160586625345",
-                  verified: false,
-                  text: `Things my OpenClaw does for me:\n\n• Timeblocks tasks in my calendar based on importance\n• Gives a morning daily brief: weather, objectives, meetings agenda, key reminders\n• Researches people before meetings and creates briefing docs\n• Manages the calendar for any conflicts autonomously\n• Creates invoices and summarizes work beautifully`,
-                },
-                {
-                  name: "JD Rhyne",
-                  handle: "jdrhyne",
-                  tweetId: "2012778049406742632",
-                  verified: false,
-                  text: `What my OpenClaw army does:\n\n• Cleared 10,000 emails from my inbox (Day 1)\n• Reviewed and summarized 122 Google Slides for town hall\n• Drafts LinkedIn/X posts in my voice\n• Reviews, analyzes and optimized Google Ads\n• Daily roll call across 10+ agents`,
-                },
-                {
-                  name: "Armand du Plessis",
-                  handle: "armanddp",
-                  tweetId: "2008767951340794245",
-                  verified: false,
-                  text: `Finds my next flight in email, runs through check-in, finds me a window seat.\n\nWhile I'm driving.`,
-                },
-              ]}
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* Social Proof: Credibility */}
-      <section className="border-t border-gray-800 px-6 py-20">
-        <div className="mx-auto max-w-5xl">
-          <h2 className="text-center text-2xl font-bold text-gray-100 sm:text-3xl">
-            Endorsed by the People Who Know&nbsp;AI&nbsp;Best
-          </h2>
-          <div className="mt-12">
-            <TestimonialGrid
-              tweets={[
-                {
-                  name: "Dave Morin",
-                  handle: "davemorin",
-                  tweetId: "2013723700668096605",
-                  verified: true,
-                  text: `At this point I don't even know what to call OpenClaw. It is something new.\n\nAfter a few weeks in with it, this is the first time I have felt like I am living in the future since the launch of ChatGPT.`,
-                  subtitle: "Co-founder of Facebook, founder of Path",
-                },
-                {
-                  name: "Andrej Karpathy",
-                  handle: "karpathy",
-                  tweetId: "2005692186470514904",
-                  verified: true,
-                  text: `Excellent reading thank you. Love oracle and Claw.`,
-                  subtitle: "Former Tesla AI Director, OpenAI founding member",
-                },
-                {
-                  name: "crossi",
-                  handle: "crossiBuilds",
-                  tweetId: "2008478023826153665",
-                  verified: false,
-                  text: `Everything Siri was supposed to be.\n\nAnd it goes so much further.`,
-                },
-              ]}
-            />
-          </div>
-        </div>
-      </section>
-
       {/* Security */}
       <section className="border-t border-gray-800 px-6 py-20">
         <div className="mx-auto max-w-3xl">
@@ -333,6 +294,47 @@ export default function Home() {
       <section className="border-t border-gray-800 px-6 py-20">
         <div className="mx-auto max-w-2xl">
           <EmailCapture />
+        </div>
+      </section>
+
+      {/* Social Proof: Credibility */}
+      <section className="border-t border-gray-800 px-6 py-20">
+        <div className="mx-auto max-w-5xl">
+          <h2 className="text-center text-2xl font-bold text-gray-100 sm:text-3xl">
+            Endorsed by the People Who Know&nbsp;AI&nbsp;Best
+          </h2>
+          <div className="mt-12">
+            <TestimonialGrid
+              tweets={[
+                {
+                  name: "Dave Morin",
+                  handle: "davemorin",
+                  tweetId: "2013723700668096605",
+                  verified: true,
+                  avatarUrl: "https://pbs.twimg.com/profile_images/1988827178587566080/awYG_kit_200x200.jpg",
+                  text: `At this point I don't even know what to call OpenClaw. It is something new.\n\nAfter a few weeks in with it, this is the first time I have felt like I am living in the future since the launch of ChatGPT.`,
+                  subtitle: "Co-founder of Facebook, founder of Path",
+                },
+                {
+                  name: "Andrej Karpathy",
+                  handle: "karpathy",
+                  tweetId: "2005692186470514904",
+                  verified: true,
+                  avatarUrl: "https://pbs.twimg.com/profile_images/1296667294148382721/9Pr6XrPB_200x200.jpg",
+                  text: `Excellent reading thank you. Love oracle and Claw.`,
+                  subtitle: "Former Tesla AI Director, OpenAI founding member",
+                },
+                {
+                  name: "crossi",
+                  handle: "crossiBuilds",
+                  tweetId: "2008478023826153665",
+                  verified: false,
+                  avatarUrl: "https://pbs.twimg.com/profile_images/1966852418349494273/pimbK6wx_200x200.jpg",
+                  text: `Everything Siri was supposed to be.\n\nAnd it goes so much further.`,
+                },
+              ]}
+            />
+          </div>
         </div>
       </section>
 

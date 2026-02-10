@@ -1,5 +1,9 @@
 # AGENTS.md
 
+## Development Rules
+
+- **Always run `cd site && npx next build` and verify it succeeds before committing and pushing.** Vercel deploys from git — if it doesn't build locally, it won't build in production.
+
 ## What OpenClaw DFW Is
 
 OpenClaw DFW (openclawdfw.com) is a white-glove AI staffing consultancy run by **Christian Genco** that deploys and manages [OpenClaw](https://openclaw.ai) — an open-source AI executive assistant — for founders and business owners in the Dallas/Fort Worth metro. Remote available nationwide.
