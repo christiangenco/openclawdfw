@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { TrackBookCall } from "./track";
 
 export const metadata = {
   title: "You're Booked — OpenClaw DFW",
@@ -9,6 +10,8 @@ export const metadata = {
 export default function ThankYouPage() {
   return (
     <div className="flex min-h-screen flex-col">
+      <TrackBookCall />
+
       {/* Nav */}
       <nav className="flex items-center justify-between px-6 py-4 md:px-12">
         <Link
@@ -34,10 +37,12 @@ export default function ThankYouPage() {
         <p className="mt-6 text-gray-500">
           Questions before the call?{" "}
           <a
-            href="mailto:christian@openclawdfw.com"
+            href="https://x.com/cgenco"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-red-400 underline hover:text-red-300"
           >
-            Shoot me an email
+            DM me on X
           </a>
           .
         </p>

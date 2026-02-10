@@ -2,7 +2,6 @@
 
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { trackEvent } from "fathom-client";
 
 // ─── Customize these props to change the Calendly embed ─────────────────────
 
@@ -42,13 +41,8 @@ const DEFAULTS: Required<CalendlyEmbedProps> = {
   textColor: "f0f4ff",
   primaryColor: "ff4d4d", // red to match the site theme
   minWidth: "320px",
-  height: "700px",
+  height: "950px",
 };
-
-// ─── Fathom event ID for call bookings ──────────────────────────────────────
-// Create this event in Fathom dashboard → Events → Create event → "Book Call"
-// Then replace this with the actual event ID from Fathom.
-const FATHOM_BOOK_CALL_EVENT_ID = "LKEZPYCA";
 
 // ─── Component ──────────────────────────────────────────────────────────────
 
@@ -102,10 +96,7 @@ export default function CalendlyEmbed(props: CalendlyEmbedProps) {
         event.origin === "https://calendly.com" &&
         event.data?.event === "calendly.event_scheduled"
       ) {
-        // Fire Fathom conversion event immediately (belt)
-        trackEvent(FATHOM_BOOK_CALL_EVENT_ID);
-
-        // Redirect to thank-you page (suspenders — also triggers pageview conversion)
+        // Redirect to thank-you page, which fires the Fathom conversion event
         router.push("/book/thank-you");
       }
     }
