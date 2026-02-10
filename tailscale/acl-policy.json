@@ -1,0 +1,35 @@
+{
+  "// SETUPCLAW TAILSCALE ACL POLICY": "Applied at https://login.tailscale.com/admin/acls/file",
+
+  "tagOwners": {
+    "tag:admin":  ["christian@setupclaw.com"],
+    "tag:client": ["christian@setupclaw.com"]
+  },
+
+  "acls": [
+    {
+      "// comment": "Admin machines can reach all client devices on any port",
+      "action": "accept",
+      "src":    ["tag:admin"],
+      "dst":    ["tag:client:*"]
+    },
+    {
+      "// comment": "Admin machines can reach each other",
+      "action": "accept",
+      "src":    ["tag:admin"],
+      "dst":    ["tag:admin:*"]
+    }
+    // No rule for tag:client → anything, so clients are fully isolated.
+    // They cannot reach other clients OR admin machines.
+  ],
+
+  "ssh": [
+    {
+      "// comment": "Admin can SSH into any client device as any user",
+      "action": "accept",
+      "src":    ["tag:admin"],
+      "dst":    ["tag:client"],
+      "users":  ["autogroup:nonroot", "root"]
+    }
+  ]
+}
