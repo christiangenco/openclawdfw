@@ -60,8 +60,7 @@ export default function Home() {
           — so you can focus on running your business.
         </p>
         <p className="mt-4 text-sm text-gray-500">
-          Uptown · Deep Ellum · Las Colinas · Frisco · Fort Worth ·
-          Southlake · Colleyville · Plano · Arlington
+          Dallas · University Park · Frisco · Southlake · Colleyville · Plano · Arlington · Fort Worth
         </p>
         <div className="mt-10 flex flex-col gap-4 sm:flex-row">
           <Link
