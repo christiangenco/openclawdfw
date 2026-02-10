@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { EmailCapture } from "@/components/email-capture";
 
 const CHECK = (
   <svg
@@ -257,11 +258,18 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Lead Magnet / Email Capture */}
+      <section className="border-t border-gray-800 px-6 py-20">
+        <div className="mx-auto max-w-2xl">
+          <EmailCapture />
+        </div>
+      </section>
+
       {/* About / Trust */}
       <section className="border-t border-gray-800 px-6 py-20">
         <div className="mx-auto flex max-w-3xl flex-col items-center gap-8 sm:flex-row sm:items-start">
           <img
-            src="https://christian.gen.co/christian-genco.jpg"
+            src="https://christian.gen.co/images/profile.square.small.jpg"
             alt="Christian Genco"
             className="h-32 w-32 shrink-0 rounded-full border-2 border-gray-700 object-cover"
           />
