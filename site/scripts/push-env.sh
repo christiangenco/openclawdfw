@@ -35,7 +35,8 @@ for var in "${VARS[@]}"; do
   fi
 
   echo "→ Pushing $var to production..."
-  echo "$value" | npx vercel env add "$var" production --force 2>&1 | grep -v "^>" || true
+  # Use printf to preserve angle brackets and special chars
+  printf '%s' "$value" | npx vercel env add "$var" production --force 2>&1 | grep -v "^>" || true
 done
 
 echo ""

@@ -82,7 +82,8 @@ export async function POST(request: NextRequest) {
       message: "Check your email to confirm your subscription!",
     });
   } catch (error) {
-    console.error("Subscribe error:", error);
+    console.error("Subscribe error:", error instanceof Error ? error.message : error);
+    console.error("Subscribe stack:", error instanceof Error ? error.stack : "no stack");
     return NextResponse.json(
       { error: "Something went wrong. Please try again." },
       { status: 500 }
