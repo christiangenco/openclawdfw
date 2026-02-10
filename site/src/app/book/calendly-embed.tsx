@@ -1,6 +1,8 @@
 "use client";
 
 import { useEffect } from "react";
+import { useRouter } from "next/navigation";
+import { trackEvent } from "fathom-client";
 
 // ─── Customize these props to change the Calendly embed ─────────────────────
 
@@ -43,9 +45,16 @@ const DEFAULTS: Required<CalendlyEmbedProps> = {
   height: "700px",
 };
 
+// ─── Fathom event ID for call bookings ──────────────────────────────────────
+// Create this event in Fathom dashboard → Events → Create event → "Book Call"
+// Then replace this with the actual event ID from Fathom.
+const FATHOM_BOOK_CALL_EVENT_ID = "LKEZPYCA";
+
 // ─── Component ──────────────────────────────────────────────────────────────
 
 export default function CalendlyEmbed(props: CalendlyEmbedProps) {
+  const router = useRouter();
+
   const {
     url,
     hideEventTypeDetails,
@@ -83,6 +92,27 @@ export default function CalendlyEmbed(props: CalendlyEmbedProps) {
       document.body.removeChild(script);
     };
   }, []);
+
+  // Listen for Calendly postMessage events to detect booking completion
+  useEffect(() => {
+    function handleMessage(event: MessageEvent) {
+      // Calendly sends postMessage events with this structure:
+      // { event: "calendly.event_scheduled", payload: { ... } }
+      if (
+        event.origin === "https://calendly.com" &&
+        event.data?.event === "calendly.event_scheduled"
+      ) {
+        // Fire Fathom conversion event immediately (belt)
+        trackEvent(FATHOM_BOOK_CALL_EVENT_ID);
+
+        // Redirect to thank-you page (suspenders — also triggers pageview conversion)
+        router.push("/book/thank-you");
+      }
+    }
+
+    window.addEventListener("message", handleMessage);
+    return () => window.removeEventListener("message", handleMessage);
+  }, [router]);
 
   return (
     <div
