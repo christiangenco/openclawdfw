@@ -1,8 +1,10 @@
-# Create LinkedIn Ad — Plan & Status
+# Create LinkedIn Ad — Plan & Status ✅ LAUNCHED
 
 ## Goal
 
 Run a $100 test LinkedIn ad campaign targeting DFW founders/owners to drive them to openclawdfw.com and book an AI Opportunity Audit call.
+
+**Campaign Manager:** https://www.linkedin.com/campaignmanager/accounts/519469181/campaigns?businessId=personal
 
 ## Campaign Settings (Done ✅)
 
@@ -22,7 +24,7 @@ Run a $100 test LinkedIn ad campaign targeting DFW founders/owners to drive them
 
 ## What's Left
 
-### 1. Get LinkedIn Insight Tag partner ID 🔴 BLOCKED
+### 1. Get LinkedIn Insight Tag partner ID ✅
 
 The Insight Tag is a JavaScript pixel that goes on every page of the site. It's required for "Website conversions" objective.
 
@@ -35,7 +37,7 @@ The Insight Tag is a JavaScript pixel that goes on every page of the site. It's 
 - **Copy the code** — it will contain a partner ID number (like `_linkedin_partner_id = "1234567"`)
 - Paste it to Claude
 
-### 2. Install LinkedIn Insight Tag on the site 🔴
+### 2. Install LinkedIn Insight Tag on the site ✅
 
 Once we have the partner ID, add it to `site/src/app/layout.tsx` following the same pattern as the other tracking pixels:
 
@@ -44,7 +46,7 @@ Once we have the partner ID, add it to `site/src/app/layout.tsx` following the s
 
 The LinkedIn Insight Tag needs to fire on every SPA navigation, not just initial page load — Next.js App Router doesn't do full page reloads on navigation.
 
-### 3. Add LinkedIn conversion event to thank-you page 🔴
+### 3. Add LinkedIn conversion event to thank-you page ✅ (URL-based via Insight Tag, no JS event needed)
 
 Add a conversion tracking component to `site/src/app/book/thank-you/page.tsx` (like the existing `<TrackBookCall />` for Fathom and `<TwitterEvent />` for X).
 

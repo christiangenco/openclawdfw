@@ -1,13 +1,15 @@
 "use client";
 
-import { useEffect } from "react";
-import { trackGoal } from "fathom-client";
-
-const CHECKLIST_SIGNUP_GOAL_ID = "8N4QZXND";
+import { useEffect, useRef } from "react";
+import { trackEvent } from "fathom-client";
 
 export function TrackChecklistSignup() {
+  const hasFired = useRef(false);
+
   useEffect(() => {
-    trackGoal(CHECKLIST_SIGNUP_GOAL_ID, 0);
+    if (hasFired.current) return;
+    hasFired.current = true;
+    trackEvent("Checklist Signup");
   }, []);
 
   return null;
