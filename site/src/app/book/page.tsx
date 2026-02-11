@@ -1,5 +1,6 @@
 import Link from "next/link";
 import CalendlyEmbed from "./calendly-embed";
+import { Footer } from "@/components/footer";
 
 export const metadata = {
   title: "Book Your AI Opportunity Audit — OpenClaw DFW",
@@ -38,13 +39,7 @@ export default function BookPage() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="border-t border-gray-800 px-6 py-8 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} OpenClaw DFW.{" "}
-        <Link href="/" className="underline hover:text-gray-300">
-          ← Back to home
-        </Link>
-      </footer>
+      <Footer />
     </div>
   );
 }

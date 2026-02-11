@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { TrackBookCall } from "./track";
 import { TwitterEvent } from "../../twitter-pixel";
+import { Footer } from "@/components/footer";
 
 export const metadata = {
   title: "You're Booked — OpenClaw DFW",
@@ -56,10 +57,7 @@ export default function ThankYouPage() {
         </Link>
       </section>
 
-      {/* Footer */}
-      <footer className="border-t border-gray-800 px-6 py-8 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} OpenClaw DFW.
-      </footer>
+      <Footer />
     </div>
   );
 }

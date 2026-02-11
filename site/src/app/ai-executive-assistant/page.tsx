@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { EmailCapture } from "@/components/email-capture";
+import { Footer } from "@/components/footer";
 
 const title =
   "What Is an AI Executive Assistant? (And Why Business Owners Are Hiring Them in 2026)";
@@ -598,30 +599,7 @@ export default function AIExecutiveAssistantPost() {
         />
       </article>
 
-      {/* Footer */}
-      <footer className="border-t border-gray-800 px-6 py-8 text-center text-sm text-gray-500">
-        <p>
-          © {new Date().getFullYear()} OpenClaw DFW. Powered by{" "}
-          <a
-            href="https://openclaw.ai"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline hover:text-gray-300"
-          >
-            OpenClaw
-          </a>
-          .
-        </p>
-        <p className="mt-2">
-          <Link href="/privacy" className="underline hover:text-gray-300">
-            Privacy Policy
-          </Link>
-          {" · "}
-          <Link href="/terms" className="underline hover:text-gray-300">
-            Terms of Service
-          </Link>
-        </p>
-      </footer>
+      <Footer />
     </div>
   );
 }

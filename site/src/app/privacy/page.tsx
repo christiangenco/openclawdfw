@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
   title: "Privacy Policy — OpenClaw DFW",
@@ -198,6 +199,8 @@ export default function PrivacyPolicy() {
           <Link href="/book">openclawdfw.com/book</Link>.
         </p>
       </article>
+
+      <Footer />
     </main>
   );
 }

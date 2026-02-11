@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { TrackChecklistSignup } from "./track-goal";
+import { Footer } from "@/components/footer";
 
 export const metadata = {
   title: "Check Your Email — OpenClaw DFW",
@@ -63,6 +64,8 @@ export default function ThankYou() {
           </Link>
         </div>
       </main>
+
+      <Footer />
     </div>
   );
 }

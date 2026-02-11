@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { EmailCapture } from "@/components/email-capture";
 import { TestimonialGrid, TweetCard } from "@/components/tweet-embed";
+import { Footer } from "@/components/footer";
 
 const CHECK = (
   <svg
@@ -98,24 +99,142 @@ export default function Home() {
         </div>
       </section>
 
-      {/* The "Holy Shit" Moment */}
+      {/* iMessage Demo Cards */}
       <section className="border-t border-gray-800 px-6 py-20">
-        <div className="mx-auto max-w-3xl text-center">
-          <h2 className="text-2xl font-bold text-gray-100 sm:text-3xl">
-            Imagine Saying This to Your Assistant
+        <div className="mx-auto max-w-6xl">
+          <h2 className="text-center text-2xl font-bold text-gray-100 sm:text-3xl">
+            Text It. It Handles the&nbsp;Rest.
           </h2>
-          <div className="mt-8 rounded-xl border border-gray-800 bg-gray-900/50 p-6 text-left">
-            <p className="text-lg italic text-gray-300">
-              &ldquo;Who was the guy I had lunch with last week? Schedule a
-              meeting with him for Wednesday or Thursday — I want to talk about
-              the PDF that Lauren just sent me.&rdquo;
-            </p>
-          </div>
-          <p className="mt-6 text-gray-400">
-            Your AI employee pieces together your calendar, email, contacts, and
-            files — then handles it. Instantly. At 2 AM or 2 PM. No follow-up
-            needed.
+          <p className="mt-4 text-center text-gray-400">
+            Your AI employee lives in iMessage. Ask it anything — it pulls from
+            your email, calendar, CRM, and the web to get it done.
           </p>
+          <div className="mt-12 grid gap-6 lg:grid-cols-3">
+            {/* Card 1: Morning Briefing */}
+            <div className="flex flex-col overflow-hidden rounded-2xl border border-gray-800">
+              <div className="flex-1 space-y-3 bg-gray-950/60 p-5">
+                {/* AI message */}
+                <div className="flex justify-start">
+                  <div className="max-w-[85%] rounded-2xl rounded-bl-md bg-gray-700/60 px-4 py-2.5 text-[13px] leading-relaxed text-gray-200">
+                    Good morning. Here&rsquo;s your Wednesday:<br />
+                    <span className="mt-1.5 block">📅 4 meetings — first at 9:30 with David Park from Meridian Properties re: Plano expansion</span>
+                    <span className="block">📧 14 new emails — 3 need you, rest handled</span>
+                    <span className="block">💰 Johnson Roofing paid their $45K invoice</span>
+                    <span className="block">⚠️ Martinez Group contract renewal due Friday</span>
+                    <span className="block">🌧️ Rain at 4pm — your 5:30 is outdoor at Legacy West</span>
+                  </div>
+                </div>
+                {/* User message */}
+                <div className="flex justify-end">
+                  <div className="max-w-[85%] rounded-2xl rounded-br-md bg-blue-500 px-4 py-2.5 text-[13px] leading-relaxed text-white">
+                    Move the 5:30 to Mi Cocina. Send a thank-you to Johnson for paying.
+                  </div>
+                </div>
+                {/* AI reply */}
+                <div className="flex justify-start">
+                  <div className="max-w-[85%] rounded-2xl rounded-bl-md bg-gray-700/60 px-4 py-2.5 text-[13px] leading-relaxed text-gray-200">
+                    Done. Texted Mike about the venue change and updated the calendar invite. Thank-you email sent to Johnson&nbsp;Roofing.
+                  </div>
+                </div>
+              </div>
+              <div className="border-t border-gray-800 bg-gray-900/40 px-5 py-4">
+                <h3 className="font-semibold text-gray-100">Morning Briefing</h3>
+                <p className="mt-1 text-sm text-gray-400">
+                  Wake up to a full situation report — then handle it all without leaving the&nbsp;thread.
+                </p>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {["📧 Email", "📅 Calendar", "💼 CRM", "🌐 Weather", "💬 iMessage"].map((t) => (
+                    <span key={t} className="rounded-full border border-gray-700 px-2.5 py-0.5 text-xs text-gray-400">{t}</span>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* Card 2: Deal Follow-Up */}
+            <div className="flex flex-col overflow-hidden rounded-2xl border border-gray-800">
+              <div className="flex-1 space-y-3 bg-gray-950/60 p-5">
+                {/* User message */}
+                <div className="flex justify-end">
+                  <div className="max-w-[85%] rounded-2xl rounded-br-md bg-blue-500 px-4 py-2.5 text-[13px] leading-relaxed text-white">
+                    Any deals about to go cold?
+                  </div>
+                </div>
+                {/* AI message */}
+                <div className="flex justify-start">
+                  <div className="max-w-[85%] rounded-2xl rounded-bl-md bg-gray-700/60 px-4 py-2.5 text-[13px] leading-relaxed text-gray-200">
+                    3 proposals with no activity in 10+ days:<br />
+                    <span className="mt-1.5 block">• Johnson Roofing ($45K) — sent Jan 28, no reply</span>
+                    <span className="block">• Apex Lending ($12K) — asked for changes, you haven&rsquo;t responded</span>
+                    <span className="block">• Martinez Group ($28K) — meeting cancelled, never rescheduled</span>
+                  </div>
+                </div>
+                {/* User message */}
+                <div className="flex justify-end">
+                  <div className="max-w-[85%] rounded-2xl rounded-br-md bg-blue-500 px-4 py-2.5 text-[13px] leading-relaxed text-white">
+                    Follow up on all three. For Martinez, suggest Thursday lunch at Pecan Lodge.
+                  </div>
+                </div>
+                {/* AI reply */}
+                <div className="flex justify-start">
+                  <div className="max-w-[85%] rounded-2xl rounded-bl-md bg-gray-700/60 px-4 py-2.5 text-[13px] leading-relaxed text-gray-200">
+                    Done. Follow-ups sent to Johnson and Apex. Texted Maria Martinez — she confirmed 12:30 at Pecan Lodge. Added to your calendar.
+                  </div>
+                </div>
+              </div>
+              <div className="border-t border-gray-800 bg-gray-900/40 px-5 py-4">
+                <h3 className="font-semibold text-gray-100">Deal Follow-Up</h3>
+                <p className="mt-1 text-sm text-gray-400">
+                  Surface stale deals from your CRM, then re-engage every one of them in&nbsp;seconds.
+                </p>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {["💼 CRM", "📧 Email", "📅 Calendar", "💬 SMS"].map((t) => (
+                    <span key={t} className="rounded-full border border-gray-700 px-2.5 py-0.5 text-xs text-gray-400">{t}</span>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* Card 3: Meeting Prep */}
+            <div className="flex flex-col overflow-hidden rounded-2xl border border-gray-800">
+              <div className="flex-1 space-y-3 bg-gray-950/60 p-5">
+                {/* User message */}
+                <div className="flex justify-end">
+                  <div className="max-w-[85%] rounded-2xl rounded-br-md bg-blue-500 px-4 py-2.5 text-[13px] leading-relaxed text-white">
+                    Call with David Park in 20 min. What do I need to know?
+                  </div>
+                </div>
+                {/* AI message */}
+                <div className="flex justify-start">
+                  <div className="max-w-[85%] rounded-2xl rounded-bl-md bg-gray-700/60 px-4 py-2.5 text-[13px] leading-relaxed text-gray-200">
+                    David Park, CFO at Meridian Properties. Last met Oct 12 at the Chamber mixer — you talked about his Plano expansion. His son just started at Jesuit. He emailed last week asking for your insurance referral — you haven&rsquo;t replied yet. LinkedIn shows they just hired a new VP of&nbsp;Ops.
+                  </div>
+                </div>
+                {/* User message */}
+                <div className="flex justify-end">
+                  <div className="max-w-[85%] rounded-2xl rounded-br-md bg-blue-500 px-4 py-2.5 text-[13px] leading-relaxed text-white">
+                    Draft a reply to his email with Tom Chen&rsquo;s contact info.
+                  </div>
+                </div>
+                {/* AI reply */}
+                <div className="flex justify-start">
+                  <div className="max-w-[85%] rounded-2xl rounded-bl-md bg-gray-700/60 px-4 py-2.5 text-[13px] leading-relaxed text-gray-200">
+                    Done. Reply sent from your email with Tom&rsquo;s info, cc&rsquo;d Tom so he has the&nbsp;intro.
+                  </div>
+                </div>
+              </div>
+              <div className="border-t border-gray-800 bg-gray-900/40 px-5 py-4">
+                <h3 className="font-semibold text-gray-100">Meeting Prep</h3>
+                <p className="mt-1 text-sm text-gray-400">
+                  Instant relationship intel pulled from your calendar, email, CRM, and LinkedIn — so you walk in&nbsp;prepared.
+                </p>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {["📅 Calendar", "📧 Email", "💼 CRM", "🌐 LinkedIn"].map((t) => (
+                    <span key={t} className="rounded-full border border-gray-700 px-2.5 py-0.5 text-xs text-gray-400">{t}</span>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -405,30 +524,7 @@ export default function Home() {
         </p>
       </section>
 
-      {/* Footer */}
-      <footer className="border-t border-gray-800 px-6 py-8 text-center text-sm text-gray-500">
-        <p>
-          © {new Date().getFullYear()} OpenClaw DFW. Powered by{" "}
-          <a
-            href="https://openclaw.ai"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline hover:text-gray-300"
-          >
-            OpenClaw
-          </a>
-          .
-        </p>
-        <p className="mt-2">
-          <Link href="/privacy" className="underline hover:text-gray-300">
-            Privacy Policy
-          </Link>
-          {" · "}
-          <Link href="/terms" className="underline hover:text-gray-300">
-            Terms of Service
-          </Link>
-        </p>
-      </footer>
+      <Footer />
     </div>
   );
 }
