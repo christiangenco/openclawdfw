@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
 import { FathomAnalytics } from "./fathom";
+import { TwitterPixelPageView } from "./twitter-pixel";
 
 const siteName = "OpenClaw DFW";
 const title = "OpenClaw DFW — Your AI Employee, Placed & Managed";
@@ -63,6 +64,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Twitter/X Pixel */}
+        <Script id="twitter-pixel" strategy="afterInteractive">
+          {`
+            !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='https://static.ads-twitter.com/uwt.js',a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+            twq('config','r4pmu');
+          `}
+        </Script>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-PPY2WJG6WZ"
           strategy="afterInteractive"
@@ -73,6 +81,12 @@ export default function RootLayout({
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-PPY2WJG6WZ');
+          `}
+        </Script>
+        {/* Microsoft/Bing UET Tag */}
+        <Script id="microsoft-uet" strategy="afterInteractive">
+          {`
+            (function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"187235232",enableAutoSpaTracking:true};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");
           `}
         </Script>
         <script
@@ -162,6 +176,7 @@ export default function RootLayout({
       </head>
       <body className="text-gray-100 antialiased">
         <FathomAnalytics />
+        <TwitterPixelPageView />
         {children}
       </body>
     </html>

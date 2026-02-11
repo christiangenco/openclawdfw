@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { TrackBookCall } from "./track";
+import { TwitterEvent } from "../../twitter-pixel";
 
 export const metadata = {
   title: "You're Booked — OpenClaw DFW",
@@ -11,6 +12,7 @@ export default function ThankYouPage() {
   return (
     <div className="flex min-h-screen flex-col">
       <TrackBookCall />
+      <TwitterEvent eventId="tw-r4pmu-r4q4g" />
 
       {/* Nav */}
       <nav className="flex items-center justify-between px-6 py-4 md:px-12">
