@@ -81,6 +81,7 @@ export default function RootLayout({
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-PPY2WJG6WZ');
+            gtag('config', 'AW-986981259');
           `}
         </Script>
         {/* LinkedIn Insight Tag */}

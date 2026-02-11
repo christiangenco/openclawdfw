@@ -235,6 +235,19 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <div className="mt-12 mx-auto max-w-3xl text-center">
+            <p className="text-lg text-gray-300">
+              And these are just three examples out of&nbsp;hundreds.
+            </p>
+            <p className="mt-3 text-gray-400">
+              If a human can do it sitting at a computer with a phone, your AI
+              employee can learn it — faster, around the clock, and it never
+              drops the ball. We&rsquo;re still shockingly early. The businesses
+              that move now aren&rsquo;t just saving a few hours a week —
+              they&rsquo;re building a compounding advantage their competitors
+              won&rsquo;t understand until it&rsquo;s too&nbsp;late.
+            </p>
+          </div>
         </div>
       </section>
 
